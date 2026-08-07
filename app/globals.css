@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-night-950 text-ink font-body antialiased;
+}
+
+/* ---- Aurora / gradient backdrop ---- */
+.aurora {
+  background:
+    radial-gradient(ellipse 60% 40% at 20% 0%, rgba(124, 138, 255, 0.16), transparent 60%),
+    radial-gradient(ellipse 50% 35% at 80% 10%, rgba(63, 220, 197, 0.08), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 50% 100%, rgba(245, 165, 36, 0.05), transparent 70%);
+}
+
+.card-surface {
+  @apply bg-night-800 border border-white/[0.06] rounded-bento shadow-card;
+}
+
+.card-hover {
+  @apply transition-all duration-200 ease-out hover:border-indigoGlow/40 hover:shadow-glow hover:-translate-y-0.5;
+}
+
+/* ---- Scroll reveal (CSS-only, respects reduced motion) ---- */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.55s ease-out, transform 0.55s ease-out;
+}
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---- Long-form article typography ---- */
+.prose-atlas {
+  @apply text-ink-muted leading-relaxed;
+}
+.prose-atlas h2 {
+  @apply font-display text-2xl md:text-3xl font-semibold text-ink mt-12 mb-4;
+}
+.prose-atlas h3 {
+  @apply font-display text-xl font-semibold text-ink mt-8 mb-3;
+}
+.prose-atlas p {
+  @apply mb-5 max-w-[72ch];
+}
+.prose-atlas ul {
+  @apply list-disc pl-6 mb-5 space-y-2;
+}
+.prose-atlas strong {
+  @apply text-ink font-semibold;
+}
+.prose-atlas a {
+  @apply text-indigoGlow underline underline-offset-4 hover:text-indigoGlow-soft;
+}
+.prose-atlas blockquote {
+  @apply border-l-2 border-dawn pl-5 italic text-ink my-6;
+}
+
+/* ---- Focus visibility ---- */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  @apply outline-none ring-2 ring-indigoGlow ring-offset-2 ring-offset-night-950;
+}
+
+/* ---- Range inputs (calculators) ---- */
+input[type="range"] {
+  @apply w-full h-2 rounded-full bg-night-600 appearance-none cursor-pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  @apply appearance-none w-5 h-5 rounded-full bg-indigoGlow shadow-glow;
+}
+input[type="range"]::-moz-range-thumb {
+  @apply w-5 h-5 rounded-full bg-indigoGlow border-0;
+}
