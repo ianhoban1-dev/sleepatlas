@@ -14,7 +14,7 @@ type RotaKey = "4on4off" | "rotating" | "permNights" | "earlies" | "splits";
 
 interface RotaProfile {
   label: string;
-  adaptation: number; // /100 — how well a typical body clock settles
+  adaptation: number; // /100, how well a typical body clock settles
   weeklyDebtHours: number;
   fatigueRisk: "Low" | "Moderate" | "High" | "Severe";
   note: string;
@@ -26,7 +26,7 @@ const ROTAS: Record<RotaKey, RotaProfile> = {
     adaptation: 58,
     weeklyDebtHours: 6,
     fatigueRisk: "High",
-    note: "The 4-off block is your recovery weapon — but only if the first off-day is a managed flip, not a write-off.",
+    note: "The 4-off block is your recovery weapon, but only if the first off-day is a managed flip, not a write-off.",
   },
   rotating: {
     label: "Rotating days / nights",
@@ -40,7 +40,7 @@ const ROTAS: Record<RotaKey, RotaProfile> = {
     adaptation: 66,
     weeklyDebtHours: 5,
     fatigueRisk: "Moderate",
-    note: "Stability is your advantage — the danger is flipping to family hours every weekend and losing it.",
+    note: "Stability is your advantage, the danger is flipping to family hours every weekend and losing it.",
   },
   earlies: {
     label: "Permanent earlies (4–6am starts)",
@@ -54,7 +54,7 @@ const ROTAS: Record<RotaKey, RotaProfile> = {
     adaptation: 50,
     weeklyDebtHours: 7,
     fatigueRisk: "High",
-    note: "Fragmented sleep needs planned nap architecture — two anchored blocks beat four accidental ones.",
+    note: "Fragmented sleep needs planned nap architecture, two anchored blocks beat four accidental ones.",
   },
 };
 

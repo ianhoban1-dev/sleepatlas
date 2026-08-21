@@ -89,7 +89,7 @@ export default function ToolPageLayout({
           </ol>
         </section>
 
-        {/* FAQ — server-rendered, mirrors the FAQPage schema exactly */}
+        {/* FAQ, server-rendered, mirrors the FAQPage schema exactly */}
         <section className="mt-14">
           <h2 className="font-display text-2xl font-semibold md:text-3xl">
             Frequently asked questions

@@ -37,7 +37,7 @@ const BANDS = [
     color: "text-red-400",
     bar: "bg-red-400",
     action:
-      "This debt level is a safety issue. Do not drive if avoidable. Recovery sleep is now a requirement, not a preference — and consider flagging fatigue to your supervisor.",
+      "This debt level is a safety issue. Do not drive if avoidable. Recovery sleep is now a requirement, not a preference, and consider flagging fatigue to your supervisor.",
   },
 ];
 
@@ -127,7 +127,7 @@ export default function SleepDebtLogger() {
         <div
           className="mt-4 h-2 w-full overflow-hidden rounded-full bg-night-600"
           role="img"
-          aria-label={`Sleep debt ${debt.toFixed(1)} hours — ${band.label} band`}
+          aria-label={`Sleep debt ${debt.toFixed(1)} hours, ${band.label} band`}
         >
           <div
             className={`h-full rounded-full transition-all duration-300 ${band.bar}`}

@@ -38,10 +38,10 @@ const QUESTIONS = [
     key: "mornings",
     text: "How hard are early mornings for you, honestly?",
     options: [
-      { label: "Easy — I'm up before the alarm", score: 0 },
+      { label: "Easy: I'm up before the alarm", score: 0 },
       { label: "Fine after a few minutes", score: 1 },
       { label: "Rough for the first hour", score: 2 },
-      { label: "Brutal — I'm not human until noon", score: 3 },
+      { label: "Brutal: I'm not human until noon", score: 3 },
     ],
   },
 ] as const;
@@ -67,27 +67,27 @@ const COMPAT: Record<RotaKey, [number, number, number]> = {
 
 const ADVICE: Record<RotaKey, [string, string, string]> = {
   nights: [
-    "You're a lark on nights — the hardest combination. Non-negotiables: a 90-minute pre-shift nap, caffeine only in the first half of the shift, and total light-blocking on the commute home.",
+    "You're a lark on nights, the hardest combination. Non-negotiables: a 90-minute pre-shift nap, caffeine only in the first half of the shift, and total light-blocking on the commute home.",
     "Workable with discipline. Anchor your daytime sleep at the same time every day, even on days off, and guard the 4–6am trough with movement and cold water, not extra caffeine.",
-    "Your natural timing is an asset on nights. Your main risk is weekend flip-flops — keep even your days off shifted 2–3 hours later than family hours rather than fully flipping.",
+    "Your natural timing is an asset on nights. Your main risk is weekend flip-flops, keep even your days off shifted 2–3 hours later than family hours rather than fully flipping.",
   ],
   rotating: [
     "Fast rotation punishes early types. Push for forward-rotating patterns (days → lates → nights), pre-load sleep before each switch, and use the flip-flop calculator on every transition.",
-    "You'll cope better than most, but never freestyle a transition — run the anchor-sleep plan on every rotation and keep caffeine rules mechanical.",
+    "You'll cope better than most, but never freestyle a transition, run the anchor-sleep plan on every rotation and keep caffeine rules mechanical.",
     "Late nights suit you but early transitions won't. Bank sleep before day-shift blocks and treat the first early as the danger shift, not the first night.",
   ],
   fourOnOff: [
-    "The 4-off block is your recovery superpower — but flip back on day one, not day two. Anchor sleep after the final night, then live on family hours.",
+    "The 4-off block is your recovery superpower, but flip back on day one, not day two. Anchor sleep after the final night, then live on family hours.",
     "A solid fit. The pattern's regularity suits intermediate types; your job is protecting the first off-day flip and not borrowing sleep from the last on-day.",
     "Comfortable on the night halves; your risk is drifting so late on off-days that the first day shift becomes a red-eye. Cap the drift at 2 hours.",
   ],
   earlies: [
-    "Near-perfect fit. Your only real threat is social pressure pushing bedtime late — treat 9pm as a hard line before 4–5am starts.",
+    "Near-perfect fit. Your only real threat is social pressure pushing bedtime late, treat 9pm as a hard line before 4–5am starts.",
     "Manageable with an earlier evening routine: dim lights from 8pm, no heavy meals late, and keep the weekend lie-in under 90 minutes.",
     "The toughest pattern for owls. If swaps are possible, trade towards later starts. If not: bright light immediately on waking, and protect a strict, boring evening wind-down.",
   ],
   splits: [
-    "Splits suit larks better than most patterns — put your main sleep in the early night block and use the afternoon gap for a true nap, not errands.",
+    "Splits suit larks better than most patterns, put your main sleep in the early night block and use the afternoon gap for a true nap, not errands.",
     "Build two anchored sleep blocks and defend them like shifts. The danger is letting the gap become chores and the sleep become leftovers.",
     "Put your main sleep late (after the second stint) and use a morning top-up. Fight the urge to socialise through the gap on heavy weeks.",
   ],

@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-muted">
               {SITE.tagline} Built on {FOUNDER.yearsOfShiftWork} years of real
-              shift-floor experience — military, prisons, factories and heavy
+              shift-floor experience, military, prisons, factories and heavy
               logistics.
             </p>
           </div>

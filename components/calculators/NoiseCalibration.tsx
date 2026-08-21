@@ -56,7 +56,7 @@ export default function NoiseCalibration() {
 
   const physical =
     scores.bangs >= 3
-      ? "Door seals and a draught excluder are your best value physical upgrade — most transient noise enters around the door."
+      ? "Door seals and a draught excluder are your best value physical upgrade, most transient noise enters around the door."
       : scores.traffic >= 3
         ? "Heavy layered curtains or secondary glazing film target the low-frequency energy coming through the window."
         : "Moulded earplugs under the masking bed give you a second defence layer for the worst days.";
@@ -121,7 +121,7 @@ export default function NoiseCalibration() {
               <strong className="text-ink">Physical layer:</strong> {physical}
             </p>
             <p className="mt-3 text-sm text-ink-faint">
-              Volume rule: keep the masking bed under ~60dB at the pillow —
+              Volume rule: keep the masking bed under ~60dB at the pillow,
               raise the floor, don&apos;t fight the peaks.
             </p>
           </div>

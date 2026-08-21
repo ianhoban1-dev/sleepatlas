@@ -92,7 +92,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
       </div>
 
       <article className="mx-auto max-w-3xl px-4 pb-20 sm:px-6">
-        {/* Quick answer — inverted pyramid, AEO-first */}
+        {/* Quick answer, inverted pyramid, AEO-first */}
         <div className="card-surface border-indigoGlow/30 p-6">
           <p className="text-xs font-semibold uppercase tracking-wider text-indigoGlow-soft">
             Quick answer
@@ -106,7 +106,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           ))}
         </div>
 
-        {/* FAQ — mirrors the FAQPage schema */}
+        {/* FAQ, mirrors the FAQPage schema */}
         <section className="mt-14">
           <h2 className="font-display text-2xl font-semibold">
             Frequently asked questions

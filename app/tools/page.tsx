@@ -36,7 +36,7 @@ export default function ToolsPage() {
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             Every calculator here answers one hard, specific question shift
-            workers ask — when to cut caffeine, how to flip back for the
+            workers ask, when to cut caffeine, how to flip back for the
             weekend, how much debt you&apos;re carrying, what noise defence to
             deploy, and whether your body clock fits your pattern.
           </p>

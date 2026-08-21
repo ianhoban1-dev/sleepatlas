@@ -16,7 +16,7 @@ const STORAGE_KEY = "sleep-atlas-journal";
 const SHIFT_TYPES = ["Night", "Day", "Early", "Late", "Split", "Off"];
 
 /**
- * Free-tier shift journal — entries persist in this browser only.
+ * Free-tier shift journal: entries persist in this browser only.
  * Premium tier will sync to Supabase once auth is activated.
  */
 export default function ShiftJournal() {
@@ -35,7 +35,7 @@ export default function ShiftJournal() {
       const raw = window.localStorage.getItem(STORAGE_KEY);
       if (raw) setEntries(JSON.parse(raw));
     } catch {
-      /* storage unavailable — journal runs in memory */
+      /* storage unavailable, journal runs in memory */
     }
     setLoaded(true);
   }, []);
@@ -174,7 +174,7 @@ export default function ShiftJournal() {
                   </p>
                   <p className="text-sm text-ink-muted">
                     {e.sleptHours}h slept · quality {e.quality}/5
-                    {e.note && <> — {e.note}</>}
+                    {e.note && <> · {e.note}</>}
                   </p>
                 </div>
                 <button

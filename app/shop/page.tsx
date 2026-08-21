@@ -5,13 +5,13 @@ import Reveal from "@/components/Reveal";
 import { breadcrumbSchema, productSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Shift Worker Sleep Gear — Curated Marketplace",
+  title: "Shift Worker Sleep Gear: Curated Marketplace",
   description:
-    "Blackout blinds, moulded earplugs, contoured sleep masks and noise machines — daytime-sleep gear curated for shift workers by someone who spent 40 years needing it to work.",
+    "Blackout blinds, moulded earplugs, contoured sleep masks and noise machines, daytime-sleep gear curated for shift workers by someone who spent 40 years needing it to work.",
 };
 
 /**
- * Affiliate hub — `href` values are placeholders until affiliate
+ * Affiliate hub: `href` values are placeholders until affiliate
  * programmes are confirmed. Adding a product = adding an entry here.
  */
 const GEAR = [
@@ -36,7 +36,7 @@ const GEAR = [
     name: "Contoured sleep masks",
     category: "Light defence",
     pitch:
-      "Zero-pressure eye cups mean you can blink, they don't smear, and they survive side-sleeping — the make-or-break for post-night-shift use.",
+      "Zero-pressure eye cups mean you can blink, they don't smear, and they survive side-sleeping, the make-or-break for post-night-shift use.",
     href: "#",
   },
   {
@@ -74,7 +74,7 @@ export default function ShopPage() {
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             Forty years of shift work teaches you exactly which kit matters
-            and which is landfill. This marketplace is short on purpose — only
+            and which is landfill. This marketplace is short on purpose, only
             categories that move your Sleep Atlas Score make the list.
           </p>
         </div>
@@ -106,7 +106,7 @@ export default function ShopPage() {
         <p className="mt-10 text-sm leading-relaxed text-ink-faint">
           Transparency: Sleep Atlas earns a commission on some links at no
           extra cost to you. Nothing is listed that we wouldn&apos;t put in our
-          own bedroom — and plenty that paid to be here wouldn&apos;t make the
+          own bedroom, and plenty that paid to be here wouldn&apos;t make the
           cut.
         </p>
       </div>

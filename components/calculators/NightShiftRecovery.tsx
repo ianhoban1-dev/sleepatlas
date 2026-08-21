@@ -25,7 +25,7 @@ export default function NightShiftRecovery() {
       icon: Coffee,
       label: "Last caffeine",
       time: caffeineCutoff,
-      note: "6 hours before shift end — anything later is still active at bedtime.",
+      note: "6 hours before shift end, anything later is still active at bedtime.",
     },
     {
       icon: Sunset,

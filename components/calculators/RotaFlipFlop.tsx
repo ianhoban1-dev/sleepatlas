@@ -31,7 +31,7 @@ export default function RotaFlipFlop() {
     {
       icon: UtensilsCrossed,
       title: `Proper meal by ${addMinutes(anchorEnd, 60)}`,
-      body: "A real daytime meal is a strong body-clock signal. Eat with the family if you can — the social cue helps too.",
+      body: "A real daytime meal is a strong body-clock signal. Eat with the family if you can, the social cue helps too.",
     },
     {
       icon: XCircle,
@@ -40,7 +40,7 @@ export default function RotaFlipFlop() {
     },
     {
       icon: AlarmClock,
-      title: `Bed at ${targetBedtime} — expect a slightly rough first night`,
+      title: `Bed at ${targetBedtime}, expect a slightly rough first night`,
       body: "You may wake early the first night. Hold the wake time anyway; by night two you're back on family hours.",
     },
   ];

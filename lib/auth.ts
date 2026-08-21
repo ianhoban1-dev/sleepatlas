@@ -1,5 +1,5 @@
 /**
- * Sleep Atlas — demo authentication store.
+ * Sleep Atlas: demo authentication store.
  *
  * DEMO MODE: accounts live in this browser's localStorage so the full
  * signup → premium → admin flow works today with zero backend setup.
@@ -29,7 +29,7 @@ const USERS_KEY = "sleep-atlas-users";
 const SESSION_KEY = "sleep-atlas-session";
 const SALT = "sleep-atlas-demo-salt";
 
-/** Admin access is keyed to this email — no password lives in code. */
+/** Admin access is keyed to this email, no password lives in code. */
 export const ADMIN_EMAIL = "ianhoban1@gmail.com";
 
 export const AUTH_EVENT = "sleep-atlas-auth-change";
@@ -87,7 +87,7 @@ export async function signUp(
 
   const users = readUsers();
   if (users.some((u) => u.email === cleanEmail))
-    return { ok: false, error: "An account with that email already exists — log in instead." };
+    return { ok: false, error: "An account with that email already exists, log in instead." };
 
   const user: StoredUser = {
     id: crypto.randomUUID(),
@@ -113,7 +113,7 @@ export async function logIn(
   if (!user) return { ok: false, error: "No account found with that email." };
   const hash = await hashPassword(password);
   if (hash !== user.passwordHash)
-    return { ok: false, error: "Incorrect password — please try again." };
+    return { ok: false, error: "Incorrect password, please try again." };
   localStorage.setItem(SESSION_KEY, cleanEmail);
   window.dispatchEvent(new Event(AUTH_EVENT));
   return { ok: true, user: toPublic(user) };

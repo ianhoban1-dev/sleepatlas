@@ -10,7 +10,7 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} — Sleep Intelligence for Shift Workers`,
+    default: `${SITE.name} | Sleep Intelligence for Shift Workers`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,

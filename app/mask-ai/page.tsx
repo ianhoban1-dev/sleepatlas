@@ -25,16 +25,16 @@ import {
 } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Mask AI — Noise Masking for Daytime Sleep",
+  title: "Mask AI: Noise Masking for Daytime Sleep",
   description:
-    "Mask AI is Sleep Atlas's built-in noise-masking engine for shift workers: 13 layered sounds — white, pink and brown noise free, with rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium — plus a sleep timer, wake-up fade-in alarm and personal saved mixes.",
+    "Mask AI is Sleep Atlas's built-in noise-masking engine for shift workers: 13 layered sounds, white, pink and brown noise free, with rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium, plus a sleep timer, wake-up fade-in alarm and personal saved mixes.",
 };
 
 const FAQS = [
   {
     question: "What is Mask AI?",
     answer:
-      "Mask AI is Sleep Atlas's built-in noise-masking engine. It generates 13 layered sounds live in your browser — noise colours, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan — with no downloads or streams, designed to protect daytime sleep from traffic, neighbours and deliveries.",
+      "Mask AI is Sleep Atlas's built-in noise-masking engine. It generates 13 layered sounds live in your browser, noise colours, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan, with no downloads or streams, designed to protect daytime sleep from traffic, neighbours and deliveries.",
   },
   {
     question: "Is Mask AI free to use?",
@@ -44,7 +44,7 @@ const FAQS = [
   {
     question: "Can I create my own personalised mix in Mask AI?",
     answer:
-      "Yes — Premium members can set any combination of the 13 layers with individual sliders, name the result and save it as a personal mix. Saved mixes reapply in one tap, so your 'bin day' or 'school run' defence is always ready after a night shift.",
+      "Yes. Premium members can set any combination of the 13 layers with individual sliders, name the result and save it as a personal mix. Saved mixes reapply in one tap, so your 'bin day' or 'school run' defence is always ready after a night shift.",
   },
   {
     question: "Which Mask AI sound is best for sleeping after a night shift?",
@@ -54,12 +54,12 @@ const FAQS = [
   {
     question: "Does Mask AI have a sleep timer and alarm?",
     answer:
-      "Yes. The free sleep timer fades your sound out gently over the final minutes at 30, 60 or 90 minutes — no sudden cut-off to re-alert your brain. Premium adds any custom length up to 12 hours and a wake-up alarm that fades a soft chime in over a full minute, so you surface gradually instead of being jolted awake before a shift.",
+      "Yes. The free sleep timer fades your sound out gently over the final minutes at 30, 60 or 90 minutes, no sudden cut-off to re-alert your brain. Premium adds any custom length up to 12 hours and a wake-up alarm that fades a soft chime in over a full minute, so you surface gradually instead of being jolted awake before a shift.",
   },
   {
     question: "How does noise masking actually work?",
     answer:
-      "Masking raises your room's steady background sound floor so individual noises — a door slam, a bin lorry, a school run — no longer stand out sharply against silence. It's the contrast that wakes you, not the volume. A consistent sound floor removes the contrast.",
+      "Masking raises your room's steady background sound floor so individual noises (a door slam, a bin lorry, a school run) no longer stand out sharply against silence. It's the contrast that wakes you, not the volume. A consistent sound floor removes the contrast.",
   },
 ];
 
@@ -92,7 +92,7 @@ const SOUND_GUIDE = [
     icon: CloudLightning,
     name: "Thunderstorm",
     tier: "Premium",
-    use: "Rain bed with slow rolling thunder — depth without jolts.",
+    use: "Rain bed with slow rolling thunder, depth without jolts.",
   },
   {
     icon: Waves,
@@ -122,7 +122,7 @@ const SOUND_GUIDE = [
     icon: Flame,
     name: "Campfire",
     tier: "Premium",
-    use: "Warm crackle — a cosy texture that keeps bangs from standing out.",
+    use: "Warm crackle, a cosy texture that keeps bangs from standing out.",
   },
   {
     icon: Bug,
@@ -134,7 +134,7 @@ const SOUND_GUIDE = [
     icon: Plane,
     name: "Cabin hum",
     tier: "Premium",
-    use: "Aircraft drone — the enveloping steadiness people sleep to on flights.",
+    use: "Aircraft drone, the enveloping steadiness people sleep to on flights.",
   },
   {
     icon: Fan,
@@ -166,7 +166,7 @@ export default function MaskAIPage() {
       <div className="aurora">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
           <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
-            Mask AI — your daytime audio defence system
+            Mask AI, your daytime audio defence system
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             You can&apos;t silence a street that&apos;s wide awake. You can
@@ -181,7 +181,7 @@ export default function MaskAIPage() {
         {/* The player */}
         <MaskAI />
 
-        {/* Sound guide — server-rendered for answer engines */}
+        {/* Sound guide, server-rendered for answer engines */}
         <section className="mt-16">
           <h2 className="font-display text-3xl font-semibold tracking-tight">
             Which layer masks what?
@@ -215,7 +215,7 @@ export default function MaskAIPage() {
           </div>
         </section>
 
-        {/* How it works — SSR explainer */}
+        {/* How it works. SSR explainer */}
         <section className="mt-16 max-w-3xl">
           <h2 className="font-display text-3xl font-semibold tracking-tight">
             Why masking beats earplugs alone
@@ -226,7 +226,7 @@ export default function MaskAIPage() {
               one sudden noise wakes you faster than a consistently noisy one,
               because your brain flags anything that stands out against the
               background. Earplugs lower everything but can&apos;t remove the
-              spikes — a door slam still punches through.
+              spikes, a door slam still punches through.
             </p>
             <p>
               Mask AI attacks the contrast instead. Raising the room&apos;s
@@ -243,13 +243,13 @@ export default function MaskAIPage() {
               >
                 Noise Calibration Tool
               </Link>{" "}
-              first — it rates your environment and prescribes the exact
+              first, it rates your environment and prescribes the exact
               blend, volume strategy and physical defences to layer underneath.
             </p>
           </div>
         </section>
 
-        {/* FAQ — mirrors the FAQPage schema */}
+        {/* FAQ, mirrors the FAQPage schema */}
         <section className="mt-16">
           <h2 className="font-display text-3xl font-semibold tracking-tight">
             Frequently asked questions

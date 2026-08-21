@@ -1,8 +1,8 @@
 "use client";
 
 /**
- * Mask AI — Sleep Atlas's built-in noise-masking engine.
- * All sound is generated live in the browser with the Web Audio API —
+ * Mask AI: Sleep Atlas's built-in noise-masking engine.
+ * All sound is generated live in the browser with the Web Audio API,
  * no streams, no downloads, works offline once the page is loaded.
  *
  * Free: White, Pink and Brown noise + basic sleep timer (30/60/90 min).
@@ -67,13 +67,13 @@ const SOUNDS: {
   { id: "white", name: "White noise", premium: false, icon: Radio, masks: "High-pitched spikes, hiss, alarms" },
   { id: "rain", name: "Heavy rain", premium: true, icon: CloudRain, masks: "Unpredictable bangs and door slams" },
   { id: "storm", name: "Thunderstorm", premium: true, icon: CloudLightning, masks: "Rain bed with rolling distant thunder" },
-  { id: "waves", name: "Ocean waves", premium: true, icon: Waves, masks: "Slow breathing surf — deeply calming" },
+  { id: "waves", name: "Ocean waves", premium: true, icon: Waves, masks: "Slow breathing surf, deeply calming" },
   { id: "forest", name: "Forest canopy", premium: true, icon: TreePine, masks: "Gusty leaves over outdoor voices" },
   { id: "stream", name: "Babbling stream", premium: true, icon: Droplets, masks: "Watery flutter over speech and chatter" },
   { id: "wind", name: "Night wind", premium: true, icon: Wind, masks: "Low moaning gusts over droning noise" },
-  { id: "fire", name: "Campfire", premium: true, icon: Flame, masks: "Warm crackle — cosy indoor texture" },
+  { id: "fire", name: "Campfire", premium: true, icon: Flame, masks: "Warm crackle, cosy indoor texture" },
   { id: "crickets", name: "Crickets", premium: true, icon: Bug, masks: "Gentle night-garden chirps" },
-  { id: "cabin", name: "Cabin hum", premium: true, icon: Plane, masks: "Aircraft drone — steady and enveloping" },
+  { id: "cabin", name: "Cabin hum", premium: true, icon: Plane, masks: "Aircraft drone, steady and enveloping" },
   { id: "fan", name: "Fan hum", premium: true, icon: Fan, masks: "Familiar, steady sleep texture" },
 ];
 
@@ -313,7 +313,7 @@ function buildChannel(ctx: AudioContext, id: SoundId, master: GainNode): Channel
     }
 
     case "wind": {
-      // Low moaning gusts — resonant bandpass slowly swept
+      // Low moaning gusts: resonant bandpass slowly swept
       const bp = filter("bandpass", 350, 1.5);
       loop("pink").connect(bp);
       const swell = sub(0.7);
@@ -544,7 +544,7 @@ export default function MaskAI() {
     if (!ctx) return;
     const gain = ctx.createGain();
     gain.gain.setValueAtTime(0.0001, ctx.currentTime);
-    // Gentle fade-in over 60 seconds — a sunrise for the ears
+    // Gentle fade-in over 60 seconds: a sunrise for the ears
     gain.gain.linearRampToValueAtTime(0.22, ctx.currentTime + 60);
     gain.connect(ctx.destination);
     const tones: OscillatorNode[] = [];
@@ -690,7 +690,7 @@ export default function MaskAI() {
         <div className="card-surface flex flex-wrap items-center justify-between gap-4 border-dawn/50 bg-dawn/10 p-6">
           <p className="flex items-center gap-3 font-display text-lg font-semibold text-dawn">
             <BellRing className="h-6 w-6 animate-pulse" aria-hidden="true" />
-            Time to wake up — the chime will keep building gently
+            Time to wake up, the chime will keep building gently
           </p>
           <button
             type="button"
@@ -800,7 +800,7 @@ export default function MaskAI() {
           ) : (
             <span className="inline-flex items-center gap-1.5 rounded-full bg-dawn/15 px-3 py-1.5 text-xs font-semibold text-dawn">
               <Lock className="h-3 w-3" aria-hidden="true" />
-              Custom length & wake-up alarm — Premium
+              Custom length & wake-up alarm · Premium
             </span>
           )}
         </div>
@@ -813,14 +813,14 @@ export default function MaskAI() {
               className="h-4 w-4 accent-teal-glow"
             />
             <span>
-              <span className="font-medium text-ink">Wake-up fade-in</span> — when
+              <span className="font-medium text-ink">Wake-up fade-in</span>, when
               the timer ends, a gentle chime builds over a full minute instead of
               a jolting alarm
             </span>
           </label>
         )}
         <p className="mt-3 text-xs text-ink-faint">
-          Sound eases down over the final few minutes rather than cutting out —
+          Sound eases down over the final few minutes rather than cutting out,
           no re-alerting your brain just as you drop off. Pausing resets the
           countdown.
         </p>
@@ -871,7 +871,7 @@ export default function MaskAI() {
               Build my blend
             </p>
             <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-              Three quick questions about your street and your sleep — Mask AI
+              Three quick questions about your street and your sleep. Mask AI
               sets the layers and volume for you.
             </p>
             <div className="mt-5 space-y-5">
@@ -925,7 +925,7 @@ export default function MaskAI() {
             </p>
             <p className="mt-2 text-sm leading-relaxed text-ink-muted">
               Set any combination of the {SOUNDS.length} layers with the
-              sliders, then save it as a personal mix — one tap to bring it
+              sliders, then save it as a personal mix, one tap to bring it
               back after every night shift.
             </p>
             <div className="mt-4 flex gap-2">
@@ -948,7 +948,7 @@ export default function MaskAI() {
             </div>
             {saved.length === 0 ? (
               <p className="mt-4 text-sm text-ink-faint">
-                No saved mixes yet — set your sliders, name it, save it.
+                No saved mixes yet, set your sliders, name it, save it.
               </p>
             ) : (
               <ul className="mt-4 space-y-2">
@@ -993,7 +993,7 @@ export default function MaskAI() {
           </h3>
           <p className="mt-3 max-w-2xl leading-relaxed text-ink-muted">
             Heavy rain, thunderstorm, ocean waves, forest, stream, wind,
-            campfire, crickets, cabin hum and fan — mix any of them into your
+            campfire, crickets, cabin hum and fan, mix any of them into your
             own saved blends, answer three questions for a blend tuned to your
             exact street, and wake to a fade-in chime instead of a jolt.
           </p>

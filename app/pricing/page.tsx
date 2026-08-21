@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Pricing — Free Tools & Premium Fatigue Intelligence",
+  title: "Pricing: Free Tools & Premium Fatigue Intelligence",
   description:
     "Sleep Atlas core calculators, resources and Mask AI's core noise layers are free. Premium adds 10 extra Mask AI sound layers, personal saved mixes, the wake-up fade-in alarm, saved tracking, advanced fatigue projections and historical Sleep Atlas Score reporting.",
 };
@@ -22,9 +22,9 @@ const FREE = [
 
 const PREMIUM = [
   "Everything in Free",
-  "10 extra Mask AI layers — rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum & fan",
-  "Personal mixes — save any layer combination, reapply in one tap",
-  "Personal blend questionnaire — tuned to your street",
+  "10 extra Mask AI layers, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum & fan",
+  "Personal mixes, save any layer combination, reapply in one tap",
+  "Personal blend questionnaire, tuned to your street",
   "Custom timer lengths + wake-up fade-in alarm",
   "Saved shift profiles & rota patterns",
   "Advanced fatigue projections for upcoming blocks",
@@ -45,7 +45,7 @@ const FAQS = [
   {
     question: "Can I cancel Sleep Atlas Premium anytime?",
     answer:
-      "Yes — subscriptions are managed through Stripe and can be cancelled in one click from your account. You keep Premium until the end of the paid period.",
+      "Yes, subscriptions are managed through Stripe and can be cancelled in one click from your account. You keep Premium until the end of the paid period.",
   },
 ];
 
@@ -128,7 +128,7 @@ export default function PricingPage() {
                 Become a founding member
               </Link>
               <p id="premium-note" className="mt-3 text-center text-xs text-ink-faint">
-                Payments open at launch — founding members activate Premium
+                Payments open at launch, founding members activate Premium
                 free now and lock this price for life.
               </p>
             </div>

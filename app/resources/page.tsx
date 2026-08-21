@@ -7,9 +7,9 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { ARTICLES, CATEGORIES } from "@/lib/articles";
 
 export const metadata: Metadata = {
-  title: "Shift Work Sleep Resources — Practical Guides",
+  title: "Shift Work Sleep Resources: Practical Guides",
   description:
-    "Deeply practical guides for shift workers: 4-on/4-off survival, daytime sleep optimisation, noise defence, rotating rotas, night shift nutrition and family life balancing — from 40 years on the shift floor.",
+    "Deeply practical guides for shift workers: 4-on/4-off survival, daytime sleep optimisation, noise defence, rotating rotas, night shift nutrition and family life balancing, from 40 years on the shift floor.",
 };
 
 export default function ResourcesPage() {

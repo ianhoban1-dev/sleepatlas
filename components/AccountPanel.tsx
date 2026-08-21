@@ -73,7 +73,7 @@ export default function AccountPanel() {
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-ink-muted">
               Heavy rain and fan hum layers, the personal blend questionnaire,
-              saved blends and synced tracking. Payments open at launch — until
+              saved blends and synced tracking. Payments open at launch, until
               then, founding members can activate Premium free.
             </p>
             <button

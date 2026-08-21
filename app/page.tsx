@@ -1,12 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
-  AudioLines,
   BatteryCharging,
   CalendarClock,
   Compass,
   Gauge,
-  Headphones,
   Moon,
   RefreshCcw,
   ShieldCheck,
@@ -20,9 +18,9 @@ import { SITE, FOUNDER } from "@/lib/site";
 import { TOOLS } from "@/lib/tools";
 
 export const metadata: Metadata = {
-  title: "Sleep Atlas — Sleep Intelligence for Shift Workers & Night Workers",
+  title: "Sleep Atlas: Sleep Intelligence for Shift Workers & Night Workers",
   description:
-    "Master your rota, eliminate shift fatigue and reclaim your sleep. Calculators, sleep debt trackers, the Mask AI noise-masking engine and 40 years of real shift-floor experience — built exclusively for shift and night workers.",
+    "Master your rota, eliminate shift fatigue and reclaim your sleep. Calculators, sleep debt trackers, the Mask AI noise-masking engine and 40 years of real shift-floor experience, built exclusively for shift and night workers.",
 };
 
 const HOME_FAQS = [
@@ -34,7 +32,7 @@ const HOME_FAQS = [
   {
     question: "Who is Sleep Atlas for?",
     answer:
-      "Anyone working non-traditional hours: 4-on/4-off patterns, rotating days and nights, permanent nights, early starts, splits and on-call rotas — from prison officers and nurses to warehouse, factory and logistics crews.",
+      "Anyone working non-traditional hours: 4-on/4-off patterns, rotating days and nights, permanent nights, early starts, splits and on-call rotas, from prison officers and nurses to warehouse, factory and logistics crews.",
   },
   {
     question: "Is Sleep Atlas free?",
@@ -54,34 +52,38 @@ export default function HomePage() {
       <section className="aurora relative overflow-hidden">
         <div className="mx-auto max-w-7xl px-4 pb-20 pt-20 sm:px-6 md:pb-28 md:pt-28">
           <div className="max-w-3xl">
-            <p className="mb-5 inline-flex items-center gap-2 rounded-full border border-indigoGlow/30 bg-indigoGlow/10 px-4 py-1.5 text-sm text-indigoGlow-soft">
-              <ShieldCheck className="h-4 w-4" aria-hidden="true" />
-              Built on 40 years of real shift work
-            </p>
-            <h1 className="animate-fade-up font-display text-4xl font-bold leading-tight tracking-tight sm:text-5xl md:text-6xl">
-              Master your rota.{" "}
-              <span className="bg-gradient-to-r from-indigoGlow via-indigoGlow-soft to-teal-glow bg-clip-text text-transparent">
-                Eliminate shift fatigue.
-              </span>{" "}
+            <h1 className="animate-fade-up font-display text-4xl font-bold leading-[1.08] tracking-tight sm:text-5xl md:text-[4.25rem]">
+              Master your rota.
+              <br />
+              <span className="text-teal-glow">Eliminate shift fatigue.</span>
+              <br />
               Reclaim your sleep.
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-muted">
+            <p className="mt-7 max-w-2xl text-lg leading-relaxed text-ink-muted">
               {SITE.description}
             </p>
-            <div className="mt-8 flex flex-wrap gap-4">
+            <div className="mt-9 flex flex-wrap gap-4">
               <Link
                 href="/tools/"
-                className="rounded-xl bg-indigoGlow px-6 py-3.5 font-semibold text-night-950 transition-all duration-200 hover:bg-indigoGlow-soft hover:shadow-glow"
+                className="rounded-xl bg-indigoGlow px-6 py-3.5 font-semibold text-night-950 shadow-press transition-all duration-200 hover:-translate-y-0.5 hover:bg-indigoGlow-soft hover:shadow-glow active:translate-y-0 active:shadow-press"
               >
                 Explore the tools
               </Link>
               <Link
                 href="/mask-ai/"
-                className="rounded-xl border border-white/15 px-6 py-3.5 font-semibold text-ink transition-colors duration-200 hover:border-indigoGlow/50 hover:bg-white/[0.04]"
+                className="rounded-xl border border-white/15 bg-white/[0.02] px-6 py-3.5 font-semibold text-ink transition-all duration-200 hover:-translate-y-0.5 hover:border-teal-glow/50 hover:bg-teal-glow/[0.06] active:translate-y-0"
               >
                 Try Mask AI noise masking
               </Link>
             </div>
+            <p className="mt-10 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink-faint">
+              <ShieldCheck className="h-4 w-4 text-indigoGlow" aria-hidden="true" />
+              Built on 40 years of real shift work
+              <span aria-hidden="true">·</span>
+              No wearables required
+              <span aria-hidden="true">·</span>
+              Core tools free forever
+            </p>
           </div>
         </div>
       </section>
@@ -95,8 +97,8 @@ export default function HomePage() {
             </h2>
             <p className="mt-4 leading-relaxed text-ink-muted">
               Every shift pattern hits the body clock differently. Pick yours
-              and see the baseline impact — rota adaptation, typical weekly
-              sleep debt and fatigue risk — before any countermeasures are
+              and see the baseline impact, rota adaptation, typical weekly
+              sleep debt and fatigue risk, before any countermeasures are
               applied. Then use the tools below to fight back.
             </p>
           </div>
@@ -113,7 +115,7 @@ export default function HomePage() {
             Specialist tools, not generic advice
           </h2>
           <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
-            Five calculators engineered for the realities of shift work —
+            Five calculators engineered for the realities of shift work:
             commutes, caffeine timing, flip-flop weekends, noisy daytime
             streets and mismatched body clocks.
           </p>
@@ -159,7 +161,7 @@ export default function HomePage() {
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">
                 One number that tells you how well you&apos;re surviving your
-                rota — built from adaptation, noise, recovery and debt.
+                rota, built from adaptation, noise, recovery and debt.
               </p>
               <span className="mt-4 inline-block text-sm font-medium text-dawn">
                 How it works →
@@ -174,17 +176,13 @@ export default function HomePage() {
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 md:grid-cols-2 md:py-24">
           <Reveal>
             <div>
-              <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-teal-glow/30 bg-teal-glow/10 px-4 py-1.5 text-sm text-teal-glow">
-                <Headphones className="h-4 w-4" aria-hidden="true" />
-                Built-in audio engine
-              </p>
               <h2 className="font-display text-3xl font-semibold tracking-tight md:text-4xl">
-                Mask AI — your daytime audio defence system
+                Mask AI: your daytime audio defence system
               </h2>
               <p className="mt-4 leading-relaxed text-ink-muted">
                 The street doesn&apos;t care that you finished at 7am. Mask AI
                 masks daytime traffic, neighbours and deliveries with 13
-                layered sounds — generated live in your browser — from brown
+                layered sounds (generated live in your browser) from brown
                 noise and heavy rain to ocean waves, forest and campfire.
                 Premium adds personal saved mixes, a blend tuned to your
                 street by three quick questions, and a wake-up alarm that
@@ -201,11 +199,27 @@ export default function HomePage() {
           <Reveal delay={120}>
             <div className="card-surface flex items-center justify-center p-10">
               <div className="text-center">
-                <AudioLines
-                  className="mx-auto h-20 w-20 animate-pulse-slow text-teal-glow"
+                <div
+                  className="mx-auto flex h-20 items-end justify-center gap-1.5"
                   aria-hidden="true"
-                />
-                <p className="mt-4 font-display text-lg font-semibold">
+                >
+                  {[42, 68, 55, 90, 74, 100, 62, 84, 48, 72, 58, 38].map(
+                    (h, i) => (
+                      <span
+                        key={i}
+                        className={`w-2 origin-bottom animate-equalize rounded-full ${
+                          i % 3 === 1 ? "bg-teal-glow" : "bg-indigoGlow"
+                        }`}
+                        style={{
+                          height: `${h}%`,
+                          animationDelay: `${i * 0.13}s`,
+                          animationDuration: `${1.4 + (i % 4) * 0.35}s`,
+                        }}
+                      />
+                    )
+                  )}
+                </div>
+                <p className="mt-5 font-display text-lg font-semibold">
                   13 layers · Personal mixes · Sleep timer · Wake-up fade-in
                 </p>
                 <p className="mt-2 text-sm text-ink-muted">
@@ -264,8 +278,8 @@ export default function HomePage() {
               The kit that earns its place
             </h2>
             <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
-              Curated daytime-sleep gear — blackout blinds, moulded earplugs,
-              sleep masks and noise machines — chosen for shift workers, not
+              Curated daytime-sleep gear, blackout blinds, moulded earplugs,
+              sleep masks and noise machines, chosen for shift workers, not
               gadget lovers.
             </p>
             <Link

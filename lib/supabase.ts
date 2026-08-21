@@ -1,5 +1,5 @@
 /**
- * Supabase stub — auth and persistence hooks are scaffolded but inactive.
+ * Supabase stub: auth and persistence hooks are scaffolded but inactive.
  *
  * To activate:
  *  1. npm install @supabase/supabase-js @supabase/ssr

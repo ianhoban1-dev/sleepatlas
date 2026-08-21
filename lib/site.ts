@@ -1,5 +1,5 @@
 /**
- * Sleep Atlas — central site configuration.
+ * Sleep Atlas: central site configuration.
  * Single source of truth for brand, URLs, and the founder E-E-A-T profile.
  * Everything (schema, copy, footer) reads from here.
  */
@@ -23,7 +23,7 @@ export const FOUNDER = {
     { org: "Jacobs Biscuits", role: "Industrial manufacturing shifts", period: "" },
     {
       org: "HM Prison Service",
-      role: "High-security settings — Strangeways, Walton, Guys Marsh",
+      role: "High-security settings. Strangeways, Walton, Guys Marsh",
       period: "",
     },
     { org: "Budweiser UK", role: "Heavy logistics & industrial production", period: "" },

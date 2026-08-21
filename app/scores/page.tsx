@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Activity, BatteryLow, Gauge, RefreshCcw, Volume2 } from "lucide-react";
+import { Activity, BatteryLow, RefreshCcw, Volume2 } from "lucide-react";
 import JsonLd from "@/components/JsonLd";
 import Reveal from "@/components/Reveal";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "The Sleep Atlas Score — How It Works",
+  title: "The Sleep Atlas Score: How It Works",
   description:
     "The Sleep Atlas Score is the proprietary scoring framework for non-standard schedules: one overall number built from Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt.",
 };
@@ -41,7 +41,7 @@ const FAQS = [
   {
     question: "What is the Sleep Atlas Score?",
     answer:
-      "The Sleep Atlas Score is a single 0–100 number that tells a shift worker how well they're coping with their rota. It combines four sub-scores — Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt — each built from quick practical inputs rather than wearables or lab data.",
+      "The Sleep Atlas Score is a single 0–100 number that tells a shift worker how well they're coping with their rota. It combines four sub-scores: Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt, each built from quick practical inputs rather than wearables or lab data.",
   },
   {
     question: "How is the Sleep Atlas Score different from a sleep tracker score?",
@@ -69,16 +69,12 @@ export default function ScoresPage() {
       />
       <div className="aurora">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-dawn/30 bg-dawn/10 px-4 py-1.5 text-sm text-dawn-soft">
-            <Gauge className="h-4 w-4" aria-hidden="true" />
-            The core framework
-          </p>
           <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
             One number for surviving your rota
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             Fitness apps score your sleep as if you work 9-to-5. The Sleep
-            Atlas Score is built for the rest of us — a 0–100 measure of how
+            Atlas Score is built for the rest of us, a 0–100 measure of how
             well you&apos;re actually coping with non-standard hours, built
             from four practical sub-scores you can influence this week.
           </p>
@@ -106,15 +102,15 @@ export default function ScoresPage() {
           <p>
             Your overall Sleep Atlas Score is a weighted blend of the four
             sub-scores, with Accumulated Sleep Debt carrying the heaviest
-            weight — because debt is the component that turns into a safety
+            weight, because debt is the component that turns into a safety
             problem fastest. Quick inputs across the tools and trackers keep
             each sub-score current; nothing requires a wearable.
           </p>
           <p>
             Free members see their live score. Premium members get the
             history: score trends across rota blocks, fatigue projections for
-            upcoming shifts, and the reports that show whether a new defence —
-            blackout upgrade, noise blend, flip-flop routine — actually moved
+            upcoming shifts, and the reports that show whether a new defence
+            (blackout upgrade, noise blend, flip-flop routine) actually moved
             the number.
           </p>
         </section>

@@ -96,7 +96,7 @@ export default function Header() {
             className="block rounded-lg px-3 py-3 text-ink-muted hover:bg-white/[0.05] hover:text-ink"
             onClick={() => setOpen(false)}
           >
-            {user ? `Account — ${user.name.split(" ")[0]}` : "Account"}
+            {user ? `Account · ${user.name.split(" ")[0]}` : "Account"}
           </Link>
           {user?.plan !== "premium" && (
             <Link

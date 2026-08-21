@@ -13,7 +13,7 @@ const FAQS = [
   {
     question: "Why should shift workers keep a sleep journal?",
     answer:
-      "Because patterns invisible day-to-day become obvious across a rota block. A journal shows which shifts, noise events and habits are stealing your sleep — turning guesswork into a fixable list. Most people find one repeat offender within two weeks of logging.",
+      "Because patterns invisible day-to-day become obvious across a rota block. A journal shows which shifts, noise events and habits are stealing your sleep, turning guesswork into a fixable list. Most people find one repeat offender within two weeks of logging.",
   },
   {
     question: "What should I record in a shift sleep journal?",
@@ -41,7 +41,7 @@ export default function TrackersPage() {
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             Thirty seconds after every sleep. That&apos;s all it takes to see
-            which shifts, streets and habits are robbing you — and which
+            which shifts, streets and habits are robbing you, and which
             defences are actually working.
           </p>
         </div>
