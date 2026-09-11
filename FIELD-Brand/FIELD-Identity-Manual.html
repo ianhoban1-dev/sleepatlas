@@ -1,0 +1,706 @@
+<title>FIELD Identity Manual</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Hanken+Grotesk:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+
+<style>
+:root{
+  --cream:#F5F3ED; --mist:#EDF2F0; --soft:#D9E4E2;
+  --sage:#5D8786; --deep:#304847; --charcoal:#202827; --sand:#C8B99F;
+  --sage-light:#8FB3B2;
+
+  --ground:#F5F3ED;
+  --surface:#FBFAF5;
+  --surface-2:#EDF2F0;
+  --ink:#304847;
+  --ink-strong:#202827;
+  --muted:#6B807E;
+  --accent:#5D8786;
+  --accent-ink:#456B6A;
+  --quiet:#D9E4E2;
+  --rule:#DCE3DE;
+  --rule-soft:#E6E9E2;
+  --sand-tok:#C8B99F;
+
+  --display:"Schibsted Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --body:"Hanken Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+
+  --gut:clamp(20px,5vw,72px);
+  --max:1120px;
+  --prose:660px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#151D1C; --surface:#1D2625; --surface-2:#202827;
+    --ink:#F5F3ED; --ink-strong:#FFFFFF; --muted:#9FB2B0;
+    --accent:#8FB3B2; --accent-ink:#A8C6C5; --quiet:#2A3736;
+    --rule:#2C3938; --rule-soft:#26322F; --sand-tok:#C8B99F;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#151D1C; --surface:#1D2625; --surface-2:#202827;
+  --ink:#F5F3ED; --ink-strong:#FFFFFF; --muted:#9FB2B0;
+  --accent:#8FB3B2; --accent-ink:#A8C6C5; --quiet:#2A3736;
+  --rule:#2C3938; --rule-soft:#26322F; --sand-tok:#C8B99F;
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:var(--body); font-weight:400; font-size:17px; line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4,.ui{font-family:var(--display); color:var(--ink-strong); text-wrap:balance}
+h2{font-size:clamp(28px,3.4vw,40px); font-weight:500; letter-spacing:-.02em; line-height:1.14; margin:0}
+h3{font-size:20px; font-weight:600; letter-spacing:-.005em; margin:0}
+h4{font-size:14px; font-weight:600; margin:0}
+p{margin:0}
+a{color:var(--accent-ink)}
+:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:3px}
+
+.wrap{max-width:var(--max); margin-inline:auto; padding-inline:var(--gut)}
+.prose{max-width:var(--prose)}
+.stack{display:flex; flex-direction:column}
+.eyebrow{
+  font-family:var(--display); font-size:11px; font-weight:600;
+  letter-spacing:.16em; text-transform:uppercase; color:var(--muted);
+}
+.lede{font-size:clamp(18px,2vw,21px); line-height:1.55; color:var(--ink); font-weight:300}
+.muted{color:var(--muted)}
+.mono{font-family:var(--mono); font-size:12.5px; letter-spacing:-.01em; font-variant-numeric:tabular-nums}
+
+section{padding-block:clamp(56px,7vw,104px); border-top:1px solid var(--rule-soft); scroll-margin-top:74px}
+section:first-of-type{border-top:0}
+.sec-head{display:flex; flex-direction:column; gap:14px; margin-bottom:40px}
+
+/* ---------- top bar ---------- */
+header.bar{
+  position:sticky; top:0; z-index:20; background:color-mix(in srgb,var(--ground) 88%,transparent);
+  backdrop-filter:blur(10px); border-bottom:1px solid var(--rule-soft);
+}
+.bar-in{display:flex; align-items:center; gap:18px; height:58px}
+.bar svg{height:22px; width:auto; display:block}
+.bar nav{margin-left:auto; display:flex; gap:22px; overflow-x:auto; scrollbar-width:none}
+.bar nav::-webkit-scrollbar{display:none}
+.bar nav a{
+  font-family:var(--display); font-size:13px; font-weight:500; color:var(--muted);
+  text-decoration:none; white-space:nowrap;
+}
+.bar nav a:hover{color:var(--ink-strong)}
+
+/* ---------- hero ---------- */
+.hero{padding-block:clamp(72px,11vw,150px) clamp(56px,7vw,100px)}
+.splash{display:flex; flex-direction:column; align-items:flex-start; gap:34px}
+.splash-mark{width:clamp(112px,15vw,168px); height:auto; display:block}
+.splash-word{width:clamp(210px,30vw,360px); height:auto; display:block}
+.hero h1{
+  font-size:clamp(32px,4.6vw,50px); font-weight:500; letter-spacing:-.03em;
+  line-height:1.04; margin:0; max-width:15ch;
+}
+.hero .lede{max-width:52ch}
+.replay{
+  margin-top:30px; align-self:flex-start; display:inline-flex; align-items:center; gap:9px;
+  background:none; border:1px solid var(--rule); color:var(--muted); cursor:pointer;
+  font-family:var(--display); font-size:12px; font-weight:500; letter-spacing:.04em;
+  padding:8px 15px; border-radius:999px;
+}
+.replay:hover{color:var(--ink-strong); border-color:var(--accent)}
+
+.wave-a{opacity:1; transform:none; transform-box:view-box; transform-origin:50% 50%}
+.playing .wave-a{animation:settle 1100ms cubic-bezier(.22,.9,.28,1) both}
+.playing .wave-a:nth-child(1){animation-delay:60ms}
+.playing .wave-a:nth-child(2){animation-delay:230ms}
+.playing .wave-a:nth-child(3){animation-delay:400ms}
+.word-a{opacity:1}
+.playing .word-a{animation:rise 900ms cubic-bezier(.22,.9,.28,1) 820ms both}
+@keyframes settle{
+  0%{opacity:0; transform:translate(-16px,12px) scaleY(.55)}
+  60%{opacity:1}
+  100%{opacity:1; transform:translate(0,0) scaleY(1)}
+}
+@keyframes rise{
+  0%{opacity:0; transform:translateY(14px)}
+  100%{opacity:1; transform:translateY(0)}
+}
+@media (prefers-reduced-motion:reduce){
+  .playing .wave-a,.playing .word-a{animation:none}
+  .replay{display:none}
+}
+
+/* ---------- shift table ---------- */
+.shift{display:grid; grid-template-columns:1fr 1fr; gap:0 clamp(24px,4vw,64px); margin-top:36px}
+.shift-col{display:flex; flex-direction:column}
+.shift-col h4{padding-bottom:12px; border-bottom:1px solid var(--rule); margin-bottom:4px}
+.shift-col p{padding-block:13px; border-bottom:1px solid var(--rule-soft); font-size:15.5px; line-height:1.5}
+.was{color:var(--muted)}
+@media(max-width:620px){.shift{grid-template-columns:1fr; gap:32px}}
+
+/* ---------- mark ---------- */
+.mark-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1px; background:var(--rule-soft); border:1px solid var(--rule-soft); margin-top:34px}
+.mark-cell{background:var(--surface); padding:30px 26px 22px; display:flex; flex-direction:column; gap:22px; min-height:190px}
+.mark-cell.on-sage{background:var(--sage)}
+.mark-cell.on-deep{background:var(--deep)}
+.mark-cell.on-cream{background:var(--cream)}
+.mark-cell svg{height:46px; width:auto}
+.mark-cell .cap{margin-top:auto; font-family:var(--display); font-size:12px; font-weight:500; letter-spacing:.03em}
+.cap-dark{color:var(--deep)} .cap-light{color:rgba(245,243,237,.72)}
+
+.construct{display:grid; grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); gap:clamp(28px,4vw,56px); align-items:center; margin-top:34px}
+@media(max-width:760px){.construct{grid-template-columns:1fr}}
+.construct-fig{background:var(--surface); border:1px solid var(--rule); padding:clamp(20px,3vw,38px)}
+.construct-fig svg{width:100%; height:auto; display:block}
+.spec{display:flex; flex-direction:column}
+.spec-row{display:flex; justify-content:space-between; gap:20px; padding-block:12px; border-bottom:1px solid var(--rule-soft); font-size:15px}
+.spec-row span:last-child{font-family:var(--mono); font-size:13px; color:var(--muted); text-align:right; font-variant-numeric:tabular-nums}
+
+/* ---------- colour ---------- */
+.swatches{display:grid; grid-template-columns:repeat(auto-fill,minmax(212px,1fr)); gap:clamp(14px,2vw,22px); margin-top:36px}
+.sw{display:flex; flex-direction:column; gap:14px}
+.chip{height:128px; border-radius:10px; border:1px solid rgba(48,72,71,.14); position:relative; display:flex; align-items:flex-end; padding:14px}
+.chip .num{font-family:var(--mono); font-size:11px; letter-spacing:.04em}
+.sw-body{display:flex; flex-direction:column; gap:5px}
+.sw-name{font-family:var(--display); font-size:14px; font-weight:600; letter-spacing:.02em; text-transform:uppercase; color:var(--ink-strong)}
+.sw-hex{font-family:var(--mono); font-size:12.5px; color:var(--muted)}
+.sw-use{font-size:14.5px; line-height:1.48; color:var(--muted)}
+
+.ratios{margin-top:48px; border-top:1px solid var(--rule); max-width:800px}
+.ratio{display:grid; grid-template-columns:minmax(0,1fr) 74px 96px; gap:16px; align-items:center; padding-block:13px; border-bottom:1px solid var(--rule-soft)}
+.ratio .pair{font-size:15px}
+.ratio .val{font-family:var(--mono); font-size:13px; text-align:right; font-variant-numeric:tabular-nums}
+.pill{
+  font-family:var(--display); font-size:10.5px; font-weight:600; letter-spacing:.09em;
+  text-transform:uppercase; padding:4px 9px; border-radius:4px; text-align:center;
+}
+.p-pass{background:var(--quiet); color:var(--ink-strong)}
+.p-large{background:color-mix(in srgb,var(--sand-tok) 34%,transparent); color:var(--ink-strong)}
+.p-fail{background:color-mix(in srgb,var(--sand-tok) 16%,transparent); color:var(--muted); border:1px solid var(--sand-tok)}
+@media(max-width:560px){.ratio{grid-template-columns:1fr 60px 84px; gap:10px}.ratio .pair{font-size:14px}}
+
+/* ---------- type ---------- */
+.type-spec{display:flex; flex-direction:column; margin-top:34px; border-top:1px solid var(--rule)}
+.type-row{display:grid; grid-template-columns:170px minmax(0,1fr); gap:clamp(16px,3vw,40px); padding-block:28px; border-bottom:1px solid var(--rule-soft); align-items:baseline}
+@media(max-width:640px){.type-row{grid-template-columns:1fr; gap:10px}}
+.type-meta{display:flex; flex-direction:column; gap:4px}
+.type-meta .n{font-family:var(--display); font-size:13px; font-weight:600; letter-spacing:.05em; text-transform:uppercase}
+.type-meta .d{font-family:var(--mono); font-size:11.5px; color:var(--muted); line-height:1.6}
+.t-display{font-family:var(--display); font-size:clamp(30px,4.4vw,46px); font-weight:500; letter-spacing:-.03em; line-height:1.06; color:var(--ink-strong)}
+.t-head{font-family:var(--display); font-size:23px; font-weight:600; letter-spacing:-.01em; color:var(--ink-strong)}
+.t-body{font-family:var(--body); font-size:17px; font-weight:400; line-height:1.62; max-width:46ch}
+.t-label{font-family:var(--display); font-size:11px; font-weight:600; letter-spacing:.16em; text-transform:uppercase; color:var(--muted)}
+.t-data{font-family:var(--mono); font-size:15px; font-variant-numeric:tabular-nums}
+
+/* ---------- motion ---------- */
+.motion{display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:clamp(24px,4vw,52px); margin-top:34px; align-items:start}
+@media(max-width:760px){.motion{grid-template-columns:1fr}}
+.timeline{display:flex; flex-direction:column; border-top:1px solid var(--rule)}
+.tl{display:grid; grid-template-columns:86px 1fr; gap:18px; padding-block:15px; border-bottom:1px solid var(--rule-soft); align-items:baseline}
+.tl .t{font-family:var(--mono); font-size:12.5px; color:var(--accent-ink); font-variant-numeric:tabular-nums}
+.tl .e{font-size:15px}
+.tl .e small{display:block; color:var(--muted); font-size:13.5px; margin-top:2px}
+
+/* ---------- voice ---------- */
+.voice{display:grid; grid-template-columns:1fr 1fr; gap:clamp(22px,3vw,44px); margin-top:34px}
+@media(max-width:680px){.voice{grid-template-columns:1fr}}
+.vcol{display:flex; flex-direction:column}
+.vcol h4{padding-bottom:12px; border-bottom:1px solid var(--rule); margin-bottom:0}
+.vline{padding-block:14px; border-bottom:1px solid var(--rule-soft); font-size:15.5px; line-height:1.5}
+.vline em{font-style:normal; color:var(--muted)}
+.say{border-left:2px solid var(--accent); padding-left:14px}
+.dont{border-left:2px solid var(--sand-tok); padding-left:14px; color:var(--muted)}
+
+/* ---------- surfaces ---------- */
+.icons{display:flex; flex-wrap:wrap; gap:clamp(18px,3vw,34px); align-items:flex-end; margin-top:34px}
+.icon-fig{display:flex; flex-direction:column; gap:12px; align-items:center}
+.icon-fig .lbl{font-family:var(--mono); font-size:11px; color:var(--muted)}
+.ic{border-radius:22.37%; display:grid; place-items:center; overflow:hidden}
+.ic svg{width:45%; height:auto}
+
+.ui-demo{margin-top:44px; border:1px solid var(--rule); border-radius:16px; overflow:hidden; background:var(--deep)}
+.ui-top{padding:26px clamp(20px,3vw,34px) 0; display:flex; align-items:center; gap:12px}
+.ui-top svg{height:17px; width:auto}
+.ui-top .u-t{font-family:var(--display); font-size:12px; font-weight:500; letter-spacing:.16em; text-transform:uppercase; color:rgba(245,243,237,.5); margin-left:auto}
+.ui-body{padding:clamp(30px,5vw,58px) clamp(20px,3vw,34px) clamp(30px,5vw,54px); display:flex; flex-direction:column; gap:8px}
+.ui-body .u-h{font-family:var(--display); font-size:clamp(24px,3.4vw,34px); font-weight:500; letter-spacing:-.025em; color:var(--cream)}
+.ui-body .u-s{font-family:var(--body); font-weight:300; color:rgba(245,243,237,.66); font-size:16px; max-width:36ch}
+.ui-controls{display:flex; flex-wrap:wrap; gap:10px; margin-top:26px}
+.u-btn{font-family:var(--display); font-size:14px; font-weight:500; padding:11px 22px; border-radius:999px; border:0; background:var(--cream); color:var(--deep)}
+.u-btn.ghost{background:transparent; color:rgba(245,243,237,.8); border:1px solid rgba(245,243,237,.24)}
+.u-layers{display:flex; flex-direction:column; gap:0; margin-top:34px; border-top:1px solid rgba(245,243,237,.13)}
+.u-layer{display:grid; grid-template-columns:1fr 132px 44px; gap:16px; align-items:center; padding-block:14px; border-bottom:1px solid rgba(245,243,237,.09)}
+.u-layer .nm{font-family:var(--display); font-size:15px; color:var(--cream)}
+.u-layer .bar-t{height:3px; background:rgba(245,243,237,.16); border-radius:2px; overflow:hidden}
+.u-layer .bar-t i{display:block; height:100%; background:var(--sage-light); border-radius:2px}
+.u-layer .pc{font-family:var(--mono); font-size:12px; color:rgba(245,243,237,.55); text-align:right; font-variant-numeric:tabular-nums}
+@media(max-width:520px){.u-layer{grid-template-columns:1fr 84px 40px; gap:10px}}
+
+/* ---------- assets ---------- */
+.files{display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:clamp(20px,3vw,40px); margin-top:34px}
+.fgroup h4{padding-bottom:11px; border-bottom:1px solid var(--rule); margin-bottom:0}
+.fgroup p{padding-block:10px; border-bottom:1px solid var(--rule-soft); font-family:var(--mono); font-size:12.5px; color:var(--muted); word-break:break-all}
+
+footer{padding-block:52px 70px; border-top:1px solid var(--rule)}
+.foot{display:flex; flex-wrap:wrap; gap:18px; align-items:center; justify-content:space-between}
+.foot svg{height:18px; width:auto}
+.foot p{font-family:var(--mono); font-size:11.5px; color:var(--muted)}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <g id="waves">
+    <path class="wave-a" d="M 4,14 C 22,25 42,25 60,15 C 78,5 98,5 116,11"/>
+    <path class="wave-a" d="M 4,48 C 22,59 42,59 60,49 C 78,39 98,39 116,45"/>
+    <path class="wave-a" d="M 4,82 C 22,93 42,93 60,83 C 78,73 98,73 116,79"/>
+  </g>
+  <g id="word">
+    <path d="M 5.5,0 V 100"/><path d="M 0,5.5 H 58"/><path d="M 0,52 H 48"/>
+    <path d="M 93.5,0 V 100"/>
+    <path d="M 134.5,0 V 100"/><path d="M 129,5.5 H 187"/><path d="M 129,52 H 179"/><path d="M 129,94.5 H 187"/>
+    <path d="M 222.5,0 V 100"/><path d="M 217,94.5 H 269"/>
+    <path d="M 304.5,0 V 100"/>
+    <path d="M 299,5.5 H 335 C 355,5.5 367.5,25 367.5,50 C 367.5,75 355,94.5 335,94.5 H 299"/>
+  </g>
+</defs></svg>
+
+<header class="bar">
+  <div class="wrap bar-in">
+    <svg viewBox="0 0 120 96" aria-label="FIELD"><use href="#waves" fill="none" stroke="var(--accent)" stroke-width="8" stroke-linecap="round"/></svg>
+    <nav>
+      <a href="#shift">The shift</a>
+      <a href="#mark">Mark</a>
+      <a href="#colour">Colour</a>
+      <a href="#type">Type</a>
+      <a href="#motion">Motion</a>
+      <a href="#voice">Voice</a>
+      <a href="#surfaces">Surfaces</a>
+      <a href="#assets">Assets</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="splash" id="splash">
+      <svg class="splash-mark" viewBox="0 0 120 96" aria-hidden="true"
+           fill="none" stroke="var(--accent)" stroke-width="8" stroke-linecap="round">
+        <path class="wave-a" d="M 4,14 C 22,25 42,25 60,15 C 78,5 98,5 116,11"/>
+        <path class="wave-a" d="M 4,48 C 22,59 42,59 60,49 C 78,39 98,39 116,45"/>
+        <path class="wave-a" d="M 4,82 C 22,93 42,93 60,83 C 78,73 98,73 116,79"/>
+      </svg>
+      <svg class="splash-word word-a" viewBox="0 0 373 100" aria-label="FIELD">
+        <use href="#word" fill="none" stroke="var(--ink-strong)" stroke-width="11"/>
+      </svg>
+    </div>
+    <button class="replay ui" id="replay" type="button">Replay the open</button>
+    <div class="stack prose" style="gap:22px; margin-top:52px">
+      <h1>Your personal soundscape.</h1>
+      <p class="lede">FIELD is a premium sound and sleep-environment brand. Calm, intelligent, natural — not sleepy. This manual sets the mark, the colour language, the type, the motion and the voice, so everything that carries the name looks like it came from the same place.</p>
+      <p class="mono muted">Version 1.0 · September 2026 · Supersedes Sleep Atlas</p>
+    </div>
+  </div>
+</section>
+
+<!-- SHIFT -->
+<section id="shift">
+  <div class="wrap">
+    <div class="sec-head prose">
+      <p class="eyebrow">Positioning</p>
+      <h2>What changes, and what carries over</h2>
+      <p class="lede">Sleep Atlas was a shift-work fatigue platform with a sound tool inside it. FIELD is a sound and sleep-environment brand with shift-work expertise behind it. The centre of gravity moves from the rota to the room.</p>
+    </div>
+    <div class="prose stack" style="gap:18px">
+      <p>The founder's forty years across the King's Regiment, industrial manufacturing, the prison service and heavy logistics stay in the identity — but as the reason FIELD is credible, not as the subject of every page. Nobody buys a rota calculator. They buy a quiet room at two in the afternoon.</p>
+      <p><strong>The YMYL guardrails do not relax.</strong> No clinical or diagnostic language anywhere in FIELD: no disorders, no insomnia, no diagnoses. The vocabulary stays operational — sleep environment, sound masking, daytime sleep, body clock, recovery, shift fatigue.</p>
+    </div>
+    <div class="shift">
+      <div class="shift-col">
+        <h4 class="was">Sleep Atlas said</h4>
+        <p class="was">A fatigue-management platform for shift workers</p>
+        <p class="was">Calculators, scores and trackers lead</p>
+        <p class="was">Mask AI was a feature inside the platform</p>
+        <p class="was">Night navy, Circadian Indigo, Dawn Amber</p>
+        <p class="was">Dashboard-first, data dense</p>
+        <p class="was">"Master your rota. Eliminate shift fatigue."</p>
+      </div>
+      <div class="shift-col">
+        <h4>FIELD says</h4>
+        <p>A sound and sleep-environment brand, for anyone whose sleep is hard-won</p>
+        <p>The sound session leads; tools support it</p>
+        <p>The soundscape <em>is</em> the product</p>
+        <p>FIELD Sage, Deep Field, cream and sand</p>
+        <p>Session-first, quiet, spacious</p>
+        <p>"Your personal soundscape."</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARK -->
+<section id="mark">
+  <div class="wrap">
+    <div class="sec-head prose">
+      <p class="eyebrow">The mark</p>
+      <h2>Three waves</h2>
+      <p class="lede">Three thin waves, evenly stacked, each one drifting slightly ahead of the last. It reads as sound, air and water at once without naming any of them — and it survives being shrunk to a favicon. Nothing is added to it. Ever.</p>
+    </div>
+
+    <div class="construct">
+      <div class="construct-fig">
+        <svg viewBox="-6 -8 132 112" aria-label="Mark construction">
+          <g stroke="var(--rule)" stroke-width=".5" fill="none">
+            <path d="M4,-8 V104 M116,-8 V104 M-6,14 H126 M-6,48 H126 M-6,82 H126"/>
+          </g>
+          <use href="#waves" fill="none" stroke="var(--accent)" stroke-width="8" stroke-linecap="round"/>
+          <g fill="var(--muted)" font-family="JetBrains Mono, monospace" font-size="5.5">
+            <text x="-5" y="12.2">1×</text>
+            <text x="-5" y="46.2">2×</text>
+            <text x="-5" y="80.2">3×</text>
+          </g>
+        </svg>
+      </div>
+      <div class="spec">
+        <h3 style="margin-bottom:14px">Construction</h3>
+        <div class="spec-row"><span>Drawing grid</span><span>120 × 96</span></div>
+        <div class="spec-row"><span>Stroke weight</span><span>8 units · 6.7% of width</span></div>
+        <div class="spec-row"><span>Baseline pitch</span><span>34 units</span></div>
+        <div class="spec-row"><span>Terminals</span><span>round cap, round join</span></div>
+        <div class="spec-row"><span>Clear space</span><span>1× stroke weight, all sides</span></div>
+        <div class="spec-row"><span>Minimum size</span><span>16 px tall (digital)</span></div>
+        <div class="spec-row"><span>Minimum size</span><span>6 mm tall (print)</span></div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:clamp(44px,6vw,76px)">Approved colourways</h3>
+    <div class="mark-grid">
+      <div class="mark-cell">
+        <svg viewBox="0 0 120 96"><use href="#waves" fill="none" stroke="var(--accent)" stroke-width="8" stroke-linecap="round"/></svg>
+        <span class="cap" style="color:var(--muted)">Sage on neutral · default</span>
+      </div>
+      <div class="mark-cell on-sage">
+        <svg viewBox="0 0 120 96"><use href="#waves" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/></svg>
+        <span class="cap cap-light">White on FIELD Sage · app icon</span>
+      </div>
+      <div class="mark-cell on-deep">
+        <svg viewBox="0 0 120 96"><use href="#waves" fill="none" stroke="#F5F3ED" stroke-width="8" stroke-linecap="round"/></svg>
+        <span class="cap cap-light">Cream on Deep Field · dark UI</span>
+      </div>
+      <div class="mark-cell on-cream">
+        <svg viewBox="0 0 120 96"><use href="#waves" fill="none" stroke="#304847" stroke-width="8" stroke-linecap="round"/></svg>
+        <span class="cap cap-dark">Deep Field on cream · print, mono</span>
+      </div>
+    </div>
+
+    <div class="prose stack" style="gap:16px; margin-top:40px">
+      <h3>Never</h3>
+      <p class="muted">Add a fourth wave. Rotate or tilt it. Stretch one axis. Outline it. Put a gradient through it. Sit it on a photograph without a solid holding shape. Enclose it in a circle. Pair it with a moon, a star, a cloud or a pair of Zs. Re-space the waves to fit a box — scale the whole mark instead.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COLOUR -->
+<section id="colour">
+  <div class="wrap">
+    <div class="sec-head prose">
+      <p class="eyebrow">Colour</p>
+      <h2>A proprietary language, not a picker</h2>
+      <p class="lede">Seven named colours plus one functional tint. Use the names in code, in design files and in conversation — <span class="mono">--field-sage</span>, never "the green one". The names are half the point.</p>
+    </div>
+
+    <div class="swatches">
+      <div class="sw">
+        <div class="chip" style="background:#5D8786"><span class="num" style="color:rgba(255,255,255,.82)">01</span></div>
+        <div class="sw-body"><span class="sw-name">Field Sage</span><span class="sw-hex">#5D8786</span>
+          <span class="sw-use">The brand. App icon, headers, active states, brand graphics, primary surfaces. The colour people should come to recognise on sight.</span></div>
+      </div>
+      <div class="sw">
+        <div class="chip" style="background:#304847"><span class="num" style="color:rgba(245,243,237,.75)">02</span></div>
+        <div class="sw-body"><span class="sw-name">Deep Field</span><span class="sw-hex">#304847</span>
+          <span class="sw-use">Body text on light grounds, dark UI, navigation, headings, icons. Softer than black — never substitute pure #000.</span></div>
+      </div>
+      <div class="sw">
+        <div class="chip" style="background:#F5F3ED"><span class="num" style="color:rgba(48,72,71,.6)">03</span></div>
+        <div class="sw-body"><span class="sw-name">Field Cream</span><span class="sw-hex">#F5F3ED</span>
+          <span class="sw-use">The default light ground, everywhere. Replaces pure white on web, app and print. This is what makes FIELD feel warm rather than clinical.</span></div>
+      </div>
+      <div class="sw">
+        <div class="chip" style="background:#D9E4E2"><span class="num" style="color:rgba(48,72,71,.6)">04</span></div>
+        <div class="sw-body"><span class="sw-name">Soft Sage</span><span class="sw-hex">#D9E4E2</span>
+          <span class="sw-use">Secondary cards, selected states, input fills, sound-profile and room-scan areas. Sage's quiet register.</span></div>
+      </div>
+      <div class="sw">
+        <div class="chip" style="background:#EDF2F0"><span class="num" style="color:rgba(48,72,71,.55)">05</span></div>
+        <div class="sw-body"><span class="sw-name">Mist</span><span class="sw-hex">#EDF2F0</span>
+          <span class="sw-use">Dividers, form fields, background variation, subtle separation. Where a border would be too loud.</span></div>
+      </div>
+      <div class="sw">
+        <div class="chip" style="background:#202827"><span class="num" style="color:rgba(245,243,237,.7)">06</span></div>
+        <div class="sw-body"><span class="sw-name">Charcoal</span><span class="sw-hex">#202827</span>
+          <span class="sw-use">Maximum-contrast text and the deepest dark ground. Sparingly — FIELD is not a black-and-white brand.</span></div>
+      </div>
+      <div class="sw">
+        <div class="chip" style="background:#C8B99F"><span class="num" style="color:rgba(32,40,39,.66)">07</span></div>
+        <div class="sw-body"><span class="sw-name">Warm Sand</span><span class="sw-hex">#C8B99F</span>
+          <span class="sw-use">The accent, introduced carefully. Premium and bundle indicators, small highlights, occasional illustration. Never as text on a light ground.</span></div>
+      </div>
+      <div class="sw">
+        <div class="chip" style="background:#8FB3B2"><span class="num" style="color:rgba(32,40,39,.62)">—</span></div>
+        <div class="sw-body"><span class="sw-name">Sage Light</span><span class="sw-hex">#8FB3B2</span>
+          <span class="sw-use">Functional tint, dark UI only. FIELD Sage is too dark to read on Charcoal; this is the sage that works there. Not a brand colour — never use it on light grounds.</span></div>
+      </div>
+    </div>
+
+    <h3 style="margin-top:clamp(48px,6vw,80px)">Pairings that hold up</h3>
+    <p class="prose muted" style="margin-top:12px">WCAG 2.1 contrast ratios, measured. "Large only" means 24&nbsp;px regular or 18.5&nbsp;px bold and above — headings, buttons and UI labels, never paragraphs.</p>
+    <div class="ratios">
+      <div class="ratio"><span class="pair">Deep Field on Field Cream</span><span class="val">8.83</span><span class="pill p-pass">AAA</span></div>
+      <div class="ratio"><span class="pair">Charcoal on Field Cream</span><span class="val">13.57</span><span class="pill p-pass">AAA</span></div>
+      <div class="ratio"><span class="pair">Deep Field on Soft Sage</span><span class="val">7.53</span><span class="pill p-pass">AAA</span></div>
+      <div class="ratio"><span class="pair">Field Cream on Deep Field</span><span class="val">8.83</span><span class="pill p-pass">AAA</span></div>
+      <div class="ratio"><span class="pair">Warm Sand on Charcoal</span><span class="val">7.82</span><span class="pill p-pass">AAA</span></div>
+      <div class="ratio"><span class="pair">Sage Light on Charcoal</span><span class="val">6.64</span><span class="pill p-pass">AA</span></div>
+      <div class="ratio"><span class="pair">White on Field Sage</span><span class="val">3.98</span><span class="pill p-large">Large only</span></div>
+      <div class="ratio"><span class="pair">Field Sage on Field Cream</span><span class="val">3.59</span><span class="pill p-large">Large only</span></div>
+      <div class="ratio"><span class="pair">Deep Field on Field Sage</span><span class="val">2.46</span><span class="pill p-fail">Don't</span></div>
+      <div class="ratio"><span class="pair">Warm Sand on Field Cream</span><span class="val">1.74</span><span class="pill p-fail">Don't</span></div>
+    </div>
+    <div class="prose stack" style="gap:14px; margin-top:34px">
+      <h3>Two rules that follow from the numbers</h3>
+      <p>FIELD Sage is a <em>surface and identity</em> colour, not a body-text colour. Set paragraphs in Deep Field; let sage carry the icon, the headers, the active states and the graphics.</p>
+      <p>The primary button is <strong>Deep Field with a cream label</strong> (8.83), not sage with a white one (3.98). Sage buttons are allowed at large sizes, but the Deep Field button is the one that always works.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TYPE -->
+<section id="type">
+  <div class="wrap">
+    <div class="sec-head prose">
+      <p class="eyebrow">Typography</p>
+      <h2>Schibsted Grotesk and Hanken Grotesk</h2>
+      <p class="lede">A Scandinavian grotesk for everything structural, and a humanist companion for anything longer than a paragraph. Both are open-licence, so the site, the app and a printed insert can all be set in the real thing. Bold is used to mean something, not to fill space.</p>
+    </div>
+    <div class="type-spec">
+      <div class="type-row">
+        <div class="type-meta"><span class="n">Display</span><span class="d">Schibsted Grotesk<br>Medium 500<br>−3% tracking<br>1.05 leading</span></div>
+        <p class="t-display">Quiet is a feature.</p>
+      </div>
+      <div class="type-row">
+        <div class="type-meta"><span class="n">Heading</span><span class="d">Schibsted Grotesk<br>SemiBold 600<br>−1% tracking</span></div>
+        <p class="t-head">Build the room around the sleep</p>
+      </div>
+      <div class="type-row">
+        <div class="type-meta"><span class="n">Body</span><span class="d">Hanken Grotesk<br>Regular 400 / Light 300<br>1.62 leading<br>65ch measure</span></div>
+        <p class="t-body">Daytime sleep fails for a reason you can hear. FIELD builds a sound field around the room you actually sleep in, so the bin lorry, the letterbox and the neighbour's drill stop arriving as events.</p>
+      </div>
+      <div class="type-row">
+        <div class="type-meta"><span class="n">Label</span><span class="d">Schibsted Grotesk<br>SemiBold 600<br>+16% tracking<br>uppercase</span></div>
+        <p class="t-label">Session · Layers · Timer</p>
+      </div>
+      <div class="type-row">
+        <div class="type-meta"><span class="n">Data</span><span class="d">JetBrains Mono<br>Regular 400<br>tabular figures</span></div>
+        <p class="t-data">07:42:15 &nbsp;·&nbsp; 62 dB &nbsp;·&nbsp; 40 Hz – 18 kHz</p>
+      </div>
+    </div>
+    <div class="prose stack" style="gap:14px; margin-top:38px">
+      <h3>Setting rules</h3>
+      <p class="muted">One display size per screen — if two things are the biggest thing, nothing is. Keep running text to about 65 characters. Never centre a paragraph. Never set body text below 16&nbsp;px. Use Light 300 only above 18&nbsp;px, and never on Deep Field grounds. Sentence case everywhere except labels; no ALL CAPS headlines.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MOTION -->
+<section id="motion">
+  <div class="wrap">
+    <div class="sec-head prose">
+      <p class="eyebrow">Motion</p>
+      <h2>The settle</h2>
+      <p class="lede">The three waves arrive one after another and settle into place, then the name appears. It is the only signature animation FIELD has — splash screen, site load, App Store preview — and it is the same every time, so it becomes recognisable.</p>
+    </div>
+    <div class="motion">
+      <div class="timeline">
+        <div class="tl"><span class="t">0 ms</span><span class="e">Ground fills with FIELD Cream<small>No logo yet. The pause is deliberate.</small></span></div>
+        <div class="tl"><span class="t">60 ms</span><span class="e">Wave one settles<small>From below-left, flattened, into place</small></span></div>
+        <div class="tl"><span class="t">230 ms</span><span class="e">Wave two settles<small>170 ms behind the first</small></span></div>
+        <div class="tl"><span class="t">400 ms</span><span class="e">Wave three settles<small>The stagger is what makes it read as sound</small></span></div>
+        <div class="tl"><span class="t">820 ms</span><span class="e">FIELD rises<small>14 px up, fade in, no scale</small></span></div>
+        <div class="tl"><span class="t">1.7 s</span><span class="e">At rest<small>Hold, then hand off to the session screen</small></span></div>
+      </div>
+      <div class="spec">
+        <h3 style="margin-bottom:14px">Specification</h3>
+        <div class="spec-row"><span>Wave duration</span><span>1100 ms</span></div>
+        <div class="spec-row"><span>Wave stagger</span><span>170 ms</span></div>
+        <div class="spec-row"><span>Easing</span><span>cubic-bezier(.22,.9,.28,1)</span></div>
+        <div class="spec-row"><span>Wordmark</span><span>900 ms, 820 ms delay</span></div>
+        <div class="spec-row"><span>Total runtime</span><span>1.72 s</span></div>
+        <div class="spec-row"><span>Reduced motion</span><span>hold the rest state</span></div>
+        <p class="muted" style="margin-top:22px; font-size:15px; line-height:1.55">Everywhere else, motion stays under 200&nbsp;ms and moves one property. No parallax, no scroll-jacking, no card lifts. The settle is the flourish; nothing else competes with it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VOICE -->
+<section id="voice">
+  <div class="wrap">
+    <div class="sec-head prose">
+      <p class="eyebrow">Voice</p>
+      <h2>Quiet, confident, specific</h2>
+      <p class="lede">FIELD talks the way someone who has actually worked nights talks: short sentences, real detail, no selling. Never soothing-app language, never wellness language, never clinical language.</p>
+    </div>
+    <div class="voice">
+      <div class="vcol">
+        <h4>Say this</h4>
+        <div class="vline say">Your personal soundscape.</div>
+        <div class="vline say">Built for the room you actually sleep in.</div>
+        <div class="vline say">Start a session</div>
+        <div class="vline say">Eleven layers. Mix your own.</div>
+        <div class="vline say">Sleeping days is harder. This helps.</div>
+        <div class="vline say">Set a timer, or let it run.</div>
+      </div>
+      <div class="vcol">
+        <h4 class="muted">Not this</h4>
+        <div class="vline dont">Drift off into dreamland ✨</div>
+        <div class="vline dont">Unlock your sleep potential with AI</div>
+        <div class="vline dont">Begin your wellness journey</div>
+        <div class="vline dont">Clinically proven to treat insomnia <em>— YMYL risk</em></div>
+        <div class="vline dont">Upgrade now! Limited offer!</div>
+        <div class="vline dont">Our revolutionary smart engine</div>
+      </div>
+    </div>
+    <div class="prose stack" style="gap:14px; margin-top:38px">
+      <h3>Rules</h3>
+      <p class="muted">No exclamation marks. No emoji in product copy. No "AI magic" — say what it does instead. Never diagnose, never claim treatment, never name a condition. Subscription prompts appear once, quietly, and never interrupt a running session. If a sentence could appear in any meditation app, rewrite it.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SURFACES -->
+<section id="surfaces">
+  <div class="wrap">
+    <div class="sec-head prose">
+      <p class="eyebrow">Surfaces</p>
+      <h2>How it lands</h2>
+      <p class="lede">The icon is the mark on a FIELD Sage ground, centred, occupying 45% of the width. It is the one place the mark always appears in white.</p>
+    </div>
+    <div class="icons">
+      <div class="icon-fig">
+        <div class="ic" style="width:128px; height:128px; background:#5D8786">
+          <svg viewBox="0 0 120 96"><use href="#waves" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/></svg>
+        </div>
+        <span class="lbl">Primary · 1024</span>
+      </div>
+      <div class="icon-fig">
+        <div class="ic" style="width:80px; height:80px; background:#304847">
+          <svg viewBox="0 0 120 96"><use href="#waves" fill="none" stroke="#F5F3ED" stroke-width="8" stroke-linecap="round"/></svg>
+        </div>
+        <span class="lbl">Dark · 180</span>
+      </div>
+      <div class="icon-fig">
+        <div class="ic" style="width:56px; height:56px; background:#F5F3ED">
+          <svg viewBox="0 0 120 96"><use href="#waves" fill="none" stroke="#5D8786" stroke-width="8" stroke-linecap="round"/></svg>
+        </div>
+        <span class="lbl">Cream · 64</span>
+      </div>
+      <div class="icon-fig">
+        <div class="ic" style="width:32px; height:32px; background:#5D8786">
+          <svg viewBox="0 0 120 96"><use href="#waves" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/></svg>
+        </div>
+        <span class="lbl">Favicon · 32</span>
+      </div>
+    </div>
+
+    <h3 style="margin-top:clamp(44px,6vw,72px)">Session screen — the brand doing its job</h3>
+    <p class="prose muted" style="margin-top:12px">Deep Field ground, cream type, one primary action, layers as thin rules rather than cards. The session is the only thing on screen.</p>
+    <div class="ui-demo">
+      <div class="ui-top">
+        <svg viewBox="0 0 120 96" aria-hidden="true"><use href="#waves" fill="none" stroke="#F5F3ED" stroke-width="8" stroke-linecap="round"/></svg>
+        <span class="u-t">Session</span>
+      </div>
+      <div class="ui-body">
+        <span class="u-h">Afternoon, quiet street</span>
+        <span class="u-s">Your saved mix. Four layers, 90-minute fade.</span>
+        <div class="ui-controls">
+          <button class="u-btn" type="button">Start session</button>
+          <button class="u-btn ghost" type="button">Edit layers</button>
+        </div>
+        <div class="u-layers">
+          <div class="u-layer"><span class="nm">Rain, steady</span><span class="bar-t"><i style="width:72%"></i></span><span class="pc">72%</span></div>
+          <div class="u-layer"><span class="nm">Brown noise</span><span class="bar-t"><i style="width:48%"></i></span><span class="pc">48%</span></div>
+          <div class="u-layer"><span class="nm">Cabin hum</span><span class="bar-t"><i style="width:31%"></i></span><span class="pc">31%</span></div>
+          <div class="u-layer"><span class="nm">Wind, distant</span><span class="bar-t"><i style="width:18%"></i></span><span class="pc">18%</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="prose muted" style="margin-top:18px; font-size:15px">Example session data, shown to illustrate the layout.</p>
+  </div>
+</section>
+
+<!-- ASSETS -->
+<section id="assets">
+  <div class="wrap">
+    <div class="sec-head prose">
+      <p class="eyebrow">Assets</p>
+      <h2>What's in the pack</h2>
+      <p class="lede">Every file has a transparent background. SVG is the master in all cases — reach for a PNG only where SVG isn't accepted. The waves are drawn as strokes, so colour is a one-line change in any file.</p>
+    </div>
+    <div class="files">
+      <div class="fgroup">
+        <h4>Mark</h4>
+        <p>field-mark-sage.svg</p>
+        <p>field-mark-white.svg</p>
+        <p>field-mark-deep.svg</p>
+        <p>field-mark-cream.svg</p>
+        <p>field-mark-charcoal.svg</p>
+      </div>
+      <div class="fgroup">
+        <h4>Wordmark</h4>
+        <p>field-wordmark-sage.svg</p>
+        <p>field-wordmark-white.svg</p>
+        <p>field-wordmark-deep.svg</p>
+        <p>field-wordmark-charcoal.svg</p>
+      </div>
+      <div class="fgroup">
+        <h4>Lockups</h4>
+        <p>field-logo-horizontal-{sage · white · deep · cream}.svg</p>
+        <p>field-logo-stacked-{sage · white · deep · cream}.svg</p>
+      </div>
+      <div class="fgroup">
+        <h4>App icon</h4>
+        <p>field-appicon.svg · sage</p>
+        <p>field-appicon-deep.svg</p>
+        <p>field-appicon-cream.svg</p>
+        <p>png @ 1024 · 512 · 180 · 64 · 32</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <svg viewBox="0 0 536.3 134" aria-label="FIELD">
+      <use href="#waves" transform="scale(1.3958)" fill="none" stroke="var(--accent)" stroke-width="8" stroke-linecap="round"/>
+      <use href="#word" transform="translate(215.5,23) scale(0.86)" fill="none" stroke="var(--ink-strong)" stroke-width="11"/>
+    </svg>
+    <p>FIELD Identity Manual · v1.0 · September 2026</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var splash = document.getElementById('splash');
+  var btn = document.getElementById('replay');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function play(){
+    if (reduce) return;
+    splash.classList.remove('playing');
+    void splash.offsetWidth;
+    splash.classList.add('playing');
+  }
+  if (btn) btn.addEventListener('click', play);
+  play();
+})();
+</script>
