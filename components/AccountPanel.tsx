@@ -7,7 +7,7 @@ import { useAuth } from "@/components/AuthProvider";
 import { logIn, logOut, setPlan, signUp } from "@/lib/auth";
 
 const inputClass =
-  "mt-1.5 w-full rounded-xl border border-white/10 bg-night-900 px-4 py-3 text-ink placeholder:text-ink-faint focus:border-indigoGlow/60 focus:outline-none";
+  "mt-1.5 w-full rounded-xl border border-ink/10 bg-paper px-4 py-3 text-ink placeholder:text-ink-faint focus:border-sage/60 focus:outline-none";
 
 export default function AccountPanel() {
   const { user, admin, refresh } = useAuth();
@@ -40,7 +40,7 @@ export default function AccountPanel() {
   if (user) {
     return (
       <div className="card-surface p-8">
-        <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-teal-glow">
+        <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-good">
           <UserRound className="h-4 w-4" aria-hidden="true" />
           Signed in
         </p>
@@ -51,15 +51,15 @@ export default function AccountPanel() {
           <span
             className={`inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-semibold ${
               user.plan === "premium"
-                ? "bg-indigoGlow/15 text-indigoGlow-soft"
-                : "bg-white/[0.06] text-ink-muted"
+                ? "bg-sage/15 text-sage-deep"
+                : "bg-ink/[0.06] text-ink-muted"
             }`}
           >
             <BadgeCheck className="h-4 w-4" aria-hidden="true" />
             {user.plan === "premium" ? "Premium member" : "Free plan"}
           </span>
           {admin && (
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-dawn/15 px-4 py-1.5 text-sm font-semibold text-dawn">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-sand/15 px-4 py-1.5 text-sm font-semibold text-sand-ink">
               <ShieldCheck className="h-4 w-4" aria-hidden="true" />
               Admin
             </span>
@@ -67,9 +67,9 @@ export default function AccountPanel() {
         </div>
 
         {user.plan === "free" && (
-          <div className="mt-8 rounded-xl border border-indigoGlow/30 bg-night-900 p-6">
+          <div className="mt-8 rounded-xl border border-sage/30 bg-paper p-6">
             <h3 className="font-display text-lg font-semibold">
-              Unlock Mask AI Premium
+              Unlock FIELD Premium
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-ink-muted">
               Heavy rain and fan hum layers, the personal blend questionnaire,
@@ -82,7 +82,7 @@ export default function AccountPanel() {
                 setPlan(user.email, "premium");
                 refresh();
               }}
-              className="mt-4 rounded-xl bg-indigoGlow px-5 py-3 font-semibold text-night-950 transition-all duration-200 hover:bg-indigoGlow-soft hover:shadow-glow"
+              className="mt-4 rounded-xl bg-deep px-5 py-3 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink hover:shadow-glow"
             >
               Activate Premium (founding member)
             </button>
@@ -91,15 +91,15 @@ export default function AccountPanel() {
 
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
-            href="/mask-ai/"
-            className="rounded-xl bg-teal-glow px-5 py-3 font-semibold text-night-950 transition-all duration-200 hover:opacity-90"
+            href="/session/"
+            className="rounded-xl bg-deep px-5 py-3 font-semibold text-cream transition-all duration-200 hover:opacity-90"
           >
-            Open Mask AI
+            Open the session
           </Link>
           {admin && (
             <Link
               href="/admin/"
-              className="rounded-xl border border-dawn/40 px-5 py-3 font-semibold text-dawn transition-colors hover:bg-dawn/10"
+              className="rounded-xl border border-sand/40 px-5 py-3 font-semibold text-sand-ink transition-colors hover:bg-sand/10"
             >
               Admin dashboard
             </Link>
@@ -110,7 +110,7 @@ export default function AccountPanel() {
               logOut();
               refresh();
             }}
-            className="inline-flex items-center gap-2 rounded-xl border border-white/15 px-5 py-3 font-semibold text-ink transition-colors hover:border-white/30"
+            className="inline-flex items-center gap-2 rounded-xl border border-ink/15 px-5 py-3 font-semibold text-ink transition-colors hover:border-ink/30"
           >
             <LogOut className="h-4 w-4" aria-hidden="true" />
             Log out
@@ -135,8 +135,8 @@ export default function AccountPanel() {
             }}
             className={`rounded-full px-5 py-2 text-sm font-semibold transition-colors ${
               mode === m
-                ? "bg-indigoGlow text-night-950"
-                : "border border-white/10 text-ink-muted hover:text-ink"
+                ? "bg-deep text-cream"
+                : "border border-ink/10 text-ink-muted hover:text-ink"
             }`}
           >
             {m === "signup" ? "Create account" : "Log in"}
@@ -192,7 +192,7 @@ export default function AccountPanel() {
         </div>
 
         {error && (
-          <p role="alert" className="rounded-xl bg-dawn/10 px-4 py-3 text-sm text-dawn">
+          <p role="alert" className="rounded-xl bg-sand/10 px-4 py-3 text-sm text-sand-ink">
             {error}
           </p>
         )}
@@ -200,14 +200,14 @@ export default function AccountPanel() {
         <button
           type="submit"
           disabled={busy}
-          className="w-full rounded-xl bg-indigoGlow px-6 py-3.5 font-semibold text-night-950 transition-all duration-200 hover:bg-indigoGlow-soft hover:shadow-glow disabled:opacity-50"
+          className="w-full rounded-xl bg-deep px-6 py-3.5 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink hover:shadow-glow disabled:opacity-50"
         >
           {busy ? "One moment…" : mode === "signup" ? "Create my account" : "Log in"}
         </button>
       </form>
 
       <p className="mt-5 text-xs leading-relaxed text-ink-faint">
-        Accounts currently live in this browser while Sleep Atlas is in
+        Accounts currently live in this browser while FIELD is in
         early access. Your password is never stored in plain text.
       </p>
     </div>

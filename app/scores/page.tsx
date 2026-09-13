@@ -5,9 +5,9 @@ import Reveal from "@/components/Reveal";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "The Sleep Atlas Score: How It Works",
+  title: "The FIELD Score: How It Works",
   description:
-    "The Sleep Atlas Score is the proprietary scoring framework for non-standard schedules: one overall number built from Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt.",
+    "The FIELD Score is the proprietary scoring framework for non-standard schedules: one overall number built from Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt.",
 };
 
 const SUB_SCORES = [
@@ -39,19 +39,19 @@ const SUB_SCORES = [
 
 const FAQS = [
   {
-    question: "What is the Sleep Atlas Score?",
+    question: "What is the FIELD Score?",
     answer:
-      "The Sleep Atlas Score is a single 0–100 number that tells a shift worker how well they're coping with their rota. It combines four sub-scores: Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt, each built from quick practical inputs rather than wearables or lab data.",
+      "The FIELD Score is a single 0–100 number that tells a shift worker how well they're coping with their rota. It combines four sub-scores: Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt, each built from quick practical inputs rather than wearables or lab data.",
   },
   {
-    question: "How is the Sleep Atlas Score different from a sleep tracker score?",
+    question: "How is the FIELD Score different from a sleep tracker score?",
     answer:
-      "Wearable scores assume a normal night sleeper and judge you against a 10pm–6am world. The Sleep Atlas Score is built for non-standard schedules: it knows a 6-hour day-sleep after a night shift is a different achievement from a 6-hour night sleep, and scores you against your rota's reality.",
+      "Wearable scores assume a normal night sleeper and judge you against a 10pm–6am world. The FIELD Score is built for non-standard schedules: it knows a 6-hour day-sleep after a night shift is a different achievement from a 6-hour night sleep, and scores you against your rota's reality.",
   },
   {
-    question: "How do I improve my Sleep Atlas Score?",
+    question: "How do I improve my FIELD Score?",
     answer:
-      "Each sub-score maps to a tool: fix Noise Impact with the Noise Calibration Tool and Mask AI; fix Circadian Recovery with the Rota Flip-Flop Calculator; fix Sleep Debt with the logger and recovery naps; and improve Rota Adaptation by matching tactics to your chronotype.",
+      "Each sub-score maps to a tool: fix Noise Impact with the Noise Calibration Tool and a tuned session; fix Circadian Recovery with the Rota Flip-Flop Calculator; fix Sleep Debt with the logger and recovery naps; and improve Rota Adaptation by matching tactics to your chronotype.",
   },
 ];
 
@@ -67,9 +67,9 @@ export default function ScoresPage() {
           ]),
         ]}
       />
-      <div className="aurora">
+      <div className="field-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
+          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             One number for surviving your rota
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -86,7 +86,7 @@ export default function ScoresPage() {
           {SUB_SCORES.map((s, i) => (
             <Reveal key={s.name} delay={i * 60}>
               <div className="card-surface h-full p-7">
-                <s.icon className="h-8 w-8 text-indigoGlow" aria-hidden="true" />
+                <s.icon className="h-8 w-8 text-sage" aria-hidden="true" />
                 <h2 className="mt-4 font-display text-xl font-semibold">{s.name}</h2>
                 <p className="mt-2 leading-relaxed text-ink-muted">{s.what}</p>
                 <p className="mt-3 text-sm text-ink-faint">
@@ -97,10 +97,10 @@ export default function ScoresPage() {
           ))}
         </div>
 
-        <section className="prose-atlas mt-16 max-w-3xl">
+        <section className="prose-field mt-16 max-w-3xl">
           <h2>How the overall score works</h2>
           <p>
-            Your overall Sleep Atlas Score is a weighted blend of the four
+            Your overall FIELD Score is a weighted blend of the four
             sub-scores, with Accumulated Sleep Debt carrying the heaviest
             weight, because debt is the component that turns into a safety
             problem fastest. Quick inputs across the tools and trackers keep

@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
     "",
     "/tools/",
-    "/mask-ai/",
+    "/session/",
     "/trackers/",
     "/scores/",
     "/resources/",

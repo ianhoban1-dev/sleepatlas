@@ -1,16 +1,16 @@
 import Link from "next/link";
-import { MoonStar } from "lucide-react";
+import FieldMark from "@/components/FieldMark";
 import { NAV_LINKS, SITE, FOUNDER } from "@/lib/site";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/[0.06] bg-night-900">
+    <footer className="border-t border-ink/[0.06] bg-paper">
       <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-2">
-              <MoonStar className="h-5 w-5 text-indigoGlow" aria-hidden="true" />
-              <span className="font-display text-lg font-semibold">Sleep Atlas</span>
+              <FieldMark className="h-4 w-auto text-sage" />
+              <span className="font-display text-lg font-semibold tracking-[0.08em]">FIELD</span>
             </div>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-muted">
               {SITE.tagline} Built on {FOUNDER.yearsOfShiftWork} years of real
@@ -42,7 +42,7 @@ export default function Footer() {
               A note on what we are
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-ink-muted">
-              Sleep Atlas is a lifestyle, performance and operational-safety
+              FIELD is a lifestyle, performance and operational-safety
               resource for people who work non-traditional hours. It is not a
               medical service. If sleep problems are affecting your health,
               speak to your GP.
@@ -50,8 +50,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <p className="mt-12 border-t border-white/[0.06] pt-6 text-xs text-ink-faint">
-          © {new Date().getFullYear()} Sleep Atlas. All rights reserved.
+        <p className="mt-12 border-t border-ink/[0.06] pt-6 text-xs text-ink-faint">
+          © {new Date().getFullYear()} FIELD. All rights reserved.
         </p>
       </div>
     </footer>

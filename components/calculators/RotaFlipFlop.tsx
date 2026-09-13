@@ -57,7 +57,7 @@ export default function RotaFlipFlop() {
             type="time"
             value={shiftEnd}
             onChange={(e) => setShiftEnd(e.target.value)}
-            className="w-full rounded-lg border border-white/10 bg-night-700 px-4 py-3 text-ink"
+            className="w-full rounded-lg border border-ink/10 bg-mist px-4 py-3 text-ink"
           />
         </div>
         <div>
@@ -69,20 +69,20 @@ export default function RotaFlipFlop() {
             type="time"
             value={targetBedtime}
             onChange={(e) => setTargetBedtime(e.target.value)}
-            className="w-full rounded-lg border border-white/10 bg-night-700 px-4 py-3 text-ink"
+            className="w-full rounded-lg border border-ink/10 bg-mist px-4 py-3 text-ink"
           />
         </div>
       </div>
 
       <ol className="mt-8 space-y-4">
         {steps.map((step, i) => (
-          <li key={step.title} className="flex items-start gap-4 rounded-xl bg-night-700 p-4">
-            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-indigoGlow/15 font-display text-sm font-semibold text-indigoGlow">
+          <li key={step.title} className="flex items-start gap-4 rounded-xl bg-mist p-4">
+            <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-sage/15 font-display text-sm font-semibold text-sage">
               {i + 1}
             </span>
             <div>
               <p className="flex items-center gap-2 font-semibold text-ink">
-                <step.icon className="h-4 w-4 text-indigoGlow" aria-hidden="true" />
+                <step.icon className="h-4 w-4 text-sage" aria-hidden="true" />
                 {step.title}
               </p>
               <p className="mt-1 text-sm leading-relaxed text-ink-muted">{step.body}</p>

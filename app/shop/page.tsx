@@ -67,15 +67,15 @@ export default function ShopPage() {
           ]),
         ]}
       />
-      <div className="aurora">
+      <div className="field-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
+          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             Gear that earns its place in a day sleeper&apos;s room
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             Forty years of shift work teaches you exactly which kit matters
             and which is landfill. This marketplace is short on purpose, only
-            categories that move your Sleep Atlas Score make the list.
+            categories that move your FIELD Score make the list.
           </p>
         </div>
       </div>
@@ -89,14 +89,14 @@ export default function ShopPage() {
                 className="card-surface card-hover block h-full p-7"
               >
                 <div className="flex items-center justify-between">
-                  <item.icon className="h-8 w-8 text-dawn" aria-hidden="true" />
-                  <span className="rounded-full border border-white/10 px-3 py-1 text-xs uppercase tracking-wider text-ink-faint">
+                  <item.icon className="h-8 w-8 text-sand-ink" aria-hidden="true" />
+                  <span className="rounded-full border border-ink/10 px-3 py-1 text-xs uppercase tracking-wider text-ink-faint">
                     {item.category}
                   </span>
                 </div>
                 <h2 className="mt-4 font-display text-xl font-semibold">{item.name}</h2>
                 <p className="mt-2 leading-relaxed text-ink-muted">{item.pitch}</p>
-                <span className="mt-4 inline-block text-sm font-medium text-dawn">
+                <span className="mt-4 inline-block text-sm font-medium text-sand-ink">
                   View picks →
                 </span>
               </a>
@@ -104,7 +104,7 @@ export default function ShopPage() {
           ))}
         </div>
         <p className="mt-10 text-sm leading-relaxed text-ink-faint">
-          Transparency: Sleep Atlas earns a commission on some links at no
+          Transparency: FIELD earns a commission on some links at no
           extra cost to you. Nothing is listed that we wouldn&apos;t put in our
           own bedroom, and plenty that paid to be here wouldn&apos;t make the
           cut.

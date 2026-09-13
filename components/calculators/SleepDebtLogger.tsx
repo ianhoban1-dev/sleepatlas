@@ -8,16 +8,16 @@ const BANDS = [
     max: 2,
     label: "Green",
     icon: CheckCircle2,
-    color: "text-teal-glow",
-    bar: "bg-teal-glow",
+    color: "text-good",
+    bar: "bg-good",
     action: "You're operating normally. Protect tonight's sleep and keep the streak.",
   },
   {
     max: 5,
     label: "Amber",
     icon: AlertTriangle,
-    color: "text-dawn-soft",
-    bar: "bg-dawn-soft",
+    color: "text-sand-soft",
+    bar: "bg-sand-soft",
     action:
       "Measurable slowdown in reaction time and mood. Bank a 90-minute recovery nap before your next shift and cut evening screen time.",
   },
@@ -25,8 +25,8 @@ const BANDS = [
     max: 8,
     label: "Red",
     icon: TriangleAlert,
-    color: "text-dawn",
-    bar: "bg-dawn",
+    color: "text-sand-ink",
+    bar: "bg-sand",
     action:
       "Performance is comparable to alcohol impairment. Treat driving with real caution, avoid safety-critical extras, and make your next off-day a managed recovery day.",
   },
@@ -99,7 +99,7 @@ export default function SleepDebtLogger() {
             type="button"
             onClick={() => setDays([...days, need])}
             disabled={days.length >= 14}
-            className="rounded-lg border border-white/15 px-4 py-2 text-sm text-ink-muted transition-colors hover:border-indigoGlow/50 hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
+            className="rounded-lg border border-ink/15 px-4 py-2 text-sm text-ink-muted transition-colors hover:border-sage/50 hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
           >
             + Add day
           </button>
@@ -107,25 +107,25 @@ export default function SleepDebtLogger() {
             type="button"
             onClick={() => setDays(days.slice(0, -1))}
             disabled={days.length <= 1}
-            className="rounded-lg border border-white/15 px-4 py-2 text-sm text-ink-muted transition-colors hover:border-indigoGlow/50 hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
+            className="rounded-lg border border-ink/15 px-4 py-2 text-sm text-ink-muted transition-colors hover:border-sage/50 hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
           >
             − Remove day
           </button>
         </div>
       </fieldset>
 
-      <div className="mt-8 rounded-xl bg-night-700 p-6">
+      <div className="mt-8 rounded-xl bg-mist p-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="text-sm uppercase tracking-wider text-ink-muted">
             Accumulated sleep debt
           </p>
-          <p className="font-display text-4xl font-bold">
+          <p className="font-display text-4xl font-medium">
             {debt.toFixed(1)}
             <span className="text-lg text-ink-faint">h</span>
           </p>
         </div>
         <div
-          className="mt-4 h-2 w-full overflow-hidden rounded-full bg-night-600"
+          className="mt-4 h-2 w-full overflow-hidden rounded-full bg-soft"
           role="img"
           aria-label={`Sleep debt ${debt.toFixed(1)} hours, ${band.label} band`}
         >

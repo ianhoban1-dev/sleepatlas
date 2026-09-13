@@ -78,7 +78,7 @@ export default function ShiftJournal() {
             type="date"
             value={form.date}
             onChange={(e) => setForm({ ...form, date: e.target.value })}
-            className="w-full rounded-lg border border-white/10 bg-night-700 px-3 py-2.5 text-ink"
+            className="w-full rounded-lg border border-ink/10 bg-mist px-3 py-2.5 text-ink"
           />
         </div>
         <div>
@@ -89,7 +89,7 @@ export default function ShiftJournal() {
             id="j-shift"
             value={form.shiftType}
             onChange={(e) => setForm({ ...form, shiftType: e.target.value })}
-            className="w-full rounded-lg border border-white/10 bg-night-700 px-3 py-2.5 text-ink"
+            className="w-full rounded-lg border border-ink/10 bg-mist px-3 py-2.5 text-ink"
           >
             {SHIFT_TYPES.map((s) => (
               <option key={s}>{s}</option>
@@ -137,14 +137,14 @@ export default function ShiftJournal() {
           maxLength={140}
           placeholder="e.g. bin lorry woke me at 11am, used brown noise after"
           onChange={(e) => setForm({ ...form, note: e.target.value })}
-          className="w-full rounded-lg border border-white/10 bg-night-700 px-3 py-2.5 text-ink placeholder:text-ink-faint"
+          className="w-full rounded-lg border border-ink/10 bg-mist px-3 py-2.5 text-ink placeholder:text-ink-faint"
         />
       </div>
       <button
         type="button"
         onClick={addEntry}
         disabled={!form.date}
-        className="mt-5 flex items-center gap-2 rounded-xl bg-indigoGlow px-6 py-3 font-semibold text-night-950 transition-all hover:bg-indigoGlow-soft disabled:cursor-not-allowed disabled:opacity-40"
+        className="mt-5 flex items-center gap-2 rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-all hover:bg-deep-ink disabled:cursor-not-allowed disabled:opacity-40"
       >
         <NotebookPen className="h-4 w-4" aria-hidden="true" />
         Log entry
@@ -166,7 +166,7 @@ export default function ShiftJournal() {
             {entries.map((e) => (
               <li
                 key={e.id}
-                className="flex items-start justify-between gap-4 rounded-xl bg-night-700 p-4"
+                className="flex items-start justify-between gap-4 rounded-xl bg-mist p-4"
               >
                 <div>
                   <p className="font-semibold text-ink">
@@ -181,7 +181,7 @@ export default function ShiftJournal() {
                   type="button"
                   onClick={() => setEntries(entries.filter((x) => x.id !== e.id))}
                   aria-label={`Delete entry for ${e.date}`}
-                  className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-ink-faint transition-colors hover:bg-white/[0.06] hover:text-red-400"
+                  className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-ink-faint transition-colors hover:bg-ink/[0.06] hover:text-red-400"
                 >
                   <Trash2 className="h-4 w-4" aria-hidden="true" />
                 </button>
@@ -193,7 +193,7 @@ export default function ShiftJournal() {
 
       <p className="mt-6 text-xs text-ink-faint">
         Entries are stored in this browser only. Premium will add synced
-        history, rolling fatigue projections and Sleep Atlas Score reports.
+        history, rolling fatigue projections and FIELD Score reports.
       </p>
     </div>
   );

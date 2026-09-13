@@ -119,7 +119,7 @@ export function productSchema(opts: {
     name: opts.name,
     description: opts.description,
     category: opts.category,
-    brand: { "@type": "Brand", name: "Curated by Sleep Atlas" },
+    brand: { "@type": "Brand", name: "Curated by FIELD" },
     // Deep-link every item node back to the primary Organization
     subjectOf: { "@type": "WebPage", url: `${SITE.url}/shop/` },
     manufacturer: undefined,

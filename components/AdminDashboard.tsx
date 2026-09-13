@@ -25,7 +25,7 @@ export default function AdminDashboard() {
   if (!admin) {
     return (
       <div className="card-surface p-8">
-        <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-dawn">
+        <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sand-ink">
           <ShieldCheck className="h-4 w-4" aria-hidden="true" />
           Restricted area
         </p>
@@ -39,7 +39,7 @@ export default function AdminDashboard() {
         </p>
         <Link
           href="/account/"
-          className="mt-6 inline-block rounded-xl bg-indigoGlow px-6 py-3 font-semibold text-night-950 transition-all duration-200 hover:bg-indigoGlow-soft"
+          className="mt-6 inline-block rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink"
         >
           Go to account
         </Link>
@@ -60,14 +60,14 @@ export default function AdminDashboard() {
         ].map((stat) => (
           <div key={stat.label} className="card-surface p-6">
             <p className="text-sm text-ink-muted">{stat.label}</p>
-            <p className="mt-1 font-display text-4xl font-bold">{stat.value}</p>
+            <p className="mt-1 font-display text-4xl font-medium">{stat.value}</p>
           </div>
         ))}
       </div>
 
       {/* Members table */}
       <div className="card-surface overflow-x-auto p-6">
-        <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-indigoGlow-soft">
+        <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sage-deep">
           <Users className="h-4 w-4" aria-hidden="true" />
           Members
         </p>
@@ -78,7 +78,7 @@ export default function AdminDashboard() {
         ) : (
           <table className="mt-4 w-full min-w-[560px] text-left text-sm">
             <thead>
-              <tr className="border-b border-white/10 text-ink-faint">
+              <tr className="border-b border-ink/10 text-ink-faint">
                 <th scope="col" className="py-3 pr-4 font-medium">Name</th>
                 <th scope="col" className="py-3 pr-4 font-medium">Email</th>
                 <th scope="col" className="py-3 pr-4 font-medium">Plan</th>
@@ -88,15 +88,15 @@ export default function AdminDashboard() {
             </thead>
             <tbody>
               {members.map((m) => (
-                <tr key={m.id} className="border-b border-white/[0.05]">
+                <tr key={m.id} className="border-b border-ink/[0.05]">
                   <td className="py-3 pr-4 font-medium text-ink">{m.name}</td>
                   <td className="py-3 pr-4 text-ink-muted">{m.email}</td>
                   <td className="py-3 pr-4">
                     <span
                       className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold ${
                         m.plan === "premium"
-                          ? "bg-indigoGlow/15 text-indigoGlow-soft"
-                          : "bg-white/[0.06] text-ink-muted"
+                          ? "bg-sage/15 text-sage-deep"
+                          : "bg-ink/[0.06] text-ink-muted"
                       }`}
                     >
                       <BadgeCheck className="h-3 w-3" aria-hidden="true" />
@@ -117,7 +117,7 @@ export default function AdminDashboard() {
                         setPlan(m.email, m.plan === "premium" ? "free" : "premium");
                         load();
                       }}
-                      className="rounded-lg border border-white/15 px-3 py-1.5 text-xs font-semibold text-ink transition-colors hover:border-indigoGlow/50"
+                      className="rounded-lg border border-ink/15 px-3 py-1.5 text-xs font-semibold text-ink transition-colors hover:border-sage/50"
                     >
                       {m.plan === "premium" ? "Downgrade" : "Upgrade"}
                     </button>
@@ -129,8 +129,8 @@ export default function AdminDashboard() {
         )}
       </div>
 
-      <p className="rounded-xl border border-white/[0.06] bg-night-900 p-5 text-sm leading-relaxed text-ink-faint">
-        Early-access note: while Sleep Atlas runs without a database, this
+      <p className="rounded-xl border border-ink/[0.06] bg-paper p-5 text-sm leading-relaxed text-ink-faint">
+        Early-access note: while FIELD runs without a database, this
         dashboard shows accounts created in this browser. Once Supabase is
         connected, every signup from every visitor will appear here.
       </p>

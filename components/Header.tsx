@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useState } from "react";
-import { Menu, X, MoonStar, ShieldCheck, UserRound } from "lucide-react";
+import { Menu, X, ShieldCheck, UserRound } from "lucide-react";
+import FieldMark from "@/components/FieldMark";
 import { NAV_LINKS } from "@/lib/site";
 import { useAuth } from "@/components/AuthProvider";
 
@@ -11,12 +12,12 @@ export default function Header() {
   const { user, admin } = useAuth();
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/[0.06] bg-night-950/80 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-ink/[0.06] bg-cream/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6">
-        <Link href="/" className="flex items-center gap-2" aria-label="Sleep Atlas home">
-          <MoonStar className="h-6 w-6 text-indigoGlow" aria-hidden="true" />
-          <span className="font-display text-lg font-semibold tracking-tight">
-            Sleep Atlas
+        <Link href="/" className="flex items-center gap-2" aria-label="FIELD home">
+          <FieldMark className="h-5 w-auto text-sage" />
+          <span className="font-display text-lg font-semibold tracking-[0.08em]">
+            FIELD
           </span>
         </Link>
 
@@ -25,7 +26,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="rounded-lg px-3 py-2 text-sm text-ink-muted transition-colors duration-150 hover:bg-white/[0.05] hover:text-ink"
+              className="rounded-lg px-3 py-2 text-sm text-ink-muted transition-colors duration-150 hover:bg-ink/[0.05] hover:text-ink"
             >
               {link.label}
             </Link>
@@ -33,7 +34,7 @@ export default function Header() {
           {admin && (
             <Link
               href="/admin/"
-              className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-semibold text-dawn transition-colors duration-150 hover:bg-dawn/10"
+              className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-semibold text-sand-ink transition-colors duration-150 hover:bg-sand/10"
             >
               <ShieldCheck className="h-4 w-4" aria-hidden="true" />
               Admin
@@ -41,7 +42,7 @@ export default function Header() {
           )}
           <Link
             href="/account/"
-            className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm text-ink-muted transition-colors duration-150 hover:bg-white/[0.05] hover:text-ink"
+            className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm text-ink-muted transition-colors duration-150 hover:bg-ink/[0.05] hover:text-ink"
           >
             <UserRound className="h-4 w-4" aria-hidden="true" />
             {user ? user.name.split(" ")[0] : "Account"}
@@ -49,7 +50,7 @@ export default function Header() {
           {user?.plan !== "premium" && (
             <Link
               href="/pricing/"
-              className="ml-3 rounded-lg bg-indigoGlow px-4 py-2 text-sm font-semibold text-night-950 transition-all duration-200 hover:bg-indigoGlow-soft hover:shadow-glow"
+              className="ml-3 rounded-lg bg-deep px-4 py-2 text-sm font-semibold text-cream transition-all duration-200 hover:bg-deep-ink hover:shadow-glow"
             >
               Go Premium
             </Link>
@@ -58,7 +59,7 @@ export default function Header() {
 
         <button
           type="button"
-          className="flex h-11 w-11 items-center justify-center rounded-lg text-ink-muted hover:bg-white/[0.05] hover:text-ink md:hidden"
+          className="flex h-11 w-11 items-center justify-center rounded-lg text-ink-muted hover:bg-ink/[0.05] hover:text-ink md:hidden"
           aria-expanded={open}
           aria-label={open ? "Close menu" : "Open menu"}
           onClick={() => setOpen(!open)}
@@ -69,14 +70,14 @@ export default function Header() {
 
       {open && (
         <nav
-          className="border-t border-white/[0.06] bg-night-900 px-4 py-3 md:hidden"
+          className="border-t border-ink/[0.06] bg-paper px-4 py-3 md:hidden"
           aria-label="Mobile navigation"
         >
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="block rounded-lg px-3 py-3 text-ink-muted hover:bg-white/[0.05] hover:text-ink"
+              className="block rounded-lg px-3 py-3 text-ink-muted hover:bg-ink/[0.05] hover:text-ink"
               onClick={() => setOpen(false)}
             >
               {link.label}
@@ -85,7 +86,7 @@ export default function Header() {
           {admin && (
             <Link
               href="/admin/"
-              className="block rounded-lg px-3 py-3 font-semibold text-dawn hover:bg-dawn/10"
+              className="block rounded-lg px-3 py-3 font-semibold text-sand-ink hover:bg-sand/10"
               onClick={() => setOpen(false)}
             >
               Admin
@@ -93,7 +94,7 @@ export default function Header() {
           )}
           <Link
             href="/account/"
-            className="block rounded-lg px-3 py-3 text-ink-muted hover:bg-white/[0.05] hover:text-ink"
+            className="block rounded-lg px-3 py-3 text-ink-muted hover:bg-ink/[0.05] hover:text-ink"
             onClick={() => setOpen(false)}
           >
             {user ? `Account · ${user.name.split(" ")[0]}` : "Account"}
@@ -101,7 +102,7 @@ export default function Header() {
           {user?.plan !== "premium" && (
             <Link
               href="/pricing/"
-              className="mt-2 block rounded-lg bg-indigoGlow px-4 py-3 text-center font-semibold text-night-950"
+              className="mt-2 block rounded-lg bg-deep px-4 py-3 text-center font-semibold text-cream"
               onClick={() => setOpen(false)}
             >
               Go Premium

@@ -29,9 +29,9 @@ export default function ToolsPage() {
           { name: "Tools", path: "/tools/" },
         ])}
       />
-      <div className="aurora">
+      <div className="field-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
+          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             Tools built for the rota you actually work
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -53,14 +53,14 @@ export default function ToolsPage() {
                   href={`/tools/${tool.slug}/`}
                   className="card-surface card-hover block h-full p-7"
                 >
-                  <Icon className="h-8 w-8 text-indigoGlow" aria-hidden="true" />
+                  <Icon className="h-8 w-8 text-sage" aria-hidden="true" />
                   <h2 className="mt-4 font-display text-2xl font-semibold">
                     {tool.name}
                   </h2>
                   <p className="mt-3 leading-relaxed text-ink-muted">
                     {tool.description}
                   </p>
-                  <span className="mt-5 inline-block font-medium text-indigoGlow">
+                  <span className="mt-5 inline-block font-medium text-sage">
                     Open calculator →
                   </span>
                 </Link>

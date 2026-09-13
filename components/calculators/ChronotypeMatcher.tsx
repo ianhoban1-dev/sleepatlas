@@ -101,9 +101,9 @@ export default function ChronotypeMatcher() {
   const total = QUESTIONS.reduce((sum, q) => sum + (answers[q.key] ?? 0), 0); // 0–12
   const typeIndex = total <= 4 ? 0 : total <= 8 ? 1 : 2;
   const typeMeta = [
-    { label: "Lark (early type)", icon: SunMedium, color: "text-dawn-soft" },
-    { label: "Intermediate", icon: Bird, color: "text-indigoGlow-soft" },
-    { label: "Owl (late type)", icon: Moon, color: "text-teal-glow" },
+    { label: "Lark (early type)", icon: SunMedium, color: "text-sand-soft" },
+    { label: "Intermediate", icon: Bird, color: "text-sage-deep" },
+    { label: "Owl (late type)", icon: Moon, color: "text-good" },
   ][typeIndex];
   const compat = COMPAT[rota][typeIndex];
 
@@ -124,8 +124,8 @@ export default function ChronotypeMatcher() {
                     aria-pressed={selected}
                     className={`rounded-lg border px-4 py-3 text-left text-sm transition-all duration-150 ${
                       selected
-                        ? "border-indigoGlow bg-indigoGlow/15 text-ink"
-                        : "border-white/10 bg-night-700 text-ink-muted hover:border-white/25"
+                        ? "border-sage bg-sage/15 text-ink"
+                        : "border-ink/10 bg-mist text-ink-muted hover:border-ink/25"
                     }`}
                   >
                     {opt.label}
@@ -144,7 +144,7 @@ export default function ChronotypeMatcher() {
             id="rota"
             value={rota}
             onChange={(e) => setRota(e.target.value as RotaKey)}
-            className="w-full rounded-lg border border-white/10 bg-night-700 px-4 py-3 text-ink"
+            className="w-full rounded-lg border border-ink/10 bg-mist px-4 py-3 text-ink"
           >
             {ROTAS.map((r) => (
               <option key={r.key} value={r.key}>
@@ -156,7 +156,7 @@ export default function ChronotypeMatcher() {
       </div>
 
       {answered ? (
-        <div className="mt-8 rounded-xl bg-night-700 p-6">
+        <div className="mt-8 rounded-xl bg-mist p-6">
           <p className={`flex items-center gap-2 font-display text-2xl font-semibold ${typeMeta.color}`}>
             <typeMeta.icon className="h-6 w-6" aria-hidden="true" />
             {typeMeta.label}
@@ -166,18 +166,18 @@ export default function ChronotypeMatcher() {
               <p className="text-sm uppercase tracking-wider text-ink-muted">
                 Rota compatibility
               </p>
-              <p className="font-display text-3xl font-bold">
+              <p className="font-display text-3xl font-medium">
                 {compat}
                 <span className="text-base text-ink-faint">/100</span>
               </p>
             </div>
             <div
-              className="mt-2 h-2 w-full overflow-hidden rounded-full bg-night-600"
+              className="mt-2 h-2 w-full overflow-hidden rounded-full bg-soft"
               role="img"
               aria-label={`Rota compatibility ${compat} out of 100`}
             >
               <div
-                className="h-full rounded-full bg-indigoGlow transition-all duration-300"
+                className="h-full rounded-full bg-deep transition-all duration-300"
                 style={{ width: `${compat}%` }}
               />
             </div>
@@ -187,7 +187,7 @@ export default function ChronotypeMatcher() {
           </p>
         </div>
       ) : (
-        <p className="mt-8 rounded-xl bg-night-700 p-5 text-sm text-ink-muted">
+        <p className="mt-8 rounded-xl bg-mist p-5 text-sm text-ink-muted">
           Answer all four questions to see your chronotype and rota
           compatibility score.
         </p>

@@ -6,7 +6,7 @@ import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Shift Journal & Sleep Debt Trackers",
   description:
-    "Log every shift and every sleep in one place. The Sleep Atlas shift journal tracks sleep hours, quality and disturbances across your rota so patterns become visible before fatigue becomes a problem.",
+    "Log every shift and every sleep in one place. The FIELD shift journal tracks sleep hours, quality and disturbances across your rota so patterns become visible before fatigue becomes a problem.",
 };
 
 const FAQS = [
@@ -34,9 +34,9 @@ export default function TrackersPage() {
           ]),
         ]}
       />
-      <div className="aurora">
+      <div className="field-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
+          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             Your shift journal
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -68,7 +68,7 @@ export default function TrackersPage() {
           Want the numbers version? The{" "}
           <a
             href="/tools/sleep-debt-fatigue-logger/"
-            className="text-indigoGlow underline underline-offset-4"
+            className="text-sage underline underline-offset-4"
           >
             Sleep Debt &amp; Fatigue Logger
           </a>{" "}

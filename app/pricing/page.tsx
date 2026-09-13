@@ -8,42 +8,42 @@ import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Pricing: Free Tools & Premium Fatigue Intelligence",
   description:
-    "Sleep Atlas core calculators, resources and Mask AI's core noise layers are free. Premium adds 10 extra Mask AI sound layers, personal saved mixes, the wake-up fade-in alarm, saved tracking, advanced fatigue projections and historical Sleep Atlas Score reporting.",
+    "FIELD's calculators, resources and core noise layers are free. Premium adds 10 extra sound layers, personal saved mixes, the wake-up fade-in alarm, saved tracking, advanced fatigue projections and historical FIELD Score reporting.",
 };
 
 const FREE = [
   "All five rota & recovery calculators",
-  "Mask AI white, pink & brown noise",
+  "White, pink & brown noise",
   "Sleep timer with gentle fade-out (30/60/90 min)",
   "Shift journal (this browser)",
   "Full resource hub access",
-  "Live Sleep Atlas Score",
+  "Live FIELD Score",
 ];
 
 const PREMIUM = [
   "Everything in Free",
-  "10 extra Mask AI layers, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum & fan",
+  "10 extra sound layers, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum & fan",
   "Personal mixes, save any layer combination, reapply in one tap",
   "Personal blend questionnaire, tuned to your street",
   "Custom timer lengths + wake-up fade-in alarm",
   "Saved shift profiles & rota patterns",
   "Advanced fatigue projections for upcoming blocks",
-  "Historical Sleep Atlas Score reporting",
+  "Historical FIELD Score reporting",
 ];
 
 const FAQS = [
   {
-    question: "How much does Sleep Atlas Premium cost?",
+    question: "How much does FIELD Premium cost?",
     answer:
       "Premium launches at £4.99/month or £39/year. Founding members who join the early-access list lock the launch price permanently.",
   },
   {
     question: "Do I need Premium to use the calculators?",
     answer:
-      "No. Every calculator, the resource hub, Mask AI's white, pink and brown noise and the basic sleep timer are free forever. Premium unlocks the other 10 sound layers, personal saved mixes, the blend questionnaire, the wake-up fade-in alarm, and saved data projected forwards over time.",
+      "No. Every calculator, the resource hub, the white, pink and brown noise layers and the basic sleep timer are free forever. Premium unlocks the other 10 sound layers, personal saved mixes, the blend questionnaire, the wake-up fade-in alarm, and saved data projected forwards over time.",
   },
   {
-    question: "Can I cancel Sleep Atlas Premium anytime?",
+    question: "Can I cancel FIELD Premium anytime?",
     answer:
       "Yes, subscriptions are managed through Stripe and can be cancelled in one click from your account. You keep Premium until the end of the paid period.",
   },
@@ -61,14 +61,14 @@ export default function PricingPage() {
           ]),
         ]}
       />
-      <div className="aurora">
+      <div className="field-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
-            Free to survive. Premium to master.
+          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
+            Free to sleep. Premium to tune it.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
-            The tools that keep you safe stay free. Premium is for turning
-            months of shift data into foresight.
+            What keeps you safe stays free. Premium is for the extra layers,
+            the saved mixes, and the months of shift data behind them.
           </p>
         </div>
       </div>
@@ -78,21 +78,21 @@ export default function PricingPage() {
           <Reveal>
             <div className="card-surface h-full p-8">
               <h2 className="font-display text-2xl font-semibold">Free</h2>
-              <p className="mt-2 font-display text-4xl font-bold">
+              <p className="mt-2 font-display text-4xl font-medium">
                 £0
                 <span className="text-base font-normal text-ink-faint"> forever</span>
               </p>
               <ul className="mt-6 space-y-3">
                 {FREE.map((f) => (
                   <li key={f} className="flex items-start gap-3">
-                    <Check className="mt-1 h-4 w-4 shrink-0 text-teal-glow" aria-hidden="true" />
+                    <Check className="mt-1 h-4 w-4 shrink-0 text-good" aria-hidden="true" />
                     <span className="text-ink-muted">{f}</span>
                   </li>
                 ))}
               </ul>
               <Link
                 href="/tools/"
-                className="mt-8 block rounded-xl border border-white/15 px-6 py-3.5 text-center font-semibold text-ink transition-colors hover:border-indigoGlow/50 hover:bg-white/[0.04]"
+                className="mt-8 block rounded-xl border border-ink/15 px-6 py-3.5 text-center font-semibold text-ink transition-colors hover:border-sage/50 hover:bg-ink/[0.04]"
               >
                 Start with the tools
               </Link>
@@ -100,12 +100,12 @@ export default function PricingPage() {
           </Reveal>
 
           <Reveal delay={100}>
-            <div className="card-surface relative h-full border-indigoGlow/40 bg-gradient-to-br from-night-800 to-indigoGlow-deep/20 p-8 shadow-glow">
-              <span className="absolute -top-3 right-6 rounded-full bg-dawn px-3 py-1 text-xs font-bold uppercase tracking-wider text-night-950">
+            <div className="card-surface relative h-full border-sage/40 bg-gradient-to-br from-card to-sage-deep/20 p-8 shadow-glow">
+              <span className="absolute -top-3 right-6 rounded-full bg-sand px-3 py-1 text-xs font-semibold uppercase tracking-wider text-deep">
                 Launching soon
               </span>
               <h2 className="font-display text-2xl font-semibold">Premium</h2>
-              <p className="mt-2 font-display text-4xl font-bold">
+              <p className="mt-2 font-display text-4xl font-medium">
                 £4.99
                 <span className="text-base font-normal text-ink-faint">
                   /month · £39/year
@@ -114,7 +114,7 @@ export default function PricingPage() {
               <ul className="mt-6 space-y-3">
                 {PREMIUM.map((f) => (
                   <li key={f} className="flex items-start gap-3">
-                    <Check className="mt-1 h-4 w-4 shrink-0 text-indigoGlow-soft" aria-hidden="true" />
+                    <Check className="mt-1 h-4 w-4 shrink-0 text-sage-deep" aria-hidden="true" />
                     <span className="text-ink-muted">{f}</span>
                   </li>
                 ))}
@@ -122,7 +122,7 @@ export default function PricingPage() {
               {/* Stripe checkout replaces this link once keys are added */}
               <Link
                 href="/account/"
-                className="mt-8 block w-full rounded-xl bg-indigoGlow px-6 py-3.5 text-center font-semibold text-night-950 transition-all duration-200 hover:bg-indigoGlow-soft hover:shadow-glow"
+                className="mt-8 block w-full rounded-xl bg-deep px-6 py-3.5 text-center font-semibold text-cream transition-all duration-200 hover:bg-deep-ink hover:shadow-glow"
                 aria-describedby="premium-note"
               >
                 Become a founding member

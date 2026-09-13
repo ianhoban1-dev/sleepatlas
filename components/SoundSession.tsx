@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * Mask AI: Sleep Atlas's built-in noise-masking engine.
+ * The FIELD session: the built-in sound engine.
  * All sound is generated live in the browser with the Web Audio API,
  * no streams, no downloads, works offline once the page is loaded.
  *
@@ -475,7 +475,7 @@ function readBlends(email: string): SavedBlend[] {
 
 /* ---------------- Component ---------------- */
 
-export default function MaskAI() {
+export default function SoundSession() {
   const { user } = useAuth();
   const premium = user?.plan === "premium";
 
@@ -687,15 +687,15 @@ export default function MaskAI() {
     <div className="space-y-6">
       {/* Wake-up alarm ringing */}
       {alarmRinging && (
-        <div className="card-surface flex flex-wrap items-center justify-between gap-4 border-dawn/50 bg-dawn/10 p-6">
-          <p className="flex items-center gap-3 font-display text-lg font-semibold text-dawn">
+        <div className="card-surface flex flex-wrap items-center justify-between gap-4 border-sand/50 bg-sand/10 p-6">
+          <p className="flex items-center gap-3 font-display text-lg font-semibold text-sand-ink">
             <BellRing className="h-6 w-6 animate-pulse" aria-hidden="true" />
             Time to wake up, the chime will keep building gently
           </p>
           <button
             type="button"
             onClick={stopAlarm}
-            className="rounded-xl bg-dawn px-6 py-3 font-semibold text-night-950 transition-opacity hover:opacity-90"
+            className="rounded-xl bg-sand px-6 py-3 font-semibold text-deep transition-opacity hover:opacity-90"
           >
             Stop alarm
           </button>
@@ -707,8 +707,8 @@ export default function MaskAI() {
         <button
           type="button"
           onClick={togglePlay}
-          aria-label={playing ? "Pause Mask AI" : "Play Mask AI"}
-          className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-teal-glow text-night-950 transition-all duration-200 hover:opacity-90 hover:shadow-glow"
+          aria-label={playing ? "Pause FIELD" : "Play FIELD"}
+          className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-deep text-cream transition-all duration-200 hover:opacity-90 hover:shadow-glow"
         >
           {playing ? (
             <Pause className="h-6 w-6" aria-hidden="true" />
@@ -752,8 +752,8 @@ export default function MaskAI() {
             onClick={() => setTimerMin(null)}
             className={`rounded-full border px-4 py-1.5 text-sm transition-colors ${
               timerMin === null
-                ? "border-teal-glow bg-teal-glow/15 text-teal-glow"
-                : "border-white/10 text-ink-muted hover:border-white/25 hover:text-ink"
+                ? "border-sage bg-sage/15 text-sage-deep"
+                : "border-ink/10 text-ink-muted hover:border-ink/25 hover:text-ink"
             }`}
           >
             Off
@@ -765,8 +765,8 @@ export default function MaskAI() {
               onClick={() => setTimerMin(m)}
               className={`rounded-full border px-4 py-1.5 text-sm transition-colors ${
                 timerMin === m
-                  ? "border-teal-glow bg-teal-glow/15 text-teal-glow"
-                  : "border-white/10 text-ink-muted hover:border-white/25 hover:text-ink"
+                  ? "border-sage bg-sage/15 text-sage-deep"
+                  : "border-ink/10 text-ink-muted hover:border-ink/25 hover:text-ink"
               }`}
             >
               {m} min
@@ -782,23 +782,23 @@ export default function MaskAI() {
                 onChange={(e) => setCustomMin(e.target.value)}
                 placeholder="Custom"
                 aria-label="Custom timer length in minutes"
-                className="w-24 rounded-full border border-white/10 bg-night-900 px-4 py-1.5 text-sm text-ink placeholder:text-ink-faint focus:border-indigoGlow/60 focus:outline-none"
+                className="w-24 rounded-full border border-ink/10 bg-paper px-4 py-1.5 text-sm text-ink placeholder:text-ink-faint focus:border-sage/60 focus:outline-none"
               />
               <button
                 type="button"
                 onClick={applyCustomTimer}
-                className="rounded-full border border-white/15 px-4 py-1.5 text-sm text-ink transition-colors hover:border-teal-glow/50"
+                className="rounded-full border border-ink/15 px-4 py-1.5 text-sm text-ink transition-colors hover:border-good/50"
               >
                 Set
               </button>
               {timerMin != null && !FREE_TIMERS.includes(timerMin) && (
-                <span className="rounded-full border border-teal-glow bg-teal-glow/15 px-4 py-1.5 text-sm text-teal-glow">
+                <span className="rounded-full border border-sage bg-sage/15 px-4 py-1.5 text-sm text-good">
                   {timerMin} min
                 </span>
               )}
             </span>
           ) : (
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-dawn/15 px-3 py-1.5 text-xs font-semibold text-dawn">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-sand/15 px-3 py-1.5 text-xs font-semibold text-sand-ink">
               <Lock className="h-3 w-3" aria-hidden="true" />
               Custom length & wake-up alarm · Premium
             </span>
@@ -810,7 +810,7 @@ export default function MaskAI() {
               type="checkbox"
               checked={wakeAlarm}
               onChange={(e) => setWakeAlarm(e.target.checked)}
-              className="h-4 w-4 accent-teal-glow"
+              className="h-4 w-4 accent-good"
             />
             <span>
               <span className="font-medium text-ink">Wake-up fade-in</span>, when
@@ -836,12 +836,12 @@ export default function MaskAI() {
               className={`card-surface relative p-5 ${locked ? "opacity-75" : ""}`}
             >
               {locked && (
-                <span className="absolute right-4 top-4 inline-flex items-center gap-1 rounded-full bg-dawn/15 px-2.5 py-1 text-xs font-semibold text-dawn">
+                <span className="absolute right-4 top-4 inline-flex items-center gap-1 rounded-full bg-sand/15 px-2.5 py-1 text-xs font-semibold text-sand-ink">
                   <Lock className="h-3 w-3" aria-hidden="true" /> Premium
                 </span>
               )}
               <s.icon
-                className={`h-7 w-7 ${levels[s.id] > 0 && !locked ? "text-teal-glow" : "text-ink-faint"}`}
+                className={`h-7 w-7 ${levels[s.id] > 0 && !locked ? "text-sage-deep" : "text-ink-faint"}`}
                 aria-hidden="true"
               />
               <h3 className="mt-3 font-display font-semibold">{s.name}</h3>
@@ -865,13 +865,13 @@ export default function MaskAI() {
       {/* Premium: questionnaire + saved mixes */}
       {premium ? (
         <div className="grid gap-6 lg:grid-cols-2">
-          <div className="card-surface border-indigoGlow/30 p-6">
-            <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-indigoGlow-soft">
+          <div className="card-surface border-sage/30 p-6">
+            <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sage-deep">
               <Sparkles className="h-4 w-4" aria-hidden="true" />
               Build my blend
             </p>
             <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-              Three quick questions about your street and your sleep. Mask AI
+              Three quick questions about your street and your sleep. FIELD
               sets the layers and volume for you.
             </p>
             <div className="mt-5 space-y-5">
@@ -892,8 +892,8 @@ export default function MaskAI() {
                         }
                         className={`rounded-full border px-3.5 py-1.5 text-sm transition-colors ${
                           answers[qi] === opt.value
-                            ? "border-indigoGlow bg-indigoGlow/15 text-indigoGlow-soft"
-                            : "border-white/10 text-ink-muted hover:border-white/25 hover:text-ink"
+                            ? "border-sage bg-sage/15 text-sage-deep"
+                            : "border-ink/10 text-ink-muted hover:border-ink/25 hover:text-ink"
                         }`}
                       >
                         {opt.label}
@@ -907,19 +907,19 @@ export default function MaskAI() {
               type="button"
               onClick={applyRecommendation}
               disabled={answers.filter(Boolean).length < QUESTIONS.length}
-              className="mt-6 rounded-xl bg-indigoGlow px-5 py-3 font-semibold text-night-950 transition-all duration-200 hover:bg-indigoGlow-soft disabled:cursor-not-allowed disabled:opacity-40"
+              className="mt-6 rounded-xl bg-deep px-5 py-3 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink disabled:cursor-not-allowed disabled:opacity-40"
             >
               Apply my blend
             </button>
             {blendNote && (
-              <p className="mt-4 rounded-xl bg-night-900 p-4 text-sm leading-relaxed text-ink-muted">
+              <p className="mt-4 rounded-xl bg-paper p-4 text-sm leading-relaxed text-ink-muted">
                 {blendNote}
               </p>
             )}
           </div>
 
           <div className="card-surface p-6">
-            <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-teal-glow">
+            <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-good">
               <Save className="h-4 w-4" aria-hidden="true" />
               My mixes
             </p>
@@ -935,13 +935,13 @@ export default function MaskAI() {
                 onChange={(e) => setBlendName(e.target.value)}
                 placeholder="Name this mix (e.g. Bin day)"
                 aria-label="Mix name"
-                className="w-full rounded-xl border border-white/10 bg-night-900 px-4 py-2.5 text-sm text-ink placeholder:text-ink-faint focus:border-indigoGlow/60 focus:outline-none"
+                className="w-full rounded-xl border border-ink/10 bg-paper px-4 py-2.5 text-sm text-ink placeholder:text-ink-faint focus:border-sage/60 focus:outline-none"
               />
               <button
                 type="button"
                 onClick={saveBlend}
                 disabled={!blendName.trim()}
-                className="shrink-0 rounded-xl border border-white/15 px-4 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-teal-glow/50 disabled:cursor-not-allowed disabled:opacity-40"
+                className="shrink-0 rounded-xl border border-ink/15 px-4 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-good/50 disabled:cursor-not-allowed disabled:opacity-40"
               >
                 Save
               </button>
@@ -955,7 +955,7 @@ export default function MaskAI() {
                 {saved.map((b) => (
                   <li
                     key={b.name}
-                    className="flex items-center justify-between rounded-xl bg-night-900 px-4 py-3"
+                    className="flex items-center justify-between rounded-xl bg-paper px-4 py-3"
                   >
                     <button
                       type="button"
@@ -964,7 +964,7 @@ export default function MaskAI() {
                         setVolume(b.volume);
                         if (!playing) togglePlay();
                       }}
-                      className="text-left text-sm font-medium text-ink hover:text-teal-glow"
+                      className="text-left text-sm font-medium text-ink hover:text-sage-deep"
                     >
                       {b.name}
                     </button>
@@ -972,7 +972,7 @@ export default function MaskAI() {
                       type="button"
                       onClick={() => removeBlend(b.name)}
                       aria-label={`Delete mix ${b.name}`}
-                      className="text-ink-faint transition-colors hover:text-dawn"
+                      className="text-ink-faint transition-colors hover:text-sand-ink"
                     >
                       <Trash2 className="h-4 w-4" aria-hidden="true" />
                     </button>
@@ -983,8 +983,8 @@ export default function MaskAI() {
           </div>
         </div>
       ) : (
-        <div className="card-surface border-dawn/30 bg-gradient-to-br from-night-800 to-indigoGlow-deep/15 p-8">
-          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-dawn">
+        <div className="card-surface border-sand/30 bg-gradient-to-br from-card to-sage-deep/15 p-8">
+          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sand-ink">
             <Lock className="h-4 w-4" aria-hidden="true" />
             Premium unlocks the full defence
           </p>
@@ -1000,13 +1000,13 @@ export default function MaskAI() {
           <div className="mt-6 flex flex-wrap gap-4">
             <Link
               href="/pricing/"
-              className="rounded-xl bg-indigoGlow px-6 py-3 font-semibold text-night-950 transition-all duration-200 hover:bg-indigoGlow-soft hover:shadow-glow"
+              className="rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink hover:shadow-glow"
             >
               See Premium
             </Link>
             <Link
               href="/account/"
-              className="rounded-xl border border-white/15 px-6 py-3 font-semibold text-ink transition-colors hover:border-indigoGlow/50 hover:bg-white/[0.04]"
+              className="rounded-xl border border-ink/15 px-6 py-3 font-semibold text-ink transition-colors hover:border-sage/50 hover:bg-ink/[0.04]"
             >
               {user ? "Manage my account" : "Log in / sign up"}
             </Link>

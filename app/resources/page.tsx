@@ -21,9 +21,9 @@ export default function ResourcesPage() {
           { name: "Resources", path: "/resources/" },
         ])}
       />
-      <div className="aurora">
+      <div className="field-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-bold tracking-tight md:text-5xl">
+          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             The resource hub
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -43,7 +43,7 @@ export default function ResourcesPage() {
           <ul className="mt-4 flex flex-wrap gap-3">
             {CATEGORIES.map((cat) => (
               <li key={cat.slug}>
-                <span className="inline-block rounded-full border border-white/10 bg-night-800 px-4 py-2 text-sm text-ink-muted">
+                <span className="inline-block rounded-full border border-ink/10 bg-card px-4 py-2 text-sm text-ink-muted">
                   {cat.name}
                 </span>
               </li>
@@ -60,7 +60,7 @@ export default function ResourcesPage() {
                   href={`/resources/${article.slug}/`}
                   className="card-surface card-hover flex h-full flex-col p-7"
                 >
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider text-indigoGlow-soft">
+                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider text-sage-deep">
                     <BookOpen className="h-4 w-4" aria-hidden="true" />
                     {article.category}
                   </div>
@@ -82,7 +82,7 @@ export default function ResourcesPage() {
         <p className="mt-14 max-w-2xl leading-relaxed text-ink-muted">
           More guides land here every week across all six categories. The
           fastest way to put any of them into practice is the{" "}
-          <Link href="/tools/" className="text-indigoGlow underline underline-offset-4">
+          <Link href="/tools/" className="text-sage underline underline-offset-4">
             tools hub
           </Link>
           .

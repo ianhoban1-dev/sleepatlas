@@ -71,7 +71,7 @@ export default function NoiseCalibration() {
           {SOURCES.map((s) => (
             <div key={s.key}>
               <label htmlFor={s.key} className="mb-1 block text-sm text-ink">
-                {s.label}: <span className="font-semibold text-indigoGlow-soft">{scores[s.key]}</span>
+                {s.label}: <span className="font-semibold text-sage-deep">{scores[s.key]}</span>
               </label>
               <input
                 id={s.key}
@@ -89,29 +89,29 @@ export default function NoiseCalibration() {
         </div>
       </fieldset>
 
-      <div className="mt-8 rounded-xl bg-night-700 p-6">
+      <div className="mt-8 rounded-xl bg-mist p-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <p className="text-sm uppercase tracking-wider text-ink-muted">
             Noise Impact Score
           </p>
-          <p className="font-display text-4xl font-bold">
+          <p className="font-display text-4xl font-medium">
             {impact}
             <span className="text-lg text-ink-faint">/20</span>
           </p>
         </div>
         <div
-          className="mt-4 h-2 w-full overflow-hidden rounded-full bg-night-600"
+          className="mt-4 h-2 w-full overflow-hidden rounded-full bg-soft"
           role="img"
           aria-label={`Noise impact score ${impact} out of 20`}
         >
           <div
-            className="h-full rounded-full bg-indigoGlow transition-all duration-300"
+            className="h-full rounded-full bg-deep transition-all duration-300"
             style={{ width: `${impactPct}%` }}
           />
         </div>
 
         <div className="mt-6 flex items-start gap-3">
-          <plan.icon className="mt-1 h-6 w-6 shrink-0 text-teal-glow" aria-hidden="true" />
+          <plan.icon className="mt-1 h-6 w-6 shrink-0 text-good" aria-hidden="true" />
           <div>
             <p className="font-display text-xl font-semibold text-ink">
               Recommended defence: {plan.colour}
@@ -129,10 +129,10 @@ export default function NoiseCalibration() {
       </div>
 
       <a
-        href="/mask-ai/"
-        className="mt-6 inline-block rounded-xl bg-teal-glow px-6 py-3 font-semibold text-night-950 transition-opacity hover:opacity-90"
+        href="/session/"
+        className="mt-6 inline-block rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-opacity hover:opacity-90"
       >
-        Open this blend in Mask AI →
+        Open this blend in FIELD →
       </a>
     </div>
   );

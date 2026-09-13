@@ -59,9 +59,9 @@ const ROTAS: Record<RotaKey, RotaProfile> = {
 };
 
 const riskColor: Record<RotaProfile["fatigueRisk"], string> = {
-  Low: "text-teal-glow",
-  Moderate: "text-dawn-soft",
-  High: "text-dawn",
+  Low: "text-good",
+  Moderate: "text-sand-soft",
+  High: "text-sand-ink",
   Severe: "text-red-400",
 };
 
@@ -81,7 +81,7 @@ export default function RotaVisualizer() {
         id="rota-select"
         value={rota}
         onChange={(e) => setRota(e.target.value as RotaKey)}
-        className="mb-6 w-full rounded-lg border border-white/10 bg-night-700 px-4 py-3 text-ink"
+        className="mb-6 w-full rounded-lg border border-ink/10 bg-mist px-4 py-3 text-ink"
       >
         {(Object.keys(ROTAS) as RotaKey[]).map((key) => (
           <option key={key} value={key}>
@@ -91,9 +91,9 @@ export default function RotaVisualizer() {
       </select>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <div className="rounded-xl bg-night-700 p-4">
+        <div className="rounded-xl bg-mist p-4">
           <div className="flex items-center gap-2 text-ink-muted">
-            <Brain className="h-4 w-4 text-indigoGlow" aria-hidden="true" />
+            <Brain className="h-4 w-4 text-sage" aria-hidden="true" />
             <span className="text-xs uppercase tracking-wider">Rota adaptation</span>
           </div>
           <p className="mt-2 font-display text-3xl font-semibold">
@@ -101,20 +101,20 @@ export default function RotaVisualizer() {
             <span className="text-base text-ink-faint">/100</span>
           </p>
           <div
-            className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-night-600"
+            className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-soft"
             role="img"
             aria-label={`Rota adaptation score ${p.adaptation} out of 100`}
           >
             <div
-              className="h-full rounded-full bg-indigoGlow transition-all duration-300"
+              className="h-full rounded-full bg-deep transition-all duration-300"
               style={{ width: `${p.adaptation}%` }}
             />
           </div>
         </div>
 
-        <div className="rounded-xl bg-night-700 p-4">
+        <div className="rounded-xl bg-mist p-4">
           <div className="flex items-center gap-2 text-ink-muted">
-            <BatteryLow className="h-4 w-4 text-dawn" aria-hidden="true" />
+            <BatteryLow className="h-4 w-4 text-sand-ink" aria-hidden="true" />
             <span className="text-xs uppercase tracking-wider">Typical weekly debt</span>
           </div>
           <p className="mt-2 font-display text-3xl font-semibold">
@@ -124,9 +124,9 @@ export default function RotaVisualizer() {
           <p className="mt-2 text-xs text-ink-faint">unmanaged baseline</p>
         </div>
 
-        <div className="rounded-xl bg-night-700 p-4">
+        <div className="rounded-xl bg-mist p-4">
           <div className="flex items-center gap-2 text-ink-muted">
-            <Activity className="h-4 w-4 text-teal-glow" aria-hidden="true" />
+            <Activity className="h-4 w-4 text-good" aria-hidden="true" />
             <span className="text-xs uppercase tracking-wider">Fatigue risk</span>
           </div>
           <p className={`mt-2 font-display text-3xl font-semibold ${riskColor[p.fatigueRisk]}`}>
@@ -137,7 +137,7 @@ export default function RotaVisualizer() {
       </div>
 
       <p className="mt-5 flex items-start gap-2 text-sm leading-relaxed text-ink-muted">
-        <MoonStar className="mt-0.5 h-4 w-4 shrink-0 text-indigoGlow" aria-hidden="true" />
+        <MoonStar className="mt-0.5 h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
         {p.note}
       </p>
     </div>

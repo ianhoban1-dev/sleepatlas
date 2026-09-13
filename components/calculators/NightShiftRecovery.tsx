@@ -59,7 +59,7 @@ export default function NightShiftRecovery() {
             type="time"
             value={shiftEnd}
             onChange={(e) => setShiftEnd(e.target.value)}
-            className="w-full rounded-lg border border-white/10 bg-night-700 px-4 py-3 text-ink"
+            className="w-full rounded-lg border border-ink/10 bg-mist px-4 py-3 text-ink"
           />
         </div>
         <div>
@@ -81,12 +81,12 @@ export default function NightShiftRecovery() {
 
       <ol className="mt-8 space-y-4">
         {rows.map((row) => (
-          <li key={row.label} className="flex items-start gap-4 rounded-xl bg-night-700 p-4">
-            <row.icon className="mt-1 h-5 w-5 shrink-0 text-indigoGlow" aria-hidden="true" />
+          <li key={row.label} className="flex items-start gap-4 rounded-xl bg-mist p-4">
+            <row.icon className="mt-1 h-5 w-5 shrink-0 text-sage" aria-hidden="true" />
             <div className="min-w-0 flex-1">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <p className="font-semibold text-ink">{row.label}</p>
-                <p className="font-display text-2xl font-semibold text-indigoGlow-soft">
+                <p className="font-display text-2xl font-semibold text-sage-deep">
                   {row.time}
                 </p>
               </div>
