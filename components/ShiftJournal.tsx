@@ -193,7 +193,7 @@ export default function ShiftJournal() {
 
       <p className="mt-6 text-xs text-ink-faint">
         Entries are stored in this browser only. Premium will add synced
-        history, rolling fatigue projections and FIELD Score reports.
+        history, rolling fatigue projections and SLEYP Score reports.
       </p>
     </div>
   );

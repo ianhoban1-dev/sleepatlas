@@ -39,7 +39,7 @@ export default function ToolPageLayout({
         ]}
       />
 
-      <div className="field-wash">
+      <div className="sleyp-wash">
         <div className="mx-auto max-w-4xl px-4 py-14 sm:px-6 md:py-20">
           <nav aria-label="Breadcrumb" className="mb-6 text-sm text-ink-faint">
             <Link href="/tools/" className="hover:text-ink">
@@ -63,7 +63,7 @@ export default function ToolPageLayout({
         </section>
 
         {/* Server-rendered explainer */}
-        <section className="prose-field mt-14">
+        <section className="prose-sleyp mt-14">
           <h2>Why this matters on a real rota</h2>
           {tool.explainer.map((p) => (
             <p key={p.slice(0, 40)}>{p}</p>
@@ -107,7 +107,7 @@ export default function ToolPageLayout({
         </section>
 
         <p className="mt-12 rounded-xl border border-ink/[0.06] bg-paper p-5 text-sm leading-relaxed text-ink-faint">
-          FIELD tools are lifestyle and operational-safety aids for shift
+          SLEYP tools are lifestyle and operational-safety aids for shift
           workers, built from real-world experience. They are not medical
           devices or diagnostic tools. If fatigue or sleep problems are
           affecting your health, speak to your GP.

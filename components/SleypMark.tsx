@@ -1,10 +1,11 @@
 /**
- * The FIELD mark: three thin waves on a 120 x 96 grid, stroke 8, round caps.
+ * The SLEYP mark: three thin waves on a 120 x 96 grid, stroke 8, round caps.
  * Drawn as strokes so it takes `currentColor` and recolours with the type
  * around it. Nothing is ever added to it — no fourth wave, no gradient,
  * no enclosing shape. See FIELD-Brand/README.md for the construction spec.
+ * Unchanged from the FIELD mark: the wave/sound motif carries across the rename.
  */
-export default function FieldMark({
+export default function SleypMark({
   className = "",
   settle = false,
   title,
@@ -38,33 +39,33 @@ export default function FieldMark({
 }
 
 /**
- * The FIELD wordmark, drawn as geometric paths rather than set in a font,
+ * The SLEYP wordmark, drawn as geometric paths rather than set in a font,
  * so it is identical everywhere regardless of what loads.
- * 373 x 100, cap height 100, stroke 11, 30-unit tracking.
+ * 380 x 100, cap height 100, stroke 11, built on the same monoline grid
+ * as the FIELD wordmark it replaces (verticals, horizontals, simple arcs).
  */
-export function FieldWordmark({ className = "" }: { className?: string }) {
+export function SleypWordmark({ className = "" }: { className?: string }) {
   return (
     <svg
-      viewBox="0 0 373 100"
+      viewBox="0 0 380 100"
       className={className}
       fill="none"
       stroke="currentColor"
       strokeWidth={11}
       role="img"
-      aria-label="FIELD"
+      aria-label="SLEYP"
     >
-      <path d="M 5.5,0 V 100" />
-      <path d="M 0,5.5 H 58" />
-      <path d="M 0,52 H 48" />
-      <path d="M 93.5,0 V 100" />
-      <path d="M 134.5,0 V 100" />
-      <path d="M 129,5.5 H 187" />
-      <path d="M 129,52 H 179" />
-      <path d="M 129,94.5 H 187" />
-      <path d="M 222.5,0 V 100" />
-      <path d="M 217,94.5 H 269" />
+      <path d="M 47,20 C 47,8 37,2 25,2 C 13,2 5,10 5,22 C 5,34 15,40 30,47 C 45,54 55,60 55,78 C 55,90 47,98 35,98 C 23,98 13,92 13,80" />
+      <path d="M 80.5,0 V 100" />
+      <path d="M 75,94.5 H 127" />
+      <path d="M 150.5,0 V 100" />
+      <path d="M 145,5.5 H 203" />
+      <path d="M 145,52 H 195" />
+      <path d="M 145,94.5 H 203" />
+      <path d="M 215,0 L 243,44 L 271,0" />
+      <path d="M 243,44 V 100" />
       <path d="M 304.5,0 V 100" />
-      <path d="M 299,5.5 H 335 C 355,5.5 367.5,25 367.5,50 C 367.5,75 355,94.5 335,94.5 H 299" />
+      <path d="M 299,5.5 H 335 C 355,5.5 365,16 365,29 C 365,42 355,52.5 335,52.5 H 299" />
     </svg>
   );
 }

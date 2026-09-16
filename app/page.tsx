@@ -11,32 +11,32 @@ import {
 import Reveal from "@/components/Reveal";
 import RotaVisualizer from "@/components/RotaVisualizer";
 import JsonLd from "@/components/JsonLd";
-import FieldMark, { FieldWordmark } from "@/components/FieldMark";
+import SleypMark, { SleypWordmark } from "@/components/SleypMark";
 import { faqSchema } from "@/lib/schema";
 import { SITE, FOUNDER } from "@/lib/site";
 import { TOOLS } from "@/lib/tools";
 
 export const metadata: Metadata = {
-  title: "FIELD — Your personal soundscape",
+  title: "SLEYP — Your personal soundscape",
   description:
-    "FIELD builds a sound field around the room you actually sleep in. Thirteen layered sounds generated live in your browser, a timer that fades rather than stops, and tools built on forty years of shift work.",
+    "SLEYP builds a personal soundscape around the room you actually sleep in. Thirteen layered sounds generated live in your browser, a timer that fades rather than stops, and tools built on forty years of shift work.",
 };
 
 const HOME_FAQS = [
   {
-    question: "What is FIELD?",
+    question: "What is SLEYP?",
     answer:
-      "FIELD is a sound and sleep-environment tool for people whose sleep is hard-won. It generates thirteen layered sounds live in your browser, mixes them into a sound field tuned to your room, and fades out on a timer instead of stopping dead. Alongside it sit calculators and trackers built for rotating and night rotas.",
+      "SLEYP is a sound and sleep-environment tool for people whose sleep is hard-won. It generates thirteen layered sounds live in your browser, mixes them into a personal soundscape tuned to your room, and fades out on a timer instead of stopping dead. Alongside it sit calculators and trackers built for rotating and night rotas.",
   },
   {
-    question: "Who is FIELD for?",
+    question: "Who is SLEYP for?",
     answer:
       "Anyone sleeping against the clock: 4-on/4-off patterns, rotating days and nights, permanent nights, early starts, splits and on-call rotas, from prison officers and nurses to warehouse, factory and logistics crews. It works just as well for anyone on a loud street.",
   },
   {
-    question: "Is FIELD free?",
+    question: "Is SLEYP free?",
     answer:
-      "White, pink and brown noise, the basic timer, every calculator and the whole resource hub are free and stay free. Premium adds ten more sound layers, personal saved mixes, a custom timer with a wake-up fade-in, saved tracking data and historical FIELD Score reporting.",
+      "White, pink and brown noise, the basic timer, every calculator and the whole resource hub are free and stay free. Premium adds ten more sound layers, personal saved mixes, a custom timer with a wake-up fade-in, saved tracking data and historical SLEYP Score reporting.",
   },
 ];
 
@@ -55,22 +55,22 @@ export default function HomePage() {
       <JsonLd data={faqSchema(HOME_FAQS)} />
 
       {/* ---- Hero: the mark settles, then the promise. Nothing else competes. ---- */}
-      <section className="field-wash relative overflow-hidden">
+      <section className="sleyp-wash relative overflow-hidden">
         <div className="mx-auto max-w-7xl px-4 pb-20 pt-20 sm:px-6 md:pb-28 md:pt-28">
           <div className="max-w-3xl">
-            <FieldMark
+            <SleypMark
               settle
               className="h-16 w-auto text-sage sm:h-20"
-              title="FIELD"
+              title="SLEYP"
             />
             <h1 className="mt-9 animate-fade-up font-display text-4xl font-medium leading-[1.05] tracking-tight sm:text-5xl md:text-[3.75rem]">
               Your personal soundscape.
             </h1>
             <p className="mt-7 max-w-xl text-lg font-light leading-relaxed text-ink-muted">
-              Daytime sleep fails for a reason you can hear. FIELD builds a
-              sound field around the room you actually sleep in, so the bin
-              lorry, the letterbox and the neighbour&apos;s drill stop arriving
-              as events.
+              Daytime sleep fails for a reason you can hear. SLEYP builds a
+              personal soundscape around the room you actually sleep in, so
+              the bin lorry, the letterbox and the neighbour&apos;s drill stop
+              arriving as events.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link href="/session/" className="btn-primary px-6 py-3.5 text-base">
@@ -101,7 +101,7 @@ export default function HomePage() {
                 Build the room around the sleep
               </h2>
               <p className="mt-4 leading-relaxed text-ink-muted">
-                The street doesn&apos;t care that you finished at 7am. FIELD
+                The street doesn&apos;t care that you finished at 7am. SLEYP
                 masks traffic, neighbours and deliveries with thirteen sounds
                 generated live in your browser — brown noise and heavy rain
                 through to ocean, forest and campfire. Mix them, save the mix,
@@ -120,7 +120,7 @@ export default function HomePage() {
           <Reveal delay={120}>
             <div className="card-surface overflow-hidden">
               <div className="flex items-center gap-3 border-b border-ink/[0.07] px-6 py-4">
-                <FieldMark className="h-3.5 w-auto text-sage" />
+                <SleypMark className="h-3.5 w-auto text-sage" />
                 <span className="eyebrow">Afternoon, quiet street</span>
               </div>
               <div className="px-6 py-7">
@@ -170,7 +170,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---- Founder: the reason FIELD is credible, not the subject ---- */}
+      {/* ---- Founder: the reason SLEYP is credible, not the subject ---- */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
         <div className="grid gap-10 md:grid-cols-5">
           <Reveal className="md:col-span-3">
@@ -180,7 +180,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-5 leading-relaxed text-ink-muted">{FOUNDER.bio}</p>
             <p className="mt-4 leading-relaxed text-ink-muted">
-              FIELD exists because advice written for 9-to-5 sleepers collapses
+              SLEYP exists because advice written for 9-to-5 sleepers collapses
               on contact with a 4-on/4-off rota. Everything here was tested
               where it counts: on the landings, on the line, and on the drive
               home at dawn.
@@ -281,7 +281,7 @@ export default function HomePage() {
             >
               <Gauge className="h-7 w-7 text-sand-ink" aria-hidden="true" />
               <h3 className="mt-4 font-display text-xl font-semibold">
-                The FIELD Score
+                The SLEYP Score
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">
                 One number for how well you&apos;re surviving your rota, built
@@ -333,8 +333,8 @@ export default function HomePage() {
       {/* ---- Sign-off: the wordmark, quiet ---- */}
       <section className="border-t border-ink/[0.07]">
         <div className="mx-auto flex max-w-7xl flex-col items-center gap-4 px-4 py-16 sm:px-6">
-          <FieldMark className="h-8 w-auto text-sage" />
-          <FieldWordmark className="h-5 w-auto text-ink" />
+          <SleypMark className="h-8 w-auto text-sage" />
+          <SleypWordmark className="h-5 w-auto text-ink" />
           <p className="text-sm text-ink-faint">{SITE.tagline}</p>
         </div>
       </section>

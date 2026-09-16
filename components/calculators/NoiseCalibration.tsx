@@ -132,7 +132,7 @@ export default function NoiseCalibration() {
         href="/session/"
         className="mt-6 inline-block rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-opacity hover:opacity-90"
       >
-        Open this blend in FIELD →
+        Open this blend in SLEYP →
       </a>
     </div>
   );

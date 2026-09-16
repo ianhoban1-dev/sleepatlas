@@ -29,7 +29,7 @@ export default function ToolsPage() {
           { name: "Tools", path: "/tools/" },
         ])}
       />
-      <div className="field-wash">
+      <div className="sleyp-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
           <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             Tools built for the rota you actually work

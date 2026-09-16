@@ -27,14 +27,14 @@ import {
 export const metadata: Metadata = {
   title: "The session",
   description:
-    "A FIELD session builds a sound field around your room: thirteen layers generated live in your browser, white, pink and brown noise free, with rain, thunderstorm, ocean, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium, plus a timer that fades out and a wake-up fade-in.",
+    "A SLEYP session builds a sound environment around your room: thirteen layers generated live in your browser, white, pink and brown noise free, with rain, thunderstorm, ocean, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium, plus a timer that fades out and a wake-up fade-in.",
 };
 
 const FAQS = [
   {
-    question: "What is a FIELD session?",
+    question: "What is a SLEYP session?",
     answer:
-      "A session is FIELD playing a sound field around your room. It generates 13 layers live in your browser — noise colours, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan — with no downloads and no streaming, to hold daytime sleep against traffic, neighbours and deliveries.",
+      "A session is SLEYP playing a sound environment around your room. It generates 13 layers live in your browser — noise colours, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan — with no downloads and no streaming, to hold daytime sleep against traffic, neighbours and deliveries.",
   },
   {
     question: "Is a session free to use?",
@@ -150,7 +150,7 @@ export default function SessionPage() {
       <JsonLd
         data={[
           webApplicationSchema({
-            name: "FIELD Session",
+            name: "SLEYP Session",
             description:
               "Browser-based noise-masking engine for daytime sleep: 13 layered sounds (white, pink and brown noise free; rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium), a fade-out sleep timer, a wake-up fade-in alarm and personal saved mixes for shift workers.",
             path: "/session/",
@@ -163,7 +163,7 @@ export default function SessionPage() {
         ]}
       />
 
-      <div className="field-wash">
+      <div className="sleyp-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
           <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             Build the room around the sleep
@@ -171,7 +171,7 @@ export default function SessionPage() {
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             You can&apos;t quieten a street that is wide awake. You can stop your
             brain treating every bin lorry, door slam and school run as an
-            event. FIELD generates the layers live in your browser — nothing to
+            event. SLEYP generates the layers live in your browser — nothing to
             download, nothing streaming.
           </p>
         </div>
@@ -220,7 +220,7 @@ export default function SessionPage() {
           <h2 className="font-display text-3xl font-medium tracking-tight">
             Why masking beats earplugs alone
           </h2>
-          <div className="prose-field mt-6 space-y-4 leading-relaxed text-ink-muted">
+          <div className="prose-sleyp mt-6 space-y-4 leading-relaxed text-ink-muted">
             <p>
               Daytime sleep fails on contrast, not volume. A quiet room with
               one sudden noise wakes you faster than a consistently noisy one,
@@ -229,7 +229,7 @@ export default function SessionPage() {
               spikes, a door slam still punches through.
             </p>
             <p>
-              FIELD attacks the contrast instead. Raising the room&apos;s
+              SLEYP attacks the contrast instead. Raising the room&apos;s
               sound floor with a steady, predictable texture means the bin
               lorry, the school run and next door&apos;s dog no longer register
               as events. Layer it under moulded earplugs and blackout blinds

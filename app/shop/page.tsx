@@ -67,7 +67,7 @@ export default function ShopPage() {
           ]),
         ]}
       />
-      <div className="field-wash">
+      <div className="sleyp-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
           <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             Gear that earns its place in a day sleeper&apos;s room
@@ -75,7 +75,7 @@ export default function ShopPage() {
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             Forty years of shift work teaches you exactly which kit matters
             and which is landfill. This marketplace is short on purpose, only
-            categories that move your FIELD Score make the list.
+            categories that move your SLEYP Score make the list.
           </p>
         </div>
       </div>
@@ -104,7 +104,7 @@ export default function ShopPage() {
           ))}
         </div>
         <p className="mt-10 text-sm leading-relaxed text-ink-faint">
-          Transparency: FIELD earns a commission on some links at no
+          Transparency: SLEYP earns a commission on some links at no
           extra cost to you. Nothing is listed that we wouldn&apos;t put in our
           own bedroom, and plenty that paid to be here wouldn&apos;t make the
           cut.

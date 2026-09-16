@@ -8,7 +8,7 @@ import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Pricing: Free Tools & Premium Fatigue Intelligence",
   description:
-    "FIELD's calculators, resources and core noise layers are free. Premium adds 10 extra sound layers, personal saved mixes, the wake-up fade-in alarm, saved tracking, advanced fatigue projections and historical FIELD Score reporting.",
+    "SLEYP's calculators, resources and core noise layers are free. Premium adds 10 extra sound layers, personal saved mixes, the wake-up fade-in alarm, saved tracking, advanced fatigue projections and historical SLEYP Score reporting.",
 };
 
 const FREE = [
@@ -17,7 +17,7 @@ const FREE = [
   "Sleep timer with gentle fade-out (30/60/90 min)",
   "Shift journal (this browser)",
   "Full resource hub access",
-  "Live FIELD Score",
+  "Live SLEYP Score",
 ];
 
 const PREMIUM = [
@@ -28,12 +28,12 @@ const PREMIUM = [
   "Custom timer lengths + wake-up fade-in alarm",
   "Saved shift profiles & rota patterns",
   "Advanced fatigue projections for upcoming blocks",
-  "Historical FIELD Score reporting",
+  "Historical SLEYP Score reporting",
 ];
 
 const FAQS = [
   {
-    question: "How much does FIELD Premium cost?",
+    question: "How much does SLEYP Premium cost?",
     answer:
       "Premium launches at £4.99/month or £39/year. Founding members who join the early-access list lock the launch price permanently.",
   },
@@ -43,7 +43,7 @@ const FAQS = [
       "No. Every calculator, the resource hub, the white, pink and brown noise layers and the basic sleep timer are free forever. Premium unlocks the other 10 sound layers, personal saved mixes, the blend questionnaire, the wake-up fade-in alarm, and saved data projected forwards over time.",
   },
   {
-    question: "Can I cancel FIELD Premium anytime?",
+    question: "Can I cancel SLEYP Premium anytime?",
     answer:
       "Yes, subscriptions are managed through Stripe and can be cancelled in one click from your account. You keep Premium until the end of the paid period.",
   },
@@ -61,7 +61,7 @@ export default function PricingPage() {
           ]),
         ]}
       />
-      <div className="field-wash">
+      <div className="sleyp-wash">
         <div className="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 md:py-24">
           <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
             Free to sleep. Premium to tune it.

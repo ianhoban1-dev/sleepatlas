@@ -58,20 +58,20 @@ a {
   font-variant-numeric: tabular-nums;
 }
 
-/* Uppercase eyebrow labels — the one place FIELD uses letter-spacing */
+/* Uppercase eyebrow labels — the one place SLEYP uses letter-spacing */
 .eyebrow {
   @apply font-display text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-faint;
 }
 
-/* ---- FIELD wash: a quiet sage breath on cream, replacing the old aurora ---- */
-.field-wash {
+/* ---- SLEYP wash: a quiet sage breath on cream ---- */
+.sleyp-wash {
   position: relative;
   background:
     radial-gradient(ellipse 65% 45% at 18% 0%, rgba(93, 135, 134, 0.13), transparent 62%),
     radial-gradient(ellipse 55% 38% at 82% 8%, rgba(217, 228, 226, 0.55), transparent 64%),
     radial-gradient(ellipse 75% 55% at 50% 100%, rgba(200, 185, 159, 0.1), transparent 70%);
 }
-.field-wash::before {
+.sleyp-wash::before {
   content: "";
   position: absolute;
   inset: 0 0 auto 0;
@@ -85,7 +85,7 @@ a {
   );
 }
 
-/* ---- Surfaces. Border and fill, no heavy shadow: FIELD lifts with light. ---- */
+/* ---- Surfaces. Border and fill, no heavy shadow: SLEYP lifts with light. ---- */
 .card-surface {
   @apply rounded-soft border border-ink/[0.08] bg-card shadow-card;
 }
@@ -95,7 +95,7 @@ a {
   transition-timing-function: cubic-bezier(0.22, 0.9, 0.28, 1);
 }
 
-/* ---- Buttons. Deep Field carries small text (8.83); sage never does (3.59). ---- */
+/* ---- Buttons. Deep SLEYP carries small text (8.83); sage never does (3.59). ---- */
 .btn-primary {
   @apply inline-flex items-center justify-center gap-2 rounded-full bg-deep px-5 py-2.5
          font-display text-sm font-medium text-cream transition-all duration-200
@@ -150,28 +150,28 @@ a {
 }
 
 /* ---- Long-form article typography ---- */
-.prose-field {
+.prose-sleyp {
   @apply text-ink-muted leading-relaxed;
 }
-.prose-field h2 {
+.prose-sleyp h2 {
   @apply font-display text-2xl md:text-3xl font-semibold text-ink mt-12 mb-4;
 }
-.prose-field h3 {
+.prose-sleyp h3 {
   @apply font-display text-xl font-semibold text-ink mt-8 mb-3;
 }
-.prose-field p {
+.prose-sleyp p {
   @apply mb-5 max-w-[68ch];
 }
-.prose-field ul {
+.prose-sleyp ul {
   @apply list-disc pl-6 mb-5 space-y-2 marker:text-sage;
 }
-.prose-field strong {
+.prose-sleyp strong {
   @apply text-ink font-semibold;
 }
-.prose-field a {
+.prose-sleyp a {
   @apply text-sage-deep underline underline-offset-4 hover:text-deep;
 }
-.prose-field blockquote {
+.prose-sleyp blockquote {
   @apply border-l-2 border-sand pl-5 italic text-ink my-6;
 }
 

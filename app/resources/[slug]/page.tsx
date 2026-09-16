@@ -73,7 +73,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         ]}
       />
 
-      <div className="field-wash">
+      <div className="sleyp-wash">
         <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6 md:py-20">
           <nav aria-label="Breadcrumb" className="mb-6 text-sm text-ink-faint">
             <Link href="/resources/" className="hover:text-ink">
@@ -100,7 +100,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           <p className="mt-2 leading-relaxed text-ink">{article.quickAnswer}</p>
         </div>
 
-        <div className="prose-field mt-10">
+        <div className="prose-sleyp mt-10">
           {article.blocks.map((block, i) => (
             <Block key={i} block={block} />
           ))}
@@ -131,7 +131,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         </aside>
 
         <p className="mt-10 rounded-xl border border-ink/[0.06] bg-paper p-5 text-sm leading-relaxed text-ink-faint">
-          FIELD guides cover lifestyle, performance and operational
+          SLEYP guides cover lifestyle, performance and operational
           safety for people working non-traditional hours. They are not
           medical advice. If sleep problems are affecting your health, speak
           to your GP.

@@ -130,7 +130,7 @@ export default function AdminDashboard() {
       </div>
 
       <p className="rounded-xl border border-ink/[0.06] bg-paper p-5 text-sm leading-relaxed text-ink-faint">
-        Early-access note: while FIELD runs without a database, this
+        Early-access note: while SLEYP runs without a database, this
         dashboard shows accounts created in this browser. Once Supabase is
         connected, every signup from every visitor will appear here.
       </p>
