@@ -7,7 +7,7 @@
  *  3. Replace the stub below with createBrowserClient / createServerClient
  *
  * All calculators run fully client-side until then; premium features
- * (saved rotas, tracking history, SLEYP Score reports) gate on auth.
+ * (saved rotas, tracking history, Sleyp Score reports) gate on auth.
  */
 
 export const supabaseEnabled = Boolean(

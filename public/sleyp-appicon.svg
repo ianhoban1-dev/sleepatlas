@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024.00 1024.00" width="1024.00" height="1024.00" role="img" aria-label="Sleyp app icon">
+<title>Sleyp app icon</title>
+<rect x="0" y="0" width="1024.0" height="1024.0" rx="229.07" ry="229.07" fill="#5D8786"/>
+<g transform="translate(281.600,327.680) scale(3.84000)" fill="none" stroke="#FFFFFF" stroke-width="8.0" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M 4,14.00 C 22,25.00 42,25.00 60,15.00 C 78,5.00 98,5.00 116,11.00"/>
+  <path d="M 4,48.00 C 22,59.00 42,59.00 60,49.00 C 78,39.00 98,39.00 116,45.00"/>
+  <path d="M 4,82.00 C 22,93.00 42,93.00 60,83.00 C 78,73.00 98,73.00 116,79.00"/>
+</g>
+</svg>

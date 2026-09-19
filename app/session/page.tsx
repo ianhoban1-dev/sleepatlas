@@ -27,14 +27,14 @@ import {
 export const metadata: Metadata = {
   title: "The session",
   description:
-    "A SLEYP session builds a sound environment around your room: thirteen layers generated live in your browser, white, pink and brown noise free, with rain, thunderstorm, ocean, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium, plus a timer that fades out and a wake-up fade-in.",
+    "A Sleyp session builds a sound environment around your room: thirteen layers generated live in your browser, white, pink and brown noise free, with rain, thunderstorm, ocean, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium, plus a timer that fades out and a wake-up fade-in.",
 };
 
 const FAQS = [
   {
-    question: "What is a SLEYP session?",
+    question: "What is a Sleyp session?",
     answer:
-      "A session is SLEYP playing a sound environment around your room. It generates 13 layers live in your browser — noise colours, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan — with no downloads and no streaming, to hold daytime sleep against traffic, neighbours and deliveries.",
+      "A session is Sleyp playing a sound environment around your room. It generates 13 layers live in your browser — noise colours, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan — with no downloads and no streaming, to hold daytime sleep against traffic, neighbours and deliveries.",
   },
   {
     question: "Is a session free to use?",
@@ -150,7 +150,7 @@ export default function SessionPage() {
       <JsonLd
         data={[
           webApplicationSchema({
-            name: "SLEYP Session",
+            name: "Sleyp Session",
             description:
               "Browser-based noise-masking engine for daytime sleep: 13 layered sounds (white, pink and brown noise free; rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium), a fade-out sleep timer, a wake-up fade-in alarm and personal saved mixes for shift workers.",
             path: "/session/",
@@ -171,8 +171,9 @@ export default function SessionPage() {
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             You can&apos;t quieten a street that is wide awake. You can stop your
             brain treating every bin lorry, door slam and school run as an
-            event. SLEYP generates the layers live in your browser — nothing to
-            download, nothing streaming.
+            event. Sleyp generates the layers live in your browser — the web
+            version needs no download and nothing streams. Want it on your
+            phone? The Sleyp iOS app is coming soon.
           </p>
         </div>
       </div>
@@ -229,7 +230,7 @@ export default function SessionPage() {
               spikes, a door slam still punches through.
             </p>
             <p>
-              SLEYP attacks the contrast instead. Raising the room&apos;s
+              Sleyp attacks the contrast instead. Raising the room&apos;s
               sound floor with a steady, predictable texture means the bin
               lorry, the school run and next door&apos;s dog no longer register
               as events. Layer it under moulded earplugs and blackout blinds

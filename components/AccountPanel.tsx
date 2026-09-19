@@ -69,7 +69,7 @@ export default function AccountPanel() {
         {user.plan === "free" && (
           <div className="mt-8 rounded-xl border border-sage/30 bg-paper p-6">
             <h3 className="font-display text-lg font-semibold">
-              Unlock SLEYP Premium
+              Unlock Sleyp Premium
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-ink-muted">
               Heavy rain and fan hum layers, the personal blend questionnaire,
@@ -207,7 +207,7 @@ export default function AccountPanel() {
       </form>
 
       <p className="mt-5 text-xs leading-relaxed text-ink-faint">
-        Accounts currently live in this browser while SLEYP is in
+        Accounts currently live in this browser while Sleyp is in
         early access. Your password is never stored in plain text.
       </p>
     </div>

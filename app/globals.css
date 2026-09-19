@@ -58,12 +58,12 @@ a {
   font-variant-numeric: tabular-nums;
 }
 
-/* Uppercase eyebrow labels — the one place SLEYP uses letter-spacing */
+/* Uppercase eyebrow labels — the one place Sleyp uses letter-spacing */
 .eyebrow {
   @apply font-display text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-faint;
 }
 
-/* ---- SLEYP wash: a quiet sage breath on cream ---- */
+/* ---- Sleyp wash: a quiet sage breath on cream ---- */
 .sleyp-wash {
   position: relative;
   background:
@@ -85,7 +85,7 @@ a {
   );
 }
 
-/* ---- Surfaces. Border and fill, no heavy shadow: SLEYP lifts with light. ---- */
+/* ---- Surfaces. Border and fill, no heavy shadow: Sleyp lifts with light. ---- */
 .card-surface {
   @apply rounded-soft border border-ink/[0.08] bg-card shadow-card;
 }
@@ -95,7 +95,7 @@ a {
   transition-timing-function: cubic-bezier(0.22, 0.9, 0.28, 1);
 }
 
-/* ---- Buttons. Deep SLEYP carries small text (8.83); sage never does (3.59). ---- */
+/* ---- Buttons. Deep Sleyp carries small text (8.83); sage never does (3.59). ---- */
 .btn-primary {
   @apply inline-flex items-center justify-center gap-2 rounded-full bg-deep px-5 py-2.5
          font-display text-sm font-medium text-cream transition-all duration-200

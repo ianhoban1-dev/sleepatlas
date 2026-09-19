@@ -1,7 +1,7 @@
 {
-  "name": "SLEYP",
-  "short_name": "SLEYP",
-  "description": "Your personal soundscape.",
+  "name": "Sleyp | Your Sleep Environment",
+  "short_name": "Sleyp",
+  "description": "Your Sleep Environment. Personalised sleep sounds, sleep tools and calculators.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F5F3ED",

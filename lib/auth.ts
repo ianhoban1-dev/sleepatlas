@@ -1,5 +1,5 @@
 /**
- * SLEYP: demo authentication store.
+ * Sleyp: demo authentication store.
  *
  * DEMO MODE: accounts live in this browser's localStorage so the full
  * signup → premium → admin flow works today with zero backend setup.

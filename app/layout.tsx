@@ -10,15 +10,22 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} — Your personal soundscape`,
+    default: `${SITE.name} | ${SITE.tagline}`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
   manifest: "/site.webmanifest",
   openGraph: {
     siteName: SITE.name,
+    title: `${SITE.name} | ${SITE.tagline}`,
+    description: SITE.description,
     type: "website",
     locale: SITE.locale,
+  },
+  twitter: {
+    card: "summary",
+    title: `${SITE.name} | ${SITE.tagline}`,
+    description: SITE.description,
   },
 };
 

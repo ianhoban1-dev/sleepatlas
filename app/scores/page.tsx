@@ -5,9 +5,9 @@ import Reveal from "@/components/Reveal";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "The SLEYP Score: How It Works",
+  title: "The Sleyp Score: How It Works",
   description:
-    "The SLEYP Score is the proprietary scoring framework for non-standard schedules: one overall number built from Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt.",
+    "The Sleyp Score is the proprietary scoring framework for non-standard schedules: one overall number built from Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt.",
 };
 
 const SUB_SCORES = [
@@ -39,17 +39,17 @@ const SUB_SCORES = [
 
 const FAQS = [
   {
-    question: "What is the SLEYP Score?",
+    question: "What is the Sleyp Score?",
     answer:
-      "The SLEYP Score is a single 0–100 number that tells a shift worker how well they're coping with their rota. It combines four sub-scores: Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt, each built from quick practical inputs rather than wearables or lab data.",
+      "The Sleyp Score is a single 0–100 number that tells a shift worker how well they're coping with their rota. It combines four sub-scores: Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt, each built from quick practical inputs rather than wearables or lab data.",
   },
   {
-    question: "How is the SLEYP Score different from a sleep tracker score?",
+    question: "How is the Sleyp Score different from a sleep tracker score?",
     answer:
-      "Wearable scores assume a normal night sleeper and judge you against a 10pm–6am world. The SLEYP Score is built for non-standard schedules: it knows a 6-hour day-sleep after a night shift is a different achievement from a 6-hour night sleep, and scores you against your rota's reality.",
+      "Wearable scores assume a normal night sleeper and judge you against a 10pm–6am world. The Sleyp Score is built for non-standard schedules: it knows a 6-hour day-sleep after a night shift is a different achievement from a 6-hour night sleep, and scores you against your rota's reality.",
   },
   {
-    question: "How do I improve my SLEYP Score?",
+    question: "How do I improve my Sleyp Score?",
     answer:
       "Each sub-score maps to a tool: fix Noise Impact with the Noise Calibration Tool and a tuned session; fix Circadian Recovery with the Rota Flip-Flop Calculator; fix Sleep Debt with the logger and recovery naps; and improve Rota Adaptation by matching tactics to your chronotype.",
   },
@@ -73,7 +73,7 @@ export default function ScoresPage() {
             One number for surviving your rota
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
-            Fitness apps score your sleep as if you work 9-to-5. The SLEYP
+            Fitness apps score your sleep as if you work 9-to-5. The Sleyp
             Score is built for the rest of us, a 0–100 measure of how
             well you&apos;re actually coping with non-standard hours, built
             from four practical sub-scores you can influence this week.
@@ -100,7 +100,7 @@ export default function ScoresPage() {
         <section className="prose-sleyp mt-16 max-w-3xl">
           <h2>How the overall score works</h2>
           <p>
-            Your overall SLEYP Score is a weighted blend of the four
+            Your overall Sleyp Score is a weighted blend of the four
             sub-scores, with Accumulated Sleep Debt carrying the heaviest
             weight, because debt is the component that turns into a safety
             problem fastest. Quick inputs across the tools and trackers keep

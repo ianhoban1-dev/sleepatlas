@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * The SLEYP session: the built-in sound engine.
+ * The Sleyp session: the built-in sound engine.
  * All sound is generated live in the browser with the Web Audio API,
  * no streams, no downloads, works offline once the page is loaded.
  *
@@ -707,7 +707,7 @@ export default function SoundSession() {
         <button
           type="button"
           onClick={togglePlay}
-          aria-label={playing ? "Pause SLEYP" : "Play SLEYP"}
+          aria-label={playing ? "Pause Sleyp" : "Play Sleyp"}
           className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-deep text-cream transition-all duration-200 hover:opacity-90 hover:shadow-glow"
         >
           {playing ? (
@@ -871,7 +871,7 @@ export default function SoundSession() {
               Build my blend
             </p>
             <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-              Three quick questions about your street and your sleep. SLEYP
+              Three quick questions about your street and your sleep. Sleyp
               sets the layers and volume for you.
             </p>
             <div className="mt-5 space-y-5">

@@ -1,6 +1,6 @@
-# FIELD
+# Sleyp
 
-**Your personal soundscape.** A sound and sleep-environment app for people whose sleep is hard-won — shift workers, night workers, rotating rotas, and anyone on a loud street. The session leads; the rota calculators and trackers support it.
+**Your Sleep Environment.** A sound and sleep-environment app for people whose sleep is hard-won — shift workers, night workers, rotating rotas, and anyone on a loud street. The session leads; the rota calculators and trackers support it.
 
 Brand system, logo pack and construction spec live in [`FIELD-Brand/`](FIELD-Brand/).
 
@@ -26,7 +26,7 @@ Note: if `node_modules` looks partial from a previous install, just run `npm ins
 | `/account/` | Sign up / log in and plan management (demo auth in this browser until Supabase is wired) |
 | `/admin/` | Member dashboard — visible only to the admin email in `lib/auth.ts`: signups, plans, upgrade/downgrade |
 | `/trackers/` | Shift journal (browser localStorage; premium sync stubbed) |
-| `/scores/` | FIELD Score framework explainer |
+| `/scores/` | Sleyp Score framework explainer |
 | `/resources/` | Modular article engine — 6 categories, 3 flagship articles live |
 | `/shop/` | Curated affiliate gear (links are `#` placeholders) |
 | `/pricing/` | Free vs Premium (£4.99/mo · £39/yr), Stripe checkout stubbed |
@@ -48,7 +48,7 @@ Note: if `node_modules` looks partial from a previous install, just run `npm ins
 
 - **Supabase:** see `lib/supabase.ts` — install `@supabase/supabase-js`, add env keys. Then swap the demo function bodies in `lib/auth.ts` for Supabase Auth + a `profiles` table (components only call those functions, nothing else changes) — the admin dashboard will then show every real signup.
 - **Stripe:** replace the "Become a founding member" link in `app/pricing/page.tsx` with a checkout session route, and remove the free "Activate Premium" button in `components/AccountPanel.tsx`.
-- **Domain:** update `SITE.url` in `lib/site.ts` (currently `sleepatlas.co.uk` placeholder) before deploying to Vercel.
+- **Domain:** update `SITE.url` in `lib/site.ts` (currently `https://www.getsleyp.com`); sitemap, robots, canonicals, schema and OG derive from it.
 - **Affiliate links:** replace `#` hrefs in `app/shop/page.tsx` (`GEAR` array).
 
 ## Design tokens

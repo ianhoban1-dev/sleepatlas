@@ -11,32 +11,38 @@ import {
 import Reveal from "@/components/Reveal";
 import RotaVisualizer from "@/components/RotaVisualizer";
 import JsonLd from "@/components/JsonLd";
+import AppCta from "@/components/AppCta";
 import SleypMark, { SleypWordmark } from "@/components/SleypMark";
 import { faqSchema } from "@/lib/schema";
 import { SITE, FOUNDER } from "@/lib/site";
 import { TOOLS } from "@/lib/tools";
 
 export const metadata: Metadata = {
-  title: "SLEYP — Your personal soundscape",
+  title: "Sleyp | Your Sleep Environment: Personalised Sleep Sounds",
   description:
-    "SLEYP builds a personal soundscape around the room you actually sleep in. Thirteen layered sounds generated live in your browser, a timer that fades rather than stops, and tools built on forty years of shift work.",
+    "Sleyp builds a personalised sleep environment around the room you actually sleep in. White, pink and brown noise for sleep, a sleep sound mixer with thirteen layers generated live in your browser, and tools built on forty years of shift work.",
 };
 
 const HOME_FAQS = [
   {
-    question: "What is SLEYP?",
+    question: "What is Sleyp?",
     answer:
-      "SLEYP is a sound and sleep-environment tool for people whose sleep is hard-won. It generates thirteen layered sounds live in your browser, mixes them into a personal soundscape tuned to your room, and fades out on a timer instead of stopping dead. Alongside it sit calculators and trackers built for rotating and night rotas.",
+      "Sleyp is a sound and sleep-environment tool for people whose sleep is hard-won. It generates thirteen layered sounds live in your browser, mixes them into a personal soundscape tuned to your room, and fades out on a timer instead of stopping dead. Alongside it sit calculators and trackers built for rotating and night rotas.",
   },
   {
-    question: "Who is SLEYP for?",
+    question: "Who is Sleyp for?",
     answer:
       "Anyone sleeping against the clock: 4-on/4-off patterns, rotating days and nights, permanent nights, early starts, splits and on-call rotas, from prison officers and nurses to warehouse, factory and logistics crews. It works just as well for anyone on a loud street.",
   },
   {
-    question: "Is SLEYP free?",
+    question: "Is Sleyp free?",
     answer:
-      "White, pink and brown noise, the basic timer, every calculator and the whole resource hub are free and stay free. Premium adds ten more sound layers, personal saved mixes, a custom timer with a wake-up fade-in, saved tracking data and historical SLEYP Score reporting.",
+      "White, pink and brown noise, the basic timer, every calculator and the whole resource hub are free and stay free. Premium adds ten more sound layers, personal saved mixes, a custom timer with a wake-up fade-in, saved tracking data and historical Sleyp Score reporting.",
+  },
+  {
+    question: "Is there a Sleyp app?",
+    answer:
+      "The Sleyp iOS app is coming soon to the App Store for the full Sleyp experience on your phone. The web version stays free to try in your browser today, with the same sound mixer, sleep timer, calculators and resources.",
   },
 ];
 
@@ -61,29 +67,36 @@ export default function HomePage() {
             <SleypMark
               settle
               className="h-16 w-auto text-sage sm:h-20"
-              title="SLEYP"
+              title="Sleyp"
             />
             <h1 className="mt-9 animate-fade-up font-display text-4xl font-medium leading-[1.05] tracking-tight sm:text-5xl md:text-[3.75rem]">
-              Your personal soundscape.
+              Your Sleep Environment.
             </h1>
             <p className="mt-7 max-w-xl text-lg font-light leading-relaxed text-ink-muted">
-              Daytime sleep fails for a reason you can hear. SLEYP builds a
-              personal soundscape around the room you actually sleep in, so
-              the bin lorry, the letterbox and the neighbour&apos;s drill stop
-              arriving as events.
+              Create a personalised sound environment designed around the
+              way you sleep. Sleyp builds it around the room you actually
+              sleep in, so the bin lorry, the letterbox and the
+              neighbour&apos;s drill stop arriving as events. Your sleep. Your
+              sound. Your mix.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <Link href="/session/" className="btn-primary px-6 py-3.5 text-base">
-                Start a session
+                Try Sleyp free
               </Link>
               <Link href="/tools/" className="btn-secondary px-6 py-3.5 text-base">
                 See the tools
               </Link>
             </div>
+            <p className="mt-4 text-sm text-ink-muted">
+              <Link href="/#app" className="underline underline-offset-4 hover:text-ink">
+                Get the Sleyp app
+              </Link>{" "}
+              for the full Sleyp experience.
+            </p>
             <p className="mt-10 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink-faint">
               Thirteen layers
               <span aria-hidden="true">·</span>
-              Nothing to download
+              Free in your browser
               <span aria-hidden="true">·</span>
               Core sounds free forever
             </p>
@@ -101,7 +114,7 @@ export default function HomePage() {
                 Build the room around the sleep
               </h2>
               <p className="mt-4 leading-relaxed text-ink-muted">
-                The street doesn&apos;t care that you finished at 7am. SLEYP
+                The street doesn&apos;t care that you finished at 7am. Sleyp
                 masks traffic, neighbours and deliveries with thirteen sounds
                 generated live in your browser — brown noise and heavy rain
                 through to ocean, forest and campfire. Mix them, save the mix,
@@ -170,7 +183,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---- Founder: the reason SLEYP is credible, not the subject ---- */}
+      {/* ---- Founder: the reason Sleyp is credible, not the subject ---- */}
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
         <div className="grid gap-10 md:grid-cols-5">
           <Reveal className="md:col-span-3">
@@ -180,7 +193,7 @@ export default function HomePage() {
             </h2>
             <p className="mt-5 leading-relaxed text-ink-muted">{FOUNDER.bio}</p>
             <p className="mt-4 leading-relaxed text-ink-muted">
-              SLEYP exists because advice written for 9-to-5 sleepers collapses
+              Sleyp exists because advice written for 9-to-5 sleepers collapses
               on contact with a 4-on/4-off rota. Everything here was tested
               where it counts: on the landings, on the line, and on the drive
               home at dawn.
@@ -281,7 +294,7 @@ export default function HomePage() {
             >
               <Gauge className="h-7 w-7 text-sand-ink" aria-hidden="true" />
               <h3 className="mt-4 font-display text-xl font-semibold">
-                The SLEYP Score
+                The Sleyp Score
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-muted">
                 One number for how well you&apos;re surviving your rota, built
@@ -311,6 +324,29 @@ export default function HomePage() {
             <Link href="/shop/" className="btn-secondary mt-6 px-6 py-3.5 text-base">
               Browse the marketplace
             </Link>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* ---- The app: web stays free, the app is the full experience ---- */}
+      <section id="app" className="border-t border-ink/[0.07]">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-20">
+          <Reveal>
+            <p className="eyebrow">The app</p>
+            <h2 className="mt-3 font-display text-3xl font-medium tracking-tight">
+              Take Sleyp with you
+            </h2>
+            <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
+              Try Sleyp free in your browser today. The Sleyp iOS app is the
+              full Sleyp experience, made for the night: your environment,
+              your mix, ready on your phone.
+            </p>
+            <div className="mt-6 flex flex-wrap items-center gap-3">
+              <Link href="/session/" className="btn-primary px-6 py-3.5 text-base">
+                Try Sleyp free
+              </Link>
+              <AppCta />
+            </div>
           </Reveal>
         </div>
       </section>

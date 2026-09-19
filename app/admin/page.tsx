@@ -3,7 +3,7 @@ import AdminDashboard from "@/components/AdminDashboard";
 
 export const metadata: Metadata = {
   title: "Admin Dashboard",
-  description: "SLEYP member administration.",
+  description: "Sleyp member administration.",
   robots: { index: false, follow: false },
 };
 

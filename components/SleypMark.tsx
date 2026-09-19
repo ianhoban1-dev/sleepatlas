@@ -53,7 +53,7 @@ export function SleypWordmark({ className = "" }: { className?: string }) {
       stroke="currentColor"
       strokeWidth={11}
       role="img"
-      aria-label="SLEYP"
+      aria-label="Sleyp"
     >
       <path d="M 47,20 C 47,8 37,2 25,2 C 13,2 5,10 5,22 C 5,34 15,40 30,47 C 45,54 55,60 55,78 C 55,90 47,98 35,98 C 23,98 13,92 13,80" />
       <path d="M 80.5,0 V 100" />

@@ -130,8 +130,16 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           <p className="mt-3 leading-relaxed text-ink-muted">{FOUNDER.bio}</p>
         </aside>
 
-        <p className="mt-10 rounded-xl border border-ink/[0.06] bg-paper p-5 text-sm leading-relaxed text-ink-faint">
-          SLEYP guides cover lifestyle, performance and operational
+        <p className="mt-10 text-sm leading-relaxed text-ink-muted">
+          Want the sounds without the setup?{" "}
+          <Link href="/session/" className="underline underline-offset-4 hover:text-ink">
+            Try Sleyp free in your browser
+          </Link>
+          , and take it with you in the Sleyp app when it reaches the App Store.
+        </p>
+
+        <p className="mt-6 rounded-xl border border-ink/[0.06] bg-paper p-5 text-sm leading-relaxed text-ink-faint">
+          Sleyp guides cover lifestyle, performance and operational
           safety for people working non-traditional hours. They are not
           medical advice. If sleep problems are affecting your health, speak
           to your GP.

@@ -107,7 +107,7 @@ export default function ToolPageLayout({
         </section>
 
         <p className="mt-12 rounded-xl border border-ink/[0.06] bg-paper p-5 text-sm leading-relaxed text-ink-faint">
-          SLEYP tools are lifestyle and operational-safety aids for shift
+          Sleyp tools are lifestyle and operational-safety aids for shift
           workers, built from real-world experience. They are not medical
           devices or diagnostic tools. If fatigue or sleep problems are
           affecting your health, speak to your GP.

@@ -13,9 +13,14 @@ export default function Footer() {
               <span className="font-display text-lg font-semibold tracking-[0.08em]">SLEYP</span>
             </div>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-ink-muted">
-              {SITE.tagline} Built on {FOUNDER.yearsOfShiftWork} years of real
+              {SITE.tagline}. Built on {FOUNDER.yearsOfShiftWork} years of real
               shift-floor experience, military, prisons, factories and heavy
               logistics.
+            </p>
+            <p className="mt-3 text-sm text-ink-muted">
+              <Link href="/#app" className="underline underline-offset-4 hover:text-ink">
+                Get the Sleyp app
+              </Link>
             </p>
           </div>
 
@@ -42,7 +47,7 @@ export default function Footer() {
               A note on what we are
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-ink-muted">
-              SLEYP is a lifestyle, performance and operational-safety
+              Sleyp is a lifestyle, performance and operational-safety
               resource for people who work non-traditional hours. It is not a
               medical service. If sleep problems are affecting your health,
               speak to your GP.
@@ -51,7 +56,7 @@ export default function Footer() {
         </div>
 
         <p className="mt-12 border-t border-ink/[0.06] pt-6 text-xs text-ink-faint">
-          © {new Date().getFullYear()} SLEYP. All rights reserved.
+          © {new Date().getFullYear()} Sleyp. All rights reserved.
         </p>
       </div>
     </footer>

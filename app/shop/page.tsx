@@ -75,7 +75,7 @@ export default function ShopPage() {
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             Forty years of shift work teaches you exactly which kit matters
             and which is landfill. This marketplace is short on purpose, only
-            categories that move your SLEYP Score make the list.
+            categories that move your Sleyp Score make the list.
           </p>
         </div>
       </div>
@@ -104,7 +104,7 @@ export default function ShopPage() {
           ))}
         </div>
         <p className="mt-10 text-sm leading-relaxed text-ink-faint">
-          Transparency: SLEYP earns a commission on some links at no
+          Transparency: Sleyp earns a commission on some links at no
           extra cost to you. Nothing is listed that we wouldn&apos;t put in our
           own bedroom, and plenty that paid to be here wouldn&apos;t make the
           cut.

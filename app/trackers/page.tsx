@@ -6,7 +6,7 @@ import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Shift Journal & Sleep Debt Trackers",
   description:
-    "Log every shift and every sleep in one place. The SLEYP shift journal tracks sleep hours, quality and disturbances across your rota so patterns become visible before fatigue becomes a problem.",
+    "Log every shift and every sleep in one place. The Sleyp shift journal tracks sleep hours, quality and disturbances across your rota so patterns become visible before fatigue becomes a problem.",
 };
 
 const FAQS = [
