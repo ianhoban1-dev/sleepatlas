@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Activity, BatteryLow, Brain, MoonStar } from "lucide-react";
+import { Activity, BatteryLow, Brain, Lightbulb } from "lucide-react";
 
 /**
  * Homepage interactive rota visualizer.
@@ -60,9 +60,9 @@ const ROTAS: Record<RotaKey, RotaProfile> = {
 
 const riskColor: Record<RotaProfile["fatigueRisk"], string> = {
   Low: "text-good",
-  Moderate: "text-sand-soft",
-  High: "text-sand-ink",
-  Severe: "text-red-400",
+  Moderate: "text-sand-ink",
+  High: "text-warn",
+  Severe: "text-warn",
 };
 
 export default function RotaVisualizer() {
@@ -70,10 +70,10 @@ export default function RotaVisualizer() {
   const p = ROTAS[rota];
 
   return (
-    <div className="card-surface p-6 md:p-8">
+    <div className="frame p-6 md:p-8">
       <label
         htmlFor="rota-select"
-        className="mb-2 block text-sm font-medium text-ink-muted"
+        className="eyebrow mb-3 block"
       >
         Select your shift pattern
       </label>
@@ -81,7 +81,7 @@ export default function RotaVisualizer() {
         id="rota-select"
         value={rota}
         onChange={(e) => setRota(e.target.value as RotaKey)}
-        className="mb-6 w-full rounded-lg border border-ink/10 bg-mist px-4 py-3 text-ink"
+        className="mb-6 w-full rounded-xl border border-ink/10 bg-mist px-4 py-3.5 font-display font-medium text-ink hover:border-sage/40"
       >
         {(Object.keys(ROTAS) as RotaKey[]).map((key) => (
           <option key={key} value={key}>
@@ -91,17 +91,17 @@ export default function RotaVisualizer() {
       </select>
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <div className="rounded-xl bg-mist p-4">
+        <div className="rounded-2xl border border-ink/[0.06] bg-paper p-5">
           <div className="flex items-center gap-2 text-ink-muted">
             <Brain className="h-4 w-4 text-sage" aria-hidden="true" />
-            <span className="text-xs uppercase tracking-wider">Rota adaptation</span>
+            <span className="font-display text-[11px] font-semibold uppercase tracking-[0.14em]">Rota adaptation</span>
           </div>
-          <p className="mt-2 font-display text-3xl font-semibold">
+          <p className="tabular mt-3 font-serif text-5xl leading-none">
             {p.adaptation}
-            <span className="text-base text-ink-faint">/100</span>
+            <span className="ml-0.5 font-body text-base text-ink-faint">/100</span>
           </p>
           <div
-            className="mt-2 h-1.5 w-full overflow-hidden rounded-full bg-soft"
+            className="mt-4 h-1.5 w-full overflow-hidden rounded-full bg-soft"
             role="img"
             aria-label={`Rota adaptation score ${p.adaptation} out of 100`}
           >
@@ -112,32 +112,32 @@ export default function RotaVisualizer() {
           </div>
         </div>
 
-        <div className="rounded-xl bg-mist p-4">
+        <div className="rounded-2xl border border-ink/[0.06] bg-paper p-5">
           <div className="flex items-center gap-2 text-ink-muted">
             <BatteryLow className="h-4 w-4 text-sand-ink" aria-hidden="true" />
-            <span className="text-xs uppercase tracking-wider">Typical weekly debt</span>
+            <span className="font-display text-[11px] font-semibold uppercase tracking-[0.14em]">Typical weekly debt</span>
           </div>
-          <p className="mt-2 font-display text-3xl font-semibold">
+          <p className="tabular mt-3 font-serif text-5xl leading-none">
             {p.weeklyDebtHours}
-            <span className="text-base text-ink-faint">h</span>
+            <span className="ml-0.5 font-body text-base text-ink-faint">h</span>
           </p>
-          <p className="mt-2 text-xs text-ink-faint">unmanaged baseline</p>
+          <p className="mt-4 text-xs text-ink-faint">unmanaged baseline</p>
         </div>
 
-        <div className="rounded-xl bg-mist p-4">
+        <div className="rounded-2xl border border-ink/[0.06] bg-paper p-5">
           <div className="flex items-center gap-2 text-ink-muted">
             <Activity className="h-4 w-4 text-good" aria-hidden="true" />
-            <span className="text-xs uppercase tracking-wider">Fatigue risk</span>
+            <span className="font-display text-[11px] font-semibold uppercase tracking-[0.14em]">Fatigue risk</span>
           </div>
-          <p className={`mt-2 font-display text-3xl font-semibold ${riskColor[p.fatigueRisk]}`}>
+          <p className={`mt-3 font-serif text-4xl leading-none sm:text-[2.75rem] ${riskColor[p.fatigueRisk]}`}>
             {p.fatigueRisk}
           </p>
-          <p className="mt-2 text-xs text-ink-faint">without countermeasures</p>
+          <p className="mt-4 text-xs text-ink-faint">without countermeasures</p>
         </div>
       </div>
 
       <p className="mt-5 flex items-start gap-2 text-sm leading-relaxed text-ink-muted">
-        <MoonStar className="mt-0.5 h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
+        <Lightbulb className="mt-0.5 h-4 w-4 shrink-0 text-sage" aria-hidden="true" />
         {p.note}
       </p>
     </div>

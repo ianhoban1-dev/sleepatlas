@@ -6,6 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { ARTICLES, getArticle, type ArticleBlock } from "@/lib/articles";
 import { FOUNDER } from "@/lib/site";
+import FaqList from "@/components/FaqList";
 
 export function generateStaticParams() {
   return ARTICLES.map((a) => ({ slug: a.slug }));
@@ -81,7 +82,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             </Link>{" "}
             / <span className="text-ink-muted">{article.category}</span>
           </nav>
-          <h1 className="font-display text-3xl font-medium leading-tight tracking-tight md:text-4xl">
+          <h1 className="display-md">
             {article.title}
           </h1>
           <p className="mt-4 text-sm text-ink-faint">
@@ -111,13 +112,8 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           <h2 className="font-display text-2xl font-semibold">
             Frequently asked questions
           </h2>
-          <div className="mt-6 space-y-5">
-            {article.faqs.map((faq) => (
-              <div key={faq.question} className="card-surface p-6">
-                <h3 className="font-display text-lg font-semibold">{faq.question}</h3>
-                <p className="mt-2 leading-relaxed text-ink-muted">{faq.answer}</p>
-              </div>
-            ))}
+          <div className="mt-6">
+            <FaqList faqs={article.faqs} />
           </div>
         </section>
 

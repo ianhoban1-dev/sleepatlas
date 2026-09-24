@@ -3,6 +3,7 @@ import { Activity, BatteryLow, RefreshCcw, Volume2 } from "lucide-react";
 import JsonLd from "@/components/JsonLd";
 import Reveal from "@/components/Reveal";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
+import FaqList from "@/components/FaqList";
 
 export const metadata: Metadata = {
   title: "The Sleyp Score: How It Works",
@@ -68,8 +69,9 @@ export default function ScoresPage() {
         ]}
       />
       <div className="sleyp-wash">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
+        <div className="mx-auto max-w-site px-5 py-16 sm:px-8 md:py-24">
+          <p className="eyebrow eyebrow-rule mb-6">The framework</p>
+          <h1 className="display-lg">
             One number for surviving your rota
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -81,7 +83,7 @@ export default function ScoresPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+      <div className="mx-auto max-w-site px-5 pb-24 sm:px-8">
         <div className="grid gap-4 md:grid-cols-2">
           {SUB_SCORES.map((s, i) => (
             <Reveal key={s.name} delay={i * 60}>
@@ -116,16 +118,11 @@ export default function ScoresPage() {
         </section>
 
         <section className="mt-16 max-w-3xl">
-          <h2 className="font-display text-2xl font-semibold md:text-3xl">
+          <h2 className="display-sm">
             Frequently asked questions
           </h2>
-          <div className="mt-6 space-y-5">
-            {FAQS.map((faq) => (
-              <div key={faq.question} className="card-surface p-6">
-                <h3 className="font-display text-lg font-semibold">{faq.question}</h3>
-                <p className="mt-2 leading-relaxed text-ink-muted">{faq.answer}</p>
-              </div>
-            ))}
+          <div className="mt-6">
+            <FaqList faqs={FAQS} />
           </div>
         </section>
       </div>

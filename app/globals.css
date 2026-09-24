@@ -2,18 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+ * Sleyp design system, v2 ("premium pass").
+ *
+ * References, from ianhoban1-dev/awesome-design-md:
+ *  - Claude: warm cream canvas, editorial serif display at weight 400,
+ *    dark product surfaces used as the page's pacing rhythm.
+ *  - ElevenLabs: atmospheric colour orbs instead of chromatic CTAs;
+ *    one quiet ink pill as the primary action.
+ *  - Superhuman: a deep-teal closing band; one CTA per band, never three.
+ *  - Cal.com: real product fragments inside marketing cards.
+ * And from ianhoban1-dev/website-ui (shadcn): 3px soft focus rings,
+ * disabled states, svg sizing inside buttons, border-b accordion rows.
+ *
+ * Brand colours are unchanged. Every text/background pair used below is
+ * measured in tailwind.config.ts.
+ */
+
 :root {
   color-scheme: light;
   caret-color: #5d8786;
   accent-color: #5d8786;
+  --ease-out: cubic-bezier(0.22, 0.9, 0.28, 1);
 }
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
   @apply bg-cream text-ink font-body antialiased;
+  font-feature-settings: "ss01", "cv11";
+  text-rendering: optimizeLegibility;
 }
 
 /* ---- Browser surfaces carry the design too ---- */
@@ -58,67 +79,308 @@ a {
   font-variant-numeric: tabular-nums;
 }
 
-/* Uppercase eyebrow labels — the one place Sleyp uses letter-spacing */
-.eyebrow {
-  @apply font-display text-[11px] font-semibold uppercase tracking-[0.16em] text-ink-faint;
+/* ======================================================================
+   Type scale. Serif for the voice, grotesk for the interface.
+   Display is always weight 400 with negative tracking, never bold.
+   ====================================================================== */
+.display-xl,
+.display-lg,
+.display-md,
+.display-sm {
+  @apply font-serif font-normal text-ink;
+  letter-spacing: -0.022em;
+  font-feature-settings: "kern", "liga", "dlig";
+}
+.display-xl {
+  font-size: clamp(3rem, 1.6rem + 5.6vw, 6.25rem);
+  line-height: 0.96;
+}
+.display-lg {
+  font-size: clamp(2.5rem, 1.7rem + 3.2vw, 4.25rem);
+  line-height: 1;
+}
+.display-md {
+  font-size: clamp(2.125rem, 1.6rem + 2vw, 3.25rem);
+  line-height: 1.04;
+}
+.display-sm {
+  font-size: clamp(1.75rem, 1.45rem + 1.1vw, 2.375rem);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+/* An italic word inside a headline carries the accent, not a colour block. */
+.display-xl em,
+.display-lg em,
+.display-md em,
+.display-sm em {
+  @apply italic text-sage-deep;
+}
+.on-deep .display-xl em,
+.on-deep .display-lg em,
+.on-deep .display-md em,
+.on-deep .display-sm em {
+  @apply text-sand;
 }
 
-/* ---- Sleyp wash: a quiet sage breath on cream ---- */
-.sleyp-wash {
-  position: relative;
-  background:
-    radial-gradient(ellipse 65% 45% at 18% 0%, rgba(93, 135, 134, 0.13), transparent 62%),
-    radial-gradient(ellipse 55% 38% at 82% 8%, rgba(217, 228, 226, 0.55), transparent 64%),
-    radial-gradient(ellipse 75% 55% at 50% 100%, rgba(200, 185, 159, 0.1), transparent 70%);
+.lede {
+  @apply text-lg leading-relaxed text-ink-muted md:text-xl md:leading-relaxed;
 }
-.sleyp-wash::before {
+
+/* Uppercase eyebrow labels, the one place Sleyp uses wide letter-spacing */
+.eyebrow {
+  @apply inline-flex items-center gap-2.5 font-display text-[11px] font-semibold uppercase tracking-[0.18em] text-ink-faint;
+}
+.eyebrow-rule::before {
+  content: "";
+  @apply inline-block h-px w-6 bg-sage;
+}
+
+/* ======================================================================
+   Layout rhythm
+   ====================================================================== */
+.shell {
+  @apply mx-auto w-full max-w-site px-5 sm:px-8;
+}
+.section-y {
+  @apply py-20 md:py-28 lg:py-32;
+}
+
+/* ======================================================================
+   Atmosphere. Slow sage and sand light drifting behind the hero:
+   the ElevenLabs orb idea in Sleyp's own palette. No purple, no neon.
+   ====================================================================== */
+.atmosphere {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.atmosphere::before,
+.atmosphere::after {
   content: "";
   position: absolute;
-  inset: 0 0 auto 0;
+  z-index: -1;
+  border-radius: 9999px;
+  filter: blur(60px);
+  pointer-events: none;
+  will-change: transform;
+  animation: drift 22s ease-in-out infinite alternate;
+}
+.atmosphere::before {
+  width: 46rem;
+  height: 34rem;
+  top: -14rem;
+  left: -12rem;
+  background: radial-gradient(closest-side, rgba(93, 135, 134, 0.26), transparent);
+}
+.atmosphere::after {
+  width: 40rem;
+  height: 30rem;
+  top: 2rem;
+  right: -14rem;
+  background: radial-gradient(closest-side, rgba(200, 185, 159, 0.3), transparent);
+  animation-duration: 28s;
+  animation-direction: alternate-reverse;
+}
+
+/* The older, quieter wash. Still used on inner-page heroes. */
+.sleyp-wash {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    radial-gradient(ellipse 65% 55% at 12% 0%, rgba(93, 135, 134, 0.16), transparent 62%),
+    radial-gradient(ellipse 50% 45% at 92% 12%, rgba(200, 185, 159, 0.2), transparent 64%),
+    radial-gradient(ellipse 55% 38% at 60% 0%, rgba(217, 228, 226, 0.6), transparent 64%);
+}
+.sleyp-wash::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0 0;
   height: 1px;
   background: linear-gradient(
     90deg,
     transparent 5%,
     rgba(93, 135, 134, 0.28) 35%,
-    rgba(200, 185, 159, 0.22) 65%,
+    rgba(200, 185, 159, 0.3) 65%,
     transparent 95%
   );
 }
 
-/* ---- Surfaces. Border and fill, no heavy shadow: Sleyp lifts with light. ---- */
+/* Faint drawn waves: the logo's line language used as texture (never the
+   logo itself, which nothing is ever added to). */
+.wave-lines {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.55;
+  -webkit-mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent);
+  mask-image: linear-gradient(to bottom, transparent, #000 30%, #000 70%, transparent);
+}
+
+/* Subtle dot grid for bento card interiors */
+.dot-grid {
+  background-image: radial-gradient(rgba(48, 72, 71, 0.12) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+/* ======================================================================
+   Surfaces
+   ====================================================================== */
 .card-surface {
   @apply rounded-soft border border-ink/[0.08] bg-card shadow-card;
 }
 
 .card-hover {
-  @apply transition-all duration-300 hover:border-sage/45 hover:shadow-lift hover:-translate-y-1;
-  transition-timing-function: cubic-bezier(0.22, 0.9, 0.28, 1);
+  @apply transition-[transform,box-shadow,border-color] duration-300 hover:-translate-y-1 hover:border-sage/40 hover:shadow-lift;
+  transition-timing-function: var(--ease-out);
 }
 
-/* ---- Buttons. Deep Sleyp carries small text (8.83); sage never does (3.59). ---- */
+/* A product window: the hero and feature mockups sit in these */
+.frame {
+  @apply relative overflow-hidden rounded-panel bg-card shadow-frame;
+}
+.frame-bar {
+  @apply flex items-center gap-2 border-b border-ink/[0.06] bg-paper/80 px-5 py-3.5;
+}
+.frame-dot {
+  @apply h-2.5 w-2.5 rounded-full bg-ink/[0.12];
+}
+
+/* Deep Sleyp band: the dark pacing surface. Text inside flips to cream. */
+.on-deep {
+  @apply bg-deep text-cream;
+}
+.on-deep .eyebrow {
+  @apply text-deep-haze;
+}
+.on-deep .eyebrow-rule::before {
+  @apply bg-sand;
+}
+.on-deep .display-xl,
+.on-deep .display-lg,
+.on-deep .display-md,
+.on-deep .display-sm {
+  @apply text-cream;
+}
+.on-deep .lede {
+  @apply text-deep-haze;
+}
+.panel-deep {
+  @apply rounded-soft border border-cream/10 bg-cream/[0.04];
+  box-shadow: inset 0 1px 0 0 rgba(245, 243, 237, 0.06);
+}
+
+/* Small pill label */
+.pill {
+  @apply inline-flex items-center gap-1.5 rounded-full border border-ink/10 bg-card/70 px-3 py-1 font-display text-xs font-medium text-ink-muted;
+}
+.pill-dot {
+  @apply relative inline-flex h-1.5 w-1.5 rounded-full bg-sage;
+}
+.pill-dot::after {
+  content: "";
+  @apply absolute inset-0 rounded-full bg-sage;
+  animation: pulseRing 2.4s var(--ease-out) infinite;
+}
+@keyframes pulseRing {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(3); opacity: 0; }
+}
+
+/* Hairline between stacked rows */
+.hairline {
+  @apply h-px w-full bg-gradient-to-r from-transparent via-ink/[0.12] to-transparent;
+}
+
+@layer components {
+/* ======================================================================
+   Buttons. Deep Sleyp carries small text (8.83); sage never does (3.59).
+   ====================================================================== */
+.btn {
+  @apply inline-flex shrink-0 select-none items-center justify-center gap-2 whitespace-nowrap rounded-full
+         font-display text-sm font-medium outline-none transition-all duration-200
+         disabled:pointer-events-none disabled:opacity-50 [&_svg]:h-4 [&_svg]:w-4 [&_svg]:shrink-0;
+  transition-timing-function: var(--ease-out);
+}
+.btn-lg {
+  @apply h-12 px-6 text-[15px];
+}
 .btn-primary {
-  @apply inline-flex items-center justify-center gap-2 rounded-full bg-deep px-5 py-2.5
-         font-display text-sm font-medium text-cream transition-all duration-200
-         hover:bg-deep-ink hover:shadow-press;
+  @apply btn h-11 bg-deep px-5 text-cream shadow-[inset_0_1px_0_0_rgba(255,255,255,0.12),0_1px_2px_rgba(36,56,55,0.3),0_8px_20px_-10px_rgba(36,56,55,0.55)]
+         hover:bg-deep-ink hover:shadow-[inset_0_1px_0_0_rgba(255,255,255,0.12),0_1px_2px_rgba(36,56,55,0.3),0_14px_28px_-12px_rgba(36,56,55,0.6)];
 }
 .btn-secondary {
-  @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink/15
-         bg-transparent px-5 py-2.5 font-display text-sm font-medium text-ink
-         transition-all duration-200 hover:border-sage hover:bg-soft/50;
+  @apply btn h-11 border border-ink/15 bg-card/60 px-5 text-ink backdrop-blur-sm
+         hover:border-ink/25 hover:bg-card;
+}
+.btn-light {
+  @apply btn h-11 bg-cream px-5 text-deep shadow-[0_8px_24px_-12px_rgba(0,0,0,0.5)] hover:bg-white;
+}
+.btn-ghost-light {
+  @apply btn h-11 border border-cream/20 px-5 text-cream hover:border-cream/40 hover:bg-cream/[0.06];
+}
+/* Arrow that nudges on hover */
+.btn .arrow,
+.link-arrow .arrow {
+  @apply transition-transform duration-200;
+}
+.btn:hover .arrow,
+.link-arrow:hover .arrow,
+.group:hover .arrow {
+  transform: translateX(3px);
+}
+.link-arrow {
+  @apply inline-flex items-center gap-1.5 font-display text-sm font-medium text-sage-deep hover:text-deep;
 }
 
-/* ---- Scroll reveal (CSS-only, respects reduced motion) ---- */
+}
+
+/* ======================================================================
+   FAQ accordion. Native <details>: the answer is in the DOM on first
+   paint, so crawlers and answer engines read it without JavaScript.
+   ====================================================================== */
+.faq-item {
+  @apply border-b border-ink/[0.09];
+}
+.faq-item summary {
+  @apply flex cursor-pointer list-none items-start justify-between gap-6 py-6 font-display text-lg font-medium text-ink transition-colors hover:text-sage-deep md:text-xl;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary .faq-icon {
+  @apply relative mt-1.5 h-4 w-4 shrink-0;
+}
+.faq-item summary .faq-icon::before,
+.faq-item summary .faq-icon::after {
+  content: "";
+  @apply absolute left-0 top-1/2 h-px w-4 -translate-y-1/2 bg-current transition-transform duration-300;
+}
+.faq-item summary .faq-icon::after {
+  transform: translateY(-50%) rotate(90deg);
+}
+.faq-item[open] summary .faq-icon::after {
+  transform: translateY(-50%) rotate(0deg);
+}
+.faq-item .faq-answer {
+  @apply max-w-[62ch] pb-7 pr-10 leading-relaxed text-ink-muted;
+}
+
+/* ======================================================================
+   Motion
+   ====================================================================== */
 .reveal {
   opacity: 0;
-  transform: translateY(18px);
-  transition: opacity 0.55s ease-out, transform 0.55s ease-out;
+  transform: translateY(22px);
+  transition: opacity 0.8s var(--ease-out), transform 0.8s var(--ease-out);
 }
 .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* ---- The three-wave settle, used once on load ---- */
+/* The three-wave settle, used once on load */
 .wave-settle > * {
   animation: settle 1.1s cubic-bezier(0.22, 0.9, 0.28, 1) both;
   transform-box: view-box;
@@ -127,6 +389,29 @@ a {
 .wave-settle > *:nth-child(1) { animation-delay: 60ms; }
 .wave-settle > *:nth-child(2) { animation-delay: 230ms; }
 .wave-settle > *:nth-child(3) { animation-delay: 400ms; }
+
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(16px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+@keyframes drift {
+  0% { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(4%, -3%, 0) scale(1.08); }
+}
+@keyframes settle {
+  0% { opacity: 0; transform: translate(-16px, 12px) scaleY(0.55); }
+  60% { opacity: 1; }
+  100% { opacity: 1; transform: translate(0, 0) scaleY(1); }
+}
+
+/* Staggered headline entrance */
+.rise {
+  animation: fadeUp 0.9s var(--ease-out) both;
+}
+.rise-1 { animation-delay: 80ms; }
+.rise-2 { animation-delay: 180ms; }
+.rise-3 { animation-delay: 280ms; }
+.rise-4 { animation-delay: 380ms; }
 
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -137,7 +422,10 @@ a {
     transform: none;
     transition: none;
   }
-  .wave-settle > * {
+  .wave-settle > *,
+  .rise,
+  .atmosphere::before,
+  .atmosphere::after {
     animation: none;
   }
   *,
@@ -149,47 +437,65 @@ a {
   }
 }
 
-/* ---- Long-form article typography ---- */
+/* ======================================================================
+   Long-form article typography
+   ====================================================================== */
 .prose-sleyp {
-  @apply text-ink-muted leading-relaxed;
+  @apply text-[17px] leading-[1.75] text-ink-muted;
 }
 .prose-sleyp h2 {
-  @apply font-display text-2xl md:text-3xl font-semibold text-ink mt-12 mb-4;
+  @apply mb-4 mt-14 font-serif text-3xl font-normal text-ink md:text-[2.5rem] md:leading-[1.1];
+  letter-spacing: -0.015em;
 }
 .prose-sleyp h3 {
-  @apply font-display text-xl font-semibold text-ink mt-8 mb-3;
+  @apply mb-3 mt-9 font-display text-xl font-semibold text-ink;
 }
 .prose-sleyp p {
   @apply mb-5 max-w-[68ch];
 }
 .prose-sleyp ul {
-  @apply list-disc pl-6 mb-5 space-y-2 marker:text-sage;
+  @apply mb-5 list-disc space-y-2 pl-6 marker:text-sage;
 }
 .prose-sleyp strong {
-  @apply text-ink font-semibold;
+  @apply font-semibold text-ink;
 }
 .prose-sleyp a {
-  @apply text-sage-deep underline underline-offset-4 hover:text-deep;
+  @apply text-sage-deep underline decoration-sage/40 underline-offset-4 transition-colors hover:text-deep hover:decoration-deep;
 }
 .prose-sleyp blockquote {
-  @apply border-l-2 border-sand pl-5 italic text-ink my-6;
+  @apply my-8 border-l-2 border-sand pl-6 font-serif text-2xl italic leading-snug text-ink;
 }
 
-/* ---- Focus visibility ---- */
+/* ======================================================================
+   Focus visibility (shadcn pattern: soft 3px ring)
+   ====================================================================== */
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
-select:focus-visible {
-  @apply outline-none ring-2 ring-sage ring-offset-2 ring-offset-cream;
+select:focus-visible,
+summary:focus-visible,
+textarea:focus-visible {
+  @apply outline-none ring-[3px] ring-sage/50 ring-offset-2 ring-offset-cream;
 }
 
 /* ---- Range inputs (calculators and the session mixer) ---- */
 input[type="range"] {
-  @apply w-full h-2 rounded-full bg-soft appearance-none cursor-pointer;
+  @apply h-2 w-full cursor-pointer appearance-none rounded-full bg-soft;
 }
 input[type="range"]::-webkit-slider-thumb {
-  @apply appearance-none w-5 h-5 rounded-full bg-sage shadow-glow;
+  @apply h-5 w-5 appearance-none rounded-full border-2 border-card bg-sage shadow-glow;
 }
 input[type="range"]::-moz-range-thumb {
-  @apply w-5 h-5 rounded-full bg-sage border-0;
+  @apply h-5 w-5 rounded-full border-2 border-card bg-sage;
+}
+
+/* Form fields get one consistent treatment */
+select,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="time"],
+textarea {
+  @apply transition-[border-color,box-shadow] duration-200;
 }

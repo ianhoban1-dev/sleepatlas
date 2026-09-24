@@ -1,21 +1,17 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import {
-  BatteryCharging,
-  CalendarClock,
-  Compass,
-  Gauge,
-  RefreshCcw,
-  Volume2,
-} from "lucide-react";
+import { ArrowRight, Check } from "lucide-react";
 import Reveal from "@/components/Reveal";
 import RotaVisualizer from "@/components/RotaVisualizer";
 import JsonLd from "@/components/JsonLd";
 import AppCta from "@/components/AppCta";
-import SleypMark, { SleypWordmark } from "@/components/SleypMark";
+import SleypMark from "@/components/SleypMark";
+import SessionPreview from "@/components/SessionPreview";
+import ToolBento from "@/components/ToolBento";
+import WaveLines from "@/components/WaveLines";
+import FaqList from "@/components/FaqList";
 import { faqSchema } from "@/lib/schema";
-import { SITE, FOUNDER } from "@/lib/site";
-import { TOOLS } from "@/lib/tools";
+import { FOUNDER } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Sleyp | Your Sleep Environment: Personalised Sleep Sounds",
@@ -46,13 +42,29 @@ const HOME_FAQS = [
   },
 ];
 
-const toolIcons = [CalendarClock, RefreshCcw, BatteryCharging, Volume2, Compass];
+const PRINCIPLES = [
+  {
+    n: "13",
+    title: "Layers, generated live",
+    body: "Brown, pink and white noise through to rain, ocean, forest and campfire, synthesised in your browser. No loops, no audible seams.",
+  },
+  {
+    n: "0",
+    title: "Hard stops",
+    body: "The timer fades out rather than cutting to silence, so the end of the sound never becomes the thing that wakes you.",
+  },
+  {
+    n: "3",
+    title: "Questions to tune it",
+    body: "Premium builds a blend around your street from three quick questions: tuned to the traffic and the neighbours, not a stock recording of a spa.",
+  },
+];
 
-const LAYER_PREVIEW = [
-  { name: "Rain, steady", level: 72 },
-  { name: "Brown noise", level: 48 },
-  { name: "Cabin hum", level: 31 },
-  { name: "Wind, distant", level: 18 },
+const SESSION_POINTS = [
+  "White, pink and brown noise, free for good",
+  "Ten more layers: rain, thunder, ocean, forest, stream, wind, campfire, crickets, cabin hum, fan",
+  "Save personal mixes and come back to them after every shift",
+  "Custom timer with a wake-up fade-in that lifts rather than jolts",
 ];
 
 export default function HomePage() {
@@ -60,161 +72,114 @@ export default function HomePage() {
     <>
       <JsonLd data={faqSchema(HOME_FAQS)} />
 
-      {/* ---- Hero: the mark settles, then the promise. Nothing else competes. ---- */}
-      <section className="sleyp-wash relative overflow-hidden">
-        <div className="mx-auto max-w-7xl px-4 pb-20 pt-20 sm:px-6 md:pb-28 md:pt-28">
-          <div className="max-w-3xl">
-            <SleypMark
-              settle
-              className="h-16 w-auto text-sage sm:h-20"
-              title="Sleyp"
-            />
-            <h1 className="mt-9 animate-fade-up font-display text-4xl font-medium leading-[1.05] tracking-tight sm:text-5xl md:text-[3.75rem]">
-              Your Sleep Environment.
-            </h1>
-            <p className="mt-7 max-w-xl text-lg font-light leading-relaxed text-ink-muted">
-              Create a personalised sound environment designed around the
-              way you sleep. Sleyp builds it around the room you actually
-              sleep in, so the bin lorry, the letterbox and the
-              neighbour&apos;s drill stop arriving as events. Your sleep. Your
-              sound. Your mix.
-            </p>
-            <div className="mt-9 flex flex-wrap gap-3">
-              <Link href="/session/" className="btn-primary px-6 py-3.5 text-base">
-                Try Sleyp free
+      {/* ---- Hero: the promise on the left, the product on the right ---- */}
+      <section className="atmosphere relative">
+        <WaveLines className="top-1/3 h-[70%] opacity-70" />
+        <div className="shell grid items-center gap-16 pb-24 pt-14 md:pt-20 lg:grid-cols-[1.05fr_1fr] lg:gap-12 lg:pb-32 lg:pt-24">
+          <div>
+            <SleypMark settle className="h-11 w-auto text-sage" title="Sleyp" />
+            <p className="rise rise-1 mt-8">
+              <Link href="/#app" className="pill transition-colors hover:border-sage/40 hover:text-ink">
+                <span className="pill-dot" />
+                The Sleyp iOS app is coming soon
+                <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
               </Link>
-              <Link href="/tools/" className="btn-secondary px-6 py-3.5 text-base">
-                See the tools
+            </p>
+            <h1 className="display-xl rise rise-2 mt-6">
+              Your sleep
+              <br />
+              <em>environment.</em>
+            </h1>
+            <p className="lede rise rise-3 mt-7 max-w-xl">
+              A personalised sound environment, built around the room you
+              actually sleep in, so the bin lorry, the letterbox and the
+              neighbour&apos;s drill stop arriving as events.
+            </p>
+            <div className="rise rise-4 mt-10 flex flex-wrap items-center gap-3">
+              <Link href="/session/" className="btn-primary btn-lg">
+                Try Sleyp free
+                <ArrowRight className="arrow" aria-hidden="true" />
+              </Link>
+              <Link href="/tools/" className="btn-secondary btn-lg">
+                Explore the tools
               </Link>
             </div>
-            <p className="mt-4 text-sm text-ink-muted">
-              <Link href="/#app" className="underline underline-offset-4 hover:text-ink">
-                Get the Sleyp app
-              </Link>{" "}
-              for the full Sleyp experience.
-            </p>
-            <p className="mt-10 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-ink-faint">
-              Thirteen layers
-              <span aria-hidden="true">·</span>
-              Free in your browser
-              <span aria-hidden="true">·</span>
-              Core sounds free forever
-            </p>
+            <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-ink-faint">
+              {["Free in your browser", "Core sounds free forever", "Thirteen live layers"].map((t) => (
+                <li key={t} className="flex items-center gap-2">
+                  <Check className="h-4 w-4 text-sage" aria-hidden="true" />
+                  {t}
+                </li>
+              ))}
+            </ul>
           </div>
+
+          <SessionPreview className="mx-auto w-full max-w-xl lg:mr-0" />
         </div>
       </section>
 
-      {/* ---- The session. The product leads. ---- */}
-      <section className="border-y border-ink/[0.07] bg-paper">
-        <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 py-16 sm:px-6 md:grid-cols-2 md:py-24">
+      {/* ---- Credentials: where the know-how was earned ---- */}
+      <section aria-label="Founder background" className="border-y border-ink/[0.07] bg-paper/70">
+        <div className="shell flex flex-col items-center gap-5 py-9 md:flex-row md:justify-between">
+          <p className="eyebrow shrink-0">Forty years on the shift floor</p>
+          <ul className="flex flex-wrap items-center justify-center gap-x-10 gap-y-3 md:justify-end">
+            {FOUNDER.roles.map((role) => (
+              <li key={role.org} className="font-serif text-xl text-ink-muted md:text-2xl">
+                {role.org}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      {/* ---- The idea, said once, large ---- */}
+      <section className="shell section-y">
+        <Reveal className="mx-auto max-w-4xl text-center">
+          <p className="eyebrow eyebrow-rule">Why Sleyp exists</p>
+          <h2 className="display-md mt-6">
+            The street doesn&apos;t care that you finished at 7am.{" "}
+            <span className="text-ink-faint">
+              Sleyp builds the room around the sleep, not the sleep around
+              the room.
+            </span>
+          </h2>
+        </Reveal>
+        <div className="mt-20 grid gap-px overflow-hidden rounded-panel border border-ink/[0.08] bg-ink/[0.08] md:grid-cols-3">
+          {PRINCIPLES.map((p, i) => (
+            <Reveal key={p.title} delay={i * 90} className="bg-cream p-8 md:p-10">
+              <p className="tabular font-serif text-6xl leading-none text-sage-deep">{p.n}</p>
+              <h3 className="mt-6 font-display text-lg font-semibold tracking-tight">{p.title}</h3>
+              <p className="mt-2 leading-relaxed text-ink-muted">{p.body}</p>
+            </Reveal>
+          ))}
+        </div>
+      </section>
+
+      {/* ---- The session, on the dark surface: the product leads ---- */}
+      <section className="on-deep relative isolate overflow-hidden">
+        <WaveLines tone="cream" className="opacity-100" />
+        <div className="shell section-y grid items-center gap-14 lg:grid-cols-2">
           <Reveal>
-            <div>
-              <p className="eyebrow">The session</p>
-              <h2 className="mt-3 font-display text-3xl font-medium tracking-tight md:text-4xl">
-                Build the room around the sleep
-              </h2>
-              <p className="mt-4 leading-relaxed text-ink-muted">
-                The street doesn&apos;t care that you finished at 7am. Sleyp
-                masks traffic, neighbours and deliveries with thirteen sounds
-                generated live in your browser — brown noise and heavy rain
-                through to ocean, forest and campfire. Mix them, save the mix,
-                and set a timer that fades out rather than stopping dead.
-              </p>
-              <p className="mt-4 leading-relaxed text-ink-muted">
-                Premium adds a blend tuned to your street by three quick
-                questions, and a wake-up fade-in that lifts you instead of
-                jolting you.
-              </p>
-              <Link href="/session/" className="btn-primary mt-7 px-6 py-3.5 text-base">
-                Start a session
-              </Link>
-            </div>
+            <p className="eyebrow eyebrow-rule">The session</p>
+            <h2 className="display-lg mt-5">
+              Build the room around <em>the sleep.</em>
+            </h2>
+            <p className="lede mt-6 max-w-lg">
+              Mix thirteen sounds, save the mix, and set a timer that fades
+              out rather than stopping dead. Premium adds a blend tuned to
+              your street by three quick questions.
+            </p>
+            <Link href="/session/" className="btn-light btn-lg mt-9">
+              Start a session
+              <ArrowRight className="arrow" aria-hidden="true" />
+            </Link>
           </Reveal>
           <Reveal delay={120}>
-            <div className="card-surface overflow-hidden">
-              <div className="flex items-center gap-3 border-b border-ink/[0.07] px-6 py-4">
-                <SleypMark className="h-3.5 w-auto text-sage" />
-                <span className="eyebrow">Afternoon, quiet street</span>
-              </div>
-              <div className="px-6 py-7">
-                <div
-                  className="mx-auto flex h-16 items-end justify-center gap-1.5"
-                  aria-hidden="true"
-                >
-                  {[42, 68, 55, 90, 74, 100, 62, 84, 48, 72, 58, 38].map((h, i) => (
-                    <span
-                      key={i}
-                      className={`w-2 origin-bottom animate-equalize rounded-full ${
-                        i % 3 === 1 ? "bg-sage" : "bg-soft"
-                      }`}
-                      style={{
-                        height: `${h}%`,
-                        animationDelay: `${i * 0.13}s`,
-                        animationDuration: `${1.4 + (i % 4) * 0.35}s`,
-                      }}
-                    />
-                  ))}
-                </div>
-                <ul className="mt-7 border-t border-ink/[0.07]">
-                  {LAYER_PREVIEW.map((layer) => (
-                    <li
-                      key={layer.name}
-                      className="grid grid-cols-[1fr_88px_44px] items-center gap-4 border-b border-ink/[0.05] py-3"
-                    >
-                      <span className="font-display text-sm">{layer.name}</span>
-                      <span className="h-[3px] overflow-hidden rounded-full bg-soft">
-                        <span
-                          className="block h-full rounded-full bg-sage"
-                          style={{ width: `${layer.level}%` }}
-                        />
-                      </span>
-                      <span className="tabular text-right font-mono text-xs text-ink-faint">
-                        {layer.level}%
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                <p className="mt-4 text-xs text-ink-faint">
-                  An example mix, shown to illustrate the layout.
-                </p>
-              </div>
-            </div>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* ---- Founder: the reason Sleyp is credible, not the subject ---- */}
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-        <div className="grid gap-10 md:grid-cols-5">
-          <Reveal className="md:col-span-3">
-            <p className="eyebrow">Where this comes from</p>
-            <h2 className="mt-3 font-display text-3xl font-medium tracking-tight md:text-4xl">
-              Forty years on the shift floor
-            </h2>
-            <p className="mt-5 leading-relaxed text-ink-muted">{FOUNDER.bio}</p>
-            <p className="mt-4 leading-relaxed text-ink-muted">
-              Sleyp exists because advice written for 9-to-5 sleepers collapses
-              on contact with a 4-on/4-off rota. Everything here was tested
-              where it counts: on the landings, on the line, and on the drive
-              home at dawn.
-            </p>
-          </Reveal>
-          <Reveal delay={120} className="md:col-span-2">
-            <ul className="card-surface space-y-4 p-6">
-              {FOUNDER.roles.map((role) => (
-                <li key={role.org} className="flex items-start gap-3">
-                  <span className="mt-2.5 h-px w-4 shrink-0 bg-sage" aria-hidden="true" />
-                  <div>
-                    <p className="font-semibold text-ink">
-                      {role.org}
-                      {role.period && (
-                        <span className="ml-2 text-sm font-normal text-ink-faint">
-                          {role.period}
-                        </span>
-                      )}
-                    </p>
-                    <p className="text-sm text-ink-muted">{role.role}</p>
-                  </div>
+            <ul className="panel-deep divide-y divide-cream/10">
+              {SESSION_POINTS.map((point, i) => (
+                <li key={point} className="flex gap-5 p-6">
+                  <span className="tabular font-mono text-xs text-sand">0{i + 1}</span>
+                  <span className="leading-relaxed text-cream/90">{point}</span>
                 </li>
               ))}
             </ul>
@@ -222,21 +187,19 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---- Rota visualiser: supporting, not leading ---- */}
-      <section className="border-t border-ink/[0.07] bg-paper">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
+      {/* ---- Rota visualiser ---- */}
+      <section className="shell section-y">
+        <div className="grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
           <Reveal>
-            <div className="mb-10 max-w-2xl">
-              <p className="eyebrow">Before the room, the rota</p>
-              <h2 className="mt-3 font-display text-3xl font-medium tracking-tight md:text-4xl">
-                What is your rota doing to you?
-              </h2>
-              <p className="mt-4 leading-relaxed text-ink-muted">
-                Every shift pattern hits the body clock differently. Pick yours
-                and see the baseline impact, rota adaptation, typical weekly
-                sleep debt and fatigue risk — before any countermeasures.
-              </p>
-            </div>
+            <p className="eyebrow eyebrow-rule">Before the room, the rota</p>
+            <h2 className="display-md mt-5">
+              What is your rota <em>doing to you?</em>
+            </h2>
+            <p className="mt-6 leading-relaxed text-ink-muted">
+              Every shift pattern hits the body clock differently. Pick yours
+              and see the baseline impact, rota adaptation, typical weekly
+              sleep debt and fatigue risk, before any countermeasures.
+            </p>
           </Reveal>
           <Reveal delay={100}>
             <RotaVisualizer />
@@ -244,134 +207,152 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ---- Tools ---- */}
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-        <Reveal>
-          <p className="eyebrow">The tools</p>
-          <h2 className="mt-3 font-display text-3xl font-medium tracking-tight md:text-4xl">
-            Specialist tools, not generic advice
-          </h2>
-          <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
-            Five calculators engineered for the realities of shift work:
-            commutes, caffeine timing, flip-flop weekends, noisy daytime
-            streets and mismatched body clocks.
-          </p>
-        </Reveal>
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {TOOLS.map((tool, i) => {
-            const Icon = toolIcons[i % toolIcons.length];
-            return (
-              <Reveal key={tool.slug} delay={i * 60}>
-                <Link
-                  href={`/tools/${tool.slug}/`}
-                  className={`card-surface card-hover block h-full p-6 ${
-                    i === 0 ? "lg:row-span-2" : ""
-                  }`}
-                >
-                  <Icon className="h-7 w-7 text-sage" aria-hidden="true" />
-                  <h3 className="mt-4 font-display text-xl font-semibold">
-                    {tool.name}
-                  </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                    {tool.tagline}
-                  </p>
-                  {i === 0 && (
-                    <p className="mt-4 hidden text-sm leading-relaxed text-ink-muted lg:block">
-                      {tool.description}
-                    </p>
-                  )}
-                  <span className="mt-4 inline-block text-sm font-medium text-sage-deep">
-                    Open calculator →
-                  </span>
-                </Link>
-              </Reveal>
-            );
-          })}
-          <Reveal delay={300}>
-            <Link
-              href="/scores/"
-              className="card-surface card-hover block h-full bg-soft/40 p-6"
-            >
-              <Gauge className="h-7 w-7 text-sand-ink" aria-hidden="true" />
-              <h3 className="mt-4 font-display text-xl font-semibold">
-                The Sleyp Score
-              </h3>
-              <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-                One number for how well you&apos;re surviving your rota, built
-                from adaptation, noise, recovery and debt.
+      {/* ---- Tools, as a bento ---- */}
+      <section className="border-t border-ink/[0.07] bg-paper/60">
+        <div className="shell section-y">
+          <Reveal className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
+            <div className="max-w-2xl">
+              <p className="eyebrow eyebrow-rule">The tools</p>
+              <h2 className="display-md mt-5">
+                Specialist tools, <em>not generic advice.</em>
+              </h2>
+              <p className="mt-5 leading-relaxed text-ink-muted">
+                Five calculators engineered for the realities of shift work:
+                commutes, caffeine timing, flip-flop weekends, noisy daytime
+                streets and mismatched body clocks.
               </p>
-              <span className="mt-4 inline-block text-sm font-medium text-sand-ink">
-                How it works →
-              </span>
+            </div>
+            <Link href="/tools/" className="link-arrow shrink-0">
+              All tools <ArrowRight className="arrow h-4 w-4" aria-hidden="true" />
             </Link>
+          </Reveal>
+          <Reveal delay={80} className="mt-12">
+            <ToolBento />
           </Reveal>
         </div>
       </section>
 
-      {/* ---- Gear ---- */}
-      <section className="border-t border-ink/[0.07] bg-paper">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-20">
+      {/* ---- Founder, editorial ---- */}
+      <section className="shell section-y">
+        <div className="grid gap-14 lg:grid-cols-[1.2fr_0.8fr] lg:gap-20">
           <Reveal>
-            <p className="eyebrow">The shop</p>
-            <h2 className="mt-3 font-display text-3xl font-medium tracking-tight">
-              The kit that earns its place
-            </h2>
-            <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
-              Blackout blinds, moulded earplugs, sleep masks and noise
-              machines, chosen for people who sleep days — not for gadget
-              lovers.
-            </p>
-            <Link href="/shop/" className="btn-secondary mt-6 px-6 py-3.5 text-base">
-              Browse the marketplace
-            </Link>
+            <p className="eyebrow eyebrow-rule">Where this comes from</p>
+            <blockquote className="mt-6">
+              <p className="display-md">
+                &ldquo;Advice written for 9-to-5 sleepers collapses on contact
+                with a <em className="whitespace-nowrap">4-on/4-off</em> <em>rota.</em>&rdquo;
+              </p>
+              <footer className="mt-6 font-display text-sm text-ink-faint">
+                {FOUNDER.displayName}, {FOUNDER.yearsOfShiftWork} years of shift work
+              </footer>
+            </blockquote>
+            <p className="mt-10 max-w-2xl leading-relaxed text-ink-muted">{FOUNDER.bio}</p>
+          </Reveal>
+          <Reveal delay={120}>
+            <ol className="relative space-y-8 border-l border-ink/10 pl-8">
+              {FOUNDER.roles.map((role) => (
+                <li key={role.org} className="relative">
+                  <span
+                    className="absolute -left-[37px] top-1.5 h-2.5 w-2.5 rounded-full bg-sage ring-4 ring-cream"
+                    aria-hidden="true"
+                  />
+                  {role.period && (
+                    <p className="tabular font-mono text-xs text-ink-faint">{role.period}</p>
+                  )}
+                  <p className="mt-1 font-serif text-2xl leading-tight text-ink">{role.org}</p>
+                  <p className="mt-1 text-sm leading-relaxed text-ink-muted">{role.role}</p>
+                </li>
+              ))}
+            </ol>
           </Reveal>
         </div>
       </section>
 
-      {/* ---- The app: web stays free, the app is the full experience ---- */}
-      <section id="app" className="border-t border-ink/[0.07]">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-20">
-          <Reveal>
-            <p className="eyebrow">The app</p>
-            <h2 className="mt-3 font-display text-3xl font-medium tracking-tight">
-              Take Sleyp with you
-            </h2>
-            <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
-              Try Sleyp free in your browser today. The Sleyp iOS app is the
-              full Sleyp experience, made for the night: your environment,
-              your mix, ready on your phone.
-            </p>
-            <div className="mt-6 flex flex-wrap items-center gap-3">
-              <Link href="/session/" className="btn-primary px-6 py-3.5 text-base">
-                Try Sleyp free
+      {/* ---- Shop and app, as a pair ---- */}
+      <section id="app" className="shell scroll-mt-24 pb-20 md:pb-28">
+        <div className="grid gap-4 lg:grid-cols-2">
+          <Reveal className="h-full">
+            <div className="card-surface flex h-full flex-col p-8 md:p-10">
+              <p className="eyebrow eyebrow-rule">The shop</p>
+              <h2 className="display-sm mt-5">The kit that earns its place</h2>
+              <p className="mt-4 max-w-md leading-relaxed text-ink-muted">
+                Blackout blinds, moulded earplugs, sleep masks and noise
+                machines, chosen for people who sleep days, not for gadget
+                lovers.
+              </p>
+              <ul className="mb-10 mt-8 flex flex-wrap gap-2">
+                {["Blackout blinds", "Moulded earplugs", "Sleep masks", "Noise machines"].map((k) => (
+                  <li key={k} className="rounded-full bg-mist px-3.5 py-1.5 font-display text-xs font-medium text-ink-muted">
+                    {k}
+                  </li>
+                ))}
+              </ul>
+              <Link href="/shop/" className="btn-secondary btn-lg mt-auto self-start">
+                Browse the marketplace
+                <ArrowRight className="arrow" aria-hidden="true" />
               </Link>
-              <AppCta />
+            </div>
+          </Reveal>
+          <Reveal delay={100} className="h-full">
+            <div className="on-deep relative isolate flex h-full flex-col overflow-hidden rounded-soft p-8 md:p-10">
+              <WaveLines tone="cream" lines={6} animate={false} />
+              <p className="eyebrow eyebrow-rule">The app</p>
+              <h2 className="display-sm mt-5">Take Sleyp with you</h2>
+              <p className="mt-4 max-w-md leading-relaxed text-deep-haze">
+                Try Sleyp free in your browser today. The Sleyp iOS app is the
+                full Sleyp experience, made for the night: your environment,
+                your mix, ready on your phone.
+              </p>
+              <div className="mt-auto flex flex-wrap items-center gap-4 pt-8">
+                <Link href="/session/" className="btn-light btn-lg">
+                  Try Sleyp free
+                  <ArrowRight className="arrow" aria-hidden="true" />
+                </Link>
+                <AppCta className="!text-deep-haze" />
+              </div>
             </div>
           </Reveal>
         </div>
       </section>
 
       {/* ---- FAQ (server-rendered, matches schema) ---- */}
-      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 md:py-24">
-        <h2 className="font-display text-3xl font-medium tracking-tight">
-          Frequently asked questions
-        </h2>
-        <div className="mt-8 space-y-4">
-          {HOME_FAQS.map((faq) => (
-            <div key={faq.question} className="card-surface p-6">
-              <h3 className="font-display text-lg font-semibold">{faq.question}</h3>
-              <p className="mt-2 leading-relaxed text-ink-muted">{faq.answer}</p>
-            </div>
-          ))}
+      <section className="border-t border-ink/[0.07]">
+        <div className="shell section-y grid gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-20">
+          <div className="lg:sticky lg:top-28 lg:self-start">
+            <p className="eyebrow eyebrow-rule">Questions</p>
+            <h2 className="display-md mt-5">
+              Frequently asked <em>questions</em>
+            </h2>
+            <p className="mt-5 max-w-sm leading-relaxed text-ink-muted">
+              Straight answers about what Sleyp is, who it is for and what
+              stays free.
+            </p>
+          </div>
+          <FaqList faqs={HOME_FAQS} />
         </div>
       </section>
 
-      {/* ---- Sign-off: the wordmark, quiet ---- */}
-      <section className="border-t border-ink/[0.07]">
-        <div className="mx-auto flex max-w-7xl flex-col items-center gap-4 px-4 py-16 sm:px-6">
-          <SleypMark className="h-8 w-auto text-sage" />
-          <SleypWordmark className="h-5 w-auto text-ink" />
-          <p className="text-sm text-ink-faint">{SITE.tagline}</p>
+      {/* ---- Closing band ---- */}
+      <section className="shell pb-24 md:pb-32">
+        <div className="on-deep relative isolate overflow-hidden rounded-panel px-6 py-20 text-center md:px-16 md:py-28">
+          <WaveLines tone="cream" />
+          <SleypMark className="mx-auto h-10 w-auto text-sand" />
+          <h2 className="display-lg mx-auto mt-8 max-w-3xl">
+            Your sleep. Your sound. <em>Your mix.</em>
+          </h2>
+          <p className="lede mx-auto mt-6 max-w-xl">
+            Free in your browser, tonight. No hardware, no subscription to
+            start.
+          </p>
+          <div className="mt-10 flex flex-wrap justify-center gap-3">
+            <Link href="/session/" className="btn-light btn-lg">
+              Try Sleyp free
+              <ArrowRight className="arrow" aria-hidden="true" />
+            </Link>
+            <Link href="/pricing/" className="btn-ghost-light btn-lg">
+              See pricing
+            </Link>
+          </div>
         </div>
       </section>
     </>

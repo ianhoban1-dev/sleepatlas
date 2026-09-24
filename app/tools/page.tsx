@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
+  ArrowRight,
   BatteryCharging,
+  Gauge,
   CalendarClock,
   Compass,
   RefreshCcw,
@@ -30,8 +32,9 @@ export default function ToolsPage() {
         ])}
       />
       <div className="sleyp-wash">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
+        <div className="mx-auto max-w-site px-5 py-16 sm:px-8 md:py-24">
+          <p className="eyebrow eyebrow-rule mb-6">The tools</p>
+          <h1 className="display-lg">
             Tools built for the rota you actually work
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -43,30 +46,59 @@ export default function ToolsPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
-        <div className="grid gap-4 md:grid-cols-2">
+      <div className="mx-auto max-w-site px-5 pb-24 sm:px-8">
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {TOOLS.map((tool, i) => {
             const Icon = icons[i % icons.length];
             return (
               <Reveal key={tool.slug} delay={i * 60}>
                 <Link
                   href={`/tools/${tool.slug}/`}
-                  className="card-surface card-hover block h-full p-7"
+                  className="group card-surface card-hover flex h-full flex-col p-7 md:p-8"
                 >
-                  <Icon className="h-8 w-8 text-sage" aria-hidden="true" />
-                  <h2 className="mt-4 font-display text-2xl font-semibold">
+                  <div className="flex items-center justify-between">
+                    <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-mist text-sage-deep transition-colors group-hover:bg-soft">
+                      <Icon className="h-5 w-5" aria-hidden="true" />
+                    </span>
+                    <span className="tabular font-mono text-xs text-ink-faint">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                  </div>
+                  <h2 className="mt-8 font-serif text-[1.875rem] font-normal leading-[1.08] tracking-[-0.015em]">
                     {tool.name}
                   </h2>
-                  <p className="mt-3 leading-relaxed text-ink-muted">
+                  <p className="mt-3 flex-1 leading-relaxed text-ink-muted">
                     {tool.description}
                   </p>
-                  <span className="mt-5 inline-block font-medium text-sage">
-                    Open calculator →
+                  <span className="mt-7 inline-flex items-center gap-1.5 font-display text-sm font-medium text-sage-deep">
+                    Open calculator
+                    <ArrowRight className="arrow h-4 w-4" aria-hidden="true" />
                   </span>
                 </Link>
               </Reveal>
             );
           })}
+          <Reveal delay={TOOLS.length * 60}>
+            <Link
+              href="/scores/"
+              className="group on-deep card-hover flex h-full flex-col rounded-soft p-7 md:p-8"
+            >
+              <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-cream/10 text-sand">
+                <Gauge className="h-5 w-5" aria-hidden="true" />
+              </span>
+              <h2 className="mt-8 font-serif text-[1.875rem] font-normal leading-[1.08] tracking-[-0.015em] text-cream">
+                The Sleyp Score
+              </h2>
+              <p className="mt-3 flex-1 leading-relaxed text-deep-haze">
+                Every tool feeds one number for how well you are surviving
+                your rota: adaptation, noise, recovery and sleep debt.
+              </p>
+              <span className="mt-7 inline-flex items-center gap-1.5 font-display text-sm font-medium text-sand">
+                How it works
+                <ArrowRight className="arrow h-4 w-4" aria-hidden="true" />
+              </span>
+            </Link>
+          </Reveal>
         </div>
       </div>
     </>

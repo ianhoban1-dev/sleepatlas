@@ -22,8 +22,9 @@ export default function ResourcesPage() {
         ])}
       />
       <div className="sleyp-wash">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
+        <div className="mx-auto max-w-site px-5 py-16 sm:px-8 md:py-24">
+          <p className="eyebrow eyebrow-rule mb-6">Resources</p>
+          <h1 className="display-lg">
             The resource hub
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -34,7 +35,7 @@ export default function ResourcesPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+      <div className="mx-auto max-w-site px-5 pb-24 sm:px-8">
         {/* Categories */}
         <section aria-label="Article categories">
           <h2 className="font-display text-xl font-semibold text-ink-muted">
@@ -60,11 +61,11 @@ export default function ResourcesPage() {
                   href={`/resources/${article.slug}/`}
                   className="card-surface card-hover flex h-full flex-col p-7"
                 >
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wider text-sage-deep">
+                  <div className="flex items-center gap-2 font-display text-[11px] font-semibold uppercase tracking-[0.14em] text-sage-deep">
                     <BookOpen className="h-4 w-4" aria-hidden="true" />
                     {article.category}
                   </div>
-                  <h2 className="mt-3 font-display text-xl font-semibold leading-snug">
+                  <h2 className="mt-4 font-serif text-[1.75rem] font-normal leading-[1.1] tracking-[-0.01em]">
                     {article.title}
                   </h2>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-muted">

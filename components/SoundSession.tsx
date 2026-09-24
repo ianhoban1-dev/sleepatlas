@@ -907,7 +907,7 @@ export default function SoundSession() {
               type="button"
               onClick={applyRecommendation}
               disabled={answers.filter(Boolean).length < QUESTIONS.length}
-              className="mt-6 rounded-xl bg-deep px-5 py-3 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink disabled:cursor-not-allowed disabled:opacity-40"
+              className="btn-primary btn-lg mt-6 disabled:cursor-not-allowed"
             >
               Apply my blend
             </button>
@@ -941,7 +941,7 @@ export default function SoundSession() {
                 type="button"
                 onClick={saveBlend}
                 disabled={!blendName.trim()}
-                className="shrink-0 rounded-xl border border-ink/15 px-4 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-good/50 disabled:cursor-not-allowed disabled:opacity-40"
+                className="btn-secondary shrink-0 disabled:cursor-not-allowed"
               >
                 Save
               </button>
@@ -1000,13 +1000,13 @@ export default function SoundSession() {
           <div className="mt-6 flex flex-wrap gap-4">
             <Link
               href="/pricing/"
-              className="rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink hover:shadow-glow"
+              className="btn-primary btn-lg"
             >
               See Premium
             </Link>
             <Link
               href="/account/"
-              className="rounded-xl border border-ink/15 px-6 py-3 font-semibold text-ink transition-colors hover:border-sage/50 hover:bg-ink/[0.04]"
+              className="btn-secondary btn-lg"
             >
               {user ? "Manage my account" : "Log in / sign up"}
             </Link>

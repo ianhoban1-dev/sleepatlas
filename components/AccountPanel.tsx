@@ -82,7 +82,7 @@ export default function AccountPanel() {
                 setPlan(user.email, "premium");
                 refresh();
               }}
-              className="mt-4 rounded-xl bg-deep px-5 py-3 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink hover:shadow-glow"
+              className="btn-primary btn-lg mt-4"
             >
               Activate Premium (founding member)
             </button>
@@ -92,7 +92,7 @@ export default function AccountPanel() {
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
             href="/session/"
-            className="rounded-xl bg-deep px-5 py-3 font-semibold text-cream transition-all duration-200 hover:opacity-90"
+            className="btn-primary btn-lg"
           >
             Open the session
           </Link>
@@ -110,7 +110,7 @@ export default function AccountPanel() {
               logOut();
               refresh();
             }}
-            className="inline-flex items-center gap-2 rounded-xl border border-ink/15 px-5 py-3 font-semibold text-ink transition-colors hover:border-ink/30"
+            className="btn-secondary btn-lg gap-2"
           >
             <LogOut className="h-4 w-4" aria-hidden="true" />
             Log out
@@ -200,7 +200,7 @@ export default function AccountPanel() {
         <button
           type="submit"
           disabled={busy}
-          className="w-full rounded-xl bg-deep px-6 py-3.5 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink hover:shadow-glow disabled:opacity-50"
+          className="btn-primary btn-lg w-full"
         >
           {busy ? "One moment…" : mode === "signup" ? "Create my account" : "Log in"}
         </button>

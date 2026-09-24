@@ -68,8 +68,9 @@ export default function ShopPage() {
         ]}
       />
       <div className="sleyp-wash">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
+        <div className="mx-auto max-w-site px-5 py-16 sm:px-8 md:py-24">
+          <p className="eyebrow eyebrow-rule mb-6">The shop</p>
+          <h1 className="display-lg">
             Gear that earns its place in a day sleeper&apos;s room
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -80,7 +81,7 @@ export default function ShopPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+      <div className="mx-auto max-w-site px-5 pb-24 sm:px-8">
         <div className="grid gap-4 md:grid-cols-2">
           {GEAR.map((item, i) => (
             <Reveal key={item.name} delay={i * 60}>

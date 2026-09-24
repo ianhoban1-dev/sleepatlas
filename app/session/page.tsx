@@ -23,6 +23,7 @@ import {
   faqSchema,
   webApplicationSchema,
 } from "@/lib/schema";
+import FaqList from "@/components/FaqList";
 
 export const metadata: Metadata = {
   title: "The session",
@@ -164,8 +165,9 @@ export default function SessionPage() {
       />
 
       <div className="sleyp-wash">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24">
-          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
+        <div className="mx-auto max-w-site px-5 py-16 sm:px-8 md:py-24">
+          <p className="eyebrow eyebrow-rule mb-6">The session</p>
+          <h1 className="display-lg">
             Build the room around the sleep
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -178,13 +180,13 @@ export default function SessionPage() {
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 pb-24 sm:px-6">
+      <div className="mx-auto max-w-site px-5 pb-24 sm:px-8">
         {/* The player */}
         <SoundSession />
 
         {/* Sound guide, server-rendered for answer engines */}
         <section className="mt-16">
-          <h2 className="font-display text-3xl font-medium tracking-tight">
+          <h2 className="display-sm">
             Which layer masks what?
           </h2>
           <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
@@ -218,7 +220,7 @@ export default function SessionPage() {
 
         {/* How it works. SSR explainer */}
         <section className="mt-16 max-w-3xl">
-          <h2 className="font-display text-3xl font-medium tracking-tight">
+          <h2 className="display-sm">
             Why masking beats earplugs alone
           </h2>
           <div className="prose-sleyp mt-6 space-y-4 leading-relaxed text-ink-muted">
@@ -252,16 +254,11 @@ export default function SessionPage() {
 
         {/* FAQ, mirrors the FAQPage schema */}
         <section className="mt-16">
-          <h2 className="font-display text-3xl font-medium tracking-tight">
+          <h2 className="display-sm">
             Frequently asked questions
           </h2>
-          <div className="mt-6 max-w-3xl space-y-5">
-            {FAQS.map((faq) => (
-              <div key={faq.question} className="card-surface p-6">
-                <h3 className="font-display text-lg font-semibold">{faq.question}</h3>
-                <p className="mt-2 leading-relaxed text-ink-muted">{faq.answer}</p>
-              </div>
-            ))}
+          <div className="mt-6 max-w-3xl">
+            <FaqList faqs={FAQS} />
           </div>
         </section>
       </div>

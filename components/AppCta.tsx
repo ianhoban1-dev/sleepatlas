@@ -15,7 +15,7 @@ export default function AppCta({
     return (
       <a
         href={APP.storeUrl}
-        className={`btn-secondary px-6 py-3.5 text-base ${className}`}
+        className={`btn-secondary btn-lg ${className}`}
         rel="noopener"
       >
         {label}

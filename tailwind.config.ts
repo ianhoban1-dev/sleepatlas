@@ -30,6 +30,7 @@ const config: Config = {
         deep: {
           DEFAULT: "#304847",  // DEEP FIELD — body text, dark UI, primary button ground. 8.83
           ink: "#243837",      // pressed / deepest
+          haze: "#B7CBC8",     // secondary text ON Deep Sleyp surfaces. 5.78 on deep, 8.89 on charcoal
         },
         charcoal: "#202827",   // CHARCOAL — maximum contrast, used sparingly
 
@@ -52,12 +53,19 @@ const config: Config = {
         warn: "#9A5A2A",       // 4.89
       },
       fontFamily: {
-        display: ["'Schibsted Grotesk'", "system-ui", "sans-serif"],
-        body: ["'Hanken Grotesk'", "system-ui", "sans-serif"],
-        mono: ["'JetBrains Mono'", "ui-monospace", "monospace"],
+        /* Editorial serif for headlines only: the Granola / Claude move that
+           makes a calm brand read as considered rather than templated. */
+        serif: ["'Instrument Serif'", "'Iowan Old Style'", "Georgia", "serif"],
+        display: ["'Schibsted Grotesk Variable'", "'Schibsted Grotesk'", "system-ui", "sans-serif"],
+        body: ["'Hanken Grotesk Variable'", "'Hanken Grotesk'", "system-ui", "sans-serif"],
+        mono: ["'JetBrains Mono Variable'", "'JetBrains Mono'", "ui-monospace", "monospace"],
       },
       borderRadius: {
         soft: "1.25rem",
+        panel: "1.75rem",
+      },
+      maxWidth: {
+        site: "76rem",
       },
       boxShadow: {
         /* Quiet elevation. FIELD lifts things with light, not with dark haloes. */
@@ -65,12 +73,19 @@ const config: Config = {
         lift: "0 2px 4px -2px rgba(48,72,71,0.08), 0 18px 40px -24px rgba(48,72,71,0.28)",
         glow: "0 8px 24px -12px rgba(93,135,134,0.45)",
         press: "0 2px 6px -3px rgba(48,72,71,0.25)",
+        /* Product-frame depth: a layered, low-contrast stack like a real
+           app window sitting on the page. */
+        frame:
+          "0 0 0 1px rgba(48,72,71,0.06), 0 2px 4px -2px rgba(48,72,71,0.06), 0 24px 48px -24px rgba(48,72,71,0.22), 0 64px 96px -48px rgba(48,72,71,0.18)",
+        inset: "inset 0 1px 0 0 rgba(255,255,255,0.12)",
       },
       animation: {
         "fade-up": "fadeUp 0.7s cubic-bezier(0.22, 0.9, 0.28, 1) both",
         "pulse-slow": "pulseSlow 6s ease-in-out infinite",
         equalize: "equalize 1.8s ease-in-out infinite",
         settle: "settle 1.1s cubic-bezier(0.22, 0.9, 0.28, 1) both",
+        drift: "drift 22s ease-in-out infinite alternate",
+        "wave-flow": "waveFlow 14s linear infinite",
       },
       keyframes: {
         fadeUp: {
@@ -84,6 +99,14 @@ const config: Config = {
         equalize: {
           "0%, 100%": { transform: "scaleY(0.3)" },
           "50%": { transform: "scaleY(1)" },
+        },
+        drift: {
+          "0%": { transform: "translate3d(0,0,0) scale(1)" },
+          "100%": { transform: "translate3d(4%, -3%, 0) scale(1.08)" },
+        },
+        waveFlow: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
         },
         /* The three-wave settle: each wave arrives from below-left and flattens in. */
         settle: {

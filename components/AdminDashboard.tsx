@@ -39,7 +39,7 @@ export default function AdminDashboard() {
         </p>
         <Link
           href="/account/"
-          className="mt-6 inline-block rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-all duration-200 hover:bg-deep-ink"
+          className="btn-primary btn-lg mt-6"
         >
           Go to account
         </Link>

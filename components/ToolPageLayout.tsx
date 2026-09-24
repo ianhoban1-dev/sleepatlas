@@ -7,6 +7,7 @@ import {
   webApplicationSchema,
 } from "@/lib/schema";
 import type { ToolDef } from "@/lib/tools";
+import FaqList from "@/components/FaqList";
 
 /**
  * Shared server-rendered layout for every calculator page.
@@ -47,7 +48,7 @@ export default function ToolPageLayout({
             </Link>{" "}
             / <span className="text-ink-muted">{tool.shortName}</span>
           </nav>
-          <h1 className="font-display text-3xl font-medium tracking-tight md:text-5xl">
+          <h1 className="display-lg">
             {tool.name}
           </h1>
           <p className="mt-4 max-w-2xl text-lg leading-relaxed text-ink-muted">
@@ -71,7 +72,7 @@ export default function ToolPageLayout({
         </section>
 
         <section className="mt-12">
-          <h2 className="font-display text-2xl font-semibold md:text-3xl">
+          <h2 className="display-sm">
             How the calculator works
           </h2>
           <ol className="mt-6 space-y-4">
@@ -91,18 +92,11 @@ export default function ToolPageLayout({
 
         {/* FAQ, server-rendered, mirrors the FAQPage schema exactly */}
         <section className="mt-14">
-          <h2 className="font-display text-2xl font-semibold md:text-3xl">
+          <h2 className="display-sm">
             Frequently asked questions
           </h2>
-          <div className="mt-6 space-y-5">
-            {tool.faqs.map((faq) => (
-              <div key={faq.question} className="card-surface p-6">
-                <h3 className="font-display text-lg font-semibold">
-                  {faq.question}
-                </h3>
-                <p className="mt-2 leading-relaxed text-ink-muted">{faq.answer}</p>
-              </div>
-            ))}
+          <div className="mt-6">
+            <FaqList faqs={tool.faqs} />
           </div>
         </section>
 

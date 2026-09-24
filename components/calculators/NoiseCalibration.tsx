@@ -130,7 +130,7 @@ export default function NoiseCalibration() {
 
       <a
         href="/session/"
-        className="mt-6 inline-block rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-opacity hover:opacity-90"
+        className="btn-primary btn-lg mt-6"
       >
         Open this blend in Sleyp →
       </a>

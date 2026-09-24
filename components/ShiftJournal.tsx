@@ -144,7 +144,7 @@ export default function ShiftJournal() {
         type="button"
         onClick={addEntry}
         disabled={!form.date}
-        className="mt-5 flex items-center gap-2 rounded-xl bg-deep px-6 py-3 font-semibold text-cream transition-all hover:bg-deep-ink disabled:cursor-not-allowed disabled:opacity-40"
+        className="btn-primary btn-lg mt-5 gap-2 disabled:cursor-not-allowed"
       >
         <NotebookPen className="h-4 w-4" aria-hidden="true" />
         Log entry

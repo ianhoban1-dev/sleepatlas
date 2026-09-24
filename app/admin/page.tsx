@@ -11,8 +11,9 @@ export default function AdminPage() {
   return (
     <>
       <div className="sleyp-wash">
-        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-20">
-          <h1 className="font-display text-4xl font-medium tracking-tight md:text-5xl">
+        <div className="mx-auto max-w-site px-5 py-16 sm:px-8 md:py-20">
+          <p className="eyebrow eyebrow-rule mb-6">Admin</p>
+          <h1 className="display-lg">
             Admin dashboard
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">

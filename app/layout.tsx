@@ -1,4 +1,11 @@
 import type { Metadata, Viewport } from "next";
+/* Self-hosted fonts: no third-party request on first paint, no layout
+   shift waiting on Google, and builds work on machines without font egress. */
+import "@fontsource/instrument-serif/latin-400.css";
+import "@fontsource/instrument-serif/latin-400-italic.css";
+import "@fontsource-variable/schibsted-grotesk/wght.css";
+import "@fontsource-variable/hanken-grotesk/wght.css";
+import "@fontsource-variable/jetbrains-mono/wght.css";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -30,7 +37,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#5D8786",
+  themeColor: "#F5F3ED",
   colorScheme: "light",
 };
 
@@ -42,12 +49,6 @@ export default function RootLayout({
   return (
     <html lang="en-GB">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&family=Hanken+Grotesk:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
-          rel="stylesheet"
-        />
         <JsonLd data={organizationSchema()} />
       </head>
       <body>
