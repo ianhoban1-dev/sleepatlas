@@ -7,6 +7,7 @@ import { articleSchema, breadcrumbSchema, faqSchema } from "@/lib/schema";
 import { ARTICLES, getArticle, type ArticleBlock } from "@/lib/articles";
 import { FOUNDER } from "@/lib/site";
 import FaqList from "@/components/FaqList";
+import RichText from "@/components/RichText";
 
 export function generateStaticParams() {
   return ARTICLES.map((a) => ({ slug: a.slug }));
@@ -32,21 +33,62 @@ export function generateMetadata({
 }
 
 function Block({ block }: { block: ArticleBlock }) {
+  const t = block.text ?? "";
   switch (block.type) {
     case "h2":
-      return <h2>{block.text}</h2>;
+      return <h2>{t}</h2>;
     case "h3":
-      return <h3>{block.text}</h3>;
+      return <h3>{t}</h3>;
     case "quote":
-      return <blockquote>{block.text}</blockquote>;
-    case "ul":
       return (
-        <ul>
-          {block.items?.map((item) => <li key={item.slice(0, 40)}>{item}</li>)}
-        </ul>
+        <blockquote>
+          <RichText text={t} />
+        </blockquote>
+      );
+    case "ul":
+    case "ol": {
+      const items = block.items?.map((item) => (
+        <li key={item.slice(0, 40)}>
+          <RichText text={item} />
+        </li>
+      ));
+      return block.type === "ol" ? <ol>{items}</ol> : <ul>{items}</ul>;
+    }
+    case "table":
+      return (
+        <div className="table-wrap">
+          <table>
+            {block.head && (
+              <thead>
+                <tr>
+                  {block.head.map((h) => (
+                    <th key={h} scope="col">
+                      <RichText text={h} />
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+            )}
+            <tbody>
+              {block.rows?.map((row, r) => (
+                <tr key={r}>
+                  {row.map((cell, c) => (
+                    <td key={c}>
+                      <RichText text={cell} />
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       );
     default:
-      return <p>{block.text}</p>;
+      return (
+        <p>
+          <RichText text={t} />
+        </p>
+      );
   }
 }
 

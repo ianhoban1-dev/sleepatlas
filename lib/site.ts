@@ -23,8 +23,8 @@ export const APP = {
 } as const;
 
 export const FOUNDER = {
-  name: "The Sleyp Founder",
-  displayName: "Founder, Sleyp",
+  name: "Ian Hoban",
+  displayName: "Ian Hoban, founder of Sleyp",
   yearsOfShiftWork: 40,
   bio: "Forty years of high-intensity shift work: the King's Regiment (1986–1989), industrial night production at Jacobs Biscuits, high-security landings with HM Prison Service at Strangeways, Walton and Guys Marsh, and heavy logistics shifts at Budweiser UK. Everything in Sleyp is built from what actually works when the alarm goes off at 4:45pm and the street outside is wide awake.",
   roles: [

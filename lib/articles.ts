@@ -5,10 +5,19 @@
  */
 import type { FaqItem } from "./schema";
 
+/**
+ * Text in `text`, `items` and table cells supports two inline marks:
+ * [link text](/internal/path/ or https://external) and **bold**.
+ * External links open in a new tab; internal links use next/link.
+ */
 export interface ArticleBlock {
-  type: "h2" | "h3" | "p" | "ul" | "quote";
+  type: "h2" | "h3" | "p" | "ul" | "ol" | "quote" | "table";
   text?: string;
   items?: string[];
+  /** Table header cells (type "table"). */
+  head?: string[];
+  /** Table body rows (type "table"). */
+  rows?: string[][];
 }
 
 export interface Article {
@@ -35,6 +44,271 @@ export const CATEGORIES = [
 ] as const;
 
 export const ARTICLES: Article[] = [
+  {
+    "slug": "brown-noise-for-sleep",
+    "title": "Brown Noise for Sleep: The Shift Worker's Guide to Noise Colours",
+    "description": "What is brown noise, and does it help you sleep in the day? A 40-year shift worker compares brown, white, pink and green noise, with what the research says.",
+    "category": "Noise & Disturbance Defence",
+    "categorySlug": "noise-disturbance-defence",
+    "datePublished": "2026-09-26",
+    "readMinutes": 11,
+    "quickAnswer": "Brown noise is a deep, steady rumble in which the low frequencies are loudest, like heavy rain on a roof or a distant waterfall. Many day sleepers prefer it to white noise because it smothers traffic, voices and building work without the hiss. The research on brown noise itself is still thin, so treat it as a practical masking tool rather than a cure.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Used well, brown noise can be the difference between four broken hours and a proper day's sleep."
+      },
+      {
+        "type": "p",
+        "text": "I know that feeling of getting into bed just as everyone else is leaving the house for school and work. It's great for about ten minutes. Then the neighbour decides today is the day to renovate the kitchen, and the drill starts."
+      },
+      {
+        "type": "p",
+        "text": "I've worked shifts for 40 years: The King's Regiment, Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, then Budweiser UK. Getting sleep during the day has been a daily battle for most of my working life. This guide explains what brown noise is, how it compares with the other \"noise colours\", what the evidence actually says, and how to use it to sleep through a noisy day."
+      },
+      {
+        "type": "h2",
+        "text": "What is brown noise?"
+      },
+      {
+        "type": "p",
+        "text": "Brown noise is a sound that contains every audible frequency, with the power dropping steadily as the pitch rises. The result is bass-heavy and smooth, a rumble rather than a hiss. [Cleveland Clinic](https://health.clevelandclinic.org/brown-noise) compares it to waterfalls, thunder, rushing rivers and heavy rainfall."
+      },
+      {
+        "type": "p",
+        "text": "The name has nothing to do with the colour. It comes from **Brownian motion**, the random movement of particles first described by the botanist Robert Brown, because the sound's pattern follows the same maths. That's also why you'll see it called **Brownian noise** or **red noise**. They are the same thing."
+      },
+      {
+        "type": "p",
+        "text": "In plain terms:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**White noise** sounds like an untuned radio: bright and hissy.",
+          "**Pink noise** is softer, like steady rain or wind in the trees.",
+          "**Brown noise** is deeper again, like standing near a waterfall or inside an aircraft cabin."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If white noise has ever felt like it was scratching at you rather than calming you, brown noise is usually the one to try next."
+      },
+      {
+        "type": "h2",
+        "text": "Brown noise vs white, pink and green noise"
+      },
+      {
+        "type": "p",
+        "text": "The main difference between the noise colours is where the energy sits: white is spread evenly, pink and brown lean towards the bass, and green sits in the middle."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Noise colour",
+          "What it sounds like",
+          "Where the energy sits",
+          "Best at covering",
+          "Watch out for"
+        ],
+        "rows": [
+          [
+            "White",
+            "Radio static, a hissing shower",
+            "Equal across all frequencies",
+            "High-pitched sounds: voices, birdsong, a TV through the wall",
+            "Can sound harsh at the volume needed to mask a drill"
+          ],
+          [
+            "Pink",
+            "Steady rain, wind in trees",
+            "Leans towards lower frequencies",
+            "General household and street noise",
+            "Softer, so it may let sharp sounds through"
+          ],
+          [
+            "Brown (red)",
+            "Waterfall, thunder, heavy rain, aircraft cabin",
+            "Strongly weighted to low frequencies",
+            "Low rumbles: traffic, lorries, bass through walls, washing machines",
+            "Masks high-pitched sounds less well than white"
+          ],
+          [
+            "Green",
+            "A hum of nature, a gentle mid-range wash",
+            "Middle frequencies",
+            "Mixed, everyday background noise",
+            "Not a scientific standard; [very little research](https://www.sleepfoundation.org/noise-and-sleep/what-is-green-noise)"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For day sleepers, the useful takeaway is simple. **Brown noise is best for low, rumbling noise, white for high-pitched noise, and a blend often works best of all.** I've gone deeper on the two-way comparison in [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/)."
+      },
+      {
+        "type": "h2",
+        "text": "Why brown noise suits daytime sleep after a night shift"
+      },
+      {
+        "type": "p",
+        "text": "Daytime is simply louder than night. School runs, delivery vans, bin lorries, lawnmowers, next door's builders: the whole street is awake while you're trying to sleep. The [World Health Organization](https://www.who.int/europe/news-room/fact-sheets/item/noise) recommends keeping bedrooms below 30 dB(A) at night for good sleep. It also names shift workers among the groups most sensitive to noise. Few day sleepers get anywhere near 30 dB at 11am."
+      },
+      {
+        "type": "p",
+        "text": "Most of that daytime noise is low and rumbling, which is exactly where brown noise is strongest."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Traffic and engines.** A diesel van idling outside or a lorry going past is mostly bass. Brown noise fills that same range, so the change in sound is less jarring.",
+          "**Sound through walls.** Walls and double glazing block high frequencies better than low ones. What reaches your pillow is usually thuds, bass and rumble.",
+          "**Sudden noises.** It's usually the change in sound that wakes you, not the level. A steady masking sound narrows the gap between \"quiet\" and \"car door slamming\", so fewer noises stand out enough to wake you."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "There's a comfort side too. Brown noise is gentler on the ear over a six- or seven-hour sleep than white noise at the same volume. Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. A low, even rumble gives your brain something steady to settle on."
+      },
+      {
+        "type": "p",
+        "text": "For years I slept with a fan going. It was only when I tried a deeper sound after a run of nights that I realised how much of the street I'd still been hearing."
+      },
+      {
+        "type": "h2",
+        "text": "What the research actually says about brown noise"
+      },
+      {
+        "type": "p",
+        "text": "**There is very little research on brown noise and sleep specifically, and the evidence for background noise in general is weak.** A lot of websites won't tell you that, so here is where the science stands."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Continuous noise in general.** A 2021 systematic review in Sleep Medicine Reviews looked at 38 studies of noise as a sleep aid ([Riedy et al.](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283)). The reviewers rated the quality of evidence that continuous noise improves sleep as \"very low\". Most studies were small, and many didn't analyse their results properly.",
+          "**Brown noise specifically.** [Cleveland Clinic](https://health.clevelandclinic.org/brown-noise) says research on brown noise for sleep is minimal, and scientists are still studying it.",
+          "**The pink noise studies.** The best-known results are for pink noise. A Northwestern University study found memory improvement was about three times larger in adults over 60 ([Northwestern, 2017](https://news.northwestern.edu/stories/2017/april/pink-noise-sound-enhance-deep-sleep-memory)). But the sound came in short bursts, timed to each person's brain waves during deep sleep. A pink or brown noise track playing all day is not the same thing."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "So why use brown noise at all? Because none of those studies were testing the problem day sleepers actually have. We aren't trying to make good sleep better in a quiet lab. We're trying to stop a car alarm or a drill from waking us at 11am. Masking works in a simple way: a steady sound narrows the jump between the background and a sudden noise."
+      },
+      {
+        "type": "p",
+        "text": "My honest advice: treat brown noise as one layer of your defence, alongside a dark room, earplugs and good timing. Don't treat it as a cure. If it helps you sleep, it's working."
+      },
+      {
+        "type": "h2",
+        "text": "How to use brown noise for daytime sleep"
+      },
+      {
+        "type": "p",
+        "text": "Set it up before you get into bed, keep it at the lowest volume that covers the street, and let it run for your whole sleep."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Start it before your head hits the pillow.** Put it on while you're winding down, not after the first noise has already woken you.",
+          "**Find the lowest volume that works.** Sit in bed and turn it up until the background traffic stops standing out, then stop. Louder isn't better, and there's no need to drown out the world.",
+          "**Use a speaker, not earbuds, if you can.** A small speaker across the room fills the space more evenly and is kinder to your ears over several hours. If you share a bed or need earplugs as well, a sleep headband or low-profile buds are the fall-back.",
+          "**Run it for the whole sleep.** A 30-minute timer helps you drop off, but the builders don't stop at 30 minutes. For day sleep, keep it running until your alarm, or use a long timer that fades out gently.",
+          "**Layer it with earplugs on the worst days.** Earplugs cut the peaks, and brown noise fills the gaps.",
+          "**Fix the room as well.** Noise is only one part of it. The [HSE's advice for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) includes blackout blinds or eye shades, a quiet room, and telling the neighbours when you sleep. My guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/) covers the light side."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**Not sure what's actually waking you?** The free [Noise Calibration Tool](/tools/noise-calibration-tool/) helps you work out which daytime sounds are your real problem, so you can pick the right masking sound."
+      },
+      {
+        "type": "p",
+        "text": "One trap I fell into for years: at 3 o'clock in the morning on your night shift you hit that wall, and no amount of caffeine or Red Bull helps, but you drink it anyway. Then you pay for it later, lying in bed wired with the brown noise playing and no sleep coming. No sound will fix caffeine. In one study, 400 mg of caffeine taken six hours before bed cut total sleep by more than an hour, and the volunteers didn't even notice ([Drake et al., 2013](https://jcsm.aasm.org/doi/abs/10.5664/jcsm.3170)). Stopping caffeine well before the end of your shift does more than any noise colour."
+      },
+      {
+        "type": "h2",
+        "text": "Building your own brown noise mix in Sleyp"
+      },
+      {
+        "type": "p",
+        "text": "Sleyp is the sleep-environment app I built because nothing on the market was designed for people who sleep while the world is awake. You can [play brown, pink and white noise free in your browser](/session/). No sign-up is needed."
+      },
+      {
+        "type": "p",
+        "text": "A mix that works for a lot of day sleepers:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Brown noise as the base.** It covers traffic and bass through the walls.",
+          "**A little rain or fan hum on top.** This adds some mid and high frequencies to catch voices and birdsong.",
+          "**A long fade-out or none at all.** Keep the sound running through the noisiest part of the day."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The free web player has brown, white and pink noise with 30, 60 and 90-minute fade-out timers. Premium adds ten more layers, including rain, thunderstorm, ocean waves, fan hum and cabin hum. It also adds saved personal mixes, custom timers up to 12 hours, and a gentle fade-in wake-up, so you don't jolt awake before your next night shift."
+      },
+      {
+        "type": "p",
+        "text": "**[Try Sleyp free](/session/)** in your browser now, or **get the Sleyp app** when it lands on the App Store."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Brown noise is a deep, steady rumble that's especially good at covering the low, grinding noise of a daytime street: traffic, engines, bass through walls and building work. The science on noise as a sleep aid is still weak, so don't expect miracles. But as one layer of your defence, alongside a dark room, earplugs and sensible caffeine timing, it can turn a broken day's sleep into a proper one."
+      },
+      {
+        "type": "p",
+        "text": "Start tonight. Or rather, start tomorrow morning when you get in from your shift. [Play brown noise free in Sleyp](/session/), set the volume just above the street, and see how you feel after a week."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Cleveland Clinic: What is brown noise?](https://health.clevelandclinic.org/brown-noise)",
+          "[Riedy et al. (2021), Noise as a sleep aid: a systematic review, Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283)",
+          "[Northwestern University (2017): pink noise and deep sleep in older adults](https://news.northwestern.edu/stories/2017/april/pink-noise-sound-enhance-deep-sleep-memory)",
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise)",
+          "[Sleep Foundation: What is green noise?](https://www.sleepfoundation.org/noise-and-sleep/what-is-green-noise)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[Drake et al. (2013), Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed, Journal of Clinical Sleep Medicine](https://jcsm.aasm.org/doi/abs/10.5664/jcsm.3170)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is brown noise better than white noise for sleep?",
+        "answer": "Neither is better for everyone. Brown noise is better at covering low sounds like traffic and bass through walls, and many people find it less harsh over a long sleep. White noise is better at covering high-pitched sounds like voices and birdsong."
+      },
+      {
+        "question": "Is it safe to sleep with brown noise on all day?",
+        "answer": "For most people, yes, as long as the volume is moderate. Use the lowest level that covers the background noise, and play it through a speaker rather than earbuds where you can."
+      },
+      {
+        "question": "How loud should brown noise be for sleeping?",
+        "answer": "Just loud enough that background traffic and voices stop standing out, and no louder. Set it while you're sitting in bed, then leave it. If you have to raise your voice to talk over it, it's too loud."
+      },
+      {
+        "question": "Is red noise the same as brown noise?",
+        "answer": "Yes. Red noise, brown noise and Brownian noise are three names for the same deep, low-frequency sound."
+      },
+      {
+        "question": "Does brown noise help you fall asleep faster?",
+        "answer": "It helps some people, mainly by covering the sudden noises that keep them alert. A 2021 review of 38 studies found the evidence that continuous noise improves sleep is very low quality, so try it for a week of day sleeps and judge by how you feel."
+      },
+      {
+        "question": "What is the best noise colour for sleeping after a night shift?",
+        "answer": "For most daytime noise, which is mostly traffic, engines and building work, start with brown noise. Add a little rain or fan sound on top if voices or birdsong still get through."
+      }
+    ]
+  },
   {
     slug: "how-to-sleep-after-a-prison-night-shift",
     title: "How to Sleep After a Prison Night Shift (From Someone Who Did It for Years)",
