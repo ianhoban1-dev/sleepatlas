@@ -45,6 +45,125 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    slug: "pink-noise-for-sleep",
+    title: "Pink Noise for Sleep: What the Deep-Sleep Studies Really Found",
+    description: "Does pink noise improve deep sleep? We explain the studies behind the claim, why timing matters, and how shift workers can use pink noise for daytime sleep.",
+    category: "Noise & Disturbance Defence",
+    categorySlug: "noise-disturbance-defence",
+    datePublished: "2026-09-26",
+    readMinutes: 7,
+    quickAnswer:
+      "Pink noise is a balanced, gentle sound with more of its energy in the lower frequencies, so it sounds softer than white noise, like steady rain or wind in the trees. The studies that linked it to deeper sleep used short bursts timed to brain waves, not an all-night track. As steady background sound, it's a gentle masker for lighter daytime noise.",
+    blocks: [
+      { type: "p",
+        text: "I've done my share of getting into bed at 9am, just as the school run starts and the bin lorry works its way down the street. Every so often a headline tells you pink noise will \"boost your deep sleep\". So I went back to the studies to see what they actually tested, and whether any of it applies to someone trying to sleep through the day after a night shift." },
+      { type: "h2",
+        text: "What is pink noise?" },
+      { type: "p",
+        text: "Pink noise contains every frequency you can hear, like white noise, but the power drops as the pitch rises. Each octave carries the same amount of energy, which is roughly how our ears hear sound. The result is fuller and less hissy than white noise, but not as deep as brown noise." },
+      { type: "p",
+        text: "Think steady rain on a window or wind through trees. If white noise feels like it's scratching at you, pink noise is a softer step down. I covered the full range in my guide to [brown noise for sleep](/resources/brown-noise-for-sleep/)." },
+      { type: "h2",
+        text: "What did the pink noise sleep studies find?" },
+      { type: "p",
+        text: "The pink noise claims come mainly from two small studies. Both played short bursts of pink noise at exactly the right moment in each person's deep sleep. Neither played pink noise all night." },
+      { type: "table",
+        head: ["Study", "Who took part", "What was played", "What they found"],
+        rows: [
+          ["[Ngo et al. (2013), Neuron](https://www.sciencedirect.com/science/article/pii/S0896627313002304)", "11 young adults (average age 24)", "Pink noise bursts timed to the \"up\" phase of slow brain waves in deep sleep", "Next-morning recall of word pairs: 22.2 words vs 13.0 with no sound. Bursts played out of step with the brain waves gave no benefit."],
+          ["[Northwestern University (2017)](https://news.northwestern.edu/stories/2017/april/pink-noise-sound-enhance-deep-sleep-memory)", "13 adults aged 60 and over", "Pink noise delivered during the rising part of slow brain waves, locked to each person's brain activity in real time", "Memory improvement was about three times larger than after the sham (no-sound) night."],
+        ] },
+      { type: "p",
+        text: "These are real results. But look at what the researchers needed to get them: a sleep lab, equipment reading each person's brain waves as they slept, and a system that timed every burst to that rhythm." },
+      { type: "h2",
+        text: "Timed bursts vs an all-night track: why does it matter?" },
+      { type: "p",
+        text: "It matters because the timing was the whole effect. In the 2013 study, the same pink noise played out of step with the brain waves did nothing for memory. The benefit came from when the sound was played, not from the sound being pink." },
+      { type: "p",
+        text: "A pink noise track on your phone doesn't know what your brain is doing. It plays the same steady sound whether you're in deep sleep, light sleep or awake. So it isn't a home version of those experiments, and any app that says \"pink noise is proven to deepen sleep\" is stretching the evidence." },
+      { type: "p",
+        text: "The wider research on steady background noise is honest about this. A 2021 review of 38 studies of noise as a sleep aid, including white, pink and other broadband noise, rated the quality of evidence that continuous noise improves sleep as \"very low\" ([Riedy et al., Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283))." },
+      { type: "p",
+        text: "So why bother? Because day sleepers aren't trying to make good sleep better in a quiet lab. We're trying to stop the neighbour's lawnmower or a slammed car door from waking us at 11am. A steady sound narrows the jump between the background and a sudden noise, so fewer sounds stand out enough to wake you. Any noise colour can do that job. The question is which one suits your street." },
+      { type: "h2",
+        text: "Pink noise vs brown noise: which is better for daytime noise?" },
+      { type: "p",
+        text: "Brown noise is usually better for low, rumbling daytime noise, and pink noise is better for lighter, mixed noise with some higher-pitched sounds." },
+      { type: "table",
+        head: ["Feature", "Pink noise", "Brown noise", "White noise"],
+        rows: [
+          ["Sounds like", "Steady rain, wind in trees", "Waterfall, aircraft cabin", "Radio static"],
+          ["Energy", "Evenly spread across octaves, softer at the top", "Heavily weighted to the bass", "Equal at every frequency, bright at the top"],
+          ["Best at covering", "Voices, birdsong, general household noise", "Traffic, lorries, bass through walls, building work", "High-pitched sounds, a TV through the wall"],
+          ["Weak spot", "Can let deep rumbles through", "Less good on sharp, high sounds", "Can feel harsh over a long sleep"],
+          ["Good choice if", "Your street is fairly quiet and you're a light sleeper", "You live near a road or have noisy neighbours", "You like a crisp sound and can put up with the hiss"],
+        ] },
+      { type: "p",
+        text: "Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. For that kind of lighter, patchy noise, pink noise is a comfortable option. For a busy road or next door's builders, brown noise tends to hold up better." },
+      { type: "p",
+        text: "I use a mix of sounds, but I always like some pink noise in there. Light traffic passes my house all day and night, and pink noise helps mask it. For me, a forest sound is the perfect way to add it: birds, rain and wind through the trees. It's so relaxing, and it helps me fall asleep every time." },
+      { type: "h2",
+        text: "How do you try pink noise after a night shift?" },
+      { type: "p",
+        text: "Give it a fair trial over a few day sleeps, and set it up before you get into bed." },
+      { type: "ol",
+        items: [
+          "**Start it while you wind down.** Put it on as you get into bed, not after the first noise has already woken you.",
+          "**Set the lowest volume that works.** Sit in bed and turn it up until the street stops standing out, then stop. If you'd have to raise your voice to talk over it, it's too loud.",
+          "**Use a speaker across the room.** It fills the space more evenly than earbuds and is kinder to your ears over six or seven hours.",
+          "**Keep it running for the whole sleep.** A 30-minute timer helps you drop off, but the school run and the delivery vans don't stop after 30 minutes. For day sleep, run it until your alarm or use a long fade-out.",
+          "**Compare it with brown noise.** Try pink for two or three day sleeps, then brown for two or three, and note which days you woke less.",
+          "**Fix the room too.** Noise is only one part. The [HSE's advice for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) includes blackout blinds or eye shades and telling your neighbours when you sleep.",
+        ] },
+      { type: "p",
+        text: "**Not sure what's waking you?** The free [Noise Calibration Tool](/tools/noise-calibration-tool/) helps you work out which daytime sounds are the real problem, so you can pick the right colour." },
+      { type: "h2",
+        text: "The bottom line" },
+      { type: "p",
+        text: "Pink noise is a softer, more natural-sounding alternative to white noise, and it's a good fit for lighter daytime noise. The headline studies were real, but they tested precisely timed bursts in a lab, not an all-night track. As one layer of your defence, alongside a dark room, earplugs and sensible caffeine timing, it can help you sleep through a noisy morning." },
+      { type: "p",
+        text: "[Try Sleyp free](/session/) and compare pink and brown noise side by side in your browser, or **get the Sleyp app** when it lands on the App Store." },
+      { type: "p",
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · rain sounds for sleeping · green noise · red noise · fan noise for sleeping" },
+      { type: "h3",
+        text: "Sources" },
+      { type: "ul",
+        items: [
+          "[Ngo et al. (2013), Auditory closed-loop stimulation of the sleep slow oscillation enhances memory, Neuron](https://www.sciencedirect.com/science/article/pii/S0896627313002304)",
+          "[Northwestern University (2017): pink noise, deep sleep and memory in older adults](https://news.northwestern.edu/stories/2017/april/pink-noise-sound-enhance-deep-sleep-memory)",
+          "[Riedy et al. (2021), Noise as a sleep aid: a systematic review, Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+        ] },
+    ],
+    faqs: [
+      {
+        question: "Does pink noise really improve deep sleep?",
+        answer:
+          "Not as a background track, as far as the evidence shows. The studies that found stronger deep sleep and better memory played short bursts of pink noise timed precisely to each person's brain waves. When the same sound was played out of step, there was no benefit.",
+      },
+      {
+        question: "Is pink noise better than white noise for sleep?",
+        answer:
+          "Many people find it more comfortable, because it's softer and less hissy over a long sleep. White noise is better at covering sharp, high-pitched sounds. Neither has strong evidence behind it as a sleep aid, so go with the one you find easier to sleep through.",
+      },
+      {
+        question: "Can you listen to pink noise all day while you sleep?",
+        answer:
+          "For most people, yes, at a moderate volume. Use the lowest level that covers the background noise, and play it through a speaker rather than earbuds if you can.",
+      },
+      {
+        question: "Is pink noise or brown noise better for daytime sleep?",
+        answer:
+          "It depends on your street. Brown noise is better for low, rumbling noise like traffic and building work. Pink noise suits lighter, mixed noise such as voices and birdsong.",
+      },
+      {
+        question: "Is there any proof that pink noise helps you sleep?",
+        answer:
+          "Only for timed pink noise bursts in lab studies. A 2021 review of 38 studies rated the evidence that continuous noise improves sleep as very low quality. Treat pink noise as a masking tool, not a treatment, and judge it by how you feel after a week.",
+      },
+    ],
+  },
+  {
     "slug": "brown-noise-for-sleep",
     "title": "Brown Noise for Sleep: The Shift Worker's Guide to Noise Colours",
     "description": "What is brown noise, and does it help you sleep in the day? A 40-year shift worker compares brown, white, pink and green noise, with what the research says.",
@@ -120,7 +239,7 @@ export const ARTICLES: Article[] = [
             "Can sound harsh at the volume needed to mask a drill"
           ],
           [
-            "Pink",
+            "[Pink](/resources/pink-noise-for-sleep/)",
             "Steady rain, wind in trees",
             "Leans towards lower frequencies",
             "General household and street noise",
@@ -187,7 +306,7 @@ export const ARTICLES: Article[] = [
         "items": [
           "**Continuous noise in general.** A 2021 systematic review in Sleep Medicine Reviews looked at 38 studies of noise as a sleep aid ([Riedy et al.](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283)). The reviewers rated the quality of evidence that continuous noise improves sleep as \"very low\". Most studies were small, and many didn't analyse their results properly.",
           "**Brown noise specifically.** [Cleveland Clinic](https://health.clevelandclinic.org/brown-noise) says research on brown noise for sleep is minimal, and scientists are still studying it.",
-          "**The pink noise studies.** The best-known results are for pink noise. A Northwestern University study found memory improvement was about three times larger in adults over 60 ([Northwestern, 2017](https://news.northwestern.edu/stories/2017/april/pink-noise-sound-enhance-deep-sleep-memory)). But the sound came in short bursts, timed to each person's brain waves during deep sleep. A pink or brown noise track playing all day is not the same thing."
+          "**The pink noise studies.** The best-known results are for pink noise. A Northwestern University study found memory improvement was about three times larger in adults over 60 ([Northwestern, 2017](https://news.northwestern.edu/stories/2017/april/pink-noise-sound-enhance-deep-sleep-memory)). But the sound came in short bursts, timed to each person's brain waves during deep sleep. A pink or brown noise track playing all day is not the same thing. I've unpacked those studies in [pink noise for sleep](/resources/pink-noise-for-sleep/)."
         ]
       },
       {
@@ -251,7 +370,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**[Try Sleyp free](/session/)** in your browser now, or **get the Sleyp app** when it lands on the App Store."
+        "text": "[Try Sleyp free](/session/) in your browser now, or **get the Sleyp app** when it lands on the App Store."
       },
       {
         "type": "h2",
