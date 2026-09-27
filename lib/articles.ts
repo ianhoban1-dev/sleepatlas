@@ -70,7 +70,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "**They don't demand attention.** Rain has no words, no tune and no pattern to follow. There's nothing to listen to, so your mind drifts. Compare that with a radio or a podcast, where your brain keeps picking up the thread." },
       { type: "p",
-        text: "**They're familiar.** Most of us have fallen asleep to rain on a window. It's a safe, indoor sound: you're warm, dry and nothing needs doing. I remember being at Strensall Barracks near York in 1986, and doing my first army night tmaining. The noise of rain on our tent was so calming, and helped me to get at least some sleep before being woken at 3am in the morning from the sound of enemy flashlights going off." },
+        text: "**They're familiar.** Most of us have fallen asleep to rain on a window. It's a safe, indoor sound: you're warm, dry and nothing needs doing. I remember being at Strensall Barracks near York in 1986, and doing my first Army night training exercise. The noise of rain on our tent was so calming, and helped me to get at least some sleep before being woken at 3am in the morning from the sound of enemy flashlights going off." },
       { type: "p",
         text: "The HSE's own [advice for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) says that if it's too noisy to sleep, you can consider earplugs, white noise or background music. Rain sits comfortably in that list." },
       { type: "h2",
