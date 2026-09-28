@@ -45,6 +45,118 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    slug: "green-noise",
+    title: "Green Noise: What It Is and Whether It Helps You Sleep",
+    description: "Green noise explained: what it sounds like, how it compares with white, pink and brown noise, and what the limited evidence says about using it for sleep.",
+    category: "Noise & Disturbance Defence",
+    categorySlug: "noise-disturbance-defence",
+    datePublished: "2026-09-29",
+    readMinutes: 6,
+    quickAnswer:
+      "Green noise is a nickname for steady sound centred on the middle frequencies, often described as the hum of nature, like a stream or distant surf. There is very little sleep research behind it. Some people find it softer than white noise, so treat it as one option in your masking mix, not a proven sleep aid.",
+    blocks: [
+      { type: "p",
+        text: "Getting into bed after a night shift, just as the neighbours decide to mow their lawns, is a feeling every day sleeper knows. When that happens you'll try anything, and green noise is the latest colour doing the rounds on social media." },
+      { type: "p",
+        text: "Green noise is a new noise that's getting great reviews lately, and we will be adding it to the Sleyp sounds soon. It's similar to a stream or the sea, so this fits perfectly into my sound mix favourites, as anything with water seems to calm me." },
+      { type: "p",
+        text: "Here's what green noise is, what the evidence says, and who might get on with it." },
+      { type: "h2",
+        text: "What is green noise?" },
+      { type: "p",
+        text: "Green noise is steady background sound with extra weight in the middle of the hearing range. The [Sleep Foundation](https://www.sleepfoundation.org/noise-and-sleep/what-is-green-noise) describes it as sound that \"amplifies the frequencies in the middle of that range\", which gives it a natural feel, like the ocean or a stream, without the harsh high tones of white noise." },
+      { type: "p",
+        text: "One honest point: white, pink and brown noise have precise technical definitions. Green noise doesn't. It's a popular label rather than a standard, and the Sleep Foundation doesn't give an exact frequency range for it. That means one app's green noise can sound quite different from another's, so trust your ears over the name." },
+      { type: "h2",
+        text: "How does green noise compare with white, pink and brown noise?" },
+      { type: "table",
+        head: ["Colour", "Where the energy sits", "What it sounds like", "Best at masking"],
+        rows: [
+          ["White", "Evenly across all frequencies", "A continuous hiss, like TV static", "Sharp, high sounds"],
+          ["Pink", "More in the lower frequencies", "Falling rain or a water sprinkler", "General household noise"],
+          ["Green", "Boosted middle frequencies", "A stream, the sea, a gentle outdoor hum", "Voices, TVs and everyday mid-range noise"],
+          ["Brown", "Mostly in the low frequencies", "Thunder or a distant jet engine", "Traffic, lorries, drilling and bass through walls"],
+        ] },
+      { type: "p",
+        text: "Sound descriptions follow the [Sleep Foundation's guide](https://www.sleepfoundation.org/noise-and-sleep/what-is-green-noise). The masking column is a practical rule of thumb: a sound covers other sounds best when it shares their frequencies. For a deeper look at the heavy end of the scale, see my guide to [brown noise for sleep](/resources/brown-noise-for-sleep/)." },
+      { type: "h2",
+        text: "Does green noise help you sleep? What the evidence says" },
+      { type: "p",
+        text: "The short answer is that nobody knows yet. The Sleep Foundation says research into green noise and sleep \"is limited\", even though it's gaining popularity on social media." },
+      { type: "p",
+        text: "The wider evidence on sound as a sleep aid is thin too. A 2021 review of 38 studies found that continuous noise tended to shorten the time taken to fall asleep and reduce broken sleep, but the effects were either not significant or not tested statistically. The authors rated the quality of evidence that continuous noise improves sleep as \"very low\", and warned it may also negatively affect sleep and hearing ([Riedy et al., Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283))." },
+      { type: "p",
+        text: "The studies you may have seen about noise and deeper sleep used short bursts of [pink noise](/resources/pink-noise-for-sleep/) timed to brain waves in a lab. That isn't the same as a green noise track playing all day, so don't read those results across." },
+      { type: "p",
+        text: "So why bother? Because the practical case for masking doesn't depend on the colour. What usually wakes a day sleeper is the jump in sound: a car door, a dog, a delivery van. A steady sound underneath makes that jump smaller. The Sleep Foundation also notes that shift workers who need to sleep while outside noise such as traffic is loud might benefit from a sound machine." },
+      { type: "h2",
+        text: "Who might prefer green noise?" },
+      { type: "p",
+        text: "Green noise is worth a try if one of these sounds like you:" },
+      { type: "ul",
+        items: [
+          "**You find white noise too harsh.** Green noise drops the hiss at the top end, which some people find easier to live with over a seven-hour day sleep.",
+          "**You find brown noise too heavy.** If a deep rumble feels boomy or makes your ears feel \"full\", green sits in the middle.",
+          "**Your problem noise is mid-range.** Voices on the street, next door's TV and general household noise sit largely in the middle frequencies, where green noise is strongest.",
+          "**You like nature sounds.** Green noise sits close to the feel of a stream or the sea. If [rain sounds](/resources/rain-sounds-for-sleeping/) already work for you, green noise may too.",
+        ] },
+      { type: "p",
+        text: "It's less suited to deep, low noise. Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep, and green noise may be enough for that. But for a busy road, lorries or a drill through the wall, brown noise usually holds up better. Many day sleepers end up with a blend." },
+      { type: "h2",
+        text: "How to try green noise after a night shift" },
+      { type: "ol",
+        items: [
+          "**Give it a fair test.** Use it for three or four day sleeps before you judge it. One morning tells you very little.",
+          "**Set the lowest volume that works.** Turn it up until the street stops standing out, then stop. If you'd have to raise your voice to talk over it, it's too loud.",
+          "**Play it through a speaker across the room** rather than earbuds, to spread the sound and spare your ears.",
+          "**Run it for your whole sleep.** The school run and bin lorries don't stop after a 30-minute timer.",
+          "**Compare and blend.** Try brown and pink on other days. If low rumble still gets through, layer brown noise under the green.",
+        ] },
+      { type: "h2",
+        text: "The bottom line" },
+      { type: "p",
+        text: "Green noise is a softer, mid-range sound with a natural feel. The research on it is almost non-existent, but as a masking sound it can take the edge off daytime noise if white feels too sharp or brown too heavy. Keep the volume low and blend in brown noise if deep rumble still gets through." },
+      { type: "p",
+        text: "Try Sleyp free and play the colours back to back in your browser, then **get the Sleyp app** to save the mix that works. Green noise will be coming soon to Sleyp, so don't forget to try it in your mix soon." },
+      { type: "p",
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · red noise · fan noise for sleeping" },
+      { type: "h3",
+        text: "Sources" },
+      { type: "ul",
+        items: [
+          "[Sleep Foundation (2025), What is green noise and how can it help you sleep? Medically reviewed by Dr Abhinav Singh](https://www.sleepfoundation.org/noise-and-sleep/what-is-green-noise)",
+          "[Riedy et al. (2021), Noise as a sleep aid: a systematic review, Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283)",
+        ] },
+    ],
+    faqs: [
+      {
+        question: "Is green noise real?",
+        answer:
+          "Yes, in the sense that you can generate sound with extra energy in the middle frequencies. But unlike white, pink and brown noise, it has no strict technical definition, so tracks labelled \"green noise\" vary.",
+      },
+      {
+        question: "Is green noise good for sleep?",
+        answer:
+          "It may help some people as a gentle masking sound, but there is very little research on green noise and sleep specifically. A 2021 review rated the evidence that continuous noise improves sleep as very low. Judge it by how you sleep.",
+      },
+      {
+        question: "Green noise vs brown noise: which is better?",
+        answer:
+          "It depends on what you're blocking. Green suits voices, TVs and everyday mid-range noise. Brown is better for deep sounds like traffic, lorries and drilling. Many day sleepers use brown as a base and add a lighter layer on top.",
+      },
+      {
+        question: "What does green noise sound like?",
+        answer:
+          "A soft, natural hum, like a stream or the sea, with less hiss than white noise and less rumble than brown.",
+      },
+      {
+        question: "Is green noise better than white noise?",
+        answer:
+          "Neither has strong evidence as a sleep aid. Some people find green noise more pleasant over a long sleep because it drops the harsh high tones that make white noise hiss.",
+      },
+    ],
+  },
+  {
     slug: "rain-sounds-for-sleeping",
     title: "Rain Sounds for Sleeping: Why Nature Sounds Calm a Wired Brain",
     description: "Why do rain sounds help you sleep? The science behind nature sounds, which rain works best for daytime noise, and how night workers can use rain sounds well.",
@@ -140,7 +252,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Try Sleyp free and layer rain and brown noise into your own mix in your browser, or **get the Sleyp app** when it lands on the App Store." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · green noise · red noise · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [green noise](/resources/green-noise/) · red noise · fan noise for sleeping" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -263,7 +375,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "[Try Sleyp free](/session/) and compare pink and brown noise side by side in your browser, or **get the Sleyp app** when it lands on the App Store." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · green noise · red noise · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · red noise · fan noise for sleeping" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -358,7 +470,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "The main difference between the noise colours is where the energy sits: white is spread evenly, pink and brown lean towards the bass, and green sits in the middle."
+        "text": "The main difference between the noise colours is where the energy sits: white is spread evenly, pink and brown lean towards the bass, and [green noise](/resources/green-noise/) sits in the middle."
       },
       {
         "type": "table",
