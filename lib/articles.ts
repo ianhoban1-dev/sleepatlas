@@ -45,6 +45,118 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    slug: "red-noise",
+    title: "Red Noise Explained: Is It Just Brown Noise by Another Name?",
+    description: "Red noise explained in plain English: how it relates to brown noise, what it sounds like, and whether it can help you sleep during the day after night shifts.",
+    category: "Noise & Disturbance Defence",
+    categorySlug: "noise-disturbance-defence",
+    datePublished: "2026-09-29",
+    readMinutes: 5,
+    quickAnswer:
+      "Red noise is another name for brown noise, also called Brownian noise: a steady sound whose power drops as the pitch rises, so the deep, low tones are loudest. It sounds like a deep rumble, such as thunder, a waterfall or heavy rain. For day sleepers it's a strong masker for traffic and drilling, but the research is still thin.",
+    blocks: [
+      { type: "p",
+        text: "Getting into bed as everyone else leaves the house for school and work is great, until the next door neighbour decides to renovate and starts drilling. That's when most day sleepers go looking for a sound that can stand up to it. Search around and you soon find two names that seem to describe the same thing: red noise and brown noise." },
+      { type: "p",
+        text: "They do. If you've read my guide to [brown noise for sleep](/resources/brown-noise-for-sleep/), you already know most of this. This post clears up the naming, so you know exactly what you're pressing play on." },
+      { type: "h2",
+        text: "What is red noise?" },
+      { type: "p",
+        text: "Red noise is random sound that covers the whole hearing range, with the power falling away as the pitch goes up. The low frequencies get the most energy and the high ones the least. The result is a soft, heavy rumble with none of the hiss you hear in white noise." },
+      { type: "p",
+        text: "The \"red\" comes from light. White light contains every colour evenly, which is where white noise gets its name. Red light sits at the long-wavelength end of the spectrum, so a sound weighted towards the low end got called red." },
+      { type: "p",
+        text: "\"Brown\" isn't a colour at all. [Cleveland Clinic](https://health.clevelandclinic.org/brown-noise) explains it's named after Robert Brown, the scientist who described Brownian motion: the random way pollen particles move when they're suspended in water or air." },
+      { type: "h2",
+        text: "Is red noise the same as brown noise?" },
+      { type: "p",
+        text: "Yes. It's one sound with three names. The [Sleep Foundation](https://www.sleepfoundation.org/noise-and-sleep/white-noise) puts it plainly: \"Brown noise, also called red noise, contains sounds from every octave of the sound spectrum, but the power behind frequencies decreases with each octave.\"" },
+      { type: "table",
+        head: ["Name", "Where the name comes from", "What you hear"],
+        rows: [
+          ["Red noise", "Light: red is the low-frequency, long-wavelength end of the spectrum", "A deep, steady rumble"],
+          ["Brown noise", "Robert Brown, who described Brownian motion", "The same deep rumble"],
+          ["Brownian noise", "The full scientific name, from Brownian motion", "The same deep rumble"],
+        ] },
+      { type: "p",
+        text: "One practical point: these are labels, and every app generates its own version. Two tracks both called \"red noise\" can sound slightly different depending on how they were made and filtered. Trust your ears over the name. If a track sounds lighter and more like falling rain, you're probably closer to [pink noise](/resources/pink-noise-for-sleep/), which keeps more of the higher tones." },
+      { type: "h2",
+        text: "What does red noise sound like in real life?" },
+      { type: "p",
+        text: "Think of any big, steady, low sound. [Cleveland Clinic](https://health.clevelandclinic.org/brown-noise) lists rushing waterfalls or rivers, rumbling thunder, crashing waves, a running shower, heavy rainfall and heavy wind blowing through trees." },
+      { type: "p",
+        text: "Anyone who has worked nights in a factory or a brewery knows that deep, constant hum that fades into the background after the first hour. In Budweiser, that constant background noise was always there, all through the night." },
+      { type: "p",
+        text: "That's the point of red noise for sleep. It isn't meant to be listened to. It's meant to become the background, so the sounds that would normally wake you stand out less." },
+      { type: "h2",
+        text: "Is red noise good for daytime sleep after nights?" },
+      { type: "p",
+        text: "It can help, but be honest with yourself about what the science says. The Sleep Foundation notes that brown noise's \"effect on sleep has not been widely studied.\" Research on sound as a sleep aid in general is thin too. A 2021 review of 38 studies rated the quality of evidence that continuous noise improves sleep as \"very low\", and warned it \"may also negatively affect sleep and hearing\" ([Riedy et al., Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283))." },
+      { type: "p",
+        text: "So why do so many day sleepers swear by it? Because what usually wakes you after a night shift isn't the level of noise. It's the jump: a van door, a dog, a lorry reversing, a drill starting up. A steady sound underneath makes each jump smaller." },
+      { type: "p",
+        text: "Red noise suits daytime sleep because the worst daytime noises are deep ones. Buses, lorries, road traffic, drilling and bass through a party wall all carry a lot of low-frequency energy. As a rule of thumb, a sound masks best when it shares frequencies with the noise you're trying to cover, and red noise is strongest exactly where those sounds are. White noise's hiss sits higher up, which is why it can feel harsh and still let the rumble through." },
+      { type: "h2",
+        text: "How to use red noise for daytime sleep" },
+      { type: "ol",
+        items: [
+          "**Keep the volume low.** The Sleep Foundation suggests a level similar to a background conversation or light rustling, and notes that noise of 70 decibels or more, like city traffic, \"can become hazardous over time\". Turn it up only until the street stops standing out.",
+          "**Use a speaker across the room, not earbuds.** It spreads the sound and spares your ears over a seven-hour sleep.",
+          "**Run it for your whole sleep.** The school run, the bin lorry and the afternoon deliveries don't stop after a 30-minute timer.",
+          "**Pair it with earplugs on bad days.** Earplugs cut the peaks and red noise fills the gaps around them.",
+          "**Blend if it feels too heavy.** If a pure rumble makes your ears feel \"full\", layer a little pink noise or [green noise](/resources/green-noise/) on top, or swap to rain. Give any change three or four day sleeps before you judge it.",
+        ] },
+      { type: "h2",
+        text: "The bottom line" },
+      { type: "p",
+        text: "Red noise and brown noise are the same thing: a deep, steady rumble with the low tones loudest. The science on it as a sleep aid is thin, but as a masking sound it's well matched to the deep noises that wreck daytime sleep. Keep it low, run it for your whole sleep, and blend in something lighter if it feels too heavy." },
+      { type: "p",
+        text: "[Try Sleyp free](/session/) and play the deep rumble (brown/red) sound in your browser, then **get the Sleyp app** for timers and saved mixes." },
+      { type: "p",
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · fan noise for sleeping" },
+      { type: "h3",
+        text: "Sources" },
+      { type: "ul",
+        items: [
+          "[Sleep Foundation (2025), What is white noise? Medically reviewed by Dr Anis Rehman](https://www.sleepfoundation.org/noise-and-sleep/white-noise)",
+          "[Cleveland Clinic (2024), What is brown noise and how can it benefit you?](https://health.clevelandclinic.org/brown-noise)",
+          "[Riedy et al. (2021), Noise as a sleep aid: a systematic review, Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283)",
+        ] },
+    ],
+    faqs: [
+      {
+        question: "Is red noise the same as brown noise?",
+        answer:
+          "Yes. Red noise, brown noise and Brownian noise are three names for the same sound: every frequency is present, but the power drops as the pitch rises, so the low tones dominate.",
+      },
+      {
+        question: "Is red noise good for sleep?",
+        answer:
+          "It can help as a masking sound, especially against deep daytime noise like traffic and drilling. But there's little research on it specifically, and a 2021 review rated the evidence that continuous noise improves sleep as very low. Judge it by how you actually sleep.",
+      },
+      {
+        question: "What does red noise sound like?",
+        answer:
+          "A deep, steady rumble: think heavy rain, a waterfall, rolling thunder or strong wind through trees. It has none of the hiss of white noise.",
+      },
+      {
+        question: "Why is it called red noise?",
+        answer:
+          "It borrows from light. White light has every colour evenly, like white noise. Red is the long-wavelength end of the spectrum, so sound weighted to the low end became \"red\". The name \"brown\" comes from Robert Brown and Brownian motion, not the colour.",
+      },
+      {
+        question: "Red noise vs white noise: which is better for daytime sleep?",
+        answer:
+          "For most daytime noise, red usually wins, because lorries, buses and drilling are deep sounds and red noise is strongest in the low frequencies. White noise can suit sharper, higher sounds, but many people find its hiss harsh over a long sleep.",
+      },
+      {
+        question: "Is it safe to sleep with red noise on all day?",
+        answer:
+          "Keep the volume low, similar to a background conversation, and play it through a speaker rather than earbuds. The Sleep Foundation notes that noise of 70 decibels or more can become hazardous over time.",
+      },
+    ],
+  },
+  {
     slug: "green-noise",
     title: "Green Noise: What It Is and Whether It Helps You Sleep",
     description: "Green noise explained: what it sounds like, how it compares with white, pink and brown noise, and what the limited evidence says about using it for sleep.",
@@ -119,7 +231,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Try Sleyp free and play the colours back to back in your browser, then **get the Sleyp app** to save the mix that works. Green noise will be coming soon to Sleyp, so don't forget to try it in your mix soon." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · red noise · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [red noise](/resources/red-noise/) · fan noise for sleeping" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -252,7 +364,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Try Sleyp free and layer rain and brown noise into your own mix in your browser, or **get the Sleyp app** when it lands on the App Store." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [green noise](/resources/green-noise/) · red noise · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · fan noise for sleeping" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -375,7 +487,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "[Try Sleyp free](/session/) and compare pink and brown noise side by side in your browser, or **get the Sleyp app** when it lands on the App Store." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · red noise · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · fan noise for sleeping" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -446,7 +558,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "The name has nothing to do with the colour. It comes from **Brownian motion**, the random movement of particles first described by the botanist Robert Brown, because the sound's pattern follows the same maths. That's also why you'll see it called **Brownian noise** or **red noise**. They are the same thing."
+        "text": "The name has nothing to do with the colour. It comes from **Brownian motion**, the random movement of particles first described by the botanist Robert Brown, because the sound's pattern follows the same maths. That's also why you'll see it called **Brownian noise** or [red noise](/resources/red-noise/). They are the same thing."
       },
       {
         "type": "p",
