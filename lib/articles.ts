@@ -45,6 +45,251 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    slug: "fan-noise-for-sleeping",
+    title: "Fan Noise for Sleeping: Why So Many Night Workers Can't Sleep Without One",
+    description: "Why does fan noise help you sleep, and is it bad to sleep with a fan on? A night-shift veteran on fan noise, cooler rooms and fan-hum sound for daytime sleep.",
+    category: "Noise & Disturbance Defence",
+    categorySlug: "noise-disturbance-defence",
+    datePublished: "2026-09-30",
+    readMinutes: 8,
+    quickAnswer: "Fan noise helps you sleep because it is a steady, broadband sound that covers sudden noises such as voices, traffic and a lawnmower. A fan also cools the room, which matters when you sleep through the warmest part of the day. For the sound without the draught or running cost, a fan-hum recording does the same masking job.",
+    blocks: [
+      {
+        "type": "p",
+        "text": "You get in bed after a night shift, the blind is down, the house is finally quiet, and then the neighbours decide to mow their lawns. For years the fan on my bedside table was my first line of defence. It didn't stop the mower, but it took the edge off it enough for me to drift back off. On a night shift in Strangeways prison, the home fan on my bedside table was enough to help me get to sleep if I was absolutely knackered. Thinking back, it was very basic noise masking, but it helped."
+      },
+      {
+        "type": "p",
+        "text": "Plenty of night workers can't sleep without a fan on, even in winter. Here is why it works, when it doesn't, and how to avoid the downsides."
+      },
+      {
+        "type": "h2",
+        "text": "Why does fan noise help you sleep?"
+      },
+      {
+        "type": "p",
+        "text": "Fan noise works by **masking**. Your brain doesn't wake you because a sound is loud; it wakes you because a sound changes. A car door, a dog, a drill starting up next door: each one is a sudden jump above a quiet background. A fan raises that background with a steady whoosh, so the jump is smaller and less likely to pull you out of sleep."
+      },
+      {
+        "type": "p",
+        "text": "Three things make a fan a good masker:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**It is broadband.** A fan's hum covers a wide spread of frequencies at once, so it blurs lots of different noises, not just one.",
+          "**It is steady.** There is no rhythm, melody or words for your brain to follow.",
+          "**It is predictable.** After a few minutes it fades into the background, which is exactly what you want."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This matters more for shift workers than for anyone else. The [WHO Europe noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise) recommends less than 30 dB(A) in bedrooms at night for good sleep, and says shift workers are at increased risk from noise \"because their sleep structure is under stress\". No normal street is that quiet at 10am. Even the [HSE's tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) say that if it's too noisy to sleep, consider earplugs, white noise or background music."
+      },
+      {
+        "type": "h2",
+        "text": "Does fan noise count as white noise?"
+      },
+      {
+        "type": "p",
+        "text": "Not quite, but it's close. True white noise has equal energy across every frequency, which gives it a bright hiss. Most fans produce more low and mid-range sound than high, so a fan usually sounds deeper and softer than white noise, somewhere between white and [brown noise for sleep](/resources/brown-noise-for-sleep/)."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Sound",
+          "What it sounds like",
+          "Best at masking",
+          "Worth knowing"
+        ],
+        "rows": [
+          [
+            "Fan hum",
+            "Soft, steady whoosh",
+            "Voices, general street noise",
+            "Also cools the room; tone varies by fan"
+          ],
+          [
+            "White noise",
+            "Bright, even hiss",
+            "High-pitched sounds, chatter",
+            "Some people find it harsh over 7-8 hours"
+          ],
+          [
+            "[Pink noise](/resources/pink-noise-for-sleep/)",
+            "Balanced, gentler than white",
+            "Light, mixed background noise",
+            "A good middle ground for light sleepers"
+          ],
+          [
+            "Brown noise",
+            "Deep rumble",
+            "Traffic, engines, drilling, mowers",
+            "Many day sleepers prefer it for low noise"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Is it bad to sleep with a fan on?"
+      },
+      {
+        "type": "p",
+        "text": "For most people, no. Sleeping with a fan on is a comfort and noise tool, and millions of people do it every night (or, in our case, every day). There are a few practical downsides worth knowing:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Moving air.** Some people notice a dry mouth or eyes, or a stiff neck from a fan blowing straight at them. Point it across the room, not at your face.",
+          "**Dust.** A fan pushes dust around the bedroom. Wipe the blades and grille every couple of weeks.",
+          "**Rattles and clicks.** An oscillating fan changes tone as it turns, and a loose grille can tick. Both are exactly the kind of change that can wake you. Switch oscillation off for sleep.",
+          "**Winter.** A fan cools the room when you don't want it cooled, so the sound starts to cost you comfort."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "It's also worth being honest about the science. A [2021 systematic review in Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283) looked at 38 studies of continuous white or broadband noise and rated the quality of evidence that it improves sleep as very low. So a fan isn't a magic sleep switch. What it does well is mask the sudden daytime noises that a normal night sleeper never has to deal with."
+      },
+      {
+        "type": "h2",
+        "text": "Why can't I sleep without a fan?"
+      },
+      {
+        "type": "p",
+        "text": "Mostly habit. If you've slept with a fan for years, your brain links that whoosh with switching off. Take it away and the bedroom suddenly feels too quiet, and every creak, car and voice stands out. For day sleepers it's worse, because the daytime world outside never really goes quiet. Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep."
+      },
+      {
+        "type": "p",
+        "text": "That habit isn't a problem in itself. It only becomes one when you're away from home: a hotel on a training course, a relative's spare room, or a cold spell when the fan makes you shiver. That's where a recorded fan sound on your phone earns its keep. Whilst on my Northern Ireland Army training in Hyde and Lydd, I was new to the regiment and didn't yet have a small fan, and mobile phones had not yet been invented in 1987."
+      },
+      {
+        "type": "h2",
+        "text": "Real fan or fan-hum sound: which is better?"
+      },
+      {
+        "type": "p",
+        "text": "It depends on the season and what you need the fan for."
+      },
+      {
+        "type": "table",
+        "head": [
+          "",
+          "Real fan",
+          "Fan-hum recording"
+        ],
+        "rows": [
+          [
+            "Cools the room",
+            "Yes",
+            "No"
+          ],
+          [
+            "Sound stays steady",
+            "Not always (rattles, oscillation)",
+            "Yes"
+          ],
+          [
+            "Draught on your face",
+            "Yes, if pointed at you",
+            "No"
+          ],
+          [
+            "Running cost",
+            "Electricity for 7-8 hours a day",
+            "Phone or speaker only"
+          ],
+          [
+            "Works away from home",
+            "Only if you pack it",
+            "Yes"
+          ],
+          [
+            "Control over volume and tone",
+            "Limited to fan speeds",
+            "Full control, can mix with other sounds"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A simple rule of thumb: in summer, use a real fan for the cooling and let the sound come with it. In winter, switch to a fan-hum recording so you keep the sound without chilling the room. If a fan's mechanical drone starts to grate, [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) give you the same steady cover with a softer, natural feel."
+      },
+      {
+        "type": "h2",
+        "text": "How do you use a fan to sleep through a summer day?"
+      },
+      {
+        "type": "p",
+        "text": "Summer is when day sleepers suffer most. You get home at 7am into full sun and try to sleep while the house heats up around you. [The Sleep Charity](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/) puts the ideal bedroom temperature at around 16-18C and says temperatures over 24C are likely to cause restlessness. Here's how to get closer to that:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Keep the sun out early.** Close blinds and curtains on the sunny side of the house before the heat builds, not when you get into bed.",
+          "**Set the fan up before you lie down.** Oscillation off, pointed across the bed rather than at your face, on a steady speed.",
+          "**Try the ice trick.** The Sleep Charity suggests putting a tray of ice and a little water in front of an electric fan on really hot days to cool the air further.",
+          "**Go light on bedding.** A thin cotton sheet beats a duvet in a heatwave.",
+          "**Add a masking layer if needed.** If the fan alone doesn't cover the mower or the school run, add brown noise underneath at a low level."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "We'll cover cooling in much more detail in our upcoming guide, Ideal Bedroom Temperature for Sleep."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Fan noise helps day sleepers because it turns sudden noises into a steady background, and in summer it cools the room too. It isn't a cure-all, and the research on noise for sleep is thin, but as a masking tool for the mower, the school run and the neighbour's van, it earns its place. Use a real fan when you need the cooling, and a fan-hum sound when you don't."
+      },
+      {
+        "type": "p",
+        "text": "Want the sound without the draught? [Try Sleyp free](/session/) in your browser and layer fan hum with brown noise or rain, then **get the Sleyp app** for timers, saved mixes and the premium fan-hum layer."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[The Sleep Charity: Sleep environment](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise)",
+          "[Riedy et al. (2021), Noise as a sleep aid: a systematic review, Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283)"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        "question": "Is it bad to sleep with a fan on every day?",
+        "answer": "For most people, no. Keep the fan clean, point it across the room rather than at your face, and switch oscillation off so the sound stays steady. If a fan leaves you cold or uncomfortable, use a fan-hum recording instead so you keep the masking without the draught."
+      },
+      {
+        "question": "Why can't I sleep without a fan?",
+        "answer": "Usually it's habit. After years of sleeping with a fan, your brain links the sound with switching off, and a silent room makes every small noise stand out. That's common for day sleepers, whose bedrooms are rarely quiet. A recorded fan sound on your phone gives you the same cue when you're away from home."
+      },
+      {
+        "question": "Does fan noise count as white noise?",
+        "answer": "Not exactly. White noise has equal energy across all frequencies and sounds like a bright hiss. Most fans are heavier in the low and mid range, so they sound softer, somewhere between white and brown noise. Both work in the same way: by masking sudden sounds with a steady background."
+      },
+      {
+        "question": "Is fan noise or brown noise better for daytime sleep?",
+        "answer": "It depends on what's outside. Fan noise suits general street noise and voices, and cools the room in summer. Brown noise is deeper, so many day sleepers find it better against traffic, drilling and lawnmowers. You can layer the two: fan hum on top, brown noise underneath."
+      },
+      {
+        "question": "How loud should fan noise be for sleeping?",
+        "answer": "Just loud enough to blur the background noise, not so loud that it becomes the noise. A good test is that you could still talk over it comfortably. If a fan has to be on its highest setting to cover the street, add earplugs or a deeper masking sound instead of turning it up further."
+      },
+      {
+        "question": "Can I use a fan sound in winter instead of a real fan?",
+        "answer": "Yes, and it's often the better option. A fan-hum recording gives you the same steady sound without cooling a room that's already cold, and without the draught. You can also control the volume and tone, and play it anywhere you sleep."
+      }
+    ],
+  },
+  {
     slug: "red-noise",
     title: "Red Noise Explained: Is It Just Brown Noise by Another Name?",
     description: "Red noise explained in plain English: how it relates to brown noise, what it sounds like, and whether it can help you sleep during the day after night shifts.",
@@ -113,7 +358,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "[Try Sleyp free](/session/) and play the deep rumble (brown/red) sound in your browser, then **get the Sleyp app** for timers and saved mixes." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -231,7 +476,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Try Sleyp free and play the colours back to back in your browser, then **get the Sleyp app** to save the mix that works. Green noise will be coming soon to Sleyp, so don't forget to try it in your mix soon." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [red noise](/resources/red-noise/) · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -364,7 +609,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Try Sleyp free and layer rain and brown noise into your own mix in your browser, or **get the Sleyp app** when it lands on the App Store." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -487,7 +732,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "[Try Sleyp free](/session/) and compare pink and brown noise side by side in your browser, or **get the Sleyp app** when it lands on the App Store." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · fan noise for sleeping" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -723,7 +968,7 @@ export const ARTICLES: Article[] = [
         "type": "ul",
         "items": [
           "**Brown noise as the base.** It covers traffic and bass through the walls.",
-          "**A little rain or fan hum on top.** This adds some mid and high frequencies to catch voices and birdsong.",
+          "**A little rain or [fan hum](/resources/fan-noise-for-sleeping/) on top.** This adds some mid and high frequencies to catch voices and birdsong.",
           "**A long fade-out or none at all.** Keep the sound running through the noisiest part of the day."
         ]
       },
