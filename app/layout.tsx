@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   },
   description: SITE.description,
   manifest: "/site.webmanifest",
+  other: { "msvalidate.01": "85978D1323213380EADEE7DFC3843504" },
   openGraph: {
     siteName: SITE.name,
     title: `${SITE.name} | ${SITE.tagline}`,
