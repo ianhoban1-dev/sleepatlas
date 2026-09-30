@@ -160,7 +160,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "That habit isn't a problem in itself. It only becomes one when you're away from home: a hotel on a training course, a relative's spare room, or a cold spell when the fan makes you shiver. That's where a recorded fan sound on your phone earns its keep. Whilst on my Northern Ireland Army training in Hyde and Lydd, I was new to the regiment and didn't yet have a small fan, and mobile phones had not yet been invented in 1987."
+        "text": "That habit isn't a problem in itself. It only becomes one when you're away from home: a hotel on a training course, a relative's spare room, or a cold spell when the fan makes you shiver. That's where a recorded fan sound on your phone earns its keep. Whilst on my Northern Ireland Army training in Hythe and Lydd, I was new to the regiment and didn't yet have a small fan, and mobile phones had not yet been invented in 1987."
       },
       {
         "type": "h2",
