@@ -45,6 +45,351 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "earplugs-for-sleeping",
+    "title": "Sleeping With Earplugs: The Complete Guide for Day Sleepers",
+    "description": "Are earplugs safe to sleep in every day, and which block the most noise? A 40-year shift worker's guide to earplugs, fit and pairing them with masking sound.",
+    "category": "Noise & Disturbance Defence",
+    "categorySlug": "noise-disturbance-defence",
+    "datePublished": "2026-10-04",
+    "readMinutes": 10,
+    "quickAnswer": "Earplugs are the cheapest way to cut daytime noise when you sleep after a night shift. Check the SNR rating on the pack (Loop Dream, for example, is rated 27 dB) and fit them properly. WHO recommends under 30 dB in a bedroom at night, so on the loudest days combine earplugs with a masking sound.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. You've done twelve hours, the blind is down, and every car door and shout from the pavement lands like it's in the room. Over 40 years of shifts, from The King's Regiment to HM Prison Service at Strangeways, Walton and Guys Marsh, Jacobs Biscuits and Budweiser UK, a pair of earplugs has been in my kit more often than not. The Army provided me with the small foam ear plugs that were so uncomfortable to wear, but they were better than nothing. Today, earplugs have come a long way since 1987's foam version."
+      },
+      {
+        "type": "p",
+        "text": "This guide covers whether earplugs actually help, how much noise they block, which type suits a day sleeper, how to fit them, whether they're safe every day, and what to do when they aren't enough on their own."
+      },
+      {
+        "type": "h2",
+        "text": "Do earplugs help you sleep?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, for most day sleepers they help a lot. Earplugs don't make the world silent, but they turn every noise down. That matters because it's the sudden jump in sound, a door slam or a dog, that pulls you out of sleep."
+      },
+      {
+        "type": "p",
+        "text": "The [WHO Europe noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise) recommends keeping bedrooms below 30 dB(A) at night for good sleep. It also names shift workers among the groups most sensitive to noise. Few day sleepers get anywhere near 30 dB at 11am, with school runs, delivery vans and bin lorries outside. Earplugs are the quickest way to close that gap."
+      },
+      {
+        "type": "p",
+        "text": "The UK regulator agrees. The [HSE's hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) say that if it's too noisy to sleep, consider earplugs, white noise or background music."
+      },
+      {
+        "type": "p",
+        "text": "What earplugs are good and bad at:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Good at:** voices, traffic hiss, birdsong, a TV through the wall, the general hum of a street in daytime.",
+          "**Less good at:** deep, low sounds and vibration, such as bass music, a lorry idling, or a drill going into a shared wall. Low sound travels through the walls and your own skull, so plugs only take the edge off."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That second list is why earplugs work best as one layer, not the whole answer. More on that below."
+      },
+      {
+        "type": "h2",
+        "text": "How much noise do earplugs block? (SNR explained)"
+      },
+      {
+        "type": "p",
+        "text": "Look for the **SNR** on the pack. SNR stands for Single Number Rating. It's the standard figure used on hearing protection sold in the UK and Europe, given in decibels (dB). The higher the number, the more sound the plug cuts in testing."
+      },
+      {
+        "type": "p",
+        "text": "Three things to know before you buy:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**The rating assumes a good fit.** It comes from tests with the plug fitted properly. Push a foam plug in half-heartedly and you'll get far less than the pack says.",
+          "**Higher isn't always better for sleep.** The plug you can wear comfortably for seven or eight hours beats a stronger one you pull out at noon. HSE says most adults need 7-8 hours, so comfort over that whole stretch is the real test.",
+          "**Compare like with like.** Some brands quote SNR, some quote the American NRR figure, and the two aren't the same scale. Compare SNR with SNR."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "As an example, Loop's sleep model, [Loop Dream](https://www.loopearplugs.com/products/dream), is rated 27 dB SNR, which is Loop's highest rating. It comes with foam and silicone tips in sizes XS to L, and a low-profile body made with side sleepers in mind. I'll cover it properly in a separate Loop earplugs review as I'm going to be testing them out very soon."
+      },
+      {
+        "type": "h2",
+        "text": "Foam vs silicone vs wax vs reusable: which earplugs are best for sleeping?"
+      },
+      {
+        "type": "p",
+        "text": "There are five main types. Each one trades off blocking power, comfort and cost."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Type",
+          "How it feels",
+          "Best for",
+          "Downsides"
+        ],
+        "rows": [
+          [
+            "Foam (disposable)",
+            "Soft, rolls down then expands to fill the ear canal",
+            "Most blocking for the least money",
+            "Replace often; some people feel pressure after a few hours"
+          ],
+          [
+            "Silicone putty",
+            "Moulds over the ear opening rather than going in",
+            "People who hate anything inside the ear canal",
+            "Can pick up hair and fluff; less blocking than well-fitted foam"
+          ],
+          [
+            "Wax",
+            "Warms and shapes to your ear",
+            "A snug seal with a soft, natural feel",
+            "Can leave marks on the pillow; single or short use"
+          ],
+          [
+            "Reusable (silicone or foam-tipped)",
+            "Firm body with swap-in tips in several sizes",
+            "Daily use, side sleepers, less waste",
+            "Costs more up front; must be washed regularly"
+          ],
+          [
+            "Custom moulded",
+            "Made from impressions of your own ears",
+            "Comfort over years of daily day sleeps",
+            "Most expensive; needs a fitting appointment"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you're new to earplugs, start with a cheap mixed pack of foam. Find out what shape and firmness your ears put up with before you spend money on reusable or custom plugs."
+      },
+      {
+        "type": "p",
+        "text": "On the worst streets I've lived, I've ended up with moulded earplugs, because nothing else stayed comfortable through a full day's sleep. You can browse the types we rate in the [Sleyp shop](/shop/), and a full comparison is coming in the Best Earplugs for Sleeping in the UK guide."
+      },
+      {
+        "type": "h2",
+        "text": "How do you fit earplugs properly?"
+      },
+      {
+        "type": "p",
+        "text": "Most people who say earplugs don't work have never fitted them properly. Foam plugs need a few seconds of care. Here's the method:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Wash your hands.** You're putting something in your ear for eight hours.",
+          "**Roll the foam plug** between your finger and thumb into a thin, tight cylinder with no creases.",
+          "**Straighten your ear canal.** Reach over your head with the opposite hand and gently pull the top of your ear up and back.",
+          "**Slide the plug in** while it's still compressed, until it feels snug but not forced. Don't push it deep.",
+          "**Hold it for 20-30 seconds** with a fingertip while the foam expands to fill the canal.",
+          "**Test the seal.** Talk out loud. Your own voice should sound muffled and boomy. If it doesn't, take it out and try again."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For reusable plugs, try every tip size in the box. Most people need a different size from the one fitted at the factory, and some need a different size in each ear. A tip that's too big will ache by mid-morning; one that's too small lets sound straight past."
+      },
+      {
+        "type": "p",
+        "text": "Side sleepers should pick low-profile plugs that sit flush with the ear. Anything that sticks out gets pushed in by the pillow, which is uncomfortable and can make you wake up to adjust it."
+      },
+      {
+        "type": "h2",
+        "text": "Are earplugs safe to wear every day?"
+      },
+      {
+        "type": "p",
+        "text": "For most people, yes, if you keep them clean and comfortable. Plenty of night workers wear them for years. A few simple habits keep it that way:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Replace foam plugs often.** Once they stop expanding properly, or look grubby, bin them.",
+          "**Wash reusable plugs** as the maker suggests, and let them dry fully before you put them back in.",
+          "**Don't share them.**",
+          "**Give your ears a break** on days off if you can.",
+          "**Don't force them in deep.** A plug should seal the entrance of the canal, not travel down it."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Earplugs can push earwax further in for some people. If your ears feel blocked, itchy or sore, stop wearing them for a while and ask a pharmacist or your GP to take a look."
+      },
+      {
+        "type": "h2",
+        "text": "Can you hear an alarm with earplugs in?"
+      },
+      {
+        "type": "p",
+        "text": "Usually, yes, if it's loud and close. A phone alarm on the bedside table at full volume will get through most earplugs. But don't find out on the afternoon before your first night shift. Test it on a day off."
+      },
+      {
+        "type": "p",
+        "text": "If you're a deep sleeper, back it up:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "a vibrating alarm on a smartwatch or fitness band",
+          "a phone under the pillow on vibrate as well as ring",
+          "a second alarm across the room, so you have to get up"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Think about smoke alarms too, especially if you live alone. Check you can hear yours from bed with your plugs in, and if not, look at a louder or linked alarm. To be 100% safe, I used vibrate on my watch to make sure I got up for my night shift, especially at Budweiser on the 2 days, 2 nights shift pattern."
+      },
+      {
+        "type": "h2",
+        "text": "Earplugs plus masking sound: why the combination works best"
+      },
+      {
+        "type": "p",
+        "text": "Earplugs cut the peaks. A masking sound fills the gaps. Together they do far more than either one alone."
+      },
+      {
+        "type": "p",
+        "text": "Getting in bed when everyone else is leaving the house for school and work is great, until the next-door neighbour decides to renovate their house and starts drilling. Earplugs take the top off the drill, but you still hear it start and stop. Every start is a fresh jolt. Add a steady masking sound underneath and that start-stop is far less sudden, so your brain is less likely to wake you for it."
+      },
+      {
+        "type": "p",
+        "text": "Which sound to use depends on the noise you're fighting:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Daytime noise",
+          "Earplugs alone",
+          "Best masking sound to add"
+        ],
+        "rows": [
+          [
+            "Voices, kids playing out, TV through the wall",
+            "Good",
+            "Pink noise or a fan hum"
+          ],
+          [
+            "Traffic, buses, delivery vans",
+            "Fair",
+            "Brown noise"
+          ],
+          [
+            "Drilling, hammering, lawnmowers",
+            "Fair, the starts and stops still get through",
+            "Brown noise or red noise at a steady, moderate volume"
+          ],
+          [
+            "Bass music, lorries idling, vibration",
+            "Poor",
+            "Brown noise, plus moving the bed away from the shared wall if you can"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you're not sure which colour suits your street, my [brown noise vs white noise guide](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) walks through it, and the [Noise Calibration Tool](/tools/noise-calibration-tool/) helps you match your sound to the noise outside. For the full rundown of sound colours, start with [brown noise for sleep](/resources/brown-noise-for-sleep/), then see [pink noise for sleep](/resources/pink-noise-for-sleep/), [red noise](/resources/red-noise/) and [fan noise for sleeping](/resources/fan-noise-for-sleeping/)."
+      },
+      {
+        "type": "p",
+        "text": "Two rules for the combination:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Play the sound from a speaker, not earbuds**, at a modest volume. With earplugs in, you'll be tempted to turn it up. Don't. It only needs to blur the background, not drown it.",
+          "**Start it as you get into bed**, not once the noise begins. A steady sound from the start means the first car door doesn't catch you out."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Light matters as much as sound for daytime sleep. For the other half of the job, see my guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/)."
+      },
+      {
+        "type": "h2",
+        "text": "What if earplugs aren't enough? Talking to neighbours and your council"
+      },
+      {
+        "type": "p",
+        "text": "Some noise no earplug will beat. Then it's time to deal with the source."
+      },
+      {
+        "type": "p",
+        "text": "**Start with a friendly word.** The [HSE's advice for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) includes telling your neighbours when you sleep. Most people simply don't know there's someone asleep next door at 11am. A short note through the door with your sleep times and your shift pattern often does more than any complaint."
+      },
+      {
+        "type": "p",
+        "text": "**Then fix the room.** Heavy curtains, a draught excluder on the bedroom door and moving the bed off a shared wall all cut the sound before it reaches your ears."
+      },
+      {
+        "type": "p",
+        "text": "**If it's persistent and unreasonable, keep a noise diary and contact your council.** Under the [GOV.UK guidance on noise nuisances](https://www.gov.uk/guidance/noise-nuisances-how-councils-deal-with-complaints), councils can investigate noise that may be a statutory nuisance at any time of day or night. But the special night-noise warning rules only cover 11pm to 7am, which is exactly when a night worker is awake. So daytime noise can still be a nuisance, but you'll be relying on the general rules rather than the night ones. A diary of dates, times and what the noise was makes any complaint far stronger."
+      },
+      {
+        "type": "p",
+        "text": "A full step-by-step guide, Noisy Neighbours When You Sleep in the Day, is coming soon in this series."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Earplugs are the first thing every day sleeper should own. Pick a type you can wear for a full sleep, fit them properly, and keep them clean. On the worst days, when the drill starts or the mowers come out, layer a steady masking sound underneath. Earplugs cut the peaks; Sleyp fills the gaps."
+      },
+      {
+        "type": "p",
+        "text": "[Try Sleyp free](/session/) in your browser: start a brown, pink or fan-hum mix as you get into bed tonight. Then **get the Sleyp app** for timers and saved mixes."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[GOV.UK: Noise nuisances: how councils deal with complaints](https://www.gov.uk/guidance/noise-nuisances-how-councils-deal-with-complaints)",
+          "[Loop Earplugs: Loop Dream product page](https://www.loopearplugs.com/products/dream)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is it OK to sleep with earplugs every day?",
+        "answer": "For most people, yes. Keep them clean, replace foam plugs often, wash reusable ones, and don't push them deep. If your ears feel blocked, itchy or sore, take a break and ask a pharmacist or your GP to check them."
+      },
+      {
+        "question": "Which earplugs block the most noise?",
+        "answer": "Check the SNR rating on the pack: the higher the number, the more they block when fitted properly. Well-fitted foam plugs block a lot for very little money. Loop Dream, Loop's sleep model, is rated 27 dB SNR. Comfort over seven or eight hours matters as much as the number."
+      },
+      {
+        "question": "Can you hear an alarm with earplugs in?",
+        "answer": "Usually, if it's loud and close to your head. Test your phone alarm on a day off before you rely on it, and back it up with a vibrating watch or a second alarm across the room. Check you can still hear your smoke alarm from bed."
+      },
+      {
+        "question": "Are earplugs or white noise better for daytime sleep?",
+        "answer": "Use both if you can. Earplugs turn everything down; a steady sound such as brown or pink noise covers the sudden changes that wake you. The HSE lists earplugs, white noise and background music as options for shift workers when it's too noisy to sleep."
+      },
+      {
+        "question": "Why do my ears hurt after sleeping with earplugs?",
+        "answer": "Usually the plug is the wrong size, pushed in too deep, or pressed by the pillow. Try a smaller tip, a softer foam, or a low-profile plug for side sleeping. If the soreness carries on after you stop, speak to a pharmacist or your GP."
+      },
+      {
+        "question": "Can earplugs block a neighbour's drilling?",
+        "answer": "Not completely. They take the edge off, but low, vibrating sounds travel through walls. Pair earplugs with a steady brown noise and, if the work goes on for days, have a word with your neighbour about your sleep hours."
+      }
+    ]
+  },
+  {
     slug: "fan-noise-for-sleeping",
     title: "Fan Noise for Sleeping: Why So Many Night Workers Can't Sleep Without One",
     description: "Why does fan noise help you sleep, and is it bad to sleep with a fan on? A night-shift veteran on fan noise, cooler rooms and fan-hum sound for daytime sleep.",
@@ -348,7 +693,7 @@ export const ARTICLES: Article[] = [
           "**Keep the volume low.** The Sleep Foundation suggests a level similar to a background conversation or light rustling, and notes that noise of 70 decibels or more, like city traffic, \"can become hazardous over time\". Turn it up only until the street stops standing out.",
           "**Use a speaker across the room, not earbuds.** It spreads the sound and spares your ears over a seven-hour sleep.",
           "**Run it for your whole sleep.** The school run, the bin lorry and the afternoon deliveries don't stop after a 30-minute timer.",
-          "**Pair it with earplugs on bad days.** Earplugs cut the peaks and red noise fills the gaps around them.",
+          "**Pair it with [earplugs](/resources/earplugs-for-sleeping/) on bad days.** Earplugs cut the peaks and red noise fills the gaps around them.",
           "**Blend if it feels too heavy.** If a pure rumble makes your ears feel \"full\", layer a little pink noise or [green noise](/resources/green-noise/) on top, or swap to rain. Give any change three or four day sleeps before you judge it.",
         ] },
       { type: "h2",
@@ -940,7 +1285,7 @@ export const ARTICLES: Article[] = [
           "**Find the lowest volume that works.** Sit in bed and turn it up until the background traffic stops standing out, then stop. Louder isn't better, and there's no need to drown out the world.",
           "**Use a speaker, not earbuds, if you can.** A small speaker across the room fills the space more evenly and is kinder to your ears over several hours. If you share a bed or need earplugs as well, a sleep headband or low-profile buds are the fall-back.",
           "**Run it for the whole sleep.** A 30-minute timer helps you drop off, but the builders don't stop at 30 minutes. For day sleep, keep it running until your alarm, or use a long timer that fades out gently.",
-          "**Layer it with earplugs on the worst days.** Earplugs cut the peaks, and brown noise fills the gaps.",
+          "**Layer it with [earplugs](/resources/earplugs-for-sleeping/) on the worst days.** Earplugs cut the peaks, and brown noise fills the gaps.",
           "**Fix the room as well.** Noise is only one part of it. The [HSE's advice for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) includes blackout blinds or eye shades, a quiet room, and telling the neighbours when you sleep. My guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/) covers the light side."
         ]
       },
@@ -1240,7 +1585,7 @@ export const ARTICLES: Article[] = [
       { type: "h2", text: "Layer it like kit, not like a gadget" },
       {
         type: "p",
-        text: "Forty years of noisy daytime streets taught me to think of sound defence in layers, same as cold-weather kit. Physical layer first: door draught-excluder, heavy curtains, moulded earplugs on the worst streets, every decibel stopped at the boundary is one the mask doesn't have to cover. Masking layer second: the right colour at a modest, steady volume, from a speaker or machine placed toward where the noise enters, not tight against your ear. The Sleyp player was built for exactly this, white, pink and brown beds, heavy rain, fan hums and custom blends you can tune to your street. And if you're not sure what your street's dominant problem even is, run the Noise Calibration Tool first: rate your four noise sources and it prescribes the colour, the volume strategy and the physical layer worth adding. Then log a block of shifts in the journal and let your own quality scores settle the brown-versus-white debate for your bedroom, on your street, against your bins.",
+        text: "Forty years of noisy daytime streets taught me to think of sound defence in layers, same as cold-weather kit. Physical layer first: door draught-excluder, heavy curtains, [moulded earplugs](/resources/earplugs-for-sleeping/) on the worst streets, every decibel stopped at the boundary is one the mask doesn't have to cover. Masking layer second: the right colour at a modest, steady volume, from a speaker or machine placed toward where the noise enters, not tight against your ear. The Sleyp player was built for exactly this, white, pink and brown beds, heavy rain, fan hums and custom blends you can tune to your street. And if you're not sure what your street's dominant problem even is, run the Noise Calibration Tool first: rate your four noise sources and it prescribes the colour, the volume strategy and the physical layer worth adding. Then log a block of shifts in the journal and let your own quality scores settle the brown-versus-white debate for your bedroom, on your street, against your bins.",
       },
     ],
     faqs: [
