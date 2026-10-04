@@ -45,6 +45,266 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "noisy-neighbours-daytime-sleep",
+    "title": "Noisy Neighbours When You Sleep in the Day: Your Options in the UK",
+    "description": "Neighbour noise while you sleep after nights? What UK law says about daytime noise, talking to neighbours, cheap soundproofing and when to call the council.",
+    "category": "Noise & Disturbance Defence",
+    "categorySlug": "noise-disturbance-defence",
+    "datePublished": "2026-10-04",
+    "readMinutes": 10,
+    "quickAnswer": "UK councils can investigate noise as a statutory nuisance at any time of day, but the special night-noise rules only cover 11pm to 7am, which isn't when you sleep. Start by telling your neighbours your sleep hours, as the HSE advises, then soundproof and mask your bedroom before you take it to the council.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Getting in bed when everyone else is leaving the house for school and work is great, until the next-door neighbour decides to renovate their house and starts drilling. I've worked shifts for 40 years, from The King's Regiment to HM Prison Service at Strangeways, Walton and Guys Marsh, Jacobs Biscuits and Budweiser UK. In that time I've learned that most noisy neighbours aren't being awkward. They simply don't know there's someone asleep through the wall at 11am."
+      },
+      {
+        "type": "p",
+        "text": "This guide covers what the law says about daytime noise, then the four steps I'd take, in order: a friendly word, a quieter bedroom, a masking sound, and only then a noise diary and a council complaint."
+      },
+      {
+        "type": "h2",
+        "text": "What does UK law say about daytime noise from neighbours?"
+      },
+      {
+        "type": "p",
+        "text": "There's no law that sets \"quiet hours\" for ordinary daytime living. What there is, under the [GOV.UK guidance on noise nuisances](https://www.gov.uk/guidance/noise-nuisances-how-councils-deal-with-complaints), is the idea of a **statutory nuisance**: noise that unreasonably and substantially interferes with the use or enjoyment of your home. Councils can investigate that at any time of day or night."
+      },
+      {
+        "type": "p",
+        "text": "The catch for night workers is the special night-noise warning rules. Those only cover 11pm to 7am, which is exactly when we're at work. So your daytime sleep isn't protected by the night rules. You rely on the general nuisance rules, and the council will weigh up whether the noise is unreasonable for that time of day."
+      },
+      {
+        "type": "p",
+        "text": "In practice that means:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Normal daytime living is unlikely to count.** A hoover, kids playing out, or a mower at midday is usually reasonable, even if it wakes you.",
+          "**Persistent, unreasonable noise can count.** Loud music most days, a dog barking for hours, or building work that runs on and on are the sort of things councils look into.",
+          "**Evidence decides it.** A diary of dates, times and what the noise was makes any complaint far stronger."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Here's how I'd match the problem to the route:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "The noise",
+          "Most likely to fix it",
+          "Worth a council complaint?"
+        ],
+        "rows": [
+          [
+            "One-off DIY or a weekend job",
+            "A friendly word and a heads-up next time",
+            "Rarely"
+          ],
+          [
+            "Weeks of building work next door",
+            "Ask for the work schedule; check your council's guidance on building work hours",
+            "Only if it runs outside reasonable hours or never lets up"
+          ],
+          [
+            "Mowers, kids playing out, car doors",
+            "Your own defences: earplugs, masking sound, a better room",
+            "No, this is normal daytime life"
+          ],
+          [
+            "Loud music or TV most days",
+            "A friendly word first, then a diary",
+            "Yes, if it carries on after you've asked"
+          ],
+          [
+            "A dog barking for hours",
+            "A friendly word (owners at work often don't know)",
+            "Yes, if it's persistent"
+          ],
+          [
+            "You rent from a landlord or housing association",
+            "Tell them as well; most tenancies have a clause on nuisance",
+            "Alongside, not instead"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Step 1: How do you ask a neighbour to keep the noise down when you sleep in the day?"
+      },
+      {
+        "type": "p",
+        "text": "Tell them, before you're angry. The [HSE's hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) include letting your neighbours know when you sleep. Most people genuinely have no idea. To them, 10am on a Tuesday is the obvious time to put a shelf up."
+      },
+      {
+        "type": "p",
+        "text": "A few rules that make the conversation go well:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Pick your moment.** Knock on a day off, not straight after you've been woken by their drill. Nobody listens to someone shouting in a dressing gown.",
+          "**Lead with your job, not the complaint.** \"I work nights, so I sleep from about 8 till 3\" gets a better reaction than \"your drilling is doing my head in\".",
+          "**Ask for a heads-up, not silence.** Most neighbours will happily text you before a big job. That way you can sleep in the back room, or line up your earplugs and a masking sound.",
+          "**Give them your rota.** If you work blocks, they can save the loud jobs for your days off."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you'd rather not knock, a note through the door works too. Something like this:"
+      },
+      {
+        "type": "quote",
+        "text": "Hi, I'm [name] from number [x]. I work night shifts, so I'm usually asleep between [8am] and [3pm] on [days]. I know daytime noise is just normal life, so I'm not asking for silence. If you've got a big job planned, like drilling or building work, could you give me a heads-up on [number]? I'll do my best to sleep through it. Thanks, and give me a shout if I can ever return the favour."
+      },
+      {
+        "type": "p",
+        "text": "Sometimes a friendly word isn't enough, and I know that from experience. My next door neighbour whilst I was at Budweiser had a Yorkshire Terrier called Alfie, who never stopped barking. During the summer, the dog would go into the garden opposite my bedroom window and start barking. The neighbour was constantly shouting at the dog through the open back door, \"Shut up Alfie\", and this went on all day, every day."
+      },
+      {
+        "type": "p",
+        "text": "My wife noticed how little sleep I was getting during the day and confronted the neighbour, but to no avail. In the end, she spoke to the neighbour's landlord, and finally, I got some sleep. The neighbour has since moved, but to this day, I'm sure she has no idea how much her dog affected both my sleep and my health."
+      },
+      {
+        "type": "h2",
+        "text": "Step 2: How can you soundproof a bedroom cheaply?"
+      },
+      {
+        "type": "p",
+        "text": "You don't need a builder. Sound gets in through gaps and through shared walls, so deal with those first:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Move the bed off the shared wall.** Even a few feet helps, because drilling and bass travel through the brickwork.",
+          "**Put something heavy against that wall.** A full wardrobe or bookcase soaks up more sound than bare plaster.",
+          "**Seal the gaps.** A draught excluder at the bottom of the bedroom door and foam strips around the frame cut a surprising amount of landing and stairwell noise.",
+          "**Hang heavy curtains.** The HSE suggests heavy curtains or blackout blinds for daytime sleep. Thick lined curtains help with light and street noise at the same time. My guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/) covers the light side.",
+          "**Sleep in the quietest room.** If the back bedroom faces the garden rather than the road or next door's extension, it might be worth swapping, at least while the building work lasts.",
+          "**Wear earplugs.** They're the cheapest soundproofing there is. See my complete guide to [sleeping with earplugs](/resources/earplugs-for-sleeping/) for how to fit them properly."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The Army gave me small foam earplugs that weren't comfortable to wear, but they were better than nothing. On the worst streets I've lived on, I ended up with moulded earplugs, because nothing else stayed comfortable through a full day's sleep. If you want a reusable pair, I've also written an honest [Loop earplugs review](/resources/loop-earplugs-for-sleeping-review/) from a day sleeper's point of view, and a full comparison is coming in the Best Earplugs for Sleeping in the UK guide."
+      },
+      {
+        "type": "p",
+        "text": "I've also swapped to the back bedroom on occasions, when the main bedroom was simply just too noisy to get any quality sleep."
+      },
+      {
+        "type": "h2",
+        "text": "Step 3: How do you mask the neighbour noise that's left?"
+      },
+      {
+        "type": "p",
+        "text": "Even with a friendly neighbour and a better room, some noise gets through. The [WHO Europe noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise) recommends keeping bedrooms below 30 dB(A) at night for good sleep, and it names shift workers among the groups most sensitive to noise. Few day sleepers get anywhere near that at 11am on a weekday."
+      },
+      {
+        "type": "p",
+        "text": "That's where a steady masking sound earns its place. It doesn't make the drill quieter. It narrows the jump between the background and each sudden start, so fewer noises stand out enough to wake you."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Drilling, hammering, bass through the wall:** brown noise. Its energy sits in the low frequencies where those sounds live. My [brown noise for sleep](/resources/brown-noise-for-sleep/) guide explains why.",
+          "**Voices, kids playing out, next door's telly:** pink noise is usually the better all-rounder. The [brown noise vs white noise guide](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) matches each colour to the noise it covers best.",
+          "**Not sure what you're up against?** The [Noise Calibration Tool](/tools/noise-calibration-tool/) helps you match a sound to the noise outside your window."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Two habits make masking work. Start the sound as you get into bed, not once the noise begins, so the first van door doesn't catch you out. And keep it at a steady, moderate level from a speaker. It only needs to blur the background, not drown it. If you're weighing up sleep buds or noise-cancelling headphones instead, that's coming in the Noise Cancelling for Sleep guide."
+      },
+      {
+        "type": "h2",
+        "text": "Step 4: When should you complain to the council about noisy neighbours?"
+      },
+      {
+        "type": "p",
+        "text": "When you've asked nicely, done what you can at your end, and the noise is still persistent and unreasonable. Before you contact the council, keep a noise diary. It's the single most useful thing you can bring, because the council has to judge whether the noise is a nuisance, and your word alone isn't much to go on."
+      },
+      {
+        "type": "p",
+        "text": "What to record, every time:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Date, start time and finish time.**",
+          "**What the noise was.** Music, drilling, barking, shouting, a generator.",
+          "**Where it came from.** Which house, which side, which room.",
+          "**How it affected you.** For example: \"Woke at 11.20am after a 12-hour night shift. Couldn't get back to sleep. Back on nights at 7pm.\"",
+          "**What you'd already done.** The date you spoke to them or put a note through the door."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Then contact your council's environmental health team, usually through the council website. Under the GOV.UK guidance, if the council is satisfied the noise is a statutory nuisance, it must serve an abatement notice telling the person responsible to stop or limit it. Be ready to explain clearly that you work nights and sleep in the day. That context matters when they decide what's reasonable."
+      },
+      {
+        "type": "p",
+        "text": "If you rent, tell your landlord or housing association as well. Most tenancies include a clause about not causing a nuisance, so they may be able to act too."
+      },
+      {
+        "type": "p",
+        "text": "One honest word of warning: a formal complaint can sour things with people you'll be living next to for years. That's why it's step 4, not step 1. Going back to Alfie the dog, speaking to the landlord was not what we wanted to do, but after no help from the neighbour, we really did have no option. If that's you, then just cover yourself and back up what you can. We recorded the dog barking at various times of the day for a few weeks, just to prove it was not a one-off."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Most noisy neighbours don't know you're asleep. Tell them first, then make your bedroom as quiet as you can, then mask what's left. Keep the council for noise that's persistent and unreasonable, and bring a diary when you do. The night-noise rules won't protect your daytime sleep, so your own defences matter more than the law."
+      },
+      {
+        "type": "p",
+        "text": "Drilling at 10am? [Try Sleyp free](/session/): start a brown noise mix at the right level as you get into bed. Then get the Sleyp app for timers and saved mixes."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[GOV.UK: Noise nuisances: how councils deal with complaints](https://www.gov.uk/guidance/noise-nuisances-how-councils-deal-with-complaints)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I complain about noise during the day?",
+        "answer": "Yes. Under GOV.UK guidance, councils can investigate noise that may be a statutory nuisance at any time of day or night. The council will judge whether it's unreasonable for that time of day, so ordinary daytime living rarely counts, but persistent loud music, barking or never-ending building work can."
+      },
+      {
+        "question": "What hours are neighbours allowed to make noise?",
+        "answer": "There are no set daytime hours for ordinary household noise. The special night-noise warning rules cover 11pm to 7am. Many councils publish recommended hours for noisy building work, so check your council's website if a big job is going on next door."
+      },
+      {
+        "question": "How do I sleep through a neighbour's drilling?",
+        "answer": "Ask for a heads-up so you can plan, sleep in the room furthest from the work, wear well-fitted earplugs, and run a steady brown noise from a speaker at a moderate level. Earplugs cut the peaks; the brown noise softens each start and stop."
+      },
+      {
+        "question": "Should I tell my neighbours I work nights?",
+        "answer": "Yes. The HSE's advice for shift workers includes telling neighbours when you sleep. Most people simply don't know, and a friendly word or a note with your sleep times often fixes more than any complaint."
+      },
+      {
+        "question": "Do the 11pm to 7am night-noise rules protect day sleepers?",
+        "answer": "No. Those warning rules only cover the night hours, when most night workers are at work. Your daytime sleep relies on the general statutory nuisance rules, which is why a noise diary and a clear explanation of your shifts matter."
+      },
+      {
+        "question": "What should I put in a noise diary?",
+        "answer": "The date, start and finish times, what the noise was, where it came from, how it affected your sleep, and what you'd already done to sort it out. Keep it going for a while before you contact the council, so it shows a pattern."
+      }
+    ]
+  },
+  {
     "slug": "loop-earplugs-for-sleeping-review",
     "title": "Loop Earplugs for Sleeping: An Honest Review From a Day Sleeper",
     "description": "Are Loop earplugs good for sleeping? A Loop Dream review from a night-shift veteran: noise reduction, side-sleeper comfort and how it compares with foam.",
@@ -642,7 +902,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "A full step-by-step guide, Noisy Neighbours When You Sleep in the Day, is coming soon in this series."
+        "text": "For a full step-by-step guide, read [Noisy Neighbours When You Sleep in the Day](/resources/noisy-neighbours-daytime-sleep/)."
       },
       {
         "type": "h2",
