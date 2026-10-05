@@ -4,11 +4,10 @@ import { SITE, FOUNDER } from "@/lib/site";
 import { TOOLS } from "@/lib/tools";
 
 const PRODUCT = [
-  { href: "/session/", label: "Session" },
+  { href: "/session/", label: "Try sounds" },
   { href: "/scores/", label: "Sleyp Score" },
   { href: "/trackers/", label: "Trackers" },
-  { href: "/pricing/", label: "Pricing" },
-  { href: "/#app", label: "The app" },
+  { href: "/pricing/", label: "The app" },
 ];
 
 const LEARN = [

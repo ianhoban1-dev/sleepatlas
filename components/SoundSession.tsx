@@ -1,15 +1,16 @@
 "use client";
 
 /**
- * The Sleyp session: the built-in sound engine.
- * All sound is generated live in the browser with the Web Audio API,
- * no streams, no downloads, works offline once the page is loaded.
+ * The Sleyp browser player: the built-in sound engine.
+ * All sound is generated live in the browser with the Web Audio API
+ * (no audio files, nothing streams). The page has to stay open for the
+ * sleep timer and wake-up chime to run.
  *
- * Free: White, Pink and Brown noise + basic sleep timer (30/60/90 min).
- * Premium: 10 extra layers (rain, storm, waves, forest, stream, wind,
- * campfire, crickets, cabin hum, fan), the personalised blend
- * questionnaire, saved custom mixes, custom timer lengths and the
- * gentle wake-up fade-in alarm.
+ * Everything here is free: all 13 sounds, the 30/60/90 and custom sleep
+ * timer, the wake-up chime, the three-question blend (a simple rule-based
+ * preset, not AI) and saved mixes. Mixes are kept in this browser's local
+ * storage: under the account email when signed in (existing keys are
+ * unchanged), otherwise under a "guest" key.
  */
 
 import Link from "next/link";
@@ -23,7 +24,6 @@ import {
   Droplets,
   Fan,
   Flame,
-  Lock,
   Mountain,
   Pause,
   Plane,
@@ -38,6 +38,7 @@ import {
   Wind,
 } from "lucide-react";
 import { useAuth } from "@/components/AuthProvider";
+import AppCta from "@/components/AppCta";
 
 type SoundId =
   | "white"
@@ -58,23 +59,22 @@ type Levels = Record<SoundId, number>;
 const SOUNDS: {
   id: SoundId;
   name: string;
-  premium: boolean;
   icon: typeof Waves;
   masks: string;
 }[] = [
-  { id: "brown", name: "Brown noise", premium: false, icon: Mountain, masks: "Traffic rumble, engines, low bass" },
-  { id: "pink", name: "Pink noise", premium: false, icon: AudioLines, masks: "Voices, TVs, household sounds" },
-  { id: "white", name: "White noise", premium: false, icon: Radio, masks: "High-pitched spikes, hiss, alarms" },
-  { id: "rain", name: "Heavy rain", premium: true, icon: CloudRain, masks: "Unpredictable bangs and door slams" },
-  { id: "storm", name: "Thunderstorm", premium: true, icon: CloudLightning, masks: "Rain bed with rolling distant thunder" },
-  { id: "waves", name: "Ocean waves", premium: true, icon: Waves, masks: "Slow breathing surf, deeply calming" },
-  { id: "forest", name: "Forest canopy", premium: true, icon: TreePine, masks: "Gusty leaves over outdoor voices" },
-  { id: "stream", name: "Babbling stream", premium: true, icon: Droplets, masks: "Watery flutter over speech and chatter" },
-  { id: "wind", name: "Night wind", premium: true, icon: Wind, masks: "Low moaning gusts over droning noise" },
-  { id: "fire", name: "Campfire", premium: true, icon: Flame, masks: "Warm crackle, cosy indoor texture" },
-  { id: "crickets", name: "Crickets", premium: true, icon: Bug, masks: "Gentle night-garden chirps" },
-  { id: "cabin", name: "Cabin hum", premium: true, icon: Plane, masks: "Aircraft drone, steady and enveloping" },
-  { id: "fan", name: "Fan hum", premium: true, icon: Fan, masks: "Familiar, steady sleep texture" },
+  { id: "brown", name: "Brown noise", icon: Mountain, masks: "Traffic rumble, engines, low bass" },
+  { id: "pink", name: "Pink noise", icon: AudioLines, masks: "Voices, TVs, household sounds" },
+  { id: "white", name: "White noise", icon: Radio, masks: "High-pitched spikes, hiss, alarms" },
+  { id: "rain", name: "Heavy rain", icon: CloudRain, masks: "Unpredictable bangs and door slams" },
+  { id: "storm", name: "Thunderstorm", icon: CloudLightning, masks: "Rain bed with rolling distant thunder" },
+  { id: "waves", name: "Ocean waves", icon: Waves, masks: "Slow breathing surf, deeply calming" },
+  { id: "forest", name: "Forest canopy", icon: TreePine, masks: "Gusty leaves over outdoor voices" },
+  { id: "stream", name: "Babbling stream", icon: Droplets, masks: "Watery flutter over speech and chatter" },
+  { id: "wind", name: "Night wind", icon: Wind, masks: "Low moaning gusts over droning noise" },
+  { id: "fire", name: "Campfire", icon: Flame, masks: "Warm crackle, cosy indoor texture" },
+  { id: "crickets", name: "Crickets", icon: Bug, masks: "Gentle night-garden chirps" },
+  { id: "cabin", name: "Cabin hum", icon: Plane, masks: "Aircraft drone, steady and enveloping" },
+  { id: "fan", name: "Fan hum", icon: Fan, masks: "Familiar, steady sleep texture" },
 ];
 
 const SILENT: Levels = {
@@ -461,13 +461,16 @@ interface SavedBlend {
   volume: number;
 }
 
-function blendsKey(email: string) {
-  return `sleep-atlas-blends:${email}`;
+/** Mixes are saved per browser. Signed-in users keep their existing per-email key. */
+const GUEST_OWNER = "guest";
+
+function blendsKey(owner: string) {
+  return `sleep-atlas-blends:${owner}`;
 }
 
-function readBlends(email: string): SavedBlend[] {
+function readBlends(owner: string): SavedBlend[] {
   try {
-    return JSON.parse(localStorage.getItem(blendsKey(email)) ?? "[]") as SavedBlend[];
+    return JSON.parse(localStorage.getItem(blendsKey(owner)) ?? "[]") as SavedBlend[];
   } catch {
     return [];
   }
@@ -477,7 +480,7 @@ function readBlends(email: string): SavedBlend[] {
 
 export default function SoundSession() {
   const { user } = useAuth();
-  const premium = user?.plan === "premium";
+  const mixOwner = user?.email ?? GUEST_OWNER;
 
   const [playing, setPlaying] = useState(false);
   const [volume, setVolume] = useState(0.6);
@@ -506,12 +509,12 @@ export default function SoundSession() {
     volumeRef.current = volume;
   }, [volume]);
   useEffect(() => {
-    wakeRef.current = wakeAlarm && !!premium;
-  }, [wakeAlarm, premium]);
+    wakeRef.current = wakeAlarm;
+  }, [wakeAlarm]);
 
   useEffect(() => {
-    if (user && premium) setSaved(readBlends(user.email));
-  }, [user, premium]);
+    setSaved(readBlends(mixOwner));
+  }, [mixOwner]);
 
   // Keep audio graph in sync with state
   useEffect(() => {
@@ -524,14 +527,14 @@ export default function SoundSession() {
       0.1
     );
     for (const s of SOUNDS) {
-      const level = s.premium && !premium ? 0 : levels[s.id];
+      const level = levels[s.id];
       if (level > 0 && !channelsRef.current[s.id]) {
         channelsRef.current[s.id] = buildChannel(ctx, s.id, master);
       }
       const ch = channelsRef.current[s.id];
       if (ch) ch.gain.gain.setTargetAtTime(level, ctx.currentTime, 0.15);
     }
-  }, [playing, volume, levels, premium]);
+  }, [playing, volume, levels]);
 
   const stopAlarm = () => {
     alarmStopsRef.current.forEach((s) => s());
@@ -647,20 +650,19 @@ export default function SoundSession() {
   };
 
   const saveBlend = () => {
-    if (!user || !blendName.trim()) return;
+    if (!blendName.trim()) return;
     const next = [
       ...saved.filter((b) => b.name !== blendName.trim()),
       { name: blendName.trim(), levels, volume },
     ];
-    localStorage.setItem(blendsKey(user.email), JSON.stringify(next));
+    localStorage.setItem(blendsKey(mixOwner), JSON.stringify(next));
     setSaved(next);
     setBlendName("");
   };
 
   const removeBlend = (name: string) => {
-    if (!user) return;
     const next = saved.filter((b) => b.name !== name);
-    localStorage.setItem(blendsKey(user.email), JSON.stringify(next));
+    localStorage.setItem(blendsKey(mixOwner), JSON.stringify(next));
     setSaved(next);
   };
 
@@ -679,9 +681,7 @@ export default function SoundSession() {
       : `${m}:${String(s).padStart(2, "0")}`;
   };
 
-  const activeCount = SOUNDS.filter(
-    (s) => levels[s.id] > 0 && (!s.premium || premium)
-  ).length;
+  const activeCount = SOUNDS.filter((s) => levels[s.id] > 0).length;
 
   return (
     <div className="space-y-6">
@@ -733,7 +733,7 @@ export default function SoundSession() {
         </div>
         <p className="text-sm text-ink-faint" aria-live="polite">
           {playing
-            ? `Masking with ${activeCount} layer${activeCount === 1 ? "" : "s"}${
+            ? `Playing ${activeCount} sound${activeCount === 1 ? "" : "s"}${
                 remaining != null ? ` · fades out in ${formatTime(remaining)}` : ""
               }`
             : "Paused"}
@@ -772,247 +772,217 @@ export default function SoundSession() {
               {m} min
             </button>
           ))}
-          {premium ? (
-            <span className="flex items-center gap-2">
-              <input
-                type="number"
-                min={5}
-                max={720}
-                value={customMin}
-                onChange={(e) => setCustomMin(e.target.value)}
-                placeholder="Custom"
-                aria-label="Custom timer length in minutes"
-                className="w-24 rounded-full border border-ink/10 bg-paper px-4 py-1.5 text-sm text-ink placeholder:text-ink-faint focus:border-sage/60 focus:outline-none"
-              />
-              <button
-                type="button"
-                onClick={applyCustomTimer}
-                className="rounded-full border border-ink/15 px-4 py-1.5 text-sm text-ink transition-colors hover:border-good/50"
-              >
-                Set
-              </button>
-              {timerMin != null && !FREE_TIMERS.includes(timerMin) && (
-                <span className="rounded-full border border-sage bg-sage/15 px-4 py-1.5 text-sm text-good">
-                  {timerMin} min
-                </span>
-              )}
-            </span>
-          ) : (
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-sand/15 px-3 py-1.5 text-xs font-semibold text-sand-ink">
-              <Lock className="h-3 w-3" aria-hidden="true" />
-              Custom length & wake-up alarm · Premium
-            </span>
-          )}
-        </div>
-        {premium && (
-          <label className="mt-4 flex cursor-pointer items-center gap-3 text-sm text-ink-muted">
+          <span className="flex items-center gap-2">
             <input
-              type="checkbox"
-              checked={wakeAlarm}
-              onChange={(e) => setWakeAlarm(e.target.checked)}
-              className="h-4 w-4 accent-good"
+              type="number"
+              min={5}
+              max={720}
+              value={customMin}
+              onChange={(e) => setCustomMin(e.target.value)}
+              placeholder="Custom"
+              aria-label="Custom timer length in minutes"
+              className="w-24 rounded-full border border-ink/10 bg-paper px-4 py-1.5 text-sm text-ink placeholder:text-ink-faint focus:border-sage/60 focus:outline-none"
             />
-            <span>
-              <span className="font-medium text-ink">Wake-up fade-in</span>, when
-              the timer ends, a gentle chime builds over a full minute instead of
-              a jolting alarm
-            </span>
-          </label>
-        )}
+            <button
+              type="button"
+              onClick={applyCustomTimer}
+              className="rounded-full border border-ink/15 px-4 py-1.5 text-sm text-ink transition-colors hover:border-good/50"
+            >
+              Set
+            </button>
+            {timerMin != null && !FREE_TIMERS.includes(timerMin) && (
+              <span className="rounded-full border border-sage bg-sage/15 px-4 py-1.5 text-sm text-good">
+                {timerMin} min
+              </span>
+            )}
+          </span>
+        </div>
+        <label className="mt-4 flex cursor-pointer items-center gap-3 text-sm text-ink-muted">
+          <input
+            type="checkbox"
+            checked={wakeAlarm}
+            onChange={(e) => setWakeAlarm(e.target.checked)}
+            className="h-4 w-4 accent-good"
+          />
+          <span>
+            <span className="font-medium text-ink">Wake-up fade-in</span>, when
+            the timer ends, a gentle chime builds over a full minute instead of
+            a jolting alarm
+          </span>
+        </label>
         <p className="mt-3 text-xs text-ink-faint">
           Sound eases down over the final few minutes rather than cutting out,
           no re-alerting your brain just as you drop off. Pausing resets the
-          countdown.
+          countdown. Keep this page open: the timer and wake-up chime only run
+          while it stays open in your browser.
         </p>
       </div>
 
       {/* Sound layers */}
       <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
-        {SOUNDS.map((s) => {
-          const locked = s.premium && !premium;
-          return (
-            <div
-              key={s.id}
-              className={`card-surface relative p-5 ${locked ? "opacity-75" : ""}`}
-            >
-              {locked && (
-                <span className="absolute right-4 top-4 inline-flex items-center gap-1 rounded-full bg-sand/15 px-2.5 py-1 text-xs font-semibold text-sand-ink">
-                  <Lock className="h-3 w-3" aria-hidden="true" /> Premium
-                </span>
-              )}
-              <s.icon
-                className={`h-7 w-7 ${levels[s.id] > 0 && !locked ? "text-sage-deep" : "text-ink-faint"}`}
-                aria-hidden="true"
-              />
-              <h3 className="mt-3 font-display font-semibold">{s.name}</h3>
-              <p className="mt-1 text-xs leading-relaxed text-ink-muted">{s.masks}</p>
-              <input
-                type="range"
-                min={0}
-                max={1}
-                step={0.01}
-                value={locked ? 0 : levels[s.id]}
-                disabled={locked}
-                aria-label={`${s.name} level`}
-                onChange={(e) => setLevel(s.id, Number(e.target.value))}
-                className="mt-4 w-full disabled:cursor-not-allowed"
-              />
-            </div>
-          );
-        })}
+        {SOUNDS.map((s) => (
+          <div key={s.id} className="card-surface relative p-5">
+            <s.icon
+              className={`h-7 w-7 ${levels[s.id] > 0 ? "text-sage-deep" : "text-ink-faint"}`}
+              aria-hidden="true"
+            />
+            <h3 className="mt-3 font-display font-semibold">{s.name}</h3>
+            <p className="mt-1 text-xs leading-relaxed text-ink-muted">{s.masks}</p>
+            <input
+              type="range"
+              min={0}
+              max={1}
+              step={0.01}
+              value={levels[s.id]}
+              aria-label={`${s.name} level`}
+              onChange={(e) => setLevel(s.id, Number(e.target.value))}
+              className="mt-4 w-full"
+            />
+          </div>
+        ))}
       </div>
 
-      {/* Premium: questionnaire + saved mixes */}
-      {premium ? (
-        <div className="grid gap-6 lg:grid-cols-2">
-          <div className="card-surface border-sage/30 p-6">
-            <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sage-deep">
-              <Sparkles className="h-4 w-4" aria-hidden="true" />
-              Build my blend
+      {/* Blend + saved mixes (free) */}
+      <div className="grid gap-6 lg:grid-cols-2">
+        <div className="card-surface border-sage/30 p-6">
+          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sage-deep">
+            <Sparkles className="h-4 w-4" aria-hidden="true" />
+            Build my blend
+          </p>
+          <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+            Three quick questions about your street and your sleep. Sleyp
+            sets a starting mix and volume from your answers.
+          </p>
+          <div className="mt-5 space-y-5">
+            {QUESTIONS.map((q, qi) => (
+              <fieldset key={q.q}>
+                <legend className="text-sm font-semibold text-ink">{q.q}</legend>
+                <div className="mt-2 flex flex-wrap gap-2">
+                  {q.options.map((opt) => (
+                    <button
+                      key={opt.value}
+                      type="button"
+                      onClick={() =>
+                        setAnswers((a) => {
+                          const next = [...a];
+                          next[qi] = opt.value;
+                          return next;
+                        })
+                      }
+                      className={`rounded-full border px-3.5 py-1.5 text-sm transition-colors ${
+                        answers[qi] === opt.value
+                          ? "border-sage bg-sage/15 text-sage-deep"
+                          : "border-ink/10 text-ink-muted hover:border-ink/25 hover:text-ink"
+                      }`}
+                    >
+                      {opt.label}
+                    </button>
+                  ))}
+                </div>
+              </fieldset>
+            ))}
+          </div>
+          <button
+            type="button"
+            onClick={applyRecommendation}
+            disabled={answers.filter(Boolean).length < QUESTIONS.length}
+            className="btn-primary btn-lg mt-6 disabled:cursor-not-allowed"
+          >
+            Apply my blend
+          </button>
+          {blendNote && (
+            <p className="mt-4 rounded-xl bg-paper p-4 text-sm leading-relaxed text-ink-muted">
+              {blendNote}
             </p>
-            <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-              Three quick questions about your street and your sleep. Sleyp
-              sets the layers and volume for you.
-            </p>
-            <div className="mt-5 space-y-5">
-              {QUESTIONS.map((q, qi) => (
-                <fieldset key={q.q}>
-                  <legend className="text-sm font-semibold text-ink">{q.q}</legend>
-                  <div className="mt-2 flex flex-wrap gap-2">
-                    {q.options.map((opt) => (
-                      <button
-                        key={opt.value}
-                        type="button"
-                        onClick={() =>
-                          setAnswers((a) => {
-                            const next = [...a];
-                            next[qi] = opt.value;
-                            return next;
-                          })
-                        }
-                        className={`rounded-full border px-3.5 py-1.5 text-sm transition-colors ${
-                          answers[qi] === opt.value
-                            ? "border-sage bg-sage/15 text-sage-deep"
-                            : "border-ink/10 text-ink-muted hover:border-ink/25 hover:text-ink"
-                        }`}
-                      >
-                        {opt.label}
-                      </button>
-                    ))}
-                  </div>
-                </fieldset>
-              ))}
-            </div>
+          )}
+        </div>
+
+        <div className="card-surface p-6">
+          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-good">
+            <Save className="h-4 w-4" aria-hidden="true" />
+            My mixes
+          </p>
+          <p className="mt-2 text-sm leading-relaxed text-ink-muted">
+            Set any combination of the {SOUNDS.length} sounds with the
+            sliders, then save it as a mix, one tap to bring it back after
+            every night shift. Mixes are saved in this browser on this
+            device, so they won&apos;t follow you to another browser.
+          </p>
+          <div className="mt-4 flex gap-2">
+            <input
+              type="text"
+              value={blendName}
+              onChange={(e) => setBlendName(e.target.value)}
+              placeholder="Name this mix (e.g. Bin day)"
+              aria-label="Mix name"
+              className="w-full rounded-xl border border-ink/10 bg-paper px-4 py-2.5 text-sm text-ink placeholder:text-ink-faint focus:border-sage/60 focus:outline-none"
+            />
             <button
               type="button"
-              onClick={applyRecommendation}
-              disabled={answers.filter(Boolean).length < QUESTIONS.length}
-              className="btn-primary btn-lg mt-6 disabled:cursor-not-allowed"
+              onClick={saveBlend}
+              disabled={!blendName.trim()}
+              className="btn-secondary shrink-0 disabled:cursor-not-allowed"
             >
-              Apply my blend
+              Save
             </button>
-            {blendNote && (
-              <p className="mt-4 rounded-xl bg-paper p-4 text-sm leading-relaxed text-ink-muted">
-                {blendNote}
-              </p>
-            )}
           </div>
-
-          <div className="card-surface p-6">
-            <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-good">
-              <Save className="h-4 w-4" aria-hidden="true" />
-              My mixes
+          {saved.length === 0 ? (
+            <p className="mt-4 text-sm text-ink-faint">
+              No saved mixes yet, set your sliders, name it, save it.
             </p>
-            <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-              Set any combination of the {SOUNDS.length} layers with the
-              sliders, then save it as a personal mix, one tap to bring it
-              back after every night shift.
-            </p>
-            <div className="mt-4 flex gap-2">
-              <input
-                type="text"
-                value={blendName}
-                onChange={(e) => setBlendName(e.target.value)}
-                placeholder="Name this mix (e.g. Bin day)"
-                aria-label="Mix name"
-                className="w-full rounded-xl border border-ink/10 bg-paper px-4 py-2.5 text-sm text-ink placeholder:text-ink-faint focus:border-sage/60 focus:outline-none"
-              />
-              <button
-                type="button"
-                onClick={saveBlend}
-                disabled={!blendName.trim()}
-                className="btn-secondary shrink-0 disabled:cursor-not-allowed"
-              >
-                Save
-              </button>
-            </div>
-            {saved.length === 0 ? (
-              <p className="mt-4 text-sm text-ink-faint">
-                No saved mixes yet, set your sliders, name it, save it.
-              </p>
-            ) : (
-              <ul className="mt-4 space-y-2">
-                {saved.map((b) => (
-                  <li
-                    key={b.name}
-                    className="flex items-center justify-between rounded-xl bg-paper px-4 py-3"
+          ) : (
+            <ul className="mt-4 space-y-2">
+              {saved.map((b) => (
+                <li
+                  key={b.name}
+                  className="flex items-center justify-between rounded-xl bg-paper px-4 py-3"
+                >
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setLevels({ ...SILENT, ...b.levels });
+                      setVolume(b.volume);
+                      if (!playing) togglePlay();
+                    }}
+                    className="text-left text-sm font-medium text-ink hover:text-sage-deep"
                   >
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setLevels({ ...SILENT, ...b.levels });
-                        setVolume(b.volume);
-                        if (!playing) togglePlay();
-                      }}
-                      className="text-left text-sm font-medium text-ink hover:text-sage-deep"
-                    >
-                      {b.name}
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => removeBlend(b.name)}
-                      aria-label={`Delete mix ${b.name}`}
-                      className="text-ink-faint transition-colors hover:text-sand-ink"
-                    >
-                      <Trash2 className="h-4 w-4" aria-hidden="true" />
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
+                    {b.name}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => removeBlend(b.name)}
+                    aria-label={`Delete mix ${b.name}`}
+                    className="text-ink-faint transition-colors hover:text-sand-ink"
+                  >
+                    <Trash2 className="h-4 w-4" aria-hidden="true" />
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
-      ) : (
-        <div className="card-surface border-sand/30 bg-gradient-to-br from-card to-sage-deep/15 p-8">
-          <p className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-sand-ink">
-            <Lock className="h-4 w-4" aria-hidden="true" />
-            Premium unlocks the full defence
-          </p>
-          <h3 className="mt-3 font-display text-2xl font-semibold">
-            10 extra layers, personal mixes and the gentle wake-up alarm
-          </h3>
-          <p className="mt-3 max-w-2xl leading-relaxed text-ink-muted">
-            Heavy rain, thunderstorm, ocean waves, forest, stream, wind,
-            campfire, crickets, cabin hum and fan, mix any of them into your
-            own saved blends, answer three questions for a blend tuned to your
-            exact street, and wake to a fade-in chime instead of a jolt.
-          </p>
-          <div className="mt-6 flex flex-wrap gap-4">
-            <Link
-              href="/pricing/"
-              className="btn-primary btn-lg"
-            >
-              See Premium
-            </Link>
-            <Link
-              href="/account/"
-              className="btn-secondary btn-lg"
-            >
-              {user ? "Manage my account" : "Log in / sign up"}
-            </Link>
-          </div>
+      </div>
+
+      {/* The app: coming soon */}
+      <div className="card-surface border-sage/30 bg-paper p-8">
+        <p className="text-xs font-semibold uppercase tracking-wider text-sage-deep">
+          The Sleyp app
+        </p>
+        <h3 className="mt-3 font-display text-2xl font-semibold">
+          Want the full library?
+        </h3>
+        <p className="mt-3 max-w-2xl leading-relaxed text-ink-muted">
+          The Sleyp iOS app is coming soon with 22 free library sounds and
+          saved mixes, even without an account. Sleyp Plus adds AI mix
+          generation and Discovery.
+        </p>
+        <div className="mt-6 flex flex-wrap items-center gap-4">
+          <AppCta />
+          <Link href="/pricing/" className="btn-secondary btn-lg">
+            What&apos;s in the app
+          </Link>
         </div>
-      )}
+      </div>
     </div>
   );
 }

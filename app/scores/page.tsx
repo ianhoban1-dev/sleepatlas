@@ -109,11 +109,8 @@ export default function ScoresPage() {
             each sub-score current; nothing requires a wearable.
           </p>
           <p>
-            Free members see their live score. Premium members get the
-            history: score trends across rota blocks, fatigue projections for
-            upcoming shifts, and the reports that show whether a new defence
-            (blackout upgrade, noise blend, flip-flop routine) actually moved
-            the number.
+            Quick inputs from the tools and trackers feed your score, and your
+            entries stay in this browser on this device.
           </p>
         </section>
 

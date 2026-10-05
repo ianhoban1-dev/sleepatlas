@@ -8,10 +8,10 @@ import SleypMark from "@/components/SleypMark";
  */
 
 const LAYERS = [
-  { name: "Rain, steady", level: 72, free: false },
-  { name: "Brown noise", level: 54, free: true },
-  { name: "Cabin hum", level: 31, free: false },
-  { name: "Wind, distant", level: 18, free: false },
+  { name: "Rain, steady", level: 72 },
+  { name: "Brown noise", level: 54 },
+  { name: "Cabin hum", level: 31 },
+  { name: "Wind, distant", level: 18 },
 ];
 
 const BARS = [38, 62, 48, 84, 70, 100, 58, 80, 44, 68, 54, 90, 64, 42, 74, 56, 36, 60];
@@ -69,11 +69,6 @@ export default function SessionPreview({ className = "" }: { className?: string 
               >
                 <span className="flex items-center gap-2 font-display text-sm font-medium text-ink">
                   {layer.name}
-                  {!layer.free && (
-                    <span className="hidden rounded-full bg-sand/25 px-1.5 sm:inline py-px text-[10px] font-semibold uppercase tracking-wider text-sand-ink">
-                      Premium
-                    </span>
-                  )}
                 </span>
                 <span className="relative h-1 rounded-full bg-soft">
                   <span
@@ -131,7 +126,7 @@ export default function SessionPreview({ className = "" }: { className?: string 
       {/* Floating detail: layers count */}
       <div className="absolute -right-3 -top-7 hidden rounded-2xl bg-deep px-4 py-3 text-cream shadow-lift sm:block lg:-right-8">
         <p className="font-serif text-3xl leading-none">13</p>
-        <p className="mt-1 font-display text-[11px] font-medium text-deep-haze">layers, generated live</p>
+        <p className="mt-1 font-display text-[11px] font-medium text-deep-haze">sounds to mix, free</p>
       </div>
     </div>
   );

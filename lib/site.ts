@@ -9,7 +9,7 @@ export const SITE = {
   tagline: "Your Sleep Environment",
   url: "https://www.getsleyp.com",
   description:
-    "Sleyp builds a personalised sleep environment around the room you actually sleep in. Thirteen layered sleep sounds generated live in your browser, white, pink and brown noise for sleep, a timer that fades rather than stops, and tools built on forty years of shift work.",
+    "Sleyp is a sleep sound app for people whose sleep is hard-won. Mix 13 free sleep sounds in your browser today, with the iOS app coming soon, plus shift-work tools built on forty years of experience.",
   locale: "en_GB",
 } as const;
 
@@ -43,11 +43,11 @@ export const FOUNDER = {
  * The session leads. Everything else supports it.
  */
 export const NAV_LINKS = [
-  { href: "/session/", label: "Session" },
+  { href: "/session/", label: "Try sounds" },
   { href: "/tools/", label: "Tools" },
   { href: "/trackers/", label: "Trackers" },
   { href: "/scores/", label: "Score" },
   { href: "/resources/", label: "Resources" },
   { href: "/shop/", label: "Shop" },
-  { href: "/pricing/", label: "Pricing" },
+  { href: "/pricing/", label: "The app" },
 ] as const;

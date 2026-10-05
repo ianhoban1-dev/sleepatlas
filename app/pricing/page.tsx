@@ -5,48 +5,53 @@ import JsonLd from "@/components/JsonLd";
 import Reveal from "@/components/Reveal";
 import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import FaqList from "@/components/FaqList";
+import AppCta from "@/components/AppCta";
 
 export const metadata: Metadata = {
-  title: "Pricing: Free Tools & Premium Fatigue Intelligence",
+  title: "The Sleyp app: Free and Plus",
   description:
-    "Sleyp's calculators, resources and core noise layers are free. Premium adds 10 extra sound layers, personal saved mixes, the wake-up fade-in alarm, saved tracking, advanced fatigue projections and historical Sleyp Score reporting.",
+    "The Sleyp iOS app is coming soon with 22 free library sounds and saved mixes without an account. Sleyp Plus adds AI mix generation and Discovery. The browser version, calculators and resources are free.",
 };
 
 const FREE = [
-  "All five rota & recovery calculators",
-  "White, pink & brown noise",
-  "Sleep timer with gentle fade-out (30/60/90 min)",
-  "Shift journal (this browser)",
-  "Full resource hub access",
-  "Live Sleyp Score",
+  "22 library sounds, all free to play",
+  "Saved mixes, even without an account",
 ];
 
-const PREMIUM = [
+const PLUS = [
   "Everything in Free",
-  "10 extra sound layers, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum & fan",
-  "Personal mixes, save any layer combination, reapply in one tap",
-  "Personal blend questionnaire, tuned to your street",
-  "Custom timer lengths + wake-up fade-in alarm",
-  "Saved shift profiles & rota patterns",
-  "Advanced fatigue projections for upcoming blocks",
-  "Historical Sleyp Score reporting",
+  "AI mix generation",
+  "Discovery",
+];
+
+const ON_THIS_SITE = [
+  "13 sounds to mix in your browser, with a fading sleep timer and wake-up chime",
+  "Saved mixes, kept in your browser",
+  "All five rota and recovery calculators",
+  "Shift journal (kept in this browser)",
+  "The full resource hub",
 ];
 
 const FAQS = [
   {
-    question: "How much does Sleyp Premium cost?",
+    question: "What does the Sleyp app include for free?",
     answer:
-      "Premium launches at £4.99/month or £39/year. Founding members who join the early-access list lock the launch price permanently.",
+      "The Sleyp iOS app is coming soon with 22 library sounds, all free to play, and saved mixes without an account.",
   },
   {
-    question: "Do I need Premium to use the calculators?",
+    question: "What does Sleyp Plus add?",
     answer:
-      "No. Every calculator, the resource hub, the white, pink and brown noise layers and the basic sleep timer are free forever. Premium unlocks the other 10 sound layers, personal saved mixes, the blend questionnaire, the wake-up fade-in alarm, and saved data projected forwards over time.",
+      "Sleyp Plus adds AI mix generation and Discovery in the app. Plus details will be shared when the app launches.",
   },
   {
-    question: "Can I cancel Sleyp Premium anytime?",
+    question: "Are the browser sounds the same as the app's?",
     answer:
-      "Yes, subscriptions are managed through Stripe and can be cancelled in one click from your account. You keep Premium until the end of the paid period.",
+      "No. The browser version has 13 sounds generated live in your browser, and the app has its own library of 22 sounds. The app's sounds don't play on the website, and sounds with similar names are not identical.",
+  },
+  {
+    question: "Do I need an account to use the calculators or the browser sounds?",
+    answer:
+      "No. Every calculator, the resource hub and the browser sounds are free to use without an account.",
   },
 ];
 
@@ -58,19 +63,19 @@ export default function PricingPage() {
           faqSchema(FAQS),
           breadcrumbSchema([
             { name: "Home", path: "/" },
-            { name: "Pricing", path: "/pricing/" },
+            { name: "The app", path: "/pricing/" },
           ]),
         ]}
       />
       <div className="sleyp-wash">
         <div className="mx-auto max-w-site px-5 py-16 text-center sm:px-8 md:py-24">
-          <p className="eyebrow eyebrow-rule mb-6">Pricing</p>
+          <p className="eyebrow eyebrow-rule mb-6">The app</p>
           <h1 className="display-lg">
-            Free to sleep. Premium to tune it.
+            Free to start. Plus when you want more.
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
-            What keeps you safe stays free. Premium is for the extra layers,
-            the saved mixes, and the months of shift data behind them.
+            The Sleyp iOS app is coming soon. Everything on this website is
+            free to use today.
           </p>
         </div>
       </div>
@@ -80,9 +85,9 @@ export default function PricingPage() {
           <Reveal>
             <div className="card-surface flex h-full flex-col p-8 md:p-10">
               <h2 className="font-display text-xl font-semibold">Free</h2>
-              <p className="mt-4 font-serif text-6xl leading-none">
-                £0
-                <span className="ml-1 font-body text-base text-ink-faint">forever</span>
+              <p className="mt-4 font-serif text-5xl leading-none">
+                22 sounds
+                <span className="ml-2 font-body text-base text-ink-faint">in the Sleyp app</span>
               </p>
               <ul className="mb-10 mt-8 space-y-3">
                 {FREE.map((f) => (
@@ -92,50 +97,50 @@ export default function PricingPage() {
                   </li>
                 ))}
               </ul>
-              <Link
-                href="/tools/"
-                className="btn-secondary btn-lg mt-auto w-full"
-              >
-                Start with the tools
-              </Link>
+              <div className="mt-auto flex flex-wrap items-center gap-4">
+                <AppCta />
+                <Link href="/session/" className="btn-secondary btn-lg">
+                  Try sounds in your browser
+                </Link>
+              </div>
             </div>
           </Reveal>
 
           <Reveal delay={100}>
             <div className="on-deep relative flex h-full flex-col rounded-soft p-8 shadow-frame md:p-10">
               <span className="absolute right-6 top-6 rounded-full bg-sand px-3 py-1 font-display text-[11px] font-semibold uppercase tracking-wider text-deep">
-                Launching soon
+                Coming soon
               </span>
-              <h2 className="font-display text-xl font-semibold text-cream">Premium</h2>
-              <p className="mt-4 font-serif text-6xl leading-none text-cream">
-                £4.99
-                <span className="ml-1 font-body text-base text-deep-haze">
-                  /month · £39/year
-                </span>
+              <h2 className="font-display text-xl font-semibold text-cream">Sleyp Plus</h2>
+              <p className="mt-4 font-serif text-5xl leading-none text-cream">
+                More in the app
               </p>
               <ul className="mb-10 mt-8 space-y-3">
-                {PREMIUM.map((f) => (
+                {PLUS.map((f) => (
                   <li key={f} className="flex items-start gap-3">
                     <Check className="mt-1 h-4 w-4 shrink-0 text-sand" aria-hidden="true" />
                     <span className="text-cream/90">{f}</span>
                   </li>
                 ))}
               </ul>
-              {/* Stripe checkout replaces this link once keys are added */}
-              <Link
-                href="/account/"
-                className="btn-light btn-lg mt-auto w-full"
-                aria-describedby="premium-note"
-              >
-                Become a founding member
-              </Link>
-              <p id="premium-note" className="mt-3 text-center text-xs text-deep-haze">
-                Payments open at launch, founding members activate Premium
-                free now and lock this price for life.
+              <p className="mt-auto text-sm text-deep-haze">
+                Plus details will be shared when the app launches.
               </p>
             </div>
           </Reveal>
         </div>
+
+        <section className="mt-16 max-w-3xl">
+          <h2 className="display-sm">Free on this website</h2>
+          <ul className="mt-6 space-y-3">
+            {ON_THIS_SITE.map((f) => (
+              <li key={f} className="flex items-start gap-3">
+                <Check className="mt-1 h-4 w-4 shrink-0 text-good" aria-hidden="true" />
+                <span className="text-ink-muted">{f}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
 
         <section className="mt-16 max-w-3xl">
           <h2 className="display-sm">

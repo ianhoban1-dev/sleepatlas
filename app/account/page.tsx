@@ -6,7 +6,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Your Account",
   description:
-    "Create a free Sleyp account or log in to manage your plan, unlock Premium layers and saved mixes, and keep your shift tracking in one place.",
+    "Create a free Sleyp account or log in. Accounts are stored in this browser.",
   robots: { index: false },
 };
 
@@ -26,8 +26,8 @@ export default function AccountPage() {
             Your account
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
-            One account for Sleyp blends, saved rota profiles and your Sleep
-            Atlas Score history.
+            Sign up or log in. Your account is stored in this browser on this
+            device.
           </p>
         </div>
       </div>
