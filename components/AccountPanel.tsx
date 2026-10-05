@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import { useState, type FormEvent } from "react";
-import { BadgeCheck, LogOut, ShieldCheck, UserRound } from "lucide-react";
+import { LogOut, ShieldCheck, UserRound } from "lucide-react";
 import { useAuth } from "@/components/AuthProvider";
-import { logIn, logOut, setPlan, signUp } from "@/lib/auth";
+import { logIn, logOut, signUp } from "@/lib/auth";
 
 const inputClass =
   "mt-1.5 w-full rounded-xl border border-ink/10 bg-paper px-4 py-3 text-ink placeholder:text-ink-faint focus:border-sage/60 focus:outline-none";
@@ -48,16 +48,6 @@ export default function AccountPanel() {
         <p className="mt-1 text-ink-muted">{user.email}</p>
 
         <div className="mt-6 flex flex-wrap items-center gap-3">
-          <span
-            className={`inline-flex items-center gap-1.5 rounded-full px-4 py-1.5 text-sm font-semibold ${
-              user.plan === "premium"
-                ? "bg-sage/15 text-sage-deep"
-                : "bg-ink/[0.06] text-ink-muted"
-            }`}
-          >
-            <BadgeCheck className="h-4 w-4" aria-hidden="true" />
-            {user.plan === "premium" ? "Premium member" : "Free plan"}
-          </span>
           {admin && (
             <span className="inline-flex items-center gap-1.5 rounded-full bg-sand/15 px-4 py-1.5 text-sm font-semibold text-sand-ink">
               <ShieldCheck className="h-4 w-4" aria-hidden="true" />
@@ -66,35 +56,12 @@ export default function AccountPanel() {
           )}
         </div>
 
-        {user.plan === "free" && (
-          <div className="mt-8 rounded-xl border border-sage/30 bg-paper p-6">
-            <h3 className="font-display text-lg font-semibold">
-              Unlock Sleyp Premium
-            </h3>
-            <p className="mt-2 text-sm leading-relaxed text-ink-muted">
-              Heavy rain and fan hum layers, the personal blend questionnaire,
-              saved blends and synced tracking. Payments open at launch, until
-              then, founding members can activate Premium free.
-            </p>
-            <button
-              type="button"
-              onClick={() => {
-                setPlan(user.email, "premium");
-                refresh();
-              }}
-              className="btn-primary btn-lg mt-4"
-            >
-              Activate Premium (founding member)
-            </button>
-          </div>
-        )}
-
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
             href="/session/"
             className="btn-primary btn-lg"
           >
-            Open the session
+            Try sounds
           </Link>
           {admin && (
             <Link

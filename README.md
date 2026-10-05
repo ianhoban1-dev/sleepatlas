@@ -4,7 +4,7 @@
 
 Brand system, logo pack and construction spec live in [`FIELD-Brand/`](FIELD-Brand/).
 
-**Stack:** Next.js 14 (App Router, fully static/SSR), TypeScript, Tailwind CSS. Supabase and Stripe are stubbed, ready to wire.
+**Stack:** Next.js 14 (App Router, fully static/SSR), TypeScript, Tailwind CSS. Supabase is stubbed, ready to wire.
 
 ## Run it locally
 
@@ -22,14 +22,14 @@ Note: if `node_modules` looks partial from a previous install, just run `npm ins
 |---|---|
 | `/` | Hero, interactive rota visualizer, bento tools grid, founder authority, the session feature |
 | `/tools/` | Hub + 5 calculators: Night Shift Recovery, Rota Flip-Flop, Sleep Debt Logger, Noise Calibration, Chronotype Matcher |
-| `/session/` | the session — built-in Web Audio engine, 13 synthesized layers. Free: white/pink/brown + 30/60/90-min fade-out timer. Premium: rain, thunderstorm, waves, forest, stream, wind, campfire, crickets, cabin hum, fan, saved personal mixes, blend questionnaire, custom timer lengths & wake-up fade-in alarm. `/lullai/` permanently redirects here. |
-| `/account/` | Sign up / log in and plan management (demo auth in this browser until Supabase is wired) |
+| `/session/` | "Try sounds": the free browser player. Built-in Web Audio engine, 13 synthesized sounds (all free), 30/60/90-min and custom fade-out timer, wake-up chime, 3-question rule-based blend (not AI) and saved mixes (browser localStorage: per-account key when signed in, a `guest` key otherwise). The timer/chime only run while the page stays open. `/lullai/` and `/mask-ai/` permanently redirect here. |
+| `/account/` | Sign up / log in (demo auth in this browser until Supabase is wired) |
 | `/admin/` | Member dashboard — visible only to the admin email in `lib/auth.ts`: signups, plans, upgrade/downgrade |
-| `/trackers/` | Shift journal (browser localStorage; premium sync stubbed) |
+| `/trackers/` | Shift journal (browser localStorage) |
 | `/scores/` | Sleyp Score framework explainer |
 | `/resources/` | Modular article engine — 6 categories, 3 flagship articles live |
 | `/shop/` | Curated affiliate gear (links are `#` placeholders) |
-| `/pricing/` | Free vs Premium (£4.99/mo · £39/yr), Stripe checkout stubbed |
+| `/pricing/` | The Sleyp iOS app (coming soon): 22 free library sounds, guest mix saving; Sleyp Plus = AI mix generation and Discovery. No prices, no website subscription |
 
 ## Architecture — how to extend (zero structural changes)
 
@@ -47,7 +47,7 @@ Note: if `node_modules` looks partial from a previous install, just run `npm ins
 ## Activating the stubs
 
 - **Supabase:** see `lib/supabase.ts` — install `@supabase/supabase-js`, add env keys. Then swap the demo function bodies in `lib/auth.ts` for Supabase Auth + a `profiles` table (components only call those functions, nothing else changes) — the admin dashboard will then show every real signup.
-- **Stripe:** replace the "Become a founding member" link in `app/pricing/page.tsx` with a checkout session route, and remove the free "Activate Premium" button in `components/AccountPanel.tsx`.
+- **Stripe:** not needed. The website has no paid tier; Sleyp Plus is an iOS app feature. The `plan` field in `lib/auth.ts` and the admin plan toggle are left in place but no longer affect the website.
 - **Domain:** update `SITE.url` in `lib/site.ts` (currently `https://www.getsleyp.com`); sitemap, robots, canonicals, schema and OG derive from it.
 - **Affiliate links:** replace `#` hrefs in `app/shop/page.tsx` (`GEAR` array).
 

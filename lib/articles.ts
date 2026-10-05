@@ -247,7 +247,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "The free web player has brown, white and pink noise with 30, 60 and 90-minute fade-out timers. Premium adds ten more layers, including rain, thunderstorm, ocean waves, fan hum and cabin hum. It also adds saved personal mixes, custom timers up to 12 hours, and a gentle fade-in wake-up, so you don't jolt awake before your next night shift."
+        "text": "The free web player has 13 sounds, including brown, white and pink noise, rain, thunderstorm, ocean waves, fan hum and cabin hum. It also has 30, 60 and 90-minute fade-out timers, custom timers up to 12 hours, saved mixes and a gentle fade-in wake-up chime, so you don't jolt awake before your next night shift. Keep the page open in your browser while the timer runs."
       },
       {
         "type": "p",

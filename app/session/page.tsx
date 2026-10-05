@@ -26,36 +26,41 @@ import {
 import FaqList from "@/components/FaqList";
 
 export const metadata: Metadata = {
-  title: "The session",
+  title: "Try sounds in your browser",
   description:
-    "A Sleyp session builds a sound environment around your room: thirteen layers generated live in your browser, white, pink and brown noise free, with rain, thunderstorm, ocean, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium, plus a timer that fades out and a wake-up fade-in.",
+    "Mix 13 free sleep sounds in your browser, set a sleep timer that fades out and save the mixes you like. Nothing to download. The Sleyp iOS app is coming soon with 22 free library sounds.",
 };
 
 const FAQS = [
   {
-    question: "What is a Sleyp session?",
+    question: "What can I do on this page?",
     answer:
-      "A session is Sleyp playing a sound environment around your room. It generates 13 layers live in your browser — noise colours, rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan — with no downloads and no streaming, to hold daytime sleep against traffic, neighbours and deliveries.",
+      "Mix 13 sounds with simple sliders, from brown, pink and white noise to rain, ocean waves and fans, to cover traffic, neighbours and deliveries while you sleep. Add a sleep timer that fades out, and save the mixes you like. It is free and there is nothing to download.",
   },
   {
-    question: "Is a session free to use?",
+    question: "Is it free?",
     answer:
-      "White, pink and brown noise play free in any modern browser, along with a 30/60/90-minute sleep timer. Premium members unlock the other 10 sound layers, custom mixes they can save and reapply in one tap, the three-question blend builder, custom timer lengths and the wake-up fade-in alarm.",
+      "Yes. All 13 sounds, the sleep timer, the wake-up chime, the three-question blend and saved mixes are free to use in your browser. You don't need an account.",
   },
   {
     question: "Can I save my own mix?",
     answer:
-      "Yes. Premium members can set any combination of the 13 layers with individual sliders, name the result and save it as a personal mix. Saved mixes reapply in one tap, so your 'bin day' or 'school run' defence is always ready after a night shift.",
+      "Yes. Set the sliders, name the mix and save it. Mixes are saved in this browser on this device, so they won't follow you to another browser or phone, and clearing your browser data removes them. You don't need an account to save a mix.",
   },
   {
-    question: "Which layer is best for sleeping after a night shift?",
+    question: "Which sound is best for sleeping after a night shift?",
     answer:
-      "Start with brown noise if traffic rumble is your problem, pink noise for voices and household sounds, and layer heavy rain or ocean waves over either for unpredictable bangs. Premium's blend builder asks three questions and sets the layers for you.",
+      "Start with brown noise if traffic rumble is your problem, pink noise for voices and household sounds, and add heavy rain or ocean waves for unpredictable bangs. The three-question blend can set a starting mix for you.",
   },
   {
-    question: "Is there a sleep timer and a wake-up alarm?",
+    question: "Is there a sleep timer and a wake-up chime?",
     answer:
-      "Yes. The free sleep timer fades your sound out gently over the final minutes at 30, 60 or 90 minutes, no sudden cut-off to re-alert your brain. Premium adds any custom length up to 12 hours and a wake-up alarm that fades a soft chime in over a full minute, so you surface gradually instead of being jolted awake before a shift.",
+      "Yes. The sleep timer fades your sound out gently over the final minutes at 30, 60 or 90 minutes, or any length from 5 minutes to 12 hours. Turn on the wake-up chime and a soft tone builds over a full minute when the timer ends, so you surface gradually instead of being jolted awake before a shift. Keep this page open in your browser: the timer and chime only run while it stays open.",
+  },
+  {
+    question: "How are these sounds different from the Sleyp app?",
+    answer:
+      "This page generates its 13 sounds live in your browser. The Sleyp iOS app, coming soon, has its own library of 22 sounds, all free to play, and saved mixes without an account. The app's sounds don't play on this page, and sounds with similar names are not identical. Sleyp Plus adds AI mix generation and Discovery in the app.",
   },
   {
     question: "How does noise masking actually work?",
@@ -68,79 +73,66 @@ const SOUND_GUIDE = [
   {
     icon: Mountain,
     name: "Brown noise",
-    tier: "Free",
     use: "Deepest rumble cover: traffic, engines, low bass through walls.",
   },
   {
     icon: AudioLines,
     name: "Pink noise",
-    tier: "Free",
     use: "Sits over the speech frequencies: voices, TVs, next door's radio.",
   },
   {
     icon: Radio,
     name: "White noise",
-    tier: "Free",
     use: "Full-spectrum hiss for high-pitched spikes and electrical whine.",
   },
   {
     icon: CloudRain,
     name: "Heavy rain",
-    tier: "Premium",
     use: "Natural variability that swallows sudden bangs and door slams.",
   },
   {
     icon: CloudLightning,
     name: "Thunderstorm",
-    tier: "Premium",
     use: "Rain bed with slow rolling thunder, depth without jolts.",
   },
   {
     icon: Waves,
     name: "Ocean waves",
-    tier: "Premium",
     use: "Surf-paced swell that slows breathing and covers rumble.",
   },
   {
     icon: TreePine,
     name: "Forest canopy",
-    tier: "Premium",
     use: "Gusty leaf rustle that softens outdoor voices and gardens.",
   },
   {
     icon: Droplets,
     name: "Babbling stream",
-    tier: "Premium",
     use: "Watery flutter that blurs conversation and mid-band chatter.",
   },
   {
     icon: Wind,
     name: "Night wind",
-    tier: "Premium",
     use: "Low moaning gusts for droning, ever-present background noise.",
   },
   {
     icon: Flame,
     name: "Campfire",
-    tier: "Premium",
     use: "Warm crackle, a cosy texture that keeps bangs from standing out.",
   },
   {
     icon: Bug,
     name: "Crickets",
-    tier: "Premium",
     use: "Gentle night-garden chirps that signal 'night' to a day-sleeping brain.",
   },
   {
     icon: Plane,
     name: "Cabin hum",
-    tier: "Premium",
     use: "Aircraft drone, the enveloping steadiness people sleep to on flights.",
   },
   {
     icon: Fan,
     name: "Fan hum",
-    tier: "Premium",
     use: "The familiar steady texture many shift workers already sleep to.",
   },
 ];
@@ -153,29 +145,29 @@ export default function SessionPage() {
           webApplicationSchema({
             name: "Sleyp Session",
             description:
-              "Browser-based noise-masking engine for daytime sleep: 13 layered sounds (white, pink and brown noise free; rain, thunderstorm, ocean waves, forest, stream, wind, campfire, crickets, cabin hum and fan on Premium), a fade-out sleep timer, a wake-up fade-in alarm and personal saved mixes for shift workers.",
+              "A free web app for mixing 13 sleep sounds in your browser: a slider for each sound, a fading sleep timer, a wake-up chime and saved mixes, built for shift workers sleeping through the day.",
             path: "/session/",
           }),
           faqSchema(FAQS),
           breadcrumbSchema([
             { name: "Home", path: "/" },
-            { name: "Session", path: "/session/" },
+            { name: "Try sounds", path: "/session/" },
           ]),
         ]}
       />
 
       <div className="sleyp-wash">
         <div className="mx-auto max-w-site px-5 py-16 sm:px-8 md:py-24">
-          <p className="eyebrow eyebrow-rule mb-6">The session</p>
+          <p className="eyebrow eyebrow-rule mb-6">Try sounds</p>
           <h1 className="display-lg">
             Build the room around the sleep
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-muted">
             You can&apos;t quieten a street that is wide awake. You can stop your
             brain treating every bin lorry, door slam and school run as an
-            event. Sleyp generates the layers live in your browser — the web
-            version needs no download and nothing streams. Want it on your
-            phone? The Sleyp iOS app is coming soon.
+            event. Mix your own sound below, free in your browser with nothing
+            to download. Want it on your phone? The Sleyp iOS app is coming
+            soon with 22 free library sounds.
           </p>
         </div>
       </div>
@@ -187,10 +179,10 @@ export default function SessionPage() {
         {/* Sound guide, server-rendered for answer engines */}
         <section className="mt-16">
           <h2 className="display-sm">
-            Which layer masks what?
+            Which sound masks what?
           </h2>
           <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
-            Match the layer to the disturbance, not the other way round. The
+            Match the sound to the disturbance, not the other way round. The
             wrong colour at high volume is worse than the right colour played
             quietly.
           </p>
@@ -198,18 +190,7 @@ export default function SessionPage() {
             {SOUND_GUIDE.map((s, i) => (
               <Reveal key={s.name} delay={i * 60}>
                 <div className="card-surface h-full p-6">
-                  <div className="flex items-start justify-between">
-                    <s.icon className="h-7 w-7 text-sage" aria-hidden="true" />
-                    <span
-                      className={`rounded-full px-2.5 py-0.5 text-xs font-semibold ${
-                        s.tier === "Free"
-                          ? "bg-sage/15 text-sage-deep"
-                          : "bg-sand/15 text-sand-ink"
-                      }`}
-                    >
-                      {s.tier}
-                    </span>
-                  </div>
+                  <s.icon className="h-7 w-7 text-sage" aria-hidden="true" />
                   <h3 className="mt-3 font-display text-lg font-semibold">{s.name}</h3>
                   <p className="mt-1 text-sm leading-relaxed text-ink-muted">{s.use}</p>
                 </div>

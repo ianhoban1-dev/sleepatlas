@@ -142,11 +142,9 @@ export default function Header() {
             <Link href="/session/" className="btn-primary btn-lg w-full" onClick={() => setOpen(false)}>
               Try Sleyp free
             </Link>
-            {user?.plan !== "premium" && (
-              <Link href="/pricing/" className="btn-secondary btn-lg w-full" onClick={() => setOpen(false)}>
-                Go Premium
-              </Link>
-            )}
+            <Link href="/#app" className="btn-secondary btn-lg w-full" onClick={() => setOpen(false)}>
+              The Sleyp app
+            </Link>
           </div>
         </nav>
       )}

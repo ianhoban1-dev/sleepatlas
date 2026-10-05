@@ -16,14 +16,14 @@ import { FOUNDER } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Sleyp | Your Sleep Environment: Personalised Sleep Sounds",
   description:
-    "Sleyp builds a personalised sleep environment around the room you actually sleep in. White, pink and brown noise for sleep, a sleep sound mixer with thirteen layers generated live in your browser, and tools built on forty years of shift work.",
+    "Sleyp is a sleep sound app for people whose sleep is hard-won. Try free sounds in your browser today, with the iOS app coming soon, plus shift-work tools built on forty years of experience.",
 };
 
 const HOME_FAQS = [
   {
     question: "What is Sleyp?",
     answer:
-      "Sleyp is a sound and sleep-environment tool for people whose sleep is hard-won. It generates thirteen layered sounds live in your browser, mixes them into a personal soundscape tuned to your room, and fades out on a timer instead of stopping dead. Alongside it sit calculators and trackers built for rotating and night rotas.",
+      "Sleyp helps you sleep against the noise. Mix sounds like brown noise, rain and ocean waves, set a timer that fades out, and save the mixes that work for your room. You can try it free in your browser today, and the Sleyp iOS app is coming soon. Alongside it sit calculators and trackers built for rotating and night rotas.",
   },
   {
     question: "Who is Sleyp for?",
@@ -33,20 +33,25 @@ const HOME_FAQS = [
   {
     question: "Is Sleyp free?",
     answer:
-      "White, pink and brown noise, the basic timer, every calculator and the whole resource hub are free and stay free. Premium adds ten more sound layers, personal saved mixes, a custom timer with a wake-up fade-in, saved tracking data and historical Sleyp Score reporting.",
+      "Yes. The browser version, every calculator and the whole resource hub are free. The Sleyp iOS app is coming soon with 22 free library sounds and saved mixes without an account. Sleyp Plus adds AI mix generation and Discovery.",
   },
   {
     question: "Is there a Sleyp app?",
     answer:
-      "The Sleyp iOS app is coming soon to the App Store for the full Sleyp experience on your phone. The web version stays free to try in your browser today, with the same sound mixer, sleep timer, calculators and resources.",
+      "The Sleyp iOS app is coming soon to the App Store, with 22 free library sounds, saved mixes without an account, and Sleyp Plus for AI mix generation and Discovery. Until then, you can try Sleyp free in your browser.",
+  },
+  {
+    question: "Are the browser sounds the same as the app's?",
+    answer:
+      "No. The browser version has 13 sounds generated live in your browser. The app has its own library of 22 sounds. The app's sounds don't play on the website, and sounds with similar names are not identical.",
   },
 ];
 
 const PRINCIPLES = [
   {
     n: "13",
-    title: "Layers, generated live",
-    body: "Brown, pink and white noise through to rain, ocean, forest and campfire, synthesised in your browser. No loops, no audible seams.",
+    title: "Sounds to mix",
+    body: "Brown, pink and white noise through to rain, ocean, forest and campfire, mixed live in your browser. Free, with nothing to download.",
   },
   {
     n: "0",
@@ -54,17 +59,17 @@ const PRINCIPLES = [
     body: "The timer fades out rather than cutting to silence, so the end of the sound never becomes the thing that wakes you.",
   },
   {
-    n: "3",
-    title: "Questions to tune it",
-    body: "Premium builds a blend around your street from three quick questions: tuned to the traffic and the neighbours, not a stock recording of a spa.",
+    n: "22",
+    title: "Free sounds in the app",
+    body: "The Sleyp iOS app is coming soon with 22 free library sounds and saved mixes, even without an account.",
   },
 ];
 
 const SESSION_POINTS = [
-  "White, pink and brown noise, free for good",
-  "Ten more layers: rain, thunder, ocean, forest, stream, wind, campfire, crickets, cabin hum, fan",
-  "Save personal mixes and come back to them after every shift",
-  "Custom timer with a wake-up fade-in that lifts rather than jolts",
+  "Brown, pink and white noise, plus rain, ocean, forest, campfire and more",
+  "A slider for each of the 13 sounds, so you set the mix",
+  "Save mixes in this browser and bring them back after every shift",
+  "A sleep timer that fades out, with an optional wake-up chime",
 ];
 
 export default function HomePage() {
@@ -105,7 +110,7 @@ export default function HomePage() {
               </Link>
             </div>
             <ul className="mt-10 flex flex-wrap gap-x-6 gap-y-2 text-sm text-ink-faint">
-              {["Free in your browser", "Core sounds free forever", "Thirteen live layers"].map((t) => (
+              {["Free in your browser", "Nothing to download", "iOS app coming soon"].map((t) => (
                 <li key={t} className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-sage" aria-hidden="true" />
                   {t}
@@ -160,17 +165,17 @@ export default function HomePage() {
         <WaveLines tone="cream" className="opacity-100" />
         <div className="shell section-y grid items-center gap-14 lg:grid-cols-2">
           <Reveal>
-            <p className="eyebrow eyebrow-rule">The session</p>
+            <p className="eyebrow eyebrow-rule">Try sounds</p>
             <h2 className="display-lg mt-5">
               Build the room around <em>the sleep.</em>
             </h2>
             <p className="lede mt-6 max-w-lg">
-              Mix thirteen sounds, save the mix, and set a timer that fades
-              out rather than stopping dead. Premium adds a blend tuned to
-              your street by three quick questions.
+              Mix 13 sounds, save the mix, and set a timer that fades
+              out rather than stopping dead. Free in your browser, with
+              nothing to download.
             </p>
             <Link href="/session/" className="btn-light btn-lg mt-9">
-              Start a session
+              Try sounds
               <ArrowRight className="arrow" aria-hidden="true" />
             </Link>
           </Reveal>
@@ -299,9 +304,10 @@ export default function HomePage() {
               <p className="eyebrow eyebrow-rule">The app</p>
               <h2 className="display-sm mt-5">Take Sleyp with you</h2>
               <p className="mt-4 max-w-md leading-relaxed text-deep-haze">
-                Try Sleyp free in your browser today. The Sleyp iOS app is the
-                full Sleyp experience, made for the night: your environment,
-                your mix, ready on your phone.
+                The Sleyp iOS app is coming soon with 22 free library sounds
+                and saved mixes, even without an account. Sleyp Plus adds AI
+                mix generation and Discovery. Try Sleyp free in your browser
+                while you wait.
               </p>
               <div className="mt-auto flex flex-wrap items-center gap-4 pt-8">
                 <Link href="/session/" className="btn-light btn-lg">
@@ -341,8 +347,8 @@ export default function HomePage() {
             Your sleep. Your sound. <em>Your mix.</em>
           </h2>
           <p className="lede mx-auto mt-6 max-w-xl">
-            Free in your browser, tonight. No hardware, no subscription to
-            start.
+            Free in your browser, tonight. Nothing to download, no account
+            needed.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-3">
             <Link href="/session/" className="btn-light btn-lg">
@@ -350,7 +356,7 @@ export default function HomePage() {
               <ArrowRight className="arrow" aria-hidden="true" />
             </Link>
             <Link href="/pricing/" className="btn-ghost-light btn-lg">
-              See pricing
+              What&apos;s in the app
             </Link>
           </div>
         </div>

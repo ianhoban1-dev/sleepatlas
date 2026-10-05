@@ -142,8 +142,7 @@ export default function SleepDebtLogger() {
       </div>
 
       <p className="mt-4 text-xs text-ink-faint">
-        Premium members can save rolling blocks and see historical fatigue
-        trends. Data currently stays in your browser.
+        Your data stays in this browser.
       </p>
     </div>
   );
