@@ -45,6 +45,260 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "noise-cancelling-for-sleep",
+    "title": "Noise Cancelling for Sleep: Sleep Buds vs Earplugs vs Masking",
+    "description": "Does noise cancelling help you sleep? How sleep buds, earplugs and noise masking compare for traffic, voices and drilling, and the best setup for day sleepers.",
+    "category": "Noise & Disturbance Defence",
+    "categorySlug": "noise-disturbance-defence",
+    "datePublished": "2026-10-08",
+    "readMinutes": 7,
+    "quickAnswer": "Noise cancelling helps you sleep against steady, low sounds such as traffic hum, but it does little against sudden noises like a dog barking or a neighbour's drill. For daytime sleep after a night shift, the setup that works best for most people is layered: passive blocking (earplugs or sleep buds) plus a steady masking sound.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I worked shifts for 40 years: The King's Regiment from 1986 to 1989, Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, then Budweiser UK. In all that time, the noise that kept me awake was never the steady stuff. It was the sudden stuff. Getting into bed as everyone else is leaving the house for school and work is great, until the neighbour decides to renovate and starts drilling."
+      },
+      {
+        "type": "p",
+        "text": "Imagine people on day shifts getting into bed at 11pm and the next-door neighbour suddenly starting to mow the lawn or drill into the wall. For night shift workers, this is what we deal with every week, but until you've worked nights, you will never fully appreciate the pain."
+      },
+      {
+        "type": "p",
+        "text": "That is exactly where people expect noise cancelling to save them, and exactly where it falls short. Here is how the three options really compare, and how to put them together."
+      },
+      {
+        "type": "h2",
+        "text": "What is the difference between noise cancelling and noise masking?"
+      },
+      {
+        "type": "p",
+        "text": "They solve the same problem in opposite ways. One takes sound away. The other adds sound so the noise you care about stands out less."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Active noise cancelling (ANC)** uses microphones to pick up outside sound and plays an opposite sound wave to cancel it. Bose says ANC [works best for steady low-frequency sounds, like the hum of an air conditioner or passing traffic](https://www.bose.com/stories/what-is-active-noise-cancellation), and is less effective against sudden, sharp noise.",
+          "**Passive blocking** is a physical seal: foam, silicone or wax earplugs, or the tips on sleep buds. It works across all frequencies, but nothing seals perfectly, so some sound gets through.",
+          "**Noise masking** plays a steady sound, such as brown noise, rain or fan hum, so that sudden noises stand out less against it. It does not remove anything. It makes the change in sound smaller, and it is the change that wakes you."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you want to understand the masking sounds themselves, my guide to [brown noise for sleep](/resources/brown-noise-for-sleep/) compares brown, white, pink and green noise."
+      },
+      {
+        "type": "h2",
+        "text": "What does each one block: traffic, voices or drilling?"
+      },
+      {
+        "type": "p",
+        "text": "This is the comparison that matters for day sleepers. It is a practical guide, not a lab measurement. Results depend on fit, the device and how loud the noise is."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Daytime noise",
+          "Noise cancelling (ANC)",
+          "Earplugs / sleep bud tips",
+          "Masking sound",
+          "Best combination"
+        ],
+        "rows": [
+          [
+            "Traffic hum, a distant main road",
+            "Good",
+            "Good",
+            "Good",
+            "Any one of the three"
+          ],
+          [
+            "Bin lorry, buses, delivery vans",
+            "Fair",
+            "Good",
+            "Good",
+            "Earplugs + masking"
+          ],
+          [
+            "Voices, kids playing out",
+            "Weak",
+            "Fair",
+            "Good",
+            "Earplugs + masking"
+          ],
+          [
+            "Dog barking, car horns, doors slamming",
+            "Weak",
+            "Fair",
+            "Fair",
+            "Earplugs + masking, louder room setting"
+          ],
+          [
+            "Drilling, hammering, lawnmowers",
+            "Weak",
+            "Fair",
+            "Fair",
+            "Earplugs + masking, plus a word with the neighbour"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The pattern is simple. ANC is strongest where you need it least. The sounds that really wreck daytime sleep are sudden and irregular, and those need a seal plus a steady sound behind them."
+      },
+      {
+        "type": "p",
+        "text": "It is worth knowing the target. The [WHO recommends less than 30 dB(A) in bedrooms at night](https://www.who.int/europe/news-room/fact-sheets/item/noise) for good-quality sleep, and it names shift workers as being at increased risk because their sleep is already under stress. A suburban street at 10am is nowhere near 30 dB. Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep."
+      },
+      {
+        "type": "h2",
+        "text": "Can you sleep with noise cancelling headphones?"
+      },
+      {
+        "type": "p",
+        "text": "You can, but over-ear headphones are a poor fit for sleep. They press on your ear when you lie on your side, they get hot, and they slip off. Most people who try them end up on their back and still wake up when the headphones move."
+      },
+      {
+        "type": "p",
+        "text": "In-ear ANC earbuds are better, but standard models stick out of the ear. Lying on one for seven hours is uncomfortable, and the battery may not last a full day sleep with ANC on."
+      },
+      {
+        "type": "h2",
+        "text": "Are sleep buds worth it for side sleepers?"
+      },
+      {
+        "type": "p",
+        "text": "Sleep buds are small, low-profile earbuds designed to be worn in bed. Most play masking sounds, and some add noise cancelling. They suit side sleepers far better than normal earbuds."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Sleep buds",
+          "Pros",
+          "Cons"
+        ],
+        "rows": [
+          [
+            "Fit",
+            "Low profile; made for lying on your side",
+            "Fit varies; a poor seal lets drilling through"
+          ],
+          [
+            "Sound",
+            "Masking sound right at your ear",
+            "Library of sounds may be limited or locked to an app"
+          ],
+          [
+            "Noise cancelling",
+            "Takes the edge off steady traffic hum",
+            "Little help against sudden noise, same as any ANC"
+          ],
+          [
+            "Practical",
+            "No speaker to disturb a partner",
+            "Battery must last a full day sleep; costs far more than earplugs"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "My honest take: sleep buds are a good tool if you can afford them and they fit. But a decent pair of earplugs and a speaker playing a masking sound does most of the same job for a fraction of the price."
+      },
+      {
+        "type": "h2",
+        "text": "What is the layered approach for daytime sleep?"
+      },
+      {
+        "type": "p",
+        "text": "No single option handles everything a daytime street throws at you. Layering does. This is the order I would set it up in."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Seal first.** Fit earplugs properly, or sleep buds with the right size tips. A poor fit loses most of the benefit. My guide to [sleeping with earplugs](/resources/earplugs-for-sleeping/) covers fit and which types block the most.",
+          "**Add a steady masking sound.** Brown noise or heavy rain works well against low rumbles like traffic and lorries. Play it from a speaker near the bed, or through sleep buds if you use them.",
+          "**Set the level once, then leave it.** The masking sound should be just loud enough that the normal street sounds fade. If you can still hear voices clearly, nudge it up a little. Keep it comfortable, not loud.",
+          "**Use a long timer, or none.** A day sleep runs seven or eight hours. A 30-minute timer that cuts out at 10am, just as the neighbour starts the mower, defeats the point.",
+          "**Deal with the source where you can.** HSE's advice to shift workers includes telling neighbours your sleep times. A friendly word about the drilling can do more than any device. My guide to [noisy neighbours when you sleep in the day](/resources/noisy-neighbours-daytime-sleep/) covers your options in the UK."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Then there is the lawnmower problem: getting into bed after a night shift and the neighbours decide to mow their lawns. ANC will not touch that. Earplugs plus a steady sound will take the edge off enough to stay asleep."
+      },
+      {
+        "type": "p",
+        "text": "After a night shift at Budweiser, earplugs and noise masking worked for me when the outside noise was loud, but noise cancelling headphones would have been a great alternative."
+      },
+      {
+        "type": "h2",
+        "text": "Is noise masking better than noise cancelling?"
+      },
+      {
+        "type": "p",
+        "text": "For daytime sleep, masking is usually more useful, because the noises that wake day sleepers are sudden and irregular. But the honest answer is that the science on masking is thin. A 2021 systematic review of 38 studies in Sleep Medicine Reviews found [the quality of evidence for continuous noise improving sleep was very low](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283)."
+      },
+      {
+        "type": "p",
+        "text": "That does not mean it does not work for you. It means the studies are small and mixed, and most were done on people sleeping at night, not at 9am on a busy street. I treat masking as a practical tool for covering disturbances, not a cure for poor sleep. Your own experience over a week of day sleeps is the test that counts."
+      },
+      {
+        "type": "p",
+        "text": "For me personally, a good noise masking mix is my go-to option these days, especially after a night shift when your brain just won't switch off."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Noise cancelling is good at the noise that bothers day sleepers least. For the drill, the mower and the kids playing out, you need a seal and a steady sound behind it. You do not need to buy new hardware to get the masking half: Sleyp plays brown noise, rain and fan hum in your browser, built for people who sleep while everyone else is up."
+      },
+      {
+        "type": "p",
+        "text": "[Try Sleyp free](/session/), then get the Sleyp app for timers and saved mixes. Not sure how loud your street is? Try the [Noise Calibration Tool](/tools/noise-calibration-tool/)."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise) (bedrooms under 30 dB(A) at night; shift workers at increased risk)",
+          "[Riedy et al. (2021), Noise as a sleep aid: a systematic review, Sleep Medicine Reviews](https://www.sciencedirect.com/science/article/abs/pii/S1087079220301283) (38 studies; very low quality evidence for continuous noise)",
+          "[Bose: What is active noise cancellation?](https://www.bose.com/stories/what-is-active-noise-cancellation) (ANC best on steady low-frequency sound; less effective on sudden, sharp noise)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) (telling neighbours your sleep times)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can you sleep with noise cancelling headphones?",
+        "answer": "Yes, but over-ear headphones are uncomfortable on your side and often slip off. Low-profile sleep buds or earplugs with a masking sound are more practical for a seven or eight hour day sleep."
+      },
+      {
+        "question": "Is noise masking better than noise cancelling?",
+        "answer": "For daytime sleep, usually yes. Noise cancelling works best on steady low sounds like traffic hum. Masking helps with sudden sounds like voices and barking by making the change in sound smaller. Combining both with earplugs works best."
+      },
+      {
+        "question": "Do sleep buds work for daytime sleep?",
+        "answer": "They can, especially for side sleepers, because they combine a seal with masking sound at your ear. Check the battery lasts a full day sleep, and expect them to soften, not remove, drilling and mowers."
+      },
+      {
+        "question": "Does noise cancelling block drilling?",
+        "answer": "Not much. Drilling and hammering are sudden, sharp sounds, which ANC handles poorly. Earplugs plus a steady masking sound, and a word with the neighbour, are more effective."
+      },
+      {
+        "question": "Can I just use earplugs on their own?",
+        "answer": "On a quiet day, often yes. On a noisy day, sudden sounds still get through, so adding a steady masking sound in the background gives you a second layer."
+      },
+      {
+        "question": "How loud should a masking sound be for sleeping?",
+        "answer": "Just loud enough that normal street sounds fade into it, and no louder. Keep it at a comfortable level you could talk over. The WHO's bedroom target is under 30 dB(A), so the aim is to cover noise, not to add a lot more."
+      }
+    ]
+  },
+  {
     "slug": "noisy-neighbours-daytime-sleep",
     "title": "Noisy Neighbours When You Sleep in the Day: Your Options in the UK",
     "description": "Neighbour noise while you sleep after nights? What UK law says about daytime noise, talking to neighbours, cheap soundproofing and when to call the council.",
@@ -216,7 +470,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Two habits make masking work. Start the sound as you get into bed, not once the noise begins, so the first van door doesn't catch you out. And keep it at a steady, moderate level from a speaker. It only needs to blur the background, not drown it. If you're weighing up sleep buds or noise-cancelling headphones instead, that's coming in the Noise Cancelling for Sleep guide."
+        "text": "Two habits make masking work. Start the sound as you get into bed, not once the noise begins, so the first van door doesn't catch you out. And keep it at a steady, moderate level from a speaker. It only needs to blur the background, not drown it. If you're weighing up sleep buds or noise-cancelling headphones instead, see my guide to [noise cancelling for sleep](/resources/noise-cancelling-for-sleep/)."
       },
       {
         "type": "h2",
