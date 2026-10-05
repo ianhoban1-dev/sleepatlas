@@ -1413,7 +1413,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Want the sound without the draught? [Try Sleyp free](/session/) in your browser and layer fan hum with brown noise or rain, then **get the Sleyp app** for timers, saved mixes and the premium fan-hum layer."
+        "text": "Want the sound without the draught? [Try Sleyp free](/session/) in your browser and layer fan hum with brown noise or rain. The Sleyp iOS app is coming soon with 22 free library sounds, including Desk Fan."
       },
       {
         "type": "h3",
