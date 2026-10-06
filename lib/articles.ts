@@ -153,7 +153,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Before I built Sleyp, I tried quite a few noise masking apps, but found them to be overly complicated to use, especially after a night shift. I'm tired and just need a simple app. That's why Sleyp has just one button to press, and your saved personalised mix is playing with a countdown timer. I built Sleyp after reading the bad reviews and listening to what shift workers actually wanted, so they can now benefit from simplicity."
+        "text": "Before I built Sleyp, I tried quite a few noise masking apps, but found them to be overly complicated to use, especially after a night shift. I'm tired and just need a simple app. That's why the Sleyp iOS app, which is coming soon, has just one button to press, and your saved personalised mix is playing with a countdown timer. I built Sleyp after reading the bad reviews and listening to what shift workers actually wanted, so they can now benefit from simplicity."
       },
       {
         "type": "h2",
