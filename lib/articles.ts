@@ -255,7 +255,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "[Try Sleyp free](/session/), then get the Sleyp app for timers and saved mixes. Not sure how loud your street is? Try the [Noise Calibration Tool](/tools/noise-calibration-tool/)."
+        "text": "[Try Sleyp free](/session/): the timer and saved mixes are free there too, and the Sleyp iOS app is coming soon. Not sure how loud your street is? Try the [Noise Calibration Tool](/tools/noise-calibration-tool/)."
       },
       {
         "type": "h3",
@@ -516,7 +516,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Drilling at 10am? [Try Sleyp free](/session/): start a brown noise mix at the right level as you get into bed. Then get the Sleyp app for timers and saved mixes."
+        "text": "Drilling at 10am? [Try Sleyp free](/session/): start a brown noise mix at the right level as you get into bed. The timer and saved mixes are free there too, and the Sleyp iOS app is coming soon."
       },
       {
         "type": "h3",
@@ -816,7 +816,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "[Try Sleyp free](/session/): play brown noise in your browser while you wear your earplugs, then get the Sleyp app for timers and saved mixes."
+        "text": "[Try Sleyp free](/session/): play brown noise in your browser while you wear your earplugs. The timer and saved mixes are free there too, and the Sleyp iOS app is coming soon."
       },
       {
         "type": "p",
@@ -1168,7 +1168,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "[Try Sleyp free](/session/) in your browser: start a brown, pink or fan-hum mix as you get into bed tonight. Then **get the Sleyp app** for timers and saved mixes."
+        "text": "[Try Sleyp free](/session/) in your browser: start a brown, pink or fan-hum mix as you get into bed tonight. The timer and saved mixes are free there too, and the Sleyp iOS app is coming soon."
       },
       {
         "type": "h3",
@@ -1523,7 +1523,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Red noise and brown noise are the same thing: a deep, steady rumble with the low tones loudest. The science on it as a sleep aid is thin, but as a masking sound it's well matched to the deep noises that wreck daytime sleep. Keep it low, run it for your whole sleep, and blend in something lighter if it feels too heavy." },
       { type: "p",
-        text: "[Try Sleyp free](/session/) and play the deep rumble (brown/red) sound in your browser, then **get the Sleyp app** for timers and saved mixes." },
+        text: "[Try Sleyp free](/session/) and play the deep rumble (brown/red) sound in your browser. The timer and saved mixes are free there too, and the Sleyp iOS app is coming soon." },
       { type: "p",
         text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
       { type: "h3",
@@ -1641,7 +1641,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Green noise is a softer, mid-range sound with a natural feel. The research on it is almost non-existent, but as a masking sound it can take the edge off daytime noise if white feels too sharp or brown too heavy. Keep the volume low and blend in brown noise if deep rumble still gets through." },
       { type: "p",
-        text: "Try Sleyp free and play the colours back to back in your browser, then **get the Sleyp app** to save the mix that works. Green noise will be coming soon to Sleyp, so don't forget to try it in your mix soon." },
+        text: "Try Sleyp free and play the colours back to back in your browser, then save the mix that works. Saved mixes are free there, and the Sleyp iOS app is also coming soon. Green noise will be coming soon to Sleyp, so don't forget to try it in your mix soon." },
       { type: "p",
         text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
       { type: "h3",
@@ -1774,7 +1774,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Rain sounds work because they're steady, calming and good at hiding the sudden noises that wake day sleepers. The research on natural sounds is promising but small, so treat rain as one layer of your defence alongside a dark room, earplugs and sensible caffeine timing. For a noisy daytime street, rain over brown noise is a strong place to start." },
       { type: "p",
-        text: "Try Sleyp free and layer rain and brown noise into your own mix in your browser, or **get the Sleyp app** when it lands on the App Store." },
+        text: "Try Sleyp free and layer rain and brown noise into your own mix in your browser. The Sleyp iOS app is coming soon." },
       { type: "p",
         text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
       { type: "h3",
@@ -1897,7 +1897,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Pink noise is a softer, more natural-sounding alternative to white noise, and it's a good fit for lighter daytime noise. The headline studies were real, but they tested precisely timed bursts in a lab, not an all-night track. As one layer of your defence, alongside a dark room, earplugs and sensible caffeine timing, it can help you sleep through a noisy morning." },
       { type: "p",
-        text: "[Try Sleyp free](/session/) and compare pink and brown noise side by side in your browser, or **get the Sleyp app** when it lands on the App Store." },
+        text: "[Try Sleyp free](/session/) and compare pink and brown noise side by side in your browser. The Sleyp iOS app is coming soon." },
       { type: "p",
         text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
       { type: "h3",
@@ -2125,7 +2125,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Sleyp is the sleep-environment app I built because nothing on the market was designed for people who sleep while the world is awake. You can [play brown, pink and white noise free in your browser](/session/). No sign-up is needed."
+        "text": "Sleyp is the free sleep-sounds player I built because nothing on the market was designed for people who sleep while the world is awake. You can [play brown, pink and white noise free in your browser](/session/). No sign-up is needed, and the Sleyp iOS app is coming soon."
       },
       {
         "type": "p",
@@ -2145,7 +2145,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "[Try Sleyp free](/session/) in your browser now, or **get the Sleyp app** when it lands on the App Store."
+        "text": "[Try Sleyp free](/session/) in your browser now. The Sleyp iOS app is coming soon."
       },
       {
         "type": "h2",
