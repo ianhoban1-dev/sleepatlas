@@ -45,6 +45,270 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "white-noise-app-for-day-sleepers",
+    "title": "Best White Noise App for Day Sleepers (Free Options Compared)",
+    "description": "Need a white noise app for daytime sleep? What night workers need from a noise app, free options compared, and how to set one up for a 9am bedtime.",
+    "category": "Noise & Disturbance Defence",
+    "categorySlug": "noise-disturbance-defence",
+    "datePublished": "2026-10-09",
+    "readMinutes": 9,
+    "quickAnswer": "The best white noise app for daytime sleep gives you brown and pink noise as well as white, a long or unlimited timer, layers you can mix, and no ads breaking the sound. Night workers should also look for a gentle fade-in wake-up, so you don't jolt awake before your next shift.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Getting into bed when everyone else is leaving for school and work sounds ideal. Then next door starts drilling. I've slept through the day for most of 40 years, from The King's Regiment (1986-1989) to Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, and Budweiser UK. Most noise apps are built for a quiet bedroom at 11pm. This guide is about the one that has to work at 10am."
+      },
+      {
+        "type": "h2",
+        "text": "What does a day sleeper need from a white noise app?"
+      },
+      {
+        "type": "p",
+        "text": "A day sleeper needs an app that covers the loudest daytime noises, runs for a full 7-8 hour sleep and never interrupts itself. The World Health Organization says bedrooms should be [under 30 dB(A) at night for good-quality sleep](https://www.who.int/europe/news-room/fact-sheets/item/noise), and names shift workers as a group at increased risk from noise. Daytime streets are rarely that quiet."
+      },
+      {
+        "type": "p",
+        "text": "Use this checklist before you download anything:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Brown and pink noise, not just white.** Brown noise is deep and covers traffic, engines and the rumble of a mower. Pink noise sits in the middle and covers voices. White noise is bright and hissy; it suits high-pitched sounds but tires some ears over a long sleep. See our guide to [brown noise for sleep](/resources/brown-noise-for-sleep/) for how the colours compare.",
+          "**A long or custom timer.** A 30-minute timer is built for falling asleep at night. After a night shift you need cover for the whole sleep, because the bin lorry comes at 11am, not at 9.",
+          "**A fade-out, not a hard stop.** Sound that cuts out suddenly can wake you as surely as a door slamming.",
+          "**Mixable layers.** One sound rarely covers everything. A brown base with rain on top handles both the road and the kids playing out.",
+          "**No ads in the audio.** An advert that breaks into your sound at noon defeats the point.",
+          "**Works offline.** Patchy signal or a dead Wi-Fi router shouldn't end your sleep.",
+          "**A fade-in wake-up.** Waking at 4pm to a blaring alarm before a night shift is a rough start. A sound that rises slowly is kinder."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. That's why points 1 and 4 matter most."
+      },
+      {
+        "type": "h2",
+        "text": "How do the best-known white noise apps compare?"
+      },
+      {
+        "type": "p",
+        "text": "The table below compares features only, taken from each app's own store listing or help pages in October 2026. Prices and features change, so check the listing before you subscribe."
+      },
+      {
+        "type": "table",
+        "head": [
+          "App",
+          "Cost model",
+          "Noise colours",
+          "Mixing",
+          "Timer and wake-up",
+          "Worth knowing"
+        ],
+        "rows": [
+          [
+            "Sleyp",
+            "Free in the browser; iOS app coming soon; Sleyp Plus subscription (prices not confirmed yet)",
+            "13 sounds in the browser, all free, including white, pink and brown noise, rain and fan hum",
+            "Layered mixes and a blend questionnaire; guests can save mixes in this browser, free",
+            "Free custom timer and wake-up chime. Keep the page open for them to run",
+            "No download needed. No offline mode or locked-screen playback. The iOS app is coming soon with 22 free library sounds, a different library from the browser's 13"
+          ],
+          [
+            "[Apple Background Sounds](https://support.apple.com/guide/iphone/background-sounds-iphb2cfa052c/15.0/ios/15.0)",
+            "Free, built into iPhone",
+            "[Balanced, bright and dark noise, plus ocean, rain and stream](https://9to5mac.com/2021/05/19/apple-announces-ios-iphone-background-sounds/)",
+            "No",
+            "Check your iOS version",
+            "No download; a good free starting point for iPhone users"
+          ],
+          [
+            "[myNoise](https://mynoise.net/appGuide.php)",
+            "Free app with in-app purchases; free web generators",
+            "[White, pink, brown and grey](https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php) on the White Noise & Co generator",
+            "10 sliders per generator",
+            "Built-in timer",
+            "Calibration to your own hearing; works without the internet"
+          ],
+          [
+            "[White Noise Lite (TMSOFT)](https://apps.apple.com/gb/app/white-noise-lite/id292987597)",
+            "Free with ads; paid upgrade removes them",
+            "White, pink and brown among 50+ sounds",
+            "Mix Pad editor",
+            "Timer that fades in and out; fade-in alarms",
+            "Visual ads in the free version"
+          ],
+          [
+            "[BetterSleep](https://apps.apple.com/gb/app/bettersleep-relax-and-sleep/id314498713)",
+            "Free with in-app purchases; Premium subscription",
+            "White noise among 300+ sounds and music tracks",
+            "[Up to 15 sounds, 1 music track and 1 brainwave](https://www.bettersleep.com/support/en/articles/11101160-bettersleep-getting-started-guide)",
+            "Timers; smart alarm in a wake-up window",
+            "Also includes sleep tracking, stories and meditations"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "All five are solid apps. The difference is who they were built for. Most are designed around a night-time bedtime. I built Sleyp because after 40 years of sleeping through the day, I couldn't find one designed for it: brown noise up front for traffic and drilling, a custom timer long enough for a full day sleep, and a wake-up chime."
+      },
+      {
+        "type": "p",
+        "text": "Before I built Sleyp, I tried quite a few noise masking apps, but found them to be overly complicated to use, especially after a night shift. I'm tired and just need a simple app. That's why Sleyp has just one button to press, and your saved personalised mix is playing with a countdown timer. I built Sleyp after reading the bad reviews and listening to what shift workers actually wanted, so they can now benefit from simplicity."
+      },
+      {
+        "type": "h2",
+        "text": "Free vs paid apps: what do you usually get?"
+      },
+      {
+        "type": "p",
+        "text": "Free apps cover the basics well. A paid tier mostly buys you time, layers and peace from adverts."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Feature",
+          "Usually free",
+          "Usually paid"
+        ],
+        "rows": [
+          [
+            "Noise colours",
+            "White, often pink and brown",
+            "Nature layers, fan hum, extra textures"
+          ],
+          [
+            "Timer",
+            "Short presets (30-90 minutes)",
+            "Custom lengths for a full sleep"
+          ],
+          [
+            "Mixing",
+            "One sound at a time, or limited",
+            "Several layers, saved mixes"
+          ],
+          [
+            "Ads",
+            "Sometimes shown",
+            "Removed"
+          ],
+          [
+            "Wake-up",
+            "Basic alarm, if any",
+            "Fade-in or smart alarms"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**Start free.** If plain brown noise covers your street, you may never need to pay for an app. **Enjoy the free player with no sign up, no ads and just a simple app that very tired people can use easily.**"
+      },
+      {
+        "type": "p",
+        "text": "**Switch when your app's timer runs out before you wake.** That's the usual sign. If a 90-minute timer stops at 10:30am and the mowers start at 11, look for an app with a custom timer. Sleyp's is free in the browser. Lawnmower season is when I'd notice it most: in bed after nights and the neighbours decide to mow their lawns."
+      },
+      {
+        "type": "p",
+        "text": "Be honest with yourself about the evidence too. A [2021 systematic review of 38 studies](https://www.em-consulte.com/article/1421191/article/noise-as-a-sleep-aid-a-systematic-review) rated the quality of evidence that continuous noise improves sleep as very low, and called for more research. Noise apps don't put you to sleep. What they do is cover sudden sounds, so a car door or a dog bark is less likely to wake you. For a day sleeper, that's the job."
+      },
+      {
+        "type": "h2",
+        "text": "What's free with Sleyp?"
+      },
+      {
+        "type": "p",
+        "text": "The Sleyp [website player](/session/) has 13 sounds, all free. The custom timer, wake-up chime and blend questionnaire are free too, and guests can save mixes in this browser. Keep the page open so the timer and chime can run. There is no offline mode and no locked-screen playback."
+      },
+      {
+        "type": "p",
+        "text": "The Sleyp iOS app is coming soon, with 22 free library sounds and saved mixes for guests. Its sound library differs from the browser's 13, so don't expect them to match."
+      },
+      {
+        "type": "p",
+        "text": "Sleyp Plus is the subscription. It adds AI mix generation and Discovery, while individual sounds and saved mixes stay free. Plus prices aren't confirmed yet, so I won't quote one. See [the Sleyp app page](/pricing/) for what Free and Plus include."
+      },
+      {
+        "type": "h2",
+        "text": "How do you set up a noise app for a 9am bedtime?"
+      },
+      {
+        "type": "p",
+        "text": "Here's the routine I'd use for a 9am bedtime after a night shift:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**On the drive or bus home, choose your mix.** Don't scroll for sounds in bed with the screen in your face.",
+          "**8:45am: phone on Do Not Disturb**, with your alarm and important contacts allowed through.",
+          "**Pick the base colour by your biggest noise.** Traffic or building work: brown. Voices, TV through the wall: pink. Rain over the top if you like it.",
+          "**Set the volume as low as still does the job.** It should blur the street, not drown it. The 2021 review flagged possible effects on hearing, so don't crank it up. A speaker across the room is kinder than earbuds for a long sleep.",
+          "**Set the timer for your whole sleep.** For a 9am bedtime and a 4pm alarm, that's 7 hours. Use a fade-out so the sound doesn't stop dead.",
+          "**Set a fade-in wake-up** if your app has one, so you surface slowly before the next shift.",
+          "**Add earplugs on the worst days.** Earplugs cut the peaks; masking sound fills the gaps. Our guide to [sleeping with earplugs](/resources/earplugs-for-sleeping/) covers fit and SNR ratings."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you're weighing up sleep buds or noise-cancelling headphones as well, see [noise cancelling for sleep](/resources/noise-cancelling-for-sleep/). Darkness matters just as much as sound; our upcoming guide, How to Sleep During the Day After a Night Shift, will cover blinds, timing and the rest of the routine."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Pick an app that gives you brown noise, a timer that lasts your whole sleep, mixing and no adverts. Start free, and switch only when the timer runs out before you wake. Then pair it with earplugs and a dark room on the noisy days."
+      },
+      {
+        "type": "p",
+        "text": "[Try Sleyp free](/session/) in your browser, with no download. The custom timer, wake-up chime and saved mixes are free there. The Sleyp iOS app is coming soon. See [the Sleyp app page](/pricing/) for what Free and Plus include."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise)",
+          "[Riedy et al. (2021), Sleep Medicine Reviews: Noise as a sleep aid, a systematic review](https://www.em-consulte.com/article/1421191/article/noise-as-a-sleep-aid-a-systematic-review)",
+          "[Apple Support: Play background sounds on iPhone](https://support.apple.com/guide/iphone/background-sounds-iphb2cfa052c/15.0/ios/15.0)",
+          "[9to5Mac: Apple announces Background Sounds](https://9to5mac.com/2021/05/19/apple-announces-ios-iphone-background-sounds/)",
+          "[myNoise for iOS: app guide](https://mynoise.net/appGuide.php)",
+          "[myNoise: White Noise & Co generator](https://mynoise.net/NoiseMachines/whiteNoiseGenerator.php)",
+          "[White Noise Lite on the App Store (UK)](https://apps.apple.com/gb/app/white-noise-lite/id292987597)",
+          "[BetterSleep on the App Store (UK)](https://apps.apple.com/gb/app/bettersleep-relax-and-sleep/id314498713)",
+          "[BetterSleep: getting started guide](https://www.bettersleep.com/support/en/articles/11101160-bettersleep-getting-started-guide)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is there a free white noise app with no ads?",
+        "answer": "Yes. Apple's Background Sounds is built into iPhone and free. The myNoise web generators are free and ad-free, funded by donations. Sleyp's browser player is free too, with 13 sounds, a custom timer and a wake-up chime."
+      },
+      {
+        "question": "Which colour of noise is best for daytime sleep?",
+        "answer": "For most day sleepers, brown noise. Its deep rumble covers traffic, engines and drilling better than the hiss of white noise. Pink noise is a good second choice for voices. Try each for a few sleeps and keep what works."
+      },
+      {
+        "question": "Can I leave a white noise app on all day?",
+        "answer": "Yes, many people play sound for their whole sleep. Keep the volume as low as still masks the noise outside, use a speaker rather than earbuds where you can, and use a timer with a fade-out so it ends gently."
+      },
+      {
+        "question": "Do I need to pay for a white noise app?",
+        "answer": "Not always. If a free app with brown noise and a 90-minute timer gets you through, stay free. Sleyp's timers and saved mixes are free, and Sleyp Plus only adds AI mix generation and Discovery. Some other apps charge for longer timers, saved mixes or no adverts."
+      },
+      {
+        "question": "Should I use earbuds or a speaker for white noise?",
+        "answer": "A speaker across the room is usually more comfortable for a long day sleep, especially if you sleep on your side. Use sleep earbuds or earplugs when the noise is heavy, such as building work next door."
+      },
+      {
+        "question": "What's the best white noise app for night shift workers?",
+        "answer": "The one built around daytime noise: brown and pink noise, a timer that lasts your whole sleep, mixable layers and a gentle wake-up. Compare the table above against your own street and rota."
+      }
+    ]
+  },
+  {
     "slug": "noise-cancelling-for-sleep",
     "title": "Noise Cancelling for Sleep: Sleep Buds vs Earplugs vs Masking",
     "description": "Does noise cancelling help you sleep? How sleep buds, earplugs and noise masking compare for traffic, voices and drilling, and the best setup for day sleepers.",
@@ -251,7 +515,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Noise cancelling is good at the noise that bothers day sleepers least. For the drill, the mower and the kids playing out, you need a seal and a steady sound behind it. You do not need to buy new hardware to get the masking half: Sleyp plays brown noise, rain and fan hum in your browser, built for people who sleep while everyone else is up."
+        "text": "Noise cancelling is good at the noise that bothers day sleepers least. For the drill, the mower and the kids playing out, you need a seal and a steady sound behind it. You do not need to buy new hardware to get the masking half: Sleyp plays brown noise, rain and fan hum in your browser, built for people who sleep while everyone else is up. Comparing options? See the [best white noise app for day sleepers](/resources/white-noise-app-for-day-sleepers/)."
       },
       {
         "type": "p",
@@ -1164,7 +1428,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Earplugs are the first thing every day sleeper should own. Pick a type you can wear for a full sleep, fit them properly, and keep them clean. On the worst days, when the drill starts or the mowers come out, layer a steady masking sound underneath. Earplugs cut the peaks; Sleyp fills the gaps."
+        "text": "Earplugs are the first thing every day sleeper should own. Pick a type you can wear for a full sleep, fit them properly, and keep them clean. On the worst days, when the drill starts or the mowers come out, layer a steady masking sound underneath. Earplugs cut the peaks; Sleyp fills the gaps. Comparing apps? See the [best white noise app for day sleepers](/resources/white-noise-app-for-day-sleepers/)."
       },
       {
         "type": "p",
