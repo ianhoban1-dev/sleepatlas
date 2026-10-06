@@ -2125,7 +2125,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Sleyp is the free sleep-sounds player I built because nothing on the market was designed for people who sleep while the world is awake. You can [play brown, pink and white noise free in your browser](/session/). No sign-up is needed, and the Sleyp iOS app is coming soon."
+        "text": "Sleyp is the free sleep-sounds player I built from my own experience of trying to sleep while the world is awake. You can [play brown, pink and white noise free in your browser](/session/). No sign-up is needed, and the Sleyp iOS app is coming soon."
       },
       {
         "type": "p",
