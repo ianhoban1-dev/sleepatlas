@@ -45,6 +45,400 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "how-to-sleep-during-the-day",
+    "title": "How to Sleep During the Day After a Night Shift: The Complete Guide",
+    "description": "How to sleep during the day after a night shift: darkness, noise, temperature, caffeine and timing, from someone who worked nights for 40 years.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-10",
+    "readMinutes": 14,
+    "quickAnswer": "To sleep well during the day after a night shift, go to bed as soon as you get home, make the room fully dark, cool and quiet, block sudden noise with earplugs and a steady masking sound, stop caffeine at least six hours before bed, and protect a 7-8 hour sleep window every day.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I've worked shifts for 40 years: The King's Regiment from 1986 to 1989, Jacobs Biscuits, night shifts in HM Prison Service at Strangeways, Walton and Guys Marsh, and Budweiser UK. Getting into bed when everyone else is leaving the house for school and work sounds great. Then next door decides to renovate and starts drilling. This guide is everything I've learned about daytime sleep, checked against what the UK's Health and Safety Executive (HSE) advises."
+      },
+      {
+        "type": "p",
+        "text": "You're far from alone. [TUC analysis of ONS figures](https://www.tuc.org.uk/news/number-people-working-night-shifts-more-150000-5-years) found 3,138,000 people, 11.5% of employees in Britain, worked nights in 2018, up 151,000 since 2013. Most of us were never shown how to sleep in the day. We just worked it out, badly, over years."
+      },
+      {
+        "type": "h2",
+        "text": "How do you sleep during the day after a night shift? (The checklist)"
+      },
+      {
+        "type": "p",
+        "text": "Here is the whole routine in nine steps. Every section below explains one of them."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Wind down on the way home.** If you're a passenger or on public transport, sunglasses keep bright morning light off your eyes.",
+          "**Go to bed within an hour of getting home.** Don't start the washing, the emails or the TV.",
+          "**Make it dark.** HSE suggests heavy curtains, blackout blinds or eye shades.",
+          "**Make it quiet.** Earplugs for the peaks, a steady masking sound for the gaps, and a word with the neighbours about your work pattern.",
+          "**Keep it cool.** Aim for around 16-18C.",
+          "**Stop caffeine at least six hours before bed.** For an 8am bedtime, that means nothing after about 2am.",
+          "**Skip the after-shift drink** on work days.",
+          "**Protect 7-8 hours.** HSE says most adults need 7-8 hours of sleep a day, and night workers are no different.",
+          "**Put your phone and family on side.** Do not disturb on, doorbell covered, everyone knows your hours."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why is sleeping in the day so much harder?"
+      },
+      {
+        "type": "p",
+        "text": "Your body clock is set by light. When you get into bed at 8am, everything around you is telling it to be awake: the room is brighter, the house is warmer and the street is at its busiest."
+      },
+      {
+        "type": "p",
+        "text": "Then there's the noise. Nights are quiet because everyone else is asleep. Days are not. Bin lorries, deliveries, the school run, and in summer the neighbours decide to mow their lawns just as you've dropped off. Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep."
+      },
+      {
+        "type": "p",
+        "text": "So daytime sleep isn't harder because you're doing it wrong. It's harder because you're sleeping against the clock and against the world. The fix is to change the room, not to try harder."
+      },
+      {
+        "type": "h2",
+        "text": "What has 40 years of daytime sleep taught me?"
+      },
+      {
+        "type": "p",
+        "text": "Sleeping in the day isn't new to me. In the Army you'd finish your stag in the middle of the night, couldn't get back to sleep, and the next day still had to be worked. On prison night shifts at Strangeways, and later on nights at Budweiser, the pattern was the same: the shift ends, but your head doesn't. I've also written a separate guide on how to [sleep after a prison night shift](/resources/how-to-sleep-after-a-prison-night-shift/)."
+      },
+      {
+        "type": "p",
+        "text": "What I learned slowly is that you can't rely on being tired enough. Tired people still wake up to drills, sunshine and doorbells. You have to build the conditions for sleep every single time, the same way you'd sort your kit before a shift."
+      },
+      {
+        "type": "h2",
+        "text": "What should you do on the drive home and in the first hour?"
+      },
+      {
+        "type": "p",
+        "text": "The first hour after a night shift decides how well you sleep. Treat it as part of the routine, not as free time."
+      },
+      {
+        "type": "p",
+        "text": "**Getting home safely.** HSE's [hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) suggest considering public transport or a taxi rather than driving, and stopping to take a short nap, if it is safe to do so, if you feel sleepy at the wheel. If your eyes are heavy, pull over somewhere safe. We'll cover this properly in our upcoming guide to microsleep and the drive home after a night shift."
+      },
+      {
+        "type": "p",
+        "text": "**The first hour.** Have a light snack rather than a full cooked breakfast (HSE recommends light, regular meals over one heavy meal). Have a quick wash, close the blinds, and get into bed. The longer you stay up, the more your body clock thinks the day has started."
+      },
+      {
+        "type": "p",
+        "text": "Here's an example timeline for a shift that finishes at 7am:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Time",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "02:00",
+            "Last caffeine of the shift"
+          ],
+          [
+            "07:00",
+            "Shift ends; sunglasses on if you're not driving"
+          ],
+          [
+            "07:30",
+            "Home: light snack, water, quick wash"
+          ],
+          [
+            "08:00",
+            "In bed: room dark, phone on do not disturb, masking sound on"
+          ],
+          [
+            "15:00-16:00",
+            "Wake after 7-8 hours; daylight, food, then family time"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**From my own experience, my routine was no caffeine after 1am, and the drive home was always the tough part.** I had a 40 minute drive home after a 12 hour night shift, and that is brutal and dangerous. I'd have the music up, the window down and the air con on, but that only helps briefly, so if you're struggling, stop somewhere safe and nap. My routine was far from standard, but once home, noise masking was always my go-to. That's why I built Sleyp: it's everything I wanted in a noise masking app and couldn't find."
+      },
+      {
+        "type": "h2",
+        "text": "How do you make a bedroom dark enough for daytime sleep?"
+      },
+      {
+        "type": "p",
+        "text": "Make it so dark you can't see across the room. That's the test [The Sleep Charity](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/) uses, and it's a good one for day sleepers."
+      },
+      {
+        "type": "p",
+        "text": "Light matters even when you're asleep. In a [2022 Northwestern University study](https://news.northwestern.edu/stories/2022/03/close-the-blinds-during-sleep-to-protect-your-health), one night sleeping with moderate room light (100 lux) instead of near-darkness (3 lux) raised people's heart rate during sleep and their insulin resistance the next morning. The researchers' advice was simple: blackout shades or an eye mask. For anyone sleeping through a sunny afternoon, that's the whole problem in one study."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Fix",
+          "How much light it stops",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Blackout blind fitted inside the window recess",
+            "Most of it; some leaks at the edges",
+            "Your own home, permanent fix"
+          ],
+          [
+            "Blackout curtains",
+            "A lot, but light gets round the top and sides",
+            "Adding to a blind, or renters"
+          ],
+          [
+            "Blind and curtains together",
+            "The most",
+            "The full daytime setup"
+          ],
+          [
+            "Temporary or travel blackout blind",
+            "Good, if it fits well",
+            "Renters, spare rooms, hotels"
+          ],
+          [
+            "Eye mask",
+            "Near-total, whatever the room",
+            "Backup, or rooms you can't change"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**Hunt down the light leaks.** Check the gap above the curtain pole, the sides of the blind, the gap under the door and the standby lights on chargers and TVs. I'd drape a piece of clothing over any standby lights, use blackout curtains and close the door fully."
+      },
+      {
+        "type": "p",
+        "text": "**Watch the calendar.** UK clocks go back on Sunday 25 October 2026, so sunrise moves an hour earlier on the clock. If you finish at 7am, the drive home will be back in daylight, which makes those sunglasses and a properly dark bedroom matter even more."
+      },
+      {
+        "type": "p",
+        "text": "If you've ever worked nights when the clocks go back, you'll know that 2am going back to 1am is the worst feeling ever. Now it's a 13 hour night shift, and that's brutal on every level."
+      },
+      {
+        "type": "p",
+        "text": "For more on the light side, see my guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/). Our upcoming guides cover blackout blinds vs blackout curtains and the best sleep mask for day sleepers."
+      },
+      {
+        "type": "h2",
+        "text": "How do you block out noise when you sleep in the day?"
+      },
+      {
+        "type": "p",
+        "text": "Use layers: earplugs to cut the loud peaks, a steady sound to fill the gaps so sudden noises don't stand out, and a word with the neighbours."
+      },
+      {
+        "type": "p",
+        "text": "The [World Health Organization's noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise) recommends bedrooms stay under 30 dB(A) at night for good sleep, and it names shift workers as a group especially sensitive to noise. A busy daytime street is nowhere near that, which is why one layer is rarely enough."
+      },
+      {
+        "type": "p",
+        "text": "**Layer 1: earplugs.** Foam or silicone plugs cut the loudest sounds. Our guide to [sleeping with earplugs](/resources/earplugs-for-sleeping/) covers fit, SNR ratings and wearing them every day."
+      },
+      {
+        "type": "p",
+        "text": "**Layer 2: a masking sound.** A steady sound such as brown noise, rain or a fan hum makes the drill next door or a slammed car door less of a jolt. Many day sleepers prefer deeper sounds; our guide to [brown noise for sleep](/resources/brown-noise-for-sleep/) explains the noise colours, and [fan noise for sleeping](/resources/fan-noise-for-sleeping/) covers the classic fan hum."
+      },
+      {
+        "type": "p",
+        "text": "**Layer 3: the neighbours.** HSE suggests discussing your work pattern with close neighbours and asking them to avoid noisy activities during your sleep time. Most people are decent about it once they know. If that doesn't work, our guide to [noisy neighbours when you sleep in the day](/resources/noisy-neighbours-daytime-sleep/) explains your options in the UK."
+      },
+      {
+        "type": "p",
+        "text": "The [free Sleyp player](/session/) gives you 13 sounds in your browser, including brown noise, rain and fan hum, with a free custom timer and wake-up chime. Keep the page open while you sleep, as the timer and chime need it to run."
+      },
+      {
+        "type": "h2",
+        "text": "What temperature should your bedroom be for daytime sleep?"
+      },
+      {
+        "type": "p",
+        "text": "Around 16-18C. [The Sleep Charity](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/) puts the ideal bedroom temperature in that range and says temperatures above 24C make sleep restless."
+      },
+      {
+        "type": "p",
+        "text": "Day sleepers have it hardest here, because you're in bed through the warmest part of the day. A few things help:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Close the blinds before you leave for your shift** on sunny days, so the room doesn't bake while you're out.",
+          "**Open a window at night, close it in the morning** if the street is quiet enough, then let the blackout setup hold the cool air in.",
+          "**Use a fan.** It cools you and gives you a steady sound at the same time.",
+          "**Use light bedding** and keep a thinner duvet for summer."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Our upcoming guide to the ideal bedroom temperature for sleep goes deeper on heatwaves."
+      },
+      {
+        "type": "h2",
+        "text": "When should you stop caffeine and alcohol before daytime sleep?"
+      },
+      {
+        "type": "p",
+        "text": "Stop caffeine at least six hours before you plan to sleep, and keep alcohol for your days off."
+      },
+      {
+        "type": "p",
+        "text": "**Caffeine.** In a [2013 study in the Journal of Clinical Sleep Medicine](https://jcsm.aasm.org/doi/abs/10.5664/jcsm.3170), 400 mg of caffeine taken six hours before bed still cut total sleep by more than an hour, and the people taking it didn't notice. That's the trap: you feel fine, you just sleep less. For a night worker going to bed at 8am, a six-hour cut-off means your last coffee or energy drink is around 2am."
+      },
+      {
+        "type": "p",
+        "text": "I know how that sounds. It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and then you pay for it later when you're lying in bed wired at 10am. Front-load your caffeine at the start of the shift instead. Our upcoming guide to how long caffeine lasts has a full cut-off table."
+      },
+      {
+        "type": "p",
+        "text": "**Alcohol.** For a lot of night workers, the drink after a shift is your \"me time\", the same as an evening is for people who work days. I get it. But you pay for it later that night, back on shift at 2am. A drink might help you drop off, but in my experience the sleep is broken and you wake feeling worse. Save it for the end of your block."
+      },
+      {
+        "type": "h2",
+        "text": "Should you sleep in one block or split your sleep after a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "One block straight after your shift works best for most people, topped up with a short nap before the next shift if you need it. Split sleep is a useful fallback when one long block isn't possible."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Approach",
+          "How it works",
+          "Good for",
+          "Watch out for"
+        ],
+        "rows": [
+          [
+            "One block",
+            "7-8 hours straight after you get home, e.g. 8am to 3:30pm",
+            "Most work days in a block of nights",
+            "Afternoon noise and heat"
+          ],
+          [
+            "Main sleep + nap",
+            "5-6 hours after the shift, then a short nap before you leave",
+            "Days with school runs or family plans",
+            "Don't let the nap run too long"
+          ],
+          [
+            "Short sleep on the last night",
+            "3-4 hours after your final shift, then up for the day",
+            "Switching back to days",
+            "That jet-lag feeling for a day or two"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The last option is the one most of us know. I know how it feels to get up early after your last night shift to try to get the most out of your day off, then find yourself fatigued with that dreaded jet-lag feeling. Even so, a short sleep and then a normal bedtime usually gets you back to days quicker than a full day in bed. Our upcoming guide on how to fix your sleep schedule after a block of nights has the full flip-back plan."
+      },
+      {
+        "type": "p",
+        "text": "**My personal choice when working at Budweiser was always 3-4 hours and then up for the day.** To me, and most of the guys I worked with, this was the start of your days off, so staying in bed all day felt like a waste of a day off. That's not to say I'd stay awake until bedtime, especially once I sat down on the sofa around 5pm. Normally a power nap was all I needed. Having another proper sleep would have made no sense."
+      },
+      {
+        "type": "h2",
+        "text": "What are the most common daytime sleep mistakes?"
+      },
+      {
+        "type": "p",
+        "text": "Most shift workers have made these at some point:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Staying up \"for an hour\" to unwind.** It turns into three, and the afternoon noise cuts your sleep short.",
+          "**Relying on curtains alone.** Light round the edges is enough to wake you once the sun moves round.",
+          "**Sleeping in silence.** With no background sound, every car door and dog bark stands out.",
+          "**A coffee or energy drink at 5am** to get through the last two hours, then lying awake at 10am.",
+          "**A different bedtime every day of the block.** Your body clock can't settle if it never knows when sleep is coming.",
+          "**Sleeping until teatime after your last night.** You feel great at midnight and terrible the next morning."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you stop family and your phone waking you up?"
+      },
+      {
+        "type": "p",
+        "text": "Make your sleep hours official at home, the same way your shift times are official at work."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Phone on do not disturb**, with favourites or repeat calls allowed through so family can still reach you in an emergency.",
+          "**Cover the doorbell.** I always used a note on the door (\"Night worker asleep, please leave parcels\") as it does save a lot of 11am wake-ups.",
+          "**Agree the quiet hours** with the people you live with, and put your rota on the fridge so nobody has to guess.",
+          "**Tell the neighbours your work pattern**, as HSE suggests. A friendly word early saves a row later.",
+          "**Plan family time for when you're up.** If you wake at 3:30pm, the school pick-up or tea together can be your \"morning\"."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Daytime sleep after a night shift isn't about willpower. It's about the room and the routine: in bed within an hour, dark enough that you can't see across the room, quiet with earplugs and a masking sound, cool at 16-18C, caffeine stopped six hours before bed, and 7-8 hours protected every day. Get those right and the rest of the block gets easier."
+      },
+      {
+        "type": "p",
+        "text": "Plan your timings with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/), then press play. [Try Sleyp free](/session/): 13 sounds in your browser, with a free timer, wake-up chime and saved mixes. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[TUC: Number of people working night shifts up by more than 150,000 in 5 years](https://www.tuc.org.uk/news/number-people-working-night-shifts-more-150000-5-years)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[Northwestern University: Close the blinds during sleep to protect your health (2022)](https://news.northwestern.edu/stories/2022/03/close-the-blinds-during-sleep-to-protect-your-health)",
+          "[Drake et al. (2013), Journal of Clinical Sleep Medicine: Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed](https://jcsm.aasm.org/doi/abs/10.5664/jcsm.3170)",
+          "[The Sleep Charity: Sleep environment](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/)",
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Should I sleep straight after a night shift?",
+        "answer": "Yes, for most people. Getting into bed within an hour of getting home, before your body clock decides the day has started, usually gives you the longest and most settled sleep. On your last night of a block, a shorter sleep followed by a normal bedtime helps you switch back to days."
+      },
+      {
+        "question": "How many hours should I sleep after a night shift?",
+        "answer": "Aim for 7-8 hours. HSE says most adults need 7-8 hours of sleep a day, and that doesn't change because your sleep happens in daylight. If you can't get it in one go, top up with a short nap before your next shift."
+      },
+      {
+        "question": "Is it better to sleep in one block or split it?",
+        "answer": "One block is better when you can protect it. Split sleep (a main sleep after the shift plus a nap before the next one) is a good fallback on days with school runs or appointments. What matters most is getting 7-8 hours in total, at roughly the same times each day of your block."
+      },
+      {
+        "question": "Why do I keep waking up at midday?",
+        "answer": "It's usually light, noise or heat. Check for light leaks around blinds and doors, add a steady masking sound to cover traffic and voices, and keep the room near 16-18C. Caffeine late in the shift can also cut your sleep short without you feeling it."
+      },
+      {
+        "question": "Is it OK to sleep with a sound playing all day?",
+        "answer": "Yes, for most people. Keep the volume at the lowest level that still covers the noise outside, and use a timer if you don't want it running after you wake. In the free Sleyp player, keep the browser page open so the timer and wake-up chime can run."
+      },
+      {
+        "question": "Why do I feel worse after sleeping in the day?",
+        "answer": "Daytime sleep is easily broken by noise, light and heat, so you can wake feeling groggy. Getting the room dark, quiet and cool, and keeping caffeine and alcohol away from bedtime, usually helps. If tiredness lasts for weeks despite good sleep, see your GP."
+      }
+    ]
+  },
+  {
     "slug": "white-noise-app-for-day-sleepers",
     "title": "Best White Noise App for Day Sleepers (Free Options Compared)",
     "description": "Need a white noise app for daytime sleep? What night workers need from a noise app, free options compared, and how to set one up for a 9am bedtime.",
@@ -248,7 +642,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "If you're weighing up sleep buds or noise-cancelling headphones as well, see [noise cancelling for sleep](/resources/noise-cancelling-for-sleep/). Darkness matters just as much as sound; our upcoming guide, How to Sleep During the Day After a Night Shift, will cover blinds, timing and the rest of the routine."
+        "text": "If you're weighing up sleep buds or noise-cancelling headphones as well, see [noise cancelling for sleep](/resources/noise-cancelling-for-sleep/). Darkness matters just as much as sound; my guide, [How to Sleep During the Day After a Night Shift](/resources/how-to-sleep-during-the-day/), covers blinds, timing and the rest of the routine."
       },
       {
         "type": "h2",
@@ -2222,7 +2616,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "I've worked shifts for 40 years: The King's Regiment, Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, then Budweiser UK. Getting sleep during the day has been a daily battle for most of my working life. This guide explains what brown noise is, how it compares with the other \"noise colours\", what the evidence actually says, and how to use it to sleep through a noisy day."
+        "text": "I've worked shifts for 40 years: The King's Regiment, Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, then Budweiser UK. Getting sleep during the day has been a daily battle for most of my working life (my full routine is in [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/)). This guide explains what brown noise is, how it compares with the other \"noise colours\", what the evidence actually says, and how to use it to sleep through a noisy day."
       },
       {
         "type": "h2",
