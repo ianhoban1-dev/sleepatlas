@@ -45,6 +45,238 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "blackout-blinds-vs-curtains",
+    "title": "Blackout Blinds vs Blackout Curtains: Which Is Best for Daytime Sleep?",
+    "description": "Blackout blinds or curtains for sleeping in the day? What blocks the most light, how to stop light leaks, and no-drill options for renters who work nights.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-11",
+    "readMinutes": 8,
+    "quickAnswer": "For daytime sleep, a blackout blind fitted inside the window recess blocks more light than curtains, which leak at the top and sides. The best setup is both: a blackout blind with blackout curtains over it, or a blind with side channels. A 2022 study found that even moderate room light during sleep raised heart rate.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Getting into bed when everyone else is leaving the house for school and work sounds like a perk. Then you pull the curtains, lie down, and the room is still glowing orange. In summer it is worse: you get home at 7am into full sun, and the light pours round every edge of the window."
+      },
+      {
+        "type": "p",
+        "text": "I have slept through the day after nights for most of 40 years, from the barracks with The King's Regiment to night shifts at Strangeways, Walton and Guys Marsh, and later at Jacobs Biscuits and Budweiser UK. Darkness is the cheapest win you can get, and it is the one most people only half do. In the early years, especially in the Army, I would be sleeping in dormitories with other soldiers, so blacking out the windows was not possible. Later on at Budweiser, blacked-out curtains were essential in helping me get to sleep after a night shift."
+      },
+      {
+        "type": "p",
+        "text": "If you are new to sleeping in the day, start with the full guide on [how to sleep during the day](/resources/how-to-sleep-during-the-day/). This post goes deep on one part of it: getting the room properly dark."
+      },
+      {
+        "type": "h2",
+        "text": "Which is better for daytime sleep: blackout blinds or blackout curtains?"
+      },
+      {
+        "type": "p",
+        "text": "A blackout blind is better on its own, because it sits close to the glass and leaves smaller gaps. Blackout curtains are better at covering the edges, because they can be wider and taller than the window. Used together, they beat either one alone."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Best overall:** a blackout roller blind inside the recess, with blackout curtains on a track or pole above it.",
+          "**Best single option:** a blackout blind with side channels, which close the gaps down each side.",
+          "**Best on a budget:** blackout curtains (or blackout linings on your existing curtains) hung well past the window, plus a sleep mask.",
+          "**Best for renters:** a suction-cup travel blind or static window film, with no drilling."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why does light matter when you sleep in the day?"
+      },
+      {
+        "type": "p",
+        "text": "Light is one of the main signals your body clock uses to tell day from night, and daytime sleepers are trying to sleep while that signal is at full strength."
+      },
+      {
+        "type": "p",
+        "text": "In a 2022 Northwestern University study published in PNAS, volunteers spent one night sleeping in moderate room light (100 lux) and compared it with a night in dim light (3 lux). One night in the brighter room raised their heart rate during sleep and left them with higher insulin resistance the next morning, a marker of how well the body handles blood sugar. The researchers' practical advice was to keep the room dark, using blackout shades or an eye mask ([Northwestern University, 2022](https://news.northwestern.edu/stories/2022/03/close-the-blinds-during-sleep-to-protect-your-health))."
+      },
+      {
+        "type": "p",
+        "text": "That matches the UK regulator. The Health and Safety Executive's tips for shift workers recommend heavy curtains, blackout blinds or eye shades to keep the bedroom dark ([HSE](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)). The Sleep Charity gives a simple test: your bedroom should be dark enough that you cannot see across it ([The Sleep Charity](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/)). At 10am in June, most bedrooms fail that test badly."
+      },
+      {
+        "type": "h2",
+        "text": "How do blackout blinds, curtains, film and travel blinds compare?"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Option",
+          "How dark it gets",
+          "Where light leaks",
+          "Drilling?",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Blackout roller blind (inside recess)",
+            "Very dark",
+            "Thin strips down the sides and at the top",
+            "Yes",
+            "Most bedrooms, the main layer"
+          ],
+          [
+            "Blackout blind with side channels",
+            "Darkest single option",
+            "Very little",
+            "Yes",
+            "Night workers who want one fix"
+          ],
+          [
+            "Blackout curtains",
+            "Dark if oversized",
+            "Top, sides and the middle join",
+            "Yes (pole or track)",
+            "Covering edges; pairing with a blind"
+          ],
+          [
+            "Static or adhesive blackout film",
+            "Dark on the glass only",
+            "Frame and edges",
+            "No",
+            "Renters, odd-shaped windows"
+          ],
+          [
+            "Suction-cup travel blind",
+            "Dark if cut to fit",
+            "Edges if not trimmed",
+            "No",
+            "Renters, travel, hotel rooms"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The pattern is clear: no single product is perfect, because light always finds the edges. That is why the layered setup wins."
+      },
+      {
+        "type": "h2",
+        "text": "How do you stop light leaking round the edges?"
+      },
+      {
+        "type": "p",
+        "text": "Most \"blackout\" rooms leak light, not through the fabric, but round it. Work through these in order:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Fit the blind inside the recess**, as close to the glass as the handles allow. Measure the recess in three places and use the smallest width.",
+          "**Close the side gaps.** Side channels are the neatest fix. A cheaper option is a strip of blackout fabric or draught-excluder tape down each side of the frame.",
+          "**Oversize the curtains.** A good rule of thumb is curtains that reach well past each side of the window and sit above the top of the frame, so they overlap the wall.",
+          "**Block the top.** Light spills over a curtain pole. A ceiling-fixed track, a pelmet or a curtain that tucks up to the ceiling stops it.",
+          "**Close the middle.** Overlap the two curtains, or use a magnetic or clip closure where they meet.",
+          "**Check the door and the gadgets.** Light under the bedroom door and standby LEDs on chargers, TVs and alarm clocks add up. A draught excluder and a bit of tape deal with both.",
+          "**Back it up with a mask.** Even a good room leaks a little. A sleep mask covers whatever is left."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Do the test once the room is set up: lie in bed at midday with the lights off for two minutes and look for any bright line. Every one you can see is worth fixing. For a ranked look at every method, see my guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/)."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best no-drill blackout options for renters?"
+      },
+      {
+        "type": "p",
+        "text": "If you rent, or you are staying away for a block of shifts, you can still get a room properly dark:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Suction-cup travel blinds** stick straight onto the glass and can be trimmed to fit. They pack small, which helps if you work away.",
+          "**Static cling or removable adhesive film** goes on the glass and peels off when you move out.",
+          "**Tension rods** fit inside the recess with no screws and can hold a blackout curtain or a cut piece of blackout fabric.",
+          "**Hook-and-loop strips** on the frame let you fix a sheet of blackout fabric over the whole window and pull it off in seconds.",
+          "**Kitchen foil** works as a last resort, but it can trap heat against the glass and looks grim from the street. Check your tenancy before you stick anything to the frame."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "I tried a quick fix in the Army by covering the windows with a large blanket, but that is not ideal and only a temporary fix. If you need to sleep in total darkness, investing in getting this right will have huge benefits for your sleep."
+      },
+      {
+        "type": "h2",
+        "text": "Do blackout blinds help in a summer heatwave and when the clocks change?"
+      },
+      {
+        "type": "p",
+        "text": "They help with both. Closing blinds and curtains before the sun hits the window keeps the room darker and stops it warming up as quickly. A light-coloured or thermal-backed blind facing the glass helps more than a dark one. There is more on keeping cool in the upcoming guide to the ideal bedroom temperature for sleep."
+      },
+      {
+        "type": "p",
+        "text": "The clocks also go back on Sunday 25 October 2026. After that, sunrise comes an hour earlier by the clock, so the drive home after nights and your first hours in bed happen in brighter light than the week before. If your room only just got away with it in late October, check it again that week."
+      },
+      {
+        "type": "h2",
+        "text": "Dark room, steady sound: the other half of the job"
+      },
+      {
+        "type": "p",
+        "text": "A dark room does nothing about the neighbour's drill or the bin lorry. Blackout deals with light; your ears need their own defence. Pair your blinds with good [earplugs for sleeping](/resources/earplugs-for-sleeping/) and a steady masking sound such as [brown noise for sleep](/resources/brown-noise-for-sleep/), so sudden noises do not stand out against silence."
+      },
+      {
+        "type": "p",
+        "text": "If neighbour noise is the real problem, the guide to [noisy neighbours when you sleep in the day](/resources/noisy-neighbours-daytime-sleep/) covers your options in the UK."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Curtains alone are not enough for daytime sleep. Fit a blackout blind inside the recess, hang oversized blackout curtains over it, close the gaps at the sides and top, and keep a mask for whatever still gets through. Then deal with the noise half of the problem."
+      },
+      {
+        "type": "p",
+        "text": "**Dark room, steady sound.** Once the room is dark, start a steady masking sound as you get into bed. [Try Sleyp free](/session/): 13 sounds, a custom timer and a wake-up chime, all free in your browser, and you can save your mix in this browser for next time (keep the page open for the timer and chime to run). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Northwestern University (2022): Close the blinds during sleep to protect your health (PNAS study on light during sleep)](https://news.northwestern.edu/stories/2022/03/close-the-blinds-during-sleep-to-protect-your-health)",
+          "[Health and Safety Executive: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[The Sleep Charity: Sleep environment](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do blackout curtains block 100% of light?",
+        "answer": "The fabric itself can block almost all light, but the room rarely goes fully dark, because light gets round the top, the sides and the gap in the middle. Oversized curtains on a ceiling track, or curtains over a blackout blind, get you much closer to total darkness."
+      },
+      {
+        "question": "Are blackout blinds worth it for night shift workers?",
+        "answer": "Yes. If you sleep in the day, a blackout blind is one of the most useful things you can buy for the bedroom. HSE recommends blackout blinds, heavy curtains or eye shades for shift workers, and a 2022 study found even moderate room light during sleep raised heart rate."
+      },
+      {
+        "question": "What's the cheapest way to black out a bedroom?",
+        "answer": "A sleep mask is the cheapest way to get darkness, because it blocks light at your eyes rather than at the window. For the room itself, blackout linings clipped to your existing curtains, or a trimmed suction-cup travel blind, cost little and need no drilling."
+      },
+      {
+        "question": "Blackout blinds or curtains: which is better for a bedroom?",
+        "answer": "A blind fitted inside the recess blocks more light on its own; curtains are better at covering the edges. For daytime sleep, use both together, or choose a blind with side channels if you only want one fix."
+      },
+      {
+        "question": "Should I wear a sleep mask as well as having blackout blinds?",
+        "answer": "It helps. Even a well blacked-out room leaks a little light round the edges and under the door. A mask covers what is left, and it goes with you if you stay away for work."
+      },
+      {
+        "question": "Do blackout blinds keep a room cooler?",
+        "answer": "They can help. Closing a blind before the sun reaches the window slows down how fast the room heats up, and a light-coloured or thermal-backed blind works better than a dark one. Pair it with a fan on hot days."
+      }
+    ]
+  },
+  {
     "slug": "how-to-sleep-during-the-day",
     "title": "How to Sleep During the Day After a Night Shift: The Complete Guide",
     "description": "How to sleep during the day after a night shift: darkness, noise, temperature, caffeine and timing, from someone who worked nights for 40 years.",
@@ -226,7 +458,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For more on the light side, see my guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/). Our upcoming guides cover blackout blinds vs blackout curtains and the best sleep mask for day sleepers."
+        "text": "For more on the light side, see my guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/). My guide to [blackout blinds vs blackout curtains](/resources/blackout-blinds-vs-curtains/) covers the choice in detail, and our upcoming guide covers the best sleep mask for day sleepers."
       },
       {
         "type": "h2",
