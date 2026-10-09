@@ -45,6 +45,263 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "best-sleep-mask",
+    "title": "Best Sleep Mask for Day Sleepers (and Why the Science Backs Them)",
+    "description": "Do sleep masks actually work? What a Cardiff University study found, and how night-shift workers can choose a mask for total darkness during the day.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-12",
+    "readMinutes": 7,
+    "quickAnswer": "A sleep mask is the cheapest way to get full darkness for daytime sleep. A 2023 Cardiff University study found people who wore an eye mask for a week showed better learning and alertness than in a week when light reached their eyes. For day sleepers, choose a contoured, total-blackout mask that doesn't press on your eyes.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I've spent 40 years working shifts: The King's Regiment, Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, then Budweiser UK. Getting into bed when everyone else is leaving the house for school and work sounds fine, until you realise it is broad daylight and every gap round the curtains is a searchlight. Blackout blinds help, but the one bit of kit I would never go to bed without after nights is a decent eye mask."
+      },
+      {
+        "type": "p",
+        "text": "I was always sceptical about wearing a sleep mask, but the evidence from trials and data suggests strongly that they are a great way to help you sleep."
+      },
+      {
+        "type": "p",
+        "text": "This guide covers what the research says, what to look for, which type of mask suits which sleeper, and how to pair a mask with earplugs and sound."
+      },
+      {
+        "type": "h2",
+        "text": "Do sleep masks actually work?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, and there is good UK evidence for it. Researchers at Cardiff University ran two experiments, published in the journal SLEEP in 2023."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "In the first, 94 adults aged 18-35 wore an eye mask every night for a week, then spent a control week where light was not blocked. With the mask, they did better at learning new information (episodic encoding) and showed improved alertness.",
+          "In the second, 35 adults wore a sleep-monitoring device with and without the mask. The learning benefit showed up again, and it was predicted by the time they spent in slow wave (deep) sleep."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Those volunteers were sleeping at night, in normal bedrooms. If blocking the small amount of light in a bedroom at night makes a measurable difference, think how much more light reaches a day sleeper at 10am in June. That's why I rate a mask as the first thing to buy, not an extra."
+      },
+      {
+        "type": "h2",
+        "text": "Why does light matter more when you sleep in the day?"
+      },
+      {
+        "type": "p",
+        "text": "Because there is far more of it, and it gets in everywhere. A 2022 Northwestern Medicine study compared one night of sleep in moderate room light (100 lux) with dim light (3 lux). In the moderately lit room, heart rate rose during sleep and insulin resistance appeared the next morning. The researchers' own advice: blackout shades or eye masks are good if you can't control the outdoor light."
+      },
+      {
+        "type": "p",
+        "text": "A day sleeper can't control the outdoor light. The sun is up, the landing light is on, and the gap at the top of the curtain throws a stripe across the pillow. A mask is the one piece of blackout you carry on your face, so it works in a bedroom, a hotel, a mess room or the back of a car on a break."
+      },
+      {
+        "type": "p",
+        "text": "It's worth knowing that UK clocks go back on Sunday 25 October 2026. Sunrise jumps an hour earlier on the clock, so for a few weeks the drive home after nights is lighter than you're used to, and your bedroom is brighter when you get in. It's a good time to sort your mask out."
+      },
+      {
+        "type": "h2",
+        "text": "What should you look for in a sleep mask for day sleeping?"
+      },
+      {
+        "type": "p",
+        "text": "These are the five things that matter after a night shift, in order of importance."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Feature",
+          "Why it matters for day sleep",
+          "What to look for"
+        ],
+        "rows": [
+          [
+            "Total blackout",
+            "Daylight leaks in round the nose and cheeks of flat masks",
+            "A nose flap or moulded nose bridge; no light when you open your eyes in a bright room"
+          ],
+          [
+            "Contoured eye cups",
+            "Pressure on the eyelids gets uncomfortable over a 6-8 hour sleep",
+            "Deep 3D cups that sit off the eyes"
+          ],
+          [
+            "Strap",
+            "A tight elastic strap gives headaches and slips when you turn",
+            "Wide, adjustable strap; Velcro that doesn't catch your hair"
+          ],
+          [
+            "Side-sleeper profile",
+            "Bulky masks get pushed up your face by the pillow",
+            "Thin edges at the temples"
+          ],
+          [
+            "Material",
+            "Hot rooms in summer make foam masks sweaty",
+            "Breathable cotton or silk for warm days; washable cover"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The quick test: put it on in your brightest room at midday and open your eyes. If you can see any light at all, keep looking."
+      },
+      {
+        "type": "h2",
+        "text": "Which type of sleep mask is best for shift workers?"
+      },
+      {
+        "type": "p",
+        "text": "There is no single best mask, only the best one for how you sleep. Here are the main types."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Type",
+          "Best for",
+          "Downsides"
+        ],
+        "rows": [
+          [
+            "Contoured (3D) blackout mask",
+            "Most day sleepers; anyone who hates pressure on the eyes",
+            "Bulkier for side sleepers"
+          ],
+          [
+            "Flat silk mask",
+            "Hot summer days; sensitive skin",
+            "Often leaks light at the nose"
+          ],
+          [
+            "Foam or cotton wraparound",
+            "Side sleepers who want full coverage",
+            "Can get warm"
+          ],
+          [
+            "Weighted mask",
+            "People who like gentle, even pressure",
+            "Heavier; pressure on the eyes isn't for everyone"
+          ],
+          [
+            "Mask with built-in headphones",
+            "Playing a masking sound without earbuds",
+            "Needs charging; thicker over the ears"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Not that long ago, whilst at Budweiser on my night shifts, I used a mask with built-in headphones to try them out. The headphones were great with my noise masking app and the mask really did keep the light out."
+      },
+      {
+        "type": "h2",
+        "text": "Should you use a sleep mask and blackout blinds together?"
+      },
+      {
+        "type": "p",
+        "text": "Yes. Think of it as layers. Blackout blinds and curtains bring the whole room down to dim, which helps when you get up for the toilet or the door goes. The mask then handles whatever still leaks in round the edges. I cover the room side in [Blackout Blinds vs Blackout Curtains](/resources/blackout-blinds-vs-curtains/), and the full routine in [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/)."
+      },
+      {
+        "type": "p",
+        "text": "If you rent or you're on a budget, the mask comes first. It costs a fraction of a fitted blind and works anywhere."
+      },
+      {
+        "type": "h2",
+        "text": "How do you wear a sleep mask with earplugs?"
+      },
+      {
+        "type": "p",
+        "text": "Darkness is only half the problem. Even on a quiet street, cars and kids playing out can keep you wide awake, and nothing wakes you faster than the neighbours deciding to mow their lawns at 11am."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Put your earplugs in first and seat them properly.",
+          "Put the mask on so the strap sits above your ears, not across them. A strap pressing on an earplug gets sore fast.",
+          "Choose a low-profile mask and low-profile plugs if you sleep on your side.",
+          "Add a steady masking sound to cover the gaps the plugs leave, such as [brown noise](/resources/brown-noise-for-sleep/) or rain."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "My guide to [sleeping with earplugs](/resources/earplugs-for-sleeping/) covers fit and noise ratings in detail."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get used to sleeping in a sleep mask?"
+      },
+      {
+        "type": "p",
+        "text": "Most people who say they can't sleep in a mask have tried a tight, flat one. Give a contoured mask a week before you judge it."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Loosen the strap until it only just stays on.",
+          "Wear it for 10 minutes while you wind down, before you try to sleep.",
+          "Keep a spare by the bed, because masks go missing in the duvet.",
+          "Wash it or the cover regularly, following the label. Your face, sweat and skin cream all end up on it.",
+          "If it ends up on the floor every morning, try a wraparound style or a wider strap."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The Cardiff researchers linked the mask's benefit to deep sleep, which comes mostly in the first part of your sleep. So the mask matters most in those first few hours after you get in from a shift. (More on this in How Much Deep Sleep Do You Need?, coming soon.)"
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "A good contoured sleep mask is the cheapest, most portable way to sleep in full darkness after nights, and the research backs it. Pair it with blackout blinds for the room and earplugs plus a steady sound for the noise half of the problem. Coming soon on this blog: Ideal Bedroom Temperature for Sleep, because a hot room in a heatwave is the next thing that will wake you up."
+      },
+      {
+        "type": "p",
+        "text": "[Try Sleyp free](/session/): play brown noise, rain or fan hum in your browser, set a custom timer and a gentle wake-up chime, and save your mix in this browser. All 13 sounds are free (keep the page open for the timer and chime to run). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Greenfield et al. (2023), Cardiff University: Wearing an eye mask during overnight sleep improves episodic learning and alertness, SLEEP (Cardiff ORCA record)](https://orca.cardiff.ac.uk/id/eprint/155060/)",
+          "[Northwestern Medicine (2022): Light exposure during sleep impairs cardiometabolic function, PNAS (ScienceDaily release)](https://www.sciencedaily.com/releases/2022/03/220314154355.htm)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is it good to sleep with an eye mask every day?",
+        "answer": "For most people, yes. The Cardiff study had volunteers wear a mask every night for a week and found better learning and alertness. Choose a mask that doesn't press on your eyes, and keep it clean."
+      },
+      {
+        "question": "Contoured or flat sleep mask: which is better?",
+        "answer": "For day sleepers, contoured. The cups sit off your eyelids and the moulded shape blocks more light round the nose. Flat silk masks are cooler on hot days but often leak light."
+      },
+      {
+        "question": "Do sleep masks help after night shifts?",
+        "answer": "Yes. After a night shift you are sleeping while the sun is up, so far more light reaches your eyes than at night. A mask gives you total darkness without having to black out the whole room."
+      },
+      {
+        "question": "Can I wear a sleep mask if I sleep on my side?",
+        "answer": "Yes. Pick one with a thin profile at the temples and a soft, wide strap, so the pillow doesn't push it up your face."
+      },
+      {
+        "question": "Is a sleep mask better than blackout blinds?",
+        "answer": "They do different jobs. Blinds darken the room; a mask blocks what still gets through. Use both if you can. If you can only afford one, start with the mask."
+      },
+      {
+        "question": "Should I wear a mask with earplugs?",
+        "answer": "If daytime noise wakes you, yes. Put the earplugs in first, keep the strap above your ears, and add a steady masking sound for drilling and mowers."
+      }
+    ]
+  },
+  {
     "slug": "blackout-blinds-vs-curtains",
     "title": "Blackout Blinds vs Blackout Curtains: Which Is Best for Daytime Sleep?",
     "description": "Blackout blinds or curtains for sleeping in the day? What blocks the most light, how to stop light leaks, and no-drill options for renters who work nights.",
@@ -171,7 +428,7 @@ export const ARTICLES: Article[] = [
           "**Block the top.** Light spills over a curtain pole. A ceiling-fixed track, a pelmet or a curtain that tucks up to the ceiling stops it.",
           "**Close the middle.** Overlap the two curtains, or use a magnetic or clip closure where they meet.",
           "**Check the door and the gadgets.** Light under the bedroom door and standby LEDs on chargers, TVs and alarm clocks add up. A draught excluder and a bit of tape deal with both.",
-          "**Back it up with a mask.** Even a good room leaks a little. A sleep mask covers whatever is left."
+          "**Back it up with a mask.** Even a good room leaks a little. A [sleep mask](/resources/best-sleep-mask/) covers whatever is left."
         ]
       },
       {
@@ -230,7 +487,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Curtains alone are not enough for daytime sleep. Fit a blackout blind inside the recess, hang oversized blackout curtains over it, close the gaps at the sides and top, and keep a mask for whatever still gets through. Then deal with the noise half of the problem."
+        "text": "Curtains alone are not enough for daytime sleep. Fit a blackout blind inside the recess, hang oversized blackout curtains over it, close the gaps at the sides and top, and keep a [sleep mask](/resources/best-sleep-mask/) for whatever still gets through. Then deal with the noise half of the problem."
       },
       {
         "type": "p",
@@ -458,7 +715,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For more on the light side, see my guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/). My guide to [blackout blinds vs blackout curtains](/resources/blackout-blinds-vs-curtains/) covers the choice in detail, and our upcoming guide covers the best sleep mask for day sleepers."
+        "text": "For more on the light side, see my guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/). My guide to [blackout blinds vs blackout curtains](/resources/blackout-blinds-vs-curtains/) covers the choice in detail, and my guide to the [best sleep mask for day sleepers](/resources/best-sleep-mask/) covers masks."
       },
       {
         "type": "h2",
@@ -3206,7 +3463,7 @@ export const ARTICLES: Article[] = [
       { type: "h3", text: "3. The contoured sleep mask: best pound-for-pound" },
       {
         type: "p",
-        text: "If you rent, travel, or the budget says no to blinds this month, a contoured mask (the kind with moulded eye cups rather than a flat strip) gets you 90% of the darkness for a tenner or two. The flat ones press on your eyelids, smear and shift when you side-sleep. Contoured cups don't. I kept one in my kit bag for decades; hotel curtains are a lottery and this is the insurance.",
+        text: "If you rent, travel, or the budget says no to blinds this month, a [contoured sleep mask](/resources/best-sleep-mask/) (the kind with moulded eye cups rather than a flat strip) gets you 90% of the darkness for a tenner or two. The flat ones press on your eyelids, smear and shift when you side-sleep. Contoured cups don't. I kept one in my kit bag for decades; hotel curtains are a lottery and this is the insurance.",
       },
       { type: "h3", text: "4. Static blackout film: the renter's secret" },
       {
