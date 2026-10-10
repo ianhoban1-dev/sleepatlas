@@ -45,6 +45,164 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "ideal-bedroom-temperature-for-sleep",
+    "title": "Ideal Bedroom Temperature for Sleep (Even in a Summer Heatwave)",
+    "description": "What is the ideal bedroom temperature for sleep? Why 16-18C is the target, why heat hits day sleepers hardest, and easy ways to cool a room without air-con.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-13",
+    "readMinutes": 6,
+    "quickAnswer": "The ideal bedroom temperature for sleep is around 16-18C, according to The Sleep Charity, and above 24C sleep tends to become restless. Day sleepers have it harder because we go to bed just as the house starts warming up. Shut the blinds on sunny windows early, run a fan, and switch to a low-tog duvet or a cotton sheet.",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "What is the ideal bedroom temperature for sleep?"
+      },
+      {
+        "type": "p",
+        "text": "[The Sleep Charity](https://thesleepcharity.org.uk/adults/sleep-environment/), a UK charity, puts the ideal bedroom temperature at around 16-18C (60-65F). It says temperatures over 24C (71F) are likely to cause restlessness, and a cold room of about 12C (53F) makes it difficult to drop off."
+      },
+      {
+        "type": "p",
+        "text": "Temperature matters more than most people think. A [2012 review in the Journal of Physiological Anthropology](https://doaj.org/article/7e71c8bd13f84f11b94aceb0fb27866d) called the thermal environment \"one of the most important factors that can affect human sleep\". With normal bedding and clothing, it found heat was the bigger disruptor: it increases time awake and cuts deep sleep and REM sleep, and humidity makes it worse."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Bedroom temperature",
+          "What to expect",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "About 12C",
+            "Hard to drop off (The Sleep Charity)",
+            "Add a sheet or blanket rather than heating the room"
+          ],
+          [
+            "16-18C",
+            "The Sleep Charity's ideal range",
+            "Normal bedding, room dark and quiet"
+          ],
+          [
+            "19-23C",
+            "Warmer than ideal; many people still sleep, but lighter bedding helps (Sleyp guidance)",
+            "Lower-tog duvet, fan, light cotton nightwear"
+          ],
+          [
+            "Over 24C",
+            "Restlessness likely (The Sleep Charity)",
+            "Full heatwave routine below"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why does heat hit day sleepers hardest?"
+      },
+      {
+        "type": "p",
+        "text": "Normal sleepers go to bed as the day cools down. Night workers go to bed as it heats up. The sun is on the window by mid-morning, the house soaks up heat all afternoon, and a bedroom upstairs collects the warm air rising from below. You are trying to get your deepest sleep in the hottest part of the day."
+      },
+      {
+        "type": "p",
+        "text": "I've done my share of summer day sleeps after nights, and the bedroom could feel like an oven by mid-afternoon. I remember sleeping after a night patrol in Northern Ireland when I was in the Army in 1987, and the heat of the barracks room was never below 20C."
+      },
+      {
+        "type": "p",
+        "text": "Then there's the window problem. Open it for some air and you let the outside world in. You get into bed after a night shift and the neighbours decide to mow their lawns. Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. So day sleepers have to manage heat and noise at the same time."
+      },
+      {
+        "type": "h2",
+        "text": "How do you cool a bedroom without air-con?"
+      },
+      {
+        "type": "p",
+        "text": "You don't need air conditioning. Stop the heat getting in, let it out when the air is cooler, and keep air moving:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Close the blinds and curtains early.** The [UK Health Security Agency](https://ukhsa.blog.gov.uk/2026/06/23/how-to-keep-cool-and-stay-well-during-hot-weather/) advises keeping windows and curtains closed in rooms that face the sun during the day. Do it before you leave for your shift or as soon as you get in. Blackout blinds help twice: they block the light and the warmth of the sun. If you're choosing between them, see our guide to [blackout blinds vs blackout curtains](/resources/blackout-blinds-vs-curtains/).",
+          "**Let cool air in when it's cooler outside.** UKHSA suggests opening windows, if it is safe to, when the air feels cooler outside than inside, for example at night. For night workers that means the evening before your shift and the early morning when you get home, then closing up as the day warms.",
+          "**Give the heat somewhere to go.** UKHSA advises getting air flowing through your home. The Sleep Charity suggests opening the loft hatch, because hot air rises and this gives it somewhere to go.",
+          "**Run a fan, and add ice.** The Sleep Charity's trick is to put a tray of ice and a little water in front of the fan to cool the air even more. A fan also gives you a steady hum that covers sudden noises, which is why so many of us can't sleep without one. More on that in our post on [fan noise for sleeping](/resources/fan-noise-for-sleeping/).",
+          "**Cool yourself, not just the room.** The Sleep Charity suggests drinking plenty of cold water in the evening and keeping a glass by the bed. It also suggests chilling socks in the fridge, because cooling your feet lowers the overall temperature of your skin and body."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What bedding and nightwear work best in the heat?"
+      },
+      {
+        "type": "p",
+        "text": "Lighter is better. The Sleep Charity recommends a lower-tog duvet or even a cotton sheet in hot weather, and light cotton nightwear to wick away sweat. On cooler days it suggests an extra layer of sheets or blankets instead."
+      },
+      {
+        "type": "p",
+        "text": "For day sleepers, layers beat one thick duvet. A cotton sheet plus a thin blanket lets you kick a layer off at 2pm when the room peaks, without fully waking up to swap the bedding."
+      },
+      {
+        "type": "h2",
+        "text": "What about winter, when the clocks go back?"
+      },
+      {
+        "type": "p",
+        "text": "The clocks go back on Sunday 25 October 2026. Darker mornings make the light side of daytime sleep easier, but the heating can make the bedroom too warm. If your central heating comes on during the day while you're asleep, turn the bedroom radiator down or set the timer around your sleep. It's better to add a blanket than heat the room past 18C. Just don't let it drop to around 12C, where The Sleep Charity says it becomes hard to drop off."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Aim for a bedroom around 16-18C, keep the sun out from early morning, move the air, and go light on bedding. Day sleepers fight heat and noise together, so plan for both. For the rest of the daytime routine, read our guide on [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/), and for deeper masking sounds see [brown noise for sleep](/resources/brown-noise-for-sleep/)."
+      },
+      {
+        "type": "p",
+        "text": "If the window has to stay shut, the free Sleyp player gives you fan hum without the fan, and you can layer it with brown noise or rain. All 13 sounds in the browser are free, along with the custom countdown timer. [Try Sleyp free](/session/). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[The Sleep Charity: Sleep environment](https://thesleepcharity.org.uk/adults/sleep-environment/): ideal bedroom temperature 16-18C, restlessness over 24C, about 12C too cold; bedding, fan and cooling tips.",
+          "[Okamoto-Mizuno and Mizuno (2012), Effects of thermal environment on sleep and circadian rhythm, Journal of Physiological Anthropology](https://doaj.org/article/7e71c8bd13f84f11b94aceb0fb27866d): with bedding and clothing, heat increases wakefulness and reduces deep and REM sleep; humidity adds to the effect.",
+          "[UK Health Security Agency (June 2026): How to keep cool and stay well during hot weather](https://ukhsa.blog.gov.uk/2026/06/23/how-to-keep-cool-and-stay-well-during-hot-weather/): keep sun-facing windows and curtains closed by day; open windows when it's cooler outside; get air flowing."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is 20 degrees too hot to sleep?",
+        "answer": "Not usually, but it's warmer than ideal. The Sleep Charity puts the ideal at 16-18C and says restlessness is likely over 24C. At 20C, most people sleep better with lighter bedding, light cotton nightwear and a fan."
+      },
+      {
+        "question": "How can I cool my bedroom for daytime sleep?",
+        "answer": "Close blinds and curtains on sunny windows before the sun reaches them, open windows when the air outside is cooler (early morning or the evening before your shift), get air moving with a fan, and use a low-tog duvet or cotton sheet."
+      },
+      {
+        "question": "Does a fan help you sleep in the heat?",
+        "answer": "Yes, for most people. It moves air across your skin and gives a steady hum that covers sudden noises. The Sleep Charity suggests a tray of ice and a little water in front of the fan to cool the air further."
+      },
+      {
+        "question": "Should I sleep with the window open during the day?",
+        "answer": "Open it while the air outside is cooler than inside, then close it as the day warms up, as UKHSA advises for sun-facing rooms. If outside noise keeps waking you, keep it shut and rely on blinds, a fan and a masking sound."
+      },
+      {
+        "question": "What temperature is too cold to sleep?",
+        "answer": "The Sleep Charity says a cold room of about 12C makes it difficult to drop off. Add a sheet or blanket rather than heating the bedroom."
+      },
+      {
+        "question": "What should I wear to bed in a heatwave?",
+        "answer": "Light cotton nightwear, which The Sleep Charity says helps wick away sweat. Pair it with a cotton sheet or low-tog duvet you can push off as the room warms."
+      }
+    ]
+  },
+  {
     "slug": "best-sleep-mask",
     "title": "Best Sleep Mask for Day Sleepers (and Why the Science Backs Them)",
     "description": "Do sleep masks actually work? What a Cardiff University study found, and how night-shift workers can choose a mask for total darkness during the day.",
@@ -463,7 +621,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "They help with both. Closing blinds and curtains before the sun hits the window keeps the room darker and stops it warming up as quickly. A light-coloured or thermal-backed blind facing the glass helps more than a dark one. There is more on keeping cool in the upcoming guide to the ideal bedroom temperature for sleep."
+        "text": "They help with both. Closing blinds and curtains before the sun hits the window keeps the room darker and stops it warming up as quickly. A light-coloured or thermal-backed blind facing the glass helps more than a dark one. There is more on keeping cool in my guide to the [ideal bedroom temperature for sleep](/resources/ideal-bedroom-temperature-for-sleep/)."
       },
       {
         "type": "p",
@@ -768,7 +926,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Our upcoming guide to the ideal bedroom temperature for sleep goes deeper on heatwaves."
+        "text": "My guide to the [ideal bedroom temperature for sleep](/resources/ideal-bedroom-temperature-for-sleep/) goes deeper on heatwaves."
       },
       {
         "type": "h2",
@@ -2534,7 +2692,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Summer is when day sleepers suffer most. You get home at 7am into full sun and try to sleep while the house heats up around you. [The Sleep Charity](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/) puts the ideal bedroom temperature at around 16-18C and says temperatures over 24C are likely to cause restlessness. Here's how to get closer to that:"
+        "text": "Summer is when day sleepers suffer most. You get home at 7am into full sun and try to sleep while the house heats up around you. [The Sleep Charity](https://thesleepcharity.org.uk/information-support/adults/sleep-environment/) puts the ideal bedroom temperature at around 16-18C and says temperatures over 24C are likely to cause restlessness (more in my guide to the [ideal bedroom temperature for sleep](/resources/ideal-bedroom-temperature-for-sleep/)). Here's how to get closer to that:"
       },
       {
         "type": "ol",
