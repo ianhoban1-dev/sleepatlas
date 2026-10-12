@@ -45,6 +45,232 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "how-much-deep-sleep-do-you-need",
+    "title": "How Much Deep Sleep Do You Need? (And How Night Workers Get It)",
+    "description": "How much deep sleep do you need? Adults average 10-20% of sleep. When deep sleep happens, what steals it, and how night workers can protect it during the day.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-14",
+    "readMinutes": 7,
+    "quickAnswer": "Most adults spend 10-20% of their sleep in deep sleep, roughly 42-84 minutes in a 7-hour sleep. Most of it comes in the first part of your sleep, whatever time of day that is. For night workers, that means protecting the first few hours after you get into bed from noise, light and the after-shift drink.",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "How much deep sleep do you need?"
+      },
+      {
+        "type": "p",
+        "text": "According to the [Sleep Foundation](https://www.sleepfoundation.org/stages-of-sleep/deep-sleep), adults typically spend 10% to 20% of the night in deep sleep, also called slow-wave sleep. It is honest about the limits: there is no agreed single number for how much deep sleep is normal or ideal. So think of it as a range, not a target."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Hours asleep",
+          "Typical deep sleep (10-20%)",
+          "Where the figure comes from"
+        ],
+        "rows": [
+          [
+            "5 hours",
+            "About 30-60 minutes",
+            "The same 10-20% rule, worked out"
+          ],
+          [
+            "6 hours",
+            "About 36-72 minutes",
+            "The same 10-20% rule, worked out"
+          ],
+          [
+            "7 hours",
+            "42-84 minutes",
+            "Sleep Foundation"
+          ],
+          [
+            "8 hours",
+            "48-96 minutes",
+            "Sleep Foundation"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Because deep sleep comes early, a short sleep probably loses more of its later, lighter sleep than its deep sleep. Treat the 5- and 6-hour rows as a rough guide. Short sleep still costs you, which is why the total matters as much as the deep part. [HSE](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) says most adults need 7-8 hours of sleep a day, though this may decrease with age. We'll look at what happens when you regularly get less in Is 6 Hours of Sleep Enough?"
+      },
+      {
+        "type": "p",
+        "text": "Age changes the picture too. The Sleep Foundation says children and teenagers need the most deep sleep, and that it then declines gradually before levelling off in your 70s. If you're 50-plus and still working nights, less deep sleep than you had at 25 is normal."
+      },
+      {
+        "type": "h2",
+        "text": "What does deep sleep actually do?"
+      },
+      {
+        "type": "p",
+        "text": "Sleep runs in stages: light sleep, deep sleep and REM (dreaming) sleep, repeating through the sleep period. Deep sleep is the stage where your brain waves slow right down. The Sleep Foundation explains that your muscles relax, your pulse and breathing slow, and your body builds and repairs tissue, muscle and bone. Deep sleep also supports memory and learning."
+      },
+      {
+        "type": "p",
+        "text": "One well-known study shows the memory link. In 2013, researchers in Germany played short sounds to [11 sleepers during deep sleep](https://www.sciencedaily.com/releases/2013/04/130411123850.htm), timed to their slow brain waves. The timed sounds strengthened those waves, and people better remembered word pairs they had learned the evening before. Sounds played out of step with the brain waves had no effect. That's why a pink noise track left on all day isn't the same thing, as we explain in [pink noise for sleep](/resources/pink-noise-for-sleep/)."
+      },
+      {
+        "type": "p",
+        "text": "Deep sleep is also the hardest stage to wake from. The Sleep Foundation says being woken from it can leave you groggy for up to an hour. If a delivery driver has ever hammered on your door at 11am and you've stood there not knowing what day it is, that's probably why."
+      },
+      {
+        "type": "h2",
+        "text": "When does deep sleep happen if you sleep in the day?"
+      },
+      {
+        "type": "p",
+        "text": "The Sleep Foundation says you get the most deep sleep during the early part of the night. For a day sleeper, \"the night\" is whenever your sleep starts. Get into bed at 8am and your deepest sleep is front-loaded into roughly the next three hours."
+      },
+      {
+        "type": "p",
+        "text": "That is exactly when the world wakes up. Getting in bed when everyone else is leaving the house for school and work is great, until the next door neighbour decides to renovate their house and starts drilling. The school run, the bin lorry and the post all land in your best deep-sleep window. Of all the hours of a day sleep, those early ones are the ones worth defending hardest."
+      },
+      {
+        "type": "h2",
+        "text": "What steals deep sleep?"
+      },
+      {
+        "type": "table",
+        "head": [
+          "What gets in the way",
+          "What happens",
+          "What to do"
+        ],
+        "rows": [
+          [
+            "Caffeine",
+            "The Sleep Foundation lists caffeine among the substances that can affect deep sleep. HSE advises avoiding caffeine and energy drinks a few hours before bed",
+            "Set a caffeine cut-off on nights, not just \"less coffee\""
+          ],
+          [
+            "Alcohol",
+            "More deep sleep early on, then more broken sleep in the second half (see below). HSE says alcohol lowers the quality of sleep",
+            "Keep the after-shift drink for the end of your block"
+          ],
+          [
+            "Noise",
+            "WHO recommends under 30 dB(A) in bedrooms at night and names shift workers as at increased risk from noise",
+            "Earplugs plus a steady masking sound"
+          ],
+          [
+            "Light",
+            "The Sleep Foundation recommends a quiet, cool and dark bedroom; HSE suggests heavy curtains, blackout blinds or eye shades",
+            "Black out the room before you need it"
+          ],
+          [
+            "Stress",
+            "The Sleep Foundation says high stress may make deep sleep harder to get",
+            "A wind-down routine between the shift and bed"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Alcohol deserves its own word, because it fools people. A [review of 20 studies on alcohol and sleep](https://www.sciencedaily.com/releases/2013/01/130122162236.htm) found that, across doses, alcohol increases deep sleep in the first half of the night. But sleep becomes more disrupted in the second half, and total REM sleep drops at moderate and high doses. One of the experts summed it up: alcohol \"on the whole is not useful for improving a whole night's sleep\"."
+      },
+      {
+        "type": "p",
+        "text": "I know the pull of it. Drinking alcohol after a night shift is your \"me time\", like an evening is the normal worker's me time, but I'm going to pay for it later that night when I'm back on my night shift at 2am in the morning. This is amplified even more when you work at a brewery such as Budweiser. Each quarter, we got 5 crates of beer as an allowance, so the house always had beer in it. After a 12-hour night shift, a cold beer or two was the reward, but the payback was later, when you wake up for the toilet, feeling groggy, and then you struggle to get back to sleep. It's a never-ending cycle: the deep sleep comes early after a few pints, but the broken bit comes after lunch, when you should still be asleep."
+      },
+      {
+        "type": "h2",
+        "text": "How can night workers protect their deep sleep?"
+      },
+      {
+        "type": "p",
+        "text": "The aim is simple: make the first three hours of your day sleep as dark, quiet and undisturbed as you can."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Go to bed soon after you get home.** The longer you stay up, the closer your deep-sleep window drifts to the noisiest part of the day.",
+          "**Black out the room first.** HSE suggests heavy curtains, blackout blinds or eye shades. Do it before your shift so you're not fiddling with it at 8am.",
+          "**Cover the noise peaks from the first minute.** HSE suggests earplugs, white noise or background music to mask outside noise. A steady sound running before you drop off covers the first door slam. Many day sleepers prefer the deeper rumble of [brown noise for sleep](/resources/brown-noise-for-sleep/).",
+          "**Keep the bedroom cool.** Heat breaks up daytime sleep, so shut out the sun early and keep air moving. Our guide to the [ideal bedroom temperature for sleep](/resources/ideal-bedroom-temperature-for-sleep/) covers how.",
+          "**Set a caffeine cut-off.** Stop caffeine a few hours before your planned bedtime, as HSE advises. We'll give hard timings in How Long Does Caffeine Last?",
+          "**Tell people your sleep times.** HSE advises talking to close neighbours about your work pattern and asking them to avoid noisy jobs during your sleep time. Same goes for the household.",
+          "**Keep the same sleep window.** The Sleep Foundation's advice to get more deep sleep is to improve your overall sleep, starting with a consistent schedule."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "One seasonal note: the clocks go back on Sunday 25 October 2026. Darker mornings make the drive home and the first hour in bed a little easier on the light front. Watch the central heating timer, though. A radiator kicking in mid-morning can warm the bedroom just as your deep sleep should be peaking."
+      },
+      {
+        "type": "p",
+        "text": "For the full routine, read our guide on [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/)."
+      },
+      {
+        "type": "h2",
+        "text": "Should you trust your watch's deep sleep number?"
+      },
+      {
+        "type": "p",
+        "text": "Use it for trends, not verdicts. A [2023 study in JMIR mHealth and uHealth](https://mhealth.jmir.org/2023/1/e50983) tested 11 consumer sleep trackers on 75 people against a full sleep-lab recording. The best watches showed only moderate agreement with the lab on sleep stages. One under-mattress device labelled 59% of sleep as deep, when the lab measured 10.8%."
+      },
+      {
+        "type": "p",
+        "text": "The Sleep Foundation's view is fair: trackers aren't perfect, but they can show whether you're consistently getting enough deep sleep over time. So look at the trend across a block of nights, not one bad reading. I've never used a tracker other than a manual one where I score my own sleep. To keep track of the hours that matter most, log them in the [Sleep Debt & Fatigue Logger](/tools/sleep-debt-fatigue-logger/)."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Most adults get 10-20% of their sleep as deep sleep, and it comes first. For night workers, the first three hours in bed are where it's won or lost. Make them dark, cool and quiet, and keep caffeine and alcohol away from them."
+      },
+      {
+        "type": "p",
+        "text": "Protect those first three hours by starting a Sleyp session as you get into bed. All 13 sounds in the browser player are free, along with the custom timer and saved mixes; just keep the page open for the timer to run. [Try Sleyp free](/session/). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Sleep Foundation: Deep sleep](https://www.sleepfoundation.org/stages-of-sleep/deep-sleep): adults typically 10-20% deep sleep (42-84 minutes in 7 hours, 48-96 in 8); most deep sleep early in the night; declines with age; caffeine, alcohol and stress can affect it; trackers show trends.",
+          "[ScienceDaily (Cell Press), April 2013: Ngo et al., Neuron, auditory closed-loop stimulation](https://www.sciencedaily.com/releases/2013/04/130411123850.htm): sounds timed to slow brain waves in 11 sleepers strengthened deep-sleep waves and improved word-pair recall; out-of-step sounds had no effect.",
+          "[ScienceDaily, January 2013: Ebrahim et al., Alcohol and Sleep I, Alcoholism: Clinical & Experimental Research](https://www.sciencedaily.com/releases/2013/01/130122162236.htm): review of 20 studies; alcohol increases deep sleep in the first half of the night and disrupts the second half; total REM falls at moderate and high doses.",
+          "[Lee et al. (2023), Accuracy of 11 consumer sleep trackers, JMIR mHealth and uHealth](https://mhealth.jmir.org/2023/1/e50983): 75 participants; best wearables showed moderate agreement on sleep stages; one device labelled 59% of epochs deep versus 10.8% in the lab.",
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise): under 30 dB(A) in bedrooms at night; shift workers at increased risk.",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm): most adults need 7-8 hours; darken the bedroom; mask noise; talk to neighbours; avoid alcohol and late caffeine."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is 1 hour of deep sleep enough?",
+        "answer": "For most adults, yes, it sits within the normal range. The Sleep Foundation puts typical deep sleep at 42-84 minutes in a 7-hour sleep and 48-96 minutes in an 8-hour sleep. There is no agreed single target, so focus on getting enough total sleep."
+      },
+      {
+        "question": "Why is my deep sleep so low on my watch?",
+        "answer": "Partly the watch: a 2023 study of 11 trackers found even the best only moderately matched a sleep lab on sleep stages. Partly real life: short or broken day sleep, noise early in the sleep and alcohol can all play a part. Watch the trend over weeks."
+      },
+      {
+        "question": "Does alcohol reduce deep sleep?",
+        "answer": "Not at first. A review of 20 studies found alcohol increases deep sleep in the first half of the night, then makes the second half more broken and cuts REM sleep at moderate and high doses. HSE advises avoiding alcohol before sleep because it lowers sleep quality."
+      },
+      {
+        "question": "When does deep sleep happen if I sleep during the day?",
+        "answer": "In the first part of your sleep, whatever the clock says. If you get into bed at 8am, your deepest sleep is mostly in the next few hours, which is when daytime noise is at its worst."
+      },
+      {
+        "question": "How can I get more deep sleep after a night shift?",
+        "answer": "Get to bed soon after you get home, make the room dark and cool, mask noise from the start, stop caffeine a few hours before bed, skip the after-shift drink and keep your sleep window consistent."
+      },
+      {
+        "question": "Does pink noise increase deep sleep?",
+        "answer": "Lab studies that strengthened deep sleep used short sounds timed precisely to brain waves. A pink noise track left running all day isn't the same thing, though it can still be a useful masking sound."
+      }
+    ]
+  },
+  {
     "slug": "ideal-bedroom-temperature-for-sleep",
     "title": "Ideal Bedroom Temperature for Sleep (Even in a Summer Heatwave)",
     "description": "What is the ideal bedroom temperature for sleep? Why 16-18C is the target, why heat hits day sleepers hardest, and easy ways to cool a room without air-con.",
@@ -156,7 +382,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Aim for a bedroom around 16-18C, keep the sun out from early morning, move the air, and go light on bedding. Day sleepers fight heat and noise together, so plan for both. For the rest of the daytime routine, read our guide on [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/), and for deeper masking sounds see [brown noise for sleep](/resources/brown-noise-for-sleep/)."
+        "text": "Aim for a bedroom around 16-18C, keep the sun out from early morning, move the air, and go light on bedding. Day sleepers fight heat and noise together, so plan for both. For the rest of the daytime routine, read our guide on [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/), for deeper masking sounds see [brown noise for sleep](/resources/brown-noise-for-sleep/), and to protect the early hours of your sleep see [how much deep sleep you need](/resources/how-much-deep-sleep-do-you-need/)."
       },
       {
         "type": "p",
@@ -406,7 +632,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "The Cardiff researchers linked the mask's benefit to deep sleep, which comes mostly in the first part of your sleep. So the mask matters most in those first few hours after you get in from a shift. (More on this in How Much Deep Sleep Do You Need?, coming soon.)"
+        "text": "The Cardiff researchers linked the mask's benefit to deep sleep, which comes mostly in the first part of your sleep. So the mask matters most in those first few hours after you get in from a shift. (More on this in [How Much Deep Sleep Do You Need?](/resources/how-much-deep-sleep-do-you-need/))"
       },
       {
         "type": "h2",
@@ -1036,7 +1262,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Daytime sleep after a night shift isn't about willpower. It's about the room and the routine: in bed within an hour, dark enough that you can't see across the room, quiet with earplugs and a masking sound, cool at 16-18C, caffeine stopped six hours before bed, and 7-8 hours protected every day. Get those right and the rest of the block gets easier."
+        "text": "Daytime sleep after a night shift isn't about willpower. It's about the room and the routine: in bed within an hour, dark enough that you can't see across the room, quiet with earplugs and a masking sound, cool at 16-18C, caffeine stopped six hours before bed, and 7-8 hours protected every day. Get those right and the rest of the block gets easier. To see why the first hours in bed matter most, read [how much deep sleep you need](/resources/how-much-deep-sleep-do-you-need/)."
       },
       {
         "type": "p",
