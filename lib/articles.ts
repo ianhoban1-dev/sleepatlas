@@ -45,6 +45,207 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "is-6-hours-of-sleep-enough",
+    "title": "Is 6 Hours of Sleep Enough? What It Means for Shift Workers",
+    "description": "Is 6 hours of sleep enough? Two weeks of 6-hour nights impaired people as much as up to two nights without sleep. What it means for shift workers.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-12",
+    "readMinutes": 7,
+    "quickAnswer": "For most adults, 6 hours of sleep isn't enough once it becomes your normal. In a well-known 2003 study, people limited to 6 hours in bed for 14 days ended up as impaired as people kept awake for up to two nights, and they barely noticed. HSE says most adults need 7-8 hours a day.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "In the Army, you finished your stag in the middle of the night, lay there unable to get back to sleep, and the next day still had to be worked. Nobody asked whether you'd had enough. Forty years later, through Jacobs Biscuits, HM Prison Service and Budweiser UK, the question I hear most from other shift workers is the same one: is 6 hours really that bad? The honest answer is that one 6-hour sleep won't hurt you much. A run of them adds up, and the research shows you are the last person to notice."
+      },
+      {
+        "type": "h2",
+        "text": "Is 6 hours of sleep enough? The short answer"
+      },
+      {
+        "type": "p",
+        "text": "Six hours is enough to get through a day. It isn't enough to stay sharp day after day. [HSE's guidance for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) puts it plainly: \"Most adults need 7-8 hours sleep a day although this may decrease with age.\""
+      },
+      {
+        "type": "p",
+        "text": "The problem with 6 hours is not the first night. It's the build-up. Every short sleep adds to your sleep debt, and your performance keeps sliding while your sense of how tired you are levels off. That gap is where the risk sits, at work and on the drive home."
+      },
+      {
+        "type": "h2",
+        "text": "What did the 14-day study actually find?"
+      },
+      {
+        "type": "p",
+        "text": "The study most people mean when they talk about 6 hours is [Van Dongen and colleagues, published in SLEEP in 2003](https://ntrs.nasa.gov/citations/20040087752). Researchers took 48 healthy adults aged 21-38 and gave them a fixed amount of time in bed every night for 14 days in a row. A separate group went 3 nights with no sleep at all, for comparison."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Group",
+          "Time in bed",
+          "How long",
+          "What the researchers report"
+        ],
+        "rows": [
+          [
+            "Restricted",
+            "4 hours a night",
+            "14 days",
+            "Deficits built up, equivalent to up to 2 nights without sleep (6 hours or less)"
+          ],
+          [
+            "Restricted",
+            "6 hours a night",
+            "14 days",
+            "Deficits built up, equivalent to up to 2 nights without sleep (6 hours or less)"
+          ],
+          [
+            "Comparison",
+            "8 hours a night",
+            "14 days",
+            "The normal-sleep group the others were compared with"
+          ],
+          [
+            "Total sleep loss",
+            "0 hours",
+            "3 nights",
+            "The yardstick for \"nights without sleep\""
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The headline finding: restricting sleep to 6 hours or less a night for two weeks produced thinking and reaction deficits equal to up to two full nights of no sleep. These were healthy young adults in a lab, sleeping on a regular schedule. Shift workers usually have it harder, not easier."
+      },
+      {
+        "type": "h2",
+        "text": "Why do you feel fine on 6 hours?"
+      },
+      {
+        "type": "p",
+        "text": "This is the part that should make every night worker sit up. In the same study, sleepiness ratings rose at first and then changed little, even as performance kept getting worse. The authors wrote that people \"were largely unaware of these increasing cognitive deficits.\""
+      },
+      {
+        "type": "p",
+        "text": "In real life, that sounds like \"I'm used to it\" or \"I only need six\". You might genuinely feel used to it. The study suggests your reactions and focus may not be. That matters when you are watching a production line at 4am, running a wing on nights, or driving home at 7am with the sun in your eyes."
+      },
+      {
+        "type": "h2",
+        "text": "What if you're a shift worker and 6 hours is all you get?"
+      },
+      {
+        "type": "p",
+        "text": "Sometimes 6 hours is the best a rota allows. Lates and earlies sound great, but the early start after a late finish takes a toll on your sleep pattern and sleep quality, and 6 hours between them can feel generous. On nights, daytime sleep is often shorter and lighter because of daylight, traffic and the rest of the world carrying on outside your window."
+      },
+      {
+        "type": "p",
+        "text": "After a night shift at Strangeways prison, it was always difficult to \"switch off\" enough to get a good quality 6 hours sleep, especially with the daytime noises."
+      },
+      {
+        "type": "p",
+        "text": "Getting a good quality 6 hours minimum is so important for not just your health, but for your time off. I really did hate that groggy jet-lagged feeling after my last night shift, especially if my daily sleep routine had given me broken sleep."
+      },
+      {
+        "type": "p",
+        "text": "If short sleep is unavoidable for a few days, the goal is damage control: protect the sleep you do get, top it up where you can, and pay it back on your rest days rather than letting it stack for weeks."
+      },
+      {
+        "type": "h2",
+        "text": "How can you top up a short sleep?"
+      },
+      {
+        "type": "p",
+        "text": "These steps follow HSE's advice for shift workers, plus what works in a real house on a real street."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Sleep before your first night.** HSE advises having \"a short sleep before your first night shift\". Even 60-90 minutes in the afternoon takes the edge off.",
+          "**Nap when it's safe.** HSE says to \"stop if you feel sleepy and take a short nap if it is safe to do so\". A planned nap on a break beats fighting your eyelids. We'll cover nap timing in our guide How to Stay Awake on a Night Shift.",
+          "**Rest even if you can't sleep.** HSE notes that if you can't get 7-8 hours, \"try to rest, as this is still beneficial.\" Lying in a dark, quiet room is not wasted time.",
+          "**Keep one fixed block.** Many shift workers keep the same few hours of sleep every day, nights or days off, and add extra sleep around it.",
+          "**Make the bedroom dark.** HSE recommends \"heavy curtains, blackout blinds or eye shades\".",
+          "**Mask the noise.** If it's too noisy, HSE suggests \"earplugs, white noise or background music to mask external noises\". Even on a quiet street, cars and kids playing out can keep you awake. A steady sound such as [brown noise](/resources/brown-noise-for-sleep/) smooths out the bangs and voices.",
+          "**Tell the neighbours.** HSE advises you to \"discuss your work pattern with close neighbours\" and ask them to avoid noisy jobs during your sleep time.",
+          "**Come off nights gently.** HSE's tip: \"have a short sleep and go to bed earlier that night.\""
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For the full daytime routine, see how to [sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/). For what happens inside those hours, read [how much deep sleep you need](/resources/how-much-deep-sleep-do-you-need/)."
+      },
+      {
+        "type": "h2",
+        "text": "Is 7 hours enough? Is 5 hours enough?"
+      },
+      {
+        "type": "p",
+        "text": "**7 hours** sits at the bottom of HSE's 7-8 hour range, so for most adults it is a reasonable target. If you wake up after 7 hours and still feel drained, you may simply need more, or the sleep you're getting is being broken up by noise and light."
+      },
+      {
+        "type": "p",
+        "text": "**5 hours** is below the 6-hour line. The Van Dongen findings covered \"6 hours or less\", and the 4-hour group in that study did worse again. Treat 5 hours as an emergency, not a plan."
+      },
+      {
+        "type": "p",
+        "text": "Night shifts at Budweiser were my worst experience, and why I decided to build the Sleyp app. 12-hour shifts in really hot conditions, then a 40-minute drive home, all added up to a sleep pattern that was all over the place."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Six hours will get you through a shift. Six hours, night after night, quietly wears you down, and the research says you won't feel how far. Protect your sleep window, top up with naps and rest, and keep a log of your real hours in the [Sleep Debt & Fatigue Logger](/tools/sleep-debt-fatigue-logger/) so you can see the debt before it sees you."
+      },
+      {
+        "type": "p",
+        "text": "When daytime noise is what cuts your sleep short, a steady masking sound can help you stay down for longer. [Try Sleyp free](/session/): 13 sounds, a custom timer and a wake-up chime, all free in your browser (keep the page open while it plays). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Van Dongen HPA, Maislin G, Mullington JM, Dinges DF (2003). The cumulative cost of additional wakefulness. SLEEP 26(2). NASA Technical Reports Server record](https://ntrs.nasa.gov/citations/20040087752)",
+          "[Health and Safety Executive: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is 6 hours of sleep enough for a night shift worker?",
+        "answer": "Not as a regular pattern. One 6-hour sleep is manageable, but in a two-week study, 6 hours a night produced deficits equal to up to two nights without sleep. Aim for 7-8 hours, using a nap or a second sleep to make up the gap."
+      },
+      {
+        "question": "Is 7 hours of sleep enough?",
+        "answer": "For most adults, yes. HSE says most adults need 7-8 hours a day, so 7 hours is at the lower end of normal. If you feel rough after 7, check your bedroom for light and noise before assuming you need more."
+      },
+      {
+        "question": "Is 5 hours of sleep enough?",
+        "answer": "No. Five hours is below the level at which the 2003 study found deficits building day after day. If a shift pattern forces 5 hours, top up with a nap and get a full sleep as soon as the rota allows."
+      },
+      {
+        "question": "Can a nap make up for short sleep?",
+        "answer": "A nap helps you get through, and HSE recommends a short nap when you feel sleepy and it's safe. It doesn't fully replace a proper sleep, so treat it as a top-up rather than a substitute."
+      },
+      {
+        "question": "Why do I feel fine on 6 hours?",
+        "answer": "Because your sense of sleepiness levels off while your performance keeps dropping. In the Van Dongen study, people were \"largely unaware\" of their growing deficits. Feeling fine is not the same as being sharp."
+      },
+      {
+        "question": "Can you catch up on lost sleep on your days off?",
+        "answer": "You can recover some, but a single long lie-in won't wipe out a week of short sleep. We go into this in our upcoming guide Can You Catch Up on Sleep? For now, spread recovery over your rest days."
+      }
+    ]
+  },
+  {
     "slug": "how-much-deep-sleep-do-you-need",
     "title": "How Much Deep Sleep Do You Need? (And How Night Workers Get It)",
     "description": "How much deep sleep do you need? Adults average 10-20% of sleep. When deep sleep happens, what steals it, and how night workers can protect it during the day.",
@@ -94,7 +295,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Because deep sleep comes early, a short sleep probably loses more of its later, lighter sleep than its deep sleep. Treat the 5- and 6-hour rows as a rough guide. Short sleep still costs you, which is why the total matters as much as the deep part. [HSE](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) says most adults need 7-8 hours of sleep a day, though this may decrease with age. We'll look at what happens when you regularly get less in Is 6 Hours of Sleep Enough?"
+        "text": "Because deep sleep comes early, a short sleep probably loses more of its later, lighter sleep than its deep sleep. Treat the 5- and 6-hour rows as a rough guide. Short sleep still costs you, which is why the total matters as much as the deep part. [HSE](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) says most adults need 7-8 hours of sleep a day, though this may decrease with age. We look at what happens when you regularly get less in [Is 6 Hours of Sleep Enough?](/resources/is-6-hours-of-sleep-enough/)"
       },
       {
         "type": "p",
@@ -1262,7 +1463,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Daytime sleep after a night shift isn't about willpower. It's about the room and the routine: in bed within an hour, dark enough that you can't see across the room, quiet with earplugs and a masking sound, cool at 16-18C, caffeine stopped six hours before bed, and 7-8 hours protected every day. Get those right and the rest of the block gets easier. To see why the first hours in bed matter most, read [how much deep sleep you need](/resources/how-much-deep-sleep-do-you-need/)."
+        "text": "Daytime sleep after a night shift isn't about willpower. It's about the room and the routine: in bed within an hour, dark enough that you can't see across the room, quiet with earplugs and a masking sound, cool at 16-18C, caffeine stopped six hours before bed, and 7-8 hours protected every day. Get those right and the rest of the block gets easier. To see why the first hours in bed matter most, read [how much deep sleep you need](/resources/how-much-deep-sleep-do-you-need/). If your rota only gives you short sleeps, read [is 6 hours of sleep enough](/resources/is-6-hours-of-sleep-enough/)."
       },
       {
         "type": "p",
