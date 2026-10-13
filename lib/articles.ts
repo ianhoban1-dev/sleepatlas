@@ -45,6 +45,437 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "night-shift-survival-guide",
+    "title": "Working Nights: The Complete Night Shift Survival Guide (UK)",
+    "description": "A night shift survival guide from a 40-year shift veteran: sleep before your first night, the 3am wall, food, caffeine, the drive home and your UK rights.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-13",
+    "readMinutes": 16,
+    "quickAnswer": "Surviving night shifts comes down to five things: a short sleep before your first night, early caffeine and a planned break during the shift, light meals, a safe drive home, and a dark, quiet bedroom for daytime sleep. More than 3 million UK employees work nights, and the same basics work for every one of them.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "It's 3 o'clock in the morning on your night shift and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and then you pay for it later when you try to get some sleep and you're wired to stay awake. If that sounds familiar, this guide is for you."
+      },
+      {
+        "type": "p",
+        "text": "I've worked shifts for 40 years. I started in The King's Regiment from 1986 to 1989, then worked at Jacobs Biscuits, in HM Prison Service at Strangeways, Walton and Guys Marsh, and at Budweiser UK. Nights have been part of my life for most of that time. I've done nights at Strangeways prison, in the Army on stag duty and on patrol, and night shifts at the Budweiser brewery in Samlesbury. This is everything I wish someone had told me before my first block of nights, checked against what the UK's own safety regulator says."
+      },
+      {
+        "type": "h2",
+        "text": "Who works nights in the UK?"
+      },
+      {
+        "type": "p",
+        "text": "You're far from alone. A [TUC analysis of official figures for 2018](https://www.tuc.org.uk/news/number-people-working-night-shifts-more-150000-5-years) found 3,138,000 people working nights, about one in nine (11.5%) employees. That was up 151,000 (5%) since 2013, and the number of night workers over 50 had risen by 114.5%."
+      },
+      {
+        "type": "p",
+        "text": "Nurses and care workers, prison officers, lorry drivers, warehouse staff, police, factory and brewery crews: the jobs are different, but the 3am wall is the same. The Health and Safety Executive (HSE) says [more than 3.5 million people are employed as shift workers in the UK](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm). It also says fatigue is said to cost the UK £115 to £240 million a year in work accidents alone, and that it has been implicated in 20% of accidents on major roads."
+      },
+      {
+        "type": "p",
+        "text": "That's the point to hold on to. Shift fatigue isn't weakness or a lack of willpower. It's a safety issue, and it's one you can manage with a plan."
+      },
+      {
+        "type": "h2",
+        "text": "What does a good night shift plan look like?"
+      },
+      {
+        "type": "p",
+        "text": "Here is the whole night shift cycle on one page. Each step is covered in more detail below. The times assume a 7pm to 7am night shift and a 30-minute commute; shift them to fit your own rota."
+      },
+      {
+        "type": "table",
+        "head": [
+          "When",
+          "What to do",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "Night before your first shift",
+            "Sleep as normal and allow yourself a lie-in",
+            "You start the block with as little sleep debt as possible"
+          ],
+          [
+            "Afternoon before your first shift",
+            "Take a short sleep, as [HSE advises](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+            "Cuts the hours you've been awake by the time 3am arrives"
+          ],
+          [
+            "Before you leave",
+            "Eat your main meal and do some moderate exercise",
+            "HSE says moderate exercise before work may increase alertness on the shift"
+          ],
+          [
+            "First half of the shift",
+            "Have your caffeine early, keep lights bright, get the active jobs done",
+            "Caffeine works when you need it and is fading by bedtime"
+          ],
+          [
+            "3am to 5am",
+            "Take your break, move about, talk to people, keep food light",
+            "This is when the wall hits hardest"
+          ],
+          [
+            "6 hours before bed (about 3am for a 9am bedtime)",
+            "Last caffeine of the night",
+            "Caffeine 6 hours before bed can still cut your sleep by over an hour"
+          ],
+          [
+            "End of the shift",
+            "Get home safely; take a taxi, lift share or stop for a nap if sleepy",
+            "Fatigue is linked to 20% of accidents on major roads"
+          ],
+          [
+            "At home",
+            "Light snack, then bed in a dark, cool, quiet room",
+            "Protects a 7 to 8 hour sleep"
+          ],
+          [
+            "After your last night",
+            "Short sleep, then bed earlier that night",
+            "Helps your body clock swing back to days"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "You can work out your own timings with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/), which builds the caffeine cut-off and wind-down around your commute."
+      },
+      {
+        "type": "h2",
+        "text": "How should you prepare before your first night shift?"
+      },
+      {
+        "type": "p",
+        "text": "The biggest mistake I see is people getting up at 7am as normal on the day of their first night shift. By 4am the next morning they've been awake for 21 hours. That's the hardest way to start a block."
+      },
+      {
+        "type": "p",
+        "text": "HSE's [hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) are simple: have a short sleep before your first night shift. In practice that means:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Sleep normally the night before, and have a lie-in if your household lets you.",
+          "Get your head down for a short sleep in the afternoon before you go in. Even if you only doze, lying in a dark room helps.",
+          "Eat a proper meal before you leave, rather than relying on the vending machine at 3am.",
+          "Set up your bedroom for the day sleeps ahead: blinds, earplugs, a fan, your sound mix ready to go.",
+          "Tell close neighbours your work pattern. HSE suggests asking them to try to avoid noisy activities during your sleep time. It doesn't always work, but a friendly word costs nothing."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Before my first night shift, I always got up normally, but then always had a short sleep of around 2 hours. I'd then eat some food before leaving for work around 5:15pm as my start time was 7pm and the drive was along the very busy M6 towards Samlesbury."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get through the 3am wall?"
+      },
+      {
+        "type": "p",
+        "text": "Most night workers know the feeling. The work is quieter, the building is quieter, and somewhere between about 3am and 5am your body decides it's time to sleep, whether you're on the clock or not. You can't remove the wall, but you can stop running into it head first."
+      },
+      {
+        "type": "p",
+        "text": "**Get your caffeine timing right.** Caffeine is a tool, not a crutch. HSE's advice is to only use caffeine occasionally and not to rely on it to keep you awake. The bigger problem for night workers is when you drink it. In a [2013 study reported by the American Academy of Sleep Medicine](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/), 400 mg of caffeine (about 2 to 3 cups of coffee) taken six hours before bed cut total sleep by more than an hour, and people didn't notice their sleep had been disturbed. For a 9am bedtime, that puts your last coffee or energy drink at about 3am, which is exactly when the wall hits. So front-load it: have your caffeine early in the shift and switch to water after your cut-off."
+      },
+      {
+        "type": "p",
+        "text": "**Use light and movement.** Keep your work area as bright as the job allows. Do your walking, checking or stock jobs in the early hours, and save the sit-down paperwork for when you're fresher."
+      },
+      {
+        "type": "p",
+        "text": "**Take your breaks properly.** By law, if your shift is longer than six hours you're entitled to [one uninterrupted 20-minute rest break](https://www.gov.uk/rest-breaks-work). Use it to get off your feet, eat something light and, where your employer allows it, have a short planned nap. HSE's good practice guidelines also say employers should encourage regular breaks and allow some choice over when they're taken."
+      },
+      {
+        "type": "p",
+        "text": "**Talk to people.** In the army, finishing your stag in the middle of the night and not being able to get back to sleep was normal. The next day still had to be worked. What got me through was the people around me. A conversation at 4am does more than another can of Red Bull."
+      },
+      {
+        "type": "p",
+        "text": "There's a full guide to this coming soon in How to Stay Awake on a Night Shift, and the detail on caffeine timing in How Long Does Caffeine Last?"
+      },
+      {
+        "type": "h2",
+        "text": "What should you eat and drink on a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Food on nights is less about superfoods and more about timing and size. HSE's [tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) say regular light meals and snacks are less likely to affect alertness or cause drowsiness than a single heavy meal. They also say not to go to bed hungry: have a light meal or snack before sleeping, but avoid fatty, spicy or heavy meals."
+      },
+      {
+        "type": "p",
+        "text": "A simple pattern that works:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Before the shift:** your main meal of the day, eaten at home.",
+          "**During the shift:** small, regular snacks rather than a big plate of chips at 2am. Pack your own so the vending machine isn't your only option.",
+          "**Drinks:** water through the night, caffeine only before your cut-off.",
+          "**Before bed:** something light so hunger doesn't wake you at noon."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Then there's the drink after work. Drinking alcohol after a night shift is your \"me time\", the same way an evening is a normal worker's me time. I understand it completely. But I always paid for it later that night, back on shift at 2am in the morning, feeling worse than if I'd just gone to bed."
+      },
+      {
+        "type": "p",
+        "text": "I always took my own food in for a night shift, normally sandwiches and always ironically I had overnight oats for my breakfast around 4am. We had vending machines which was always great if you ever needed that sugar fix from a Snickers bar."
+      },
+      {
+        "type": "p",
+        "text": "What to Eat on a Night Shift, coming later in this series, goes deeper on meal timing and snacks for the 3am dip."
+      },
+      {
+        "type": "h2",
+        "text": "How do you stay safe on the drive home after nights?"
+      },
+      {
+        "type": "p",
+        "text": "The drive home is the most dangerous part of a night shift for a lot of people. HSE says fatigue has been [implicated in 20% of accidents on major roads](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm). You've been awake all night, the sun is coming up, and the road is one you could drive in your sleep. That's the problem."
+      },
+      {
+        "type": "p",
+        "text": "HSE's advice for getting to and from work:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Consider public transport or a taxi rather than driving.",
+          "Exercise briefly before your journey.",
+          "Share the driving if you can.",
+          "Drive carefully and defensively, and try not to hurry.",
+          "Stop if you feel sleepy and take a short nap if it's safe to do so."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "From experience, winding the window down and turning the radio up buys you minutes, not miles. If your eyes are heavy, pull in somewhere safe. A 15-minute stop is a lot cheaper than the alternative. My normal stop was on the Rainford bypass, and to be honest, it was a godsend. By this time, I would have struggled to stay awake for about 20 minutes of driving, and each power nap saved me from crashing and near misses."
+      },
+      {
+        "type": "p",
+        "text": "I've been so tired that I've actually fallen asleep at the wheel at the traffic lights, swerved across lanes and somehow never injured anyone. I know 100% I'm not the only one at Budweiser who went through this, so it's definitely a common trait of driving home after a night shift."
+      },
+      {
+        "type": "p",
+        "text": "Microsleep and the Drive Home After a Night Shift, later in this series, covers the warning signs in detail."
+      },
+      {
+        "type": "h2",
+        "text": "How do you sleep in the day after a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Getting into bed when everyone else is leaving the house for school and work is great, until the neighbours decide to mow their lawns. Daytime sleep is harder because light, noise and heat are all at their worst while you're trying to rest. You need to fight all three."
+      },
+      {
+        "type": "p",
+        "text": "HSE says most adults need 7 to 8 hours of sleep a day, and suggests going to bed soon after you get home or staying up and sleeping before your next shift. Whichever you choose, keep it consistent across the block so your body knows when sleep is coming. I always went straight to bed as by the time I'd done a 12 hour shift, then drove home for 40 minutes, I was ready for sleep."
+      },
+      {
+        "type": "p",
+        "text": "My complete guide to [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/) covers this in full. The short version:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Darkness:** HSE recommends heavy curtains, blackout blinds or eye shades. See [blackout blinds vs blackout curtains](/resources/blackout-blinds-vs-curtains/) for stopping light leaks.",
+          "**Noise:** even on a quiet street, cars and kids playing out can keep you wide awake. Earplugs take the edge off the peaks (see [sleeping with earplugs](/resources/earplugs-for-sleeping/)), and a steady masking sound fills the gaps. Deep sounds such as [brown noise](/resources/brown-noise-for-sleep/) or [fan noise](/resources/fan-noise-for-sleeping/) are good at covering traffic, mowers and drilling.",
+          "**Temperature:** keep the room cool, keep the blinds shut from the moment you get in, and use light bedding.",
+          "**Your phone:** put it on Do Not Disturb with exceptions for family emergencies.",
+          "**Your hours:** protect the full sleep. Six hours a day across a block of nights adds up fast; see [is 6 hours of sleep enough?](/resources/is-6-hours-of-sleep-enough/)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What are your rights as a night worker in the UK?"
+      },
+      {
+        "type": "p",
+        "text": "UK law gives night workers specific protections. This is a summary of the GOV.UK guidance, not legal advice; check [GOV.UK's night working hours guide](https://www.gov.uk/night-working-hours) for the full rules and exceptions."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Rule",
+          "What it means"
+        ],
+        "rows": [
+          [
+            "Who counts as a night worker",
+            "Anyone who regularly works at least 3 hours during the night period"
+          ],
+          [
+            "The night period",
+            "11pm to 6am, unless you and your employer agree a different 7-hour period that includes midnight to 5am, in writing"
+          ],
+          [
+            "Average hours limit",
+            "No more than an average of 8 hours in every 24, usually worked out over 17 weeks (up to 52 weeks if agreed). Regular overtime counts"
+          ],
+          [
+            "Opting out",
+            "Night workers cannot opt out of the 8-hour average limit"
+          ],
+          [
+            "Hazardous or strenuous work",
+            "If the work involves special hazards or heavy mental or physical strain, no more than 8 hours in any 24-hour period"
+          ],
+          [
+            "Health assessment",
+            "Your employer must offer a [free health assessment](https://www.gov.uk/night-working-hours/health-assessments) before you start nights, and regular ones after that. You can decline"
+          ],
+          [
+            "Rest between shifts",
+            "The right to [11 hours' rest between working days](https://www.gov.uk/rest-breaks-work)"
+          ],
+          [
+            "Breaks",
+            "One uninterrupted 20-minute break if your shift is longer than 6 hours"
+          ],
+          [
+            "Weekly rest",
+            "24 hours off every week, or 48 hours every fortnight"
+          ],
+          [
+            "Under-18s",
+            "Can't work between midnight and 4am, and usually not between 10pm and 6am, with some exceptions"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "GOV.UK also notes there's no legal right to a higher night rate: the National Minimum Wage applies, but enhancements are down to your contract."
+      },
+      {
+        "type": "h2",
+        "text": "How many night shifts in a row is safe?"
+      },
+      {
+        "type": "p",
+        "text": "There's no single legal number, but HSE's guidance on shift design gives a clear steer. Its [good practice guidelines](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm) for employers say:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Restrict long shifts, night shifts and early morning shifts to 2 to 3 consecutive shifts.",
+          "Limit shifts to 12 hours including overtime, or to 8 hours if they're night shifts and the work is demanding, monotonous, dangerous or safety critical.",
+          "Rotate shifts forwards (days, then lates, then nights) where possible.",
+          "Allow 2 nights' full sleep when switching from days to nights and back.",
+          "Limit consecutive work days to a maximum of 5 to 7."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "HSE's full guide, [HSG256 Managing shift work](https://www.hse.gov.uk/pubns/books/hsg256.htm), is free to download and worth showing to anyone who designs rotas."
+      },
+      {
+        "type": "p",
+        "text": "That 2 to 3 nights point surprises a lot of people. Plenty of rotas, including many 4 on 4 off patterns, put four 12-hour nights back to back. That isn't automatically unlawful, but it's longer than HSE's good practice, so planning your sleep through the block matters even more. Lates and earlies sound great too, but the early starts and late finishes take their own toll on your sleep pattern and sleep quality. Shift Patterns Explained, later in this series, compares the common UK rotas side by side."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get back to days after a block of nights?"
+      },
+      {
+        "type": "p",
+        "text": "I know how it feels to get up early after your last night shift to try to get the most out of your day off, then find yourself fatigued with that dreaded jet-lag feeling. Your body clock has drifted towards nights, and it doesn't snap back in a day."
+      },
+      {
+        "type": "p",
+        "text": "HSE's advice is to have a short sleep when you come off nights, then go to bed earlier that night. Its good practice guidelines also suggest allowing two nights' full sleep when switching from nights back to days. In practice:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Sleep for a few hours after your last shift, not the whole day. Set an alarm.",
+          "Get outside in daylight in the afternoon.",
+          "Keep caffeine to the morning and early afternoon.",
+          "Go to bed at a normal time that night, a little earlier than usual if you're shattered.",
+          "Expect the next day or two to feel a bit off. That's your body clock catching up, not a sign you've done it wrong."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/) builds this into an hour-by-hour plan from the time your last shift ends. How to Fix Your Sleep Schedule After a Block of Nights, later in this series, covers the flip back in more depth."
+      },
+      {
+        "type": "p",
+        "text": "**Clocks go back on Sunday 25 October 2026.** At 2am, UK clocks go back to 1am, so if you're on nights that weekend your shift will be an hour longer. Check your rota and how your employer handles the extra hour, and plan your caffeine cut-off and the drive home with it in mind. Watching the clock go back to 1am is one of the worst feelings possible. It really can be soul destroying."
+      },
+      {
+        "type": "p",
+        "text": "If you're lucky enough to have extra staff, work it out between you so that one person comes in on time but goes an hour earlier and another person comes in an hour later, but stays the extra hour, which is the normal handover time."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Night shifts don't have to grind you down. Sleep before the first night, front-load your caffeine, eat light, get home safely, and guard your daytime sleep like it's part of the job, because it is. Know your rights, and if your rota is stacking up long nights, use HSE's guidance to start the conversation with your employer."
+      },
+      {
+        "type": "p",
+        "text": "When you get home, the last thing you need is a mower or a drill. Try Sleyp free: the browser player has 13 free sounds, including [brown noise](/resources/brown-noise-for-sleep/), rain and fan hum, plus a free custom timer and wake-up chime. You can save your mix in your browser so it's ready for the next morning. Keep the page open while you sleep so the timer and chime can run. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[TUC: Number of people working night shifts up by more than 150,000 in 5 years (October 2018)](https://www.tuc.org.uk/news/number-people-working-night-shifts-more-150000-5-years)",
+          "[HSE: Human factors: Fatigue](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[HSE: Good practice guidelines for shift work](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm)",
+          "[HSE: HSG256 Managing shift work](https://www.hse.gov.uk/pubns/books/hsg256.htm)",
+          "[GOV.UK: Night working hours](https://www.gov.uk/night-working-hours)",
+          "[GOV.UK: Night working hours: health assessments](https://www.gov.uk/night-working-hours/health-assessments)",
+          "[GOV.UK: Rest breaks at work](https://www.gov.uk/rest-breaks-work)",
+          "[American Academy of Sleep Medicine: Late afternoon and early evening caffeine can disrupt sleep at night (2013)](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do you survive a night shift?",
+        "answer": "Sleep before your first night, have your caffeine early in the shift and stop at least 6 hours before bed, eat light meals and snacks rather than one heavy meal, and get home safely. Then sleep in a dark, cool, quiet room for 7 to 8 hours. Planning beats willpower every time."
+      },
+      {
+        "question": "How many night shifts in a row is safe?",
+        "answer": "UK law doesn't set a maximum number of nights in a row, but HSE's good practice guidelines suggest restricting night shifts and long shifts to 2 to 3 in a row. If your rota has four or more 12-hour nights back to back, protect your daytime sleep carefully and plan the switch back to days."
+      },
+      {
+        "question": "What are my rights as a night worker in the UK?",
+        "answer": "Night workers must not work more than an average of 8 hours in 24, usually over 17 weeks, and can't opt out of that limit. Your employer must offer a free health assessment before you start nights and regularly after. You also have the right to 11 hours' rest between working days and a 20-minute break on shifts over 6 hours."
+      },
+      {
+        "question": "Should I sleep before my first night shift?",
+        "answer": "Yes. HSE advises a short sleep before your first night shift. Sleep normally the night before, then get your head down for a short sleep in the afternoon. It cuts the hours you've been awake by the time the early hours arrive."
+      },
+      {
+        "question": "When should I stop drinking caffeine on a night shift?",
+        "answer": "Aim for at least 6 hours before your planned bedtime. In a 2013 study, caffeine taken 6 hours before bed cut sleep by more than an hour, and people didn't notice. For a 9am bedtime, that means your last coffee or energy drink at about 3am."
+      },
+      {
+        "question": "Is it safe to drive home after a night shift?",
+        "answer": "It can be, but it's the riskiest part of the shift for many people. HSE says fatigue has been implicated in 20% of accidents on major roads. If you can, use public transport, a taxi or a lift share. If you feel sleepy at the wheel, stop somewhere safe and take a short nap."
+      }
+    ]
+  },
+  {
     "slug": "is-6-hours-of-sleep-enough",
     "title": "Is 6 Hours of Sleep Enough? What It Means for Shift Workers",
     "description": "Is 6 hours of sleep enough? Two weeks of 6-hour nights impaired people as much as up to two nights without sleep. What it means for shift workers.",
