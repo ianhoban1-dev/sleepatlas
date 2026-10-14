@@ -45,6 +45,217 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "how-to-stay-awake-on-night-shift",
+    "title": "How to Stay Awake on a Night Shift (Without Wrecking Your Sleep)",
+    "description": "How to stay awake on a night shift: planned naps, caffeine timing, light and food, from a 40-year shift veteran. Beat the 3am wall without the payback.",
+    "category": "Nutrition & Energy on the Night Shift",
+    "categorySlug": "night-shift-nutrition",
+    "datePublished": "2026-10-14",
+    "readMinutes": 8,
+    "quickAnswer": "To stay awake on a night shift, take a 15-20 minute nap before or during the shift if you can, have your caffeine early rather than late, keep the lights bright, eat light, and keep moving through the early hours. In a NASA study, pilots who took a planned nap were up to 54% more alert.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and then you pay for it later when you try to get some sleep and you're wired. I've lived that more times than I can count over 40 years of shifts: on stag with The King's Regiment, on the wings at Strangeways, Walton and Guys Marsh, and on the lines at Jacobs and Budweiser."
+      },
+      {
+        "type": "p",
+        "text": "This guide is about staying sharp on the night without wrecking the daytime sleep that comes after it. It sits under our [night shift survival guide](/resources/night-shift-survival-guide/), which covers the whole block from first night to last."
+      },
+      {
+        "type": "h2",
+        "text": "Why is 3am to 5am the hardest part of a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Your body clock expects you to be asleep in the early hours, so that's when the urge to sleep peaks. Every night worker I've known talks about the same window. The first half of the shift runs on adrenaline and routine. Then somewhere after 2am the jobs slow down, the building goes quiet, and your eyelids start to weigh a ton."
+      },
+      {
+        "type": "p",
+        "text": "The wall is worse when you're carrying sleep debt from short daytime sleeps, on the first night of a block, and after a heavy meal. It's also worse when you're sitting still in a warm, dim room, which describes a lot of control rooms, offices and observation posts."
+      },
+      {
+        "type": "p",
+        "text": "One date worth knowing: UK clocks go back at 2am on Sunday 25 October 2026. If you're on nights that weekend, your shift runs an extra hour, and that hour lands right in the wall. Plan your nap and your caffeine with that in mind."
+      },
+      {
+        "type": "h2",
+        "text": "Does a power nap on a night shift actually work?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, and it's the best tool you have. The classic evidence comes from NASA. Pilots on long-haul flights were given a 40-minute chance to nap, and [those who slept for around 26 minutes showed up to a 54% increase in alertness and a 34% increase in job performance](https://www.sleepfoundation.org/sleep-hygiene/nasa-nap). The pilots who didn't nap showed twice as much sleepiness by the end of their flights."
+      },
+      {
+        "type": "p",
+        "text": "[NHS Employers advises night staff](https://www.nhsemployers.org/articles/sleep-fatigue-and-workplace) to rest for 15 to 20 minutes in a quiet, dark, comfortable space away from the noise of the work area, with an alarm set or a colleague ready to wake you. Their advice is not to worry about whether you actually fall asleep. Lying back with your eyes shut still helps."
+      },
+      {
+        "type": "p",
+        "text": "Keep it short. Naps much longer than 30 minutes make it more likely you'll wake up groggy and slow, which is the last thing you want when you're straight back on the job."
+      },
+      {
+        "type": "p",
+        "text": "During a night shift at Budweiser, I would normally have a quick nap in the canteen area, if only for 15 minutes. Sometimes, on a night shift, you just have to grab whatever you can to help get you through the night."
+      },
+      {
+        "type": "p",
+        "text": "I've also fallen asleep at my computer at Budweiser. It's not good, but sometimes your body just has to go to sleep, especially if you've not slept well during the day. Luckily my line manager was OK about it, and it was normally just a quick 5 minutes, nothing longer, as someone would either enter the office or an alarm on the screen would wake you up."
+      },
+      {
+        "type": "h3",
+        "text": "When to nap"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Before your first night:** a nap in the late afternoon or early evening before you leave is the easiest win, because you can do it in your own bed.",
+          "**During the shift:** if your workplace allows rest breaks, aim for a nap before the wall rather than in the middle of it, roughly midway through the night.",
+          "**Before driving home:** if you feel drowsy at the end of the shift, a short nap before you get in the car is far safer than pushing on. More on that in our upcoming post, Microsleep and the Drive Home After a Night Shift."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "When should you have caffeine on a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Timing matters more than the amount. Caffeine works best early in the shift and close to a nap. It works against you if you drink it in the last few hours."
+      },
+      {
+        "type": "p",
+        "text": "In a study published in the Journal of Clinical Sleep Medicine, [400 mg of caffeine (about 2-3 cups of coffee) taken six hours before bed cut total sleep by more than an hour](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/). The participants didn't notice the disruption. That matches my experience: you think you slept fine, but you wake up feeling like you didn't."
+      },
+      {
+        "type": "p",
+        "text": "The trick NHS Employers suggests is the caffeine nap. Have your coffee just as you put your head down, because caffeine takes about 15 to 20 minutes to kick in. You wake up to the benefit of the nap and the caffeine together."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Bedtime after your shift",
+          "Last caffeine by (6-hour rule)"
+        ],
+        "rows": [
+          [
+            "7am",
+            "1am"
+          ],
+          [
+            "8am",
+            "2am"
+          ],
+          [
+            "9am",
+            "3am"
+          ],
+          [
+            "10am",
+            "4am"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That means the 3am Red Bull is exactly the wrong drink for most of us. We'll go deeper on half-lives and cut-off times in How Long Does Caffeine Last?, coming later in this series. You can also set your own cut-off with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/)."
+      },
+      {
+        "type": "h2",
+        "text": "What else keeps you alert through the early hours?"
+      },
+      {
+        "type": "p",
+        "text": "After the nap and the coffee, the rest is about not letting your body settle into sleep mode."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Keep the lights bright.** A dim room tells your brain it's bedtime. Work under the brightest light you reasonably can, especially in the first half of the shift.",
+          "**Move every 30-60 minutes.** A walk round the site, the stairs, or a lap of the car park gets the blood moving. At Strangeways, a walk around the landings was always a good way to keep me awake. At Budweiser I sat at a computer screen, so adding the hops or taking a mash sample was a good excuse to get moving.",
+          "**Get some cold air.** Stepping outside for two minutes is a short sharp lift. It won't last, but it can carry you to your next task.",
+          "**Eat light and little.** A heavy meal in the early hours makes the wall hit harder. Small snacks and water beat a big plate. Our upcoming guide, What to Eat on a Night Shift, covers meals and timing.",
+          "**Save the boring jobs for earlier.** Where you can, do the dull, repetitive or sitting-down tasks before 2am and keep active tasks for the low point.",
+          "**Talk to your colleagues.** Conversation keeps your brain switched on in a way that scrolling on your phone doesn't."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What doesn't work (or costs you later)?"
+      },
+      {
+        "type": "p",
+        "text": "Some of the classic night shift habits feel like they help, but they leave a bill to pay."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Energy drink after energy drink.** Stacking cans after 2am won't beat the wall, and it will keep you staring at the ceiling at 10am.",
+          "**Sugar hits.** A chocolate bar from the vending machine gives a quick lift, then a slump.",
+          "**Pushing through on willpower alone.** When your eyes start to close, willpower loses. A short planned rest is safer than nodding off without one.",
+          "**The after-shift drink.** Drinking after a night shift is your me time, the way an evening is for normal workers. But you pay for it later, when you're back on nights at 2am the next shift. For me, I've done it on occasions, especially after my last night shift, but as a rule I always wanted my bed more. The after-effects of alcohol when you're so tired are just not worth the pain later."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Staying awake well and sleeping well are two halves of the same job. Once you're home, our guide on [how to sleep during the day](/resources/how-to-sleep-during-the-day/) covers darkness, noise and the first hour after you get in."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "You can't out-drink the 3am wall, but you can plan around it. Nap before it, have caffeine early, keep the lights bright and keep moving, and protect the sleep that comes after the shift."
+      },
+      {
+        "type": "p",
+        "text": "For your break-time nap, set a 20-minute timer with the wake-up chime in the free Sleyp player. It's free in your browser; just keep the page open so the timer and chime can run. When you get home, the same player has brown noise and rain to mask the daytime noise outside. If you're new to noise colours, start with our guide to [brown noise for sleep](/resources/brown-noise-for-sleep/)."
+      },
+      {
+        "type": "p",
+        "text": "[**Try Sleyp free**](/session/). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Sleep Foundation: The NASA nap (summary of Rosekind et al., 1995)](https://www.sleepfoundation.org/sleep-hygiene/nasa-nap)",
+          "[NHS Employers: Sleep, fatigue and the workplace](https://www.nhsemployers.org/articles/sleep-fatigue-and-workplace)",
+          "[American Academy of Sleep Medicine: Late afternoon and early evening caffeine can disrupt sleep at night (Drake et al., 2013, Journal of Clinical Sleep Medicine)](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I stop feeling sleepy at 3am on a night shift?",
+        "answer": "Plan for it rather than fight it. Take a 15-20 minute nap before the low point if your workplace allows, have your coffee before about 2am, turn up the lights, eat something light, and get moving or step outside for some cold air."
+      },
+      {
+        "question": "Is it OK to nap on a night shift?",
+        "answer": "Where your employer allows it, yes. NHS Employers recommends 15-20 minute naps in a quiet, dark space for night staff. Always check your workplace rules first, and set an alarm."
+      },
+      {
+        "question": "How long should a power nap be on a night shift?",
+        "answer": "Aim for 15-20 minutes, and keep it under 30. NASA's pilots benefited from around 26 minutes of sleep. Longer naps make you more likely to wake up groggy."
+      },
+      {
+        "question": "Do energy drinks help on night shifts?",
+        "answer": "They give a short lift, but caffeine late in the shift can cut your daytime sleep by more than an hour without you noticing. If you use them, have them early in the shift or just before a nap, not in the last six hours before bed."
+      },
+      {
+        "question": "What is a caffeine nap?",
+        "answer": "You drink a coffee just before a 15-20 minute nap. The caffeine takes about 15-20 minutes to kick in, so you wake up as it starts working. NHS Employers suggests this for night staff who use caffeine."
+      },
+      {
+        "question": "Is it harder to stay awake when the clocks go back?",
+        "answer": "It can be. When UK clocks go back on Sunday 25 October 2026, anyone working that night does an extra hour, right in the early-hours low point. Build an extra nap or break into that shift if you can."
+      }
+    ]
+  },
+  {
     "slug": "night-shift-survival-guide",
     "title": "Working Nights: The Complete Night Shift Survival Guide (UK)",
     "description": "A night shift survival guide from a 40-year shift veteran: sleep before your first night, the 3am wall, food, caffeine, the drive home and your UK rights.",
@@ -197,7 +408,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "There's a full guide to this coming soon in How to Stay Awake on a Night Shift, and the detail on caffeine timing in How Long Does Caffeine Last?"
+        "text": "There's a full guide to this in [How to Stay Awake on a Night Shift](/resources/how-to-stay-awake-on-night-shift/), and the detail on caffeine timing is coming soon in How Long Does Caffeine Last?"
       },
       {
         "type": "h2",
@@ -592,7 +803,7 @@ export const ARTICLES: Article[] = [
         "type": "ol",
         "items": [
           "**Sleep before your first night.** HSE advises having \"a short sleep before your first night shift\". Even 60-90 minutes in the afternoon takes the edge off.",
-          "**Nap when it's safe.** HSE says to \"stop if you feel sleepy and take a short nap if it is safe to do so\". A planned nap on a break beats fighting your eyelids. We'll cover nap timing in our guide How to Stay Awake on a Night Shift.",
+          "**Nap when it's safe.** HSE says to \"stop if you feel sleepy and take a short nap if it is safe to do so\". A planned nap on a break beats fighting your eyelids. We cover nap timing in our guide [How to Stay Awake on a Night Shift](/resources/how-to-stay-awake-on-night-shift/).",
           "**Rest even if you can't sleep.** HSE notes that if you can't get 7-8 hours, \"try to rest, as this is still beneficial.\" Lying in a dark, quiet room is not wasted time.",
           "**Keep one fixed block.** Many shift workers keep the same few hours of sleep every day, nights or days off, and add extra sleep around it.",
           "**Make the bedroom dark.** HSE recommends \"heavy curtains, blackout blinds or eye shades\".",
