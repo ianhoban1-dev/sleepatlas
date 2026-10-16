@@ -45,6 +45,235 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "what-to-eat-on-night-shift",
+    "title": "What to Eat on a Night Shift: Meals, Snacks and Timing",
+    "description": "What should you eat on a night shift? Meal timing, the best snacks for the 3am dip, what to avoid, and a meal-prep plan for a block of nights.",
+    "category": "Nutrition & Energy on the Night Shift",
+    "categorySlug": "night-shift-nutrition",
+    "datePublished": "2026-10-16",
+    "readMinutes": 9,
+    "quickAnswer": "On a night shift, eat your main meal before you start, have light snacks rather than a heavy meal between midnight and 6am, and keep water nearby. A 2022 study of simulated night work found people who ate at night had 26% more depression-like mood, while those who ate only in the daytime showed no change.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I worked nights for the best part of 40 years: on stag with The King's Regiment, on the line at Jacobs Biscuits, on the landings at Strangeways, Walton and Guys Marsh, and in the brewery at Budweiser UK. Food is one of the easiest things to get wrong on nights. This guide is what I learned, checked against what the research and the HSE actually say. It sits under our [night shift survival guide](/resources/night-shift-survival-guide/)."
+      },
+      {
+        "type": "h2",
+        "text": "What does a night shift eating plan look like?"
+      },
+      {
+        "type": "p",
+        "text": "The simplest plan is to keep your normal meal pattern anchored to the daytime as far as you can, then graze lightly through the night. Here is how that looks on a typical 7pm to 7am shift. Move the times to fit your own rota."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Time",
+          "What to eat",
+          "Why"
+        ],
+        "rows": [
+          [
+            "4pm to 5pm",
+            "Your main meal: a proper plate with protein, vegetables and a slow carb such as rice, pasta or potatoes",
+            "Fuels the first half of the shift while it is still daytime for your body"
+          ],
+          [
+            "9pm to 10pm",
+            "A light snack: fruit, yoghurt or a small sandwich",
+            "Tops you up before the long stretch"
+          ],
+          [
+            "Midnight to 1am",
+            "Your break meal, kept small: soup, a wrap, or a pot of rice or pasta",
+            "A small meal is less likely to make you drowsy than one heavy plate"
+          ],
+          [
+            "3am to 4am",
+            "A small protein snack and water: nuts, a boiled egg, hummus and veg sticks",
+            "Gets you through the low point without a sugar crash"
+          ],
+          [
+            "5am onwards",
+            "Nothing heavy; water or a non-caffeinated drink",
+            "Lets your stomach settle before bed"
+          ],
+          [
+            "Home, before bed",
+            "A light breakfast: toast, cereal or porridge",
+            "Stops hunger waking you up, without a heavy meal sitting on your stomach"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This matches the HSE's own advice for shift workers: light, regular meals or snacks are less likely to cause drowsiness than one heavy meal, and easily digested foods such as pasta, rice and fruit are a good choice."
+      },
+      {
+        "type": "h2",
+        "text": "Why does the timing of food matter on nights?"
+      },
+      {
+        "type": "p",
+        "text": "Timing matters because eating at night appears to affect how you feel, not just how full you are. In a [2022 study published in PNAS](https://www.sciencedaily.com/releases/2022/09/220912152846.htm), researchers at Brigham and Women's Hospital put 19 people through a lab protocol that shifted their routine by 12 hours over four days to simulate night work."
+      },
+      {
+        "type": "p",
+        "text": "One group ate during both the day and the night, as most night workers do. The other group ate only in the daytime. By the simulated night shift, the day-and-night eaters showed a 26% rise in depression-like mood and a 16% rise in anxiety-like mood compared with the start. The daytime-only group showed no change."
+      },
+      {
+        "type": "p",
+        "text": "It is a small lab study, not a rule for every rota. But it backs up what a lot of us learned the hard way: the 2am fry-up or the vending machine run doesn't just sit heavy, it leaves you feeling low and flat by the end of the shift. The practical takeaway is to front-load your eating into the evening and keep the small hours light."
+      },
+      {
+        "type": "h2",
+        "text": "What are the best snacks for the 3am dip?"
+      },
+      {
+        "type": "p",
+        "text": "The best snacks for the 3am dip release energy slowly and don't leave you sluggish. It's 3 o'clock in the morning on your night shift and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, then pay for it later when you try to sleep and you're wired. A better snack won't beat the wall on its own, but it stops you making it worse."
+      },
+      {
+        "type": "p",
+        "text": "Good options to pack:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Fruit:** apples, bananas, grapes. The HSE notes fruit and vegetables make good snacks because their sugar is turned into energy relatively slowly.",
+          "**Veg sticks and hummus:** carrot, cucumber, peppers. Crunchy, light and filling.",
+          "**Nuts with a bit of fruit:** a small handful, not the whole bag.",
+          "**Boiled eggs or cheese:** protein helps you stay full for longer.",
+          "**Porridge pots or overnight oats:** easy to eat at a desk or in a break room.",
+          "**Soup in a flask:** warm, filling and hydrating on a cold shift."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "During my night shifts at Budweiser, my routine always included a full meal before going to work. This set me up for most of the night, but around 3 to 4am, when the fatigue started to kick in, I would have some overnight oats with berries, strawberries and some honey. That always helped me get through the last part of the night shift. During my Army night shifts, I was always told to eat something if you get tired, and it really does work in waking you up."
+      },
+      {
+        "type": "p",
+        "text": "For more on getting through the low point, including planned naps and light, see the [night shift survival guide](/resources/night-shift-survival-guide/) and [how to stay awake on a night shift](/resources/how-to-stay-awake-on-night-shift/)."
+      },
+      {
+        "type": "h2",
+        "text": "What should you avoid eating on a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Avoid heavy, fatty and very sugary food in the small hours, and go easy on caffeine late in the shift. The HSE warns that sugary foods such as chocolate give a short burst of energy followed by a dip, and advises against fatty, spicy or heavy meals before you sleep."
+      },
+      {
+        "type": "p",
+        "text": "The usual night shift traps:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**The vending machine.** Crisps, chocolate and fizzy drinks at 3am feel like a reward, then leave you flatter than before. Budweiser had a canteen with vending machines, which were always a last resort for me, but sometimes a Twirl or a Snickers was a way to get you through the night. I'm not a fan of fizzy drinks, but Pepsi Max was my go-to drink on odd occasions.",
+          "**The free biscuits.** I worked in the chocolate room at Jacobs Biscuits around 1985 and you were allowed to eat as many Club biscuits as you liked, as long as you never took them outside the room. The chocolate was cold as it came out of a chiller onto the conveyor, so for me the temptation on shift was too much to resist.",
+          "**A big takeaway on your break.** One heavy meal at midnight is the quickest way to feel drowsy by 2am.",
+          "**Energy drinks after about 2am.** Caffeine late in the shift can still be working when you get into bed. A dietitian at [BHR Hospitals NHS Trust](https://www.bhrhospitals.nhs.uk/news/a-dietitians-healthy-eating-top-tips-for-shift-workers-2627/) suggests your last caffeine at least four hours before bedtime. Our upcoming guide, How Long Does Caffeine Last?, covers cut-off times in detail.",
+          "**Alcohol to wind down.** Drinking after a night shift is your \"me time\", like an evening is for normal workers. But I'm going to pay for it later, back on shift at 2am. The HSE says alcohol is linked to earlier waking, disrupted sleep and poorer sleep quality. For me, this is so true, so avoid alcohol if you can after a night shift."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How do you meal-prep for a block of nights?"
+      },
+      {
+        "type": "p",
+        "text": "Cook once before the block starts and you won't be relying on a garage forecourt at 4am. The BHR dietitian's advice is to make extra portions you can chill or freeze to take to work, and to bring your own food rather than relying on late-night shops, drive-throughs and vending machines."
+      },
+      {
+        "type": "p",
+        "text": "A simple plan for four nights:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Day off before the block:** cook two big batches, such as a chilli or curry with rice and a pasta bake. Portion them into tubs.",
+          "**Night 1 and 2:** batch one for your pre-shift main meal; a small tub of the same for your break.",
+          "**Night 3 and 4:** batch two from the freezer, defrosted in the fridge the day before.",
+          "**Every night:** a snack bag with fruit, nuts, veg sticks and a boiled egg or cheese, plus a large bottle of water.",
+          "**Breakfast before bed:** keep bread, oats or cereal in so a light breakfast takes two minutes when you get home."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "During my Budweiser shifts from 2020 to 2025, I did 2 days followed by 2 nights. I would batch 2 shifts at a time, so I would prep for the 2 days, and then on my day off before my first night shift I would batch for the 2 night shifts."
+      },
+      {
+        "type": "p",
+        "text": "Drink steadily through the shift, too. The HSE notes that dehydration can reduce both mental and physical performance, but advises against drinking too much just before you sleep, so ease off in the last hour."
+      },
+      {
+        "type": "h2",
+        "text": "Should you eat before you go to bed after a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, a light breakfast before bed usually helps. The BHR dietitian recommends a light breakfast-type meal if you plan to sleep soon after getting home, so hunger doesn't wake you too early. Keep it plain and skip anything greasy or heavily spiced, which can cause indigestion."
+      },
+      {
+        "type": "p",
+        "text": "Then get the bedroom right. Getting into bed when everyone else is leaving for school and work is great, until the neighbour starts drilling. A dark, cool room, [earplugs](/resources/earplugs-for-sleeping/) and a steady masking sound such as [brown noise](/resources/brown-noise-for-sleep/) make the difference. Our complete guide to [sleeping during the day](/resources/how-to-sleep-during-the-day/) covers the full setup."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "On nights, eat your main meal before the shift, graze lightly through the small hours, drink water steadily and finish with a light breakfast before bed. Front-load your food, keep 3am small, and plan ahead so the vending machine never gets a look in."
+      },
+      {
+        "type": "p",
+        "text": "Eat right, then sleep right. When you get home, press play on a steady sound to cover the school run and the drilling. [Try Sleyp free](/session/): 13 sounds, a custom timer and saved mixes, all free in your browser. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Qian J, Scheer F, Chellappa S et al. (2022). Daytime eating prevents mood vulnerability in night work. PNAS, via ScienceDaily](https://www.sciencedaily.com/releases/2022/09/220912152846.htm)",
+          "[Health and Safety Executive: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[BHR Hospitals NHS Trust: A dietitian's healthy eating top tips for shift workers (2020)](https://www.bhrhospitals.nhs.uk/news/a-dietitians-healthy-eating-top-tips-for-shift-workers-2627/)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Should you eat during a night shift?",
+        "answer": "Yes, but keep it light. Small snacks or a light meal during your breaks are better than one big meal, especially between midnight and 6am. Going too long without food can affect your concentration, so plan regular small bites rather than skipping food altogether."
+      },
+      {
+        "question": "What should I eat before a night shift?",
+        "answer": "Have a proper main meal in the late afternoon or early evening: protein, vegetables and a slow-release carb such as rice, pasta or potatoes. It fuels the first half of the shift while your body still treats it as daytime."
+      },
+      {
+        "question": "What snacks keep you awake at night?",
+        "answer": "No snack keeps you awake on its own, but slow-release snacks avoid the crash that makes the 3am dip worse. Fruit, veg sticks with hummus, nuts, boiled eggs and porridge pots are good choices. Sugary snacks give a quick lift and then a slump."
+      },
+      {
+        "question": "Is it bad to eat at 3am?",
+        "answer": "A small snack at 3am is fine. A heavy meal at that time is more likely to make you drowsy and sit badly. A 2022 lab study also linked night-time eating to lower mood during simulated night work, so keep anything at that hour small."
+      },
+      {
+        "question": "What should I eat after a night shift before sleeping?",
+        "answer": "A light breakfast such as toast, cereal or porridge, so hunger doesn't wake you early. Avoid greasy, spicy or heavy food, and don't drink a lot of fluid right before bed."
+      },
+      {
+        "question": "Do energy drinks help on a night shift?",
+        "answer": "They can give a short lift, but late in the shift they can stop you sleeping when you get home. The HSE advises using caffeine only occasionally and not relying on it to stay awake. Have your last one well before the end of your shift."
+      }
+    ]
+  },
+  {
     "slug": "how-to-stay-awake-on-night-shift",
     "title": "How to Stay Awake on a Night Shift (Without Wrecking Your Sleep)",
     "description": "How to stay awake on a night shift: planned naps, caffeine timing, light and food, from a 40-year shift veteran. Beat the 3am wall without the payback.",
@@ -173,7 +402,7 @@ export const ARTICLES: Article[] = [
           "**Keep the lights bright.** A dim room tells your brain it's bedtime. Work under the brightest light you reasonably can, especially in the first half of the shift.",
           "**Move every 30-60 minutes.** A walk round the site, the stairs, or a lap of the car park gets the blood moving. At Strangeways, a walk around the landings was always a good way to keep me awake. At Budweiser I sat at a computer screen, so adding the hops or taking a mash sample was a good excuse to get moving.",
           "**Get some cold air.** Stepping outside for two minutes is a short sharp lift. It won't last, but it can carry you to your next task.",
-          "**Eat light and little.** A heavy meal in the early hours makes the wall hit harder. Small snacks and water beat a big plate. Our upcoming guide, What to Eat on a Night Shift, covers meals and timing.",
+          "**Eat light and little.** A heavy meal in the early hours makes the wall hit harder. Small snacks and water beat a big plate. Our guide, [What to Eat on a Night Shift](/resources/what-to-eat-on-night-shift/), covers meals and timing.",
           "**Save the boring jobs for earlier.** Where you can, do the dull, repetitive or sitting-down tasks before 2am and keep active tasks for the low point.",
           "**Talk to your colleagues.** Conversation keeps your brain switched on in a way that scrolling on your phone doesn't."
         ]
@@ -441,7 +670,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "What to Eat on a Night Shift, coming later in this series, goes deeper on meal timing and snacks for the 3am dip."
+        "text": "[What to Eat on a Night Shift](/resources/what-to-eat-on-night-shift/) goes deeper on meal timing and snacks for the 3am dip."
       },
       {
         "type": "h2",
