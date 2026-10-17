@@ -45,6 +45,186 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "military-sleep-method",
+    "title": "The Military Sleep Method: Does It Work After a Night Shift?",
+    "description": "The military sleep method explained by an ex-King's Regiment soldier: where it comes from, whether the 96% claim holds up, and how to use it after nights.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-17",
+    "readMinutes": 6,
+    "quickAnswer": "The military sleep method is a two-minute routine: relax your face, drop your shoulders and arms, breathe out slowly, let your legs go heavy, then clear your mind for 10 seconds. It comes from Bud Winter's book Relax and Win. The famous \"96% asleep in two minutes\" figure is the book's claim, not a scientific trial.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I served in The King's Regiment from 1986 to 1989, and I have worked nights for most of the 40 years since, in biscuit factories, prison wings and a brewery. So when a \"military\" trick for falling asleep went viral, I wanted to know two things. Where did it really come from? And does it help when you get into bed at 9am with the sun up and the street getting busy?"
+      },
+      {
+        "type": "h2",
+        "text": "What is the military sleep method, step by step?"
+      },
+      {
+        "type": "p",
+        "text": "The method is a quick, top-to-bottom relaxation routine followed by a short mental \"switch-off\". You can do it lying in bed or sitting in a chair. Here is the version most people use, based on how [Mental Floss](https://www.mentalfloss.com/live-smarter/healthy-living/military-sleep-method) and [The Art of Manliness](https://www.artofmanliness.com/articles/fall-asleep-fast/) set out Winter's routine."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Get settled.** Lie down, close your eyes and take a few slow, deep breaths. Let your arms fall loose by your sides.",
+          "**Relax your face.** Start with your forehead, then your eyes, cheeks, jaw and lips.",
+          "**Drop your shoulders and arms.** Let your shoulders sink and the tension go. Then loosen one arm from the upper arm down to the hand, then the other.",
+          "**Breathe out.** Take a slow breath and let it all the way out, letting your chest go soft. Repeat a couple of times.",
+          "**Relax your legs.** Let one thigh go heavy, then the calf, ankle and foot. Do the same on the other side.",
+          "**Clear your mind for 10 seconds.** Hold one calm picture in your head. Winter's options were lying in a canoe on a still lake under a blue sky, or lying in a black velvet hammock in total darkness. If pictures don't work for you, silently repeat \"don't think, don't think\" for about 10 seconds."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If a muscle won't let go, tense it for a second, then release it. Don't force the relaxation. Trying too hard to relax is a good way to stay awake."
+      },
+      {
+        "type": "h2",
+        "text": "Where does the military sleep method come from, and is the 96% claim true?"
+      },
+      {
+        "type": "p",
+        "text": "The routine was taught to trainee pilots during the Second World War. Bud Winter, a college football and track coach serving as a Navy ensign, was asked to build a relaxation course for aviators at the Del Monte Naval Pre-Flight School in California, according to [The Art of Manliness](https://www.artofmanliness.com/articles/fall-asleep-fast/). He later put it into his book Relax and Win: Championship Performance."
+      },
+      {
+        "type": "p",
+        "text": "The headline claim comes from that book. After six weeks of practice, 96% of the pilots were said to fall asleep in two minutes or less, even after drinking coffee and with the simulated noise of gunfire playing in the background."
+      },
+      {
+        "type": "p",
+        "text": "That is a striking figure, but it is worth being honest about what it is:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "What people say",
+          "What we actually know"
+        ],
+        "rows": [
+          [
+            "\"It's a proven military technique\"",
+            "It was taught on a US Navy pilot training course in the Second World War. It isn't a British Army method."
+          ],
+          [
+            "\"96% fall asleep in 2 minutes\"",
+            "That figure comes from Winter's own account, not a published, peer-reviewed study."
+          ],
+          [
+            "\"It works on the first night\"",
+            "The figure came after six weeks of practice. It is a skill you build, not a switch."
+          ],
+          [
+            "\"It works anywhere\"",
+            "Results depend on your sleep debt, your caffeine and your room, especially when you sleep in the day."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Neither of the articles above cites a modern trial of this exact routine, and I couldn't find one either. That doesn't mean it is useless. Relaxing your muscles and slowing your breathing are sensible ways to wind down. It just means you should treat the 96% as a story from the book, not a promise."
+      },
+      {
+        "type": "h2",
+        "text": "Does it work after a night shift? A veteran's view"
+      },
+      {
+        "type": "p",
+        "text": "In the Army, you learn to sleep whenever you get the chance. You finish your stag in the middle of the night, can't get back to sleep, and the next day still has to be worked. Nobody cares how you slept. Unfortunately for me, in 1986, the military sleep method was not a thing, so getting sleep when you can was always our priority method."
+      },
+      {
+        "type": "p",
+        "text": "Night shifts are a different kind of hard. After a long night on a prison wing or a production line, your body is tired but your head often isn't. You've been alert all night, maybe topped up with tea, coffee or an energy drink at 3am. Then you get home just as the world is waking up."
+      },
+      {
+        "type": "p",
+        "text": "This is where I think the method has real value for shift workers. It gives your brain a job to do that isn't replaying the shift or worrying about the alarm. Working down your body piece by piece is slow, boring and calming, which is exactly what you want. I have tried this method after a night shift, but for me personally, we live on a noisy road, so I could not get to relax naturally for it to work. That's why noise masking is my go-to method and why I built the Sleyp app."
+      },
+      {
+        "type": "p",
+        "text": "Where it struggles is the stuff it was never designed for. The routine says nothing about daylight. You are sleeping with the sun up, with traffic, deliveries and neighbours on their own schedule. Getting into bed when everyone else is leaving the house for school and work is great, until next door decides to renovate and starts drilling. No breathing routine will cancel that."
+      },
+      {
+        "type": "h2",
+        "text": "How do you make the military sleep method work in daylight?"
+      },
+      {
+        "type": "p",
+        "text": "Think of the method as your final step, not your only step. Set the room up first, then use the routine to switch off. This order works best for day sleepers:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Cut caffeine early in the shift.** If you're wired from a 3am energy drink, the 10-second mind clear will be much harder. Have your last one early in the shift, well before your planned bedtime. The guide to [how long caffeine lasts](/resources/how-long-does-caffeine-last/) has the numbers, and [how to stay awake on a night shift](/resources/how-to-stay-awake-on-night-shift/) covers what to do instead at the 3am wall.",
+          "**Make the room dark.** Blackout blinds, curtains with no light gaps or a contoured sleep mask. Winter's hammock image works far better when the room is actually dark.",
+          "**Block the sudden noises.** Earplugs take the edge off voices, doors and car horns. See [sleeping with earplugs](/resources/earplugs-for-sleeping/).",
+          "**Mask what's left with a steady sound.** A low, constant sound like [brown noise](/resources/brown-noise-for-sleep/), [rain](/resources/rain-sounds-for-sleeping/) or a [fan hum](/resources/fan-noise-for-sleeping/) fills the gaps so a drill or a lawnmower doesn't jolt you awake.",
+          "**Then run the routine.** Face, shoulders, arms, breath, legs, then 10 seconds of canoe, hammock or \"don't think\".",
+          "**Practise it every day of your block.** The book's figure came after six weeks. Use it on your days off as well as after nights, so it becomes a habit rather than something you only try when you're desperate."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you're still awake after a while, don't lie there fighting it. Run through the body scan again slowly, or change the picture. Staying calm about not sleeping is half the battle."
+      },
+      {
+        "type": "p",
+        "text": "For the full room setup, see my guides to [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/) and the [night shift survival guide](/resources/night-shift-survival-guide/)."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "The military sleep method is a simple, free way to switch off after a shift, and it's worth practising. Just be honest about what it is: a wartime relaxation routine with an impressive claim from a book, not a proven cure. After a night shift it works best as the last step, once the room is dark and the noise is under control."
+      },
+      {
+        "type": "p",
+        "text": "That's where Sleyp comes in. Put on a steady brown noise or rain mix, set the free timer, then run through the routine. [Try Sleyp free](/session/) in your browser: all 13 sounds, the custom timer and saved mixes are free, and the page just needs to stay open while it plays. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Mental Floss: The military sleep method](https://www.mentalfloss.com/live-smarter/healthy-living/military-sleep-method): the steps, the six-week 96% claim (with coffee and gunfire) and its origin with the Navy Pre-Flight School",
+          "[The Art of Manliness: How to fall asleep fast](https://www.artofmanliness.com/articles/fall-asleep-fast/): Bud Winter's background, the Del Monte Naval Pre-Flight School, and the canoe, hammock and \"don't think\" images"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does the military sleep method really work?",
+        "answer": "It can help you relax and fall asleep faster, but the famous \"96% in two minutes\" figure comes from Bud Winter's book, not from a scientific trial. It is a sensible wind-down routine. Expect it to take practice, and expect it to work better in a dark, quiet room."
+      },
+      {
+        "question": "How long does it take to learn the military sleep method?",
+        "answer": "The book's claim was based on six weeks of practice. Most people need to repeat it every time they go to bed, day or night, for a few weeks before it feels automatic. Don't judge it on the first try."
+      },
+      {
+        "question": "Can you use the military sleep method to fall asleep during the day?",
+        "answer": "Yes. The routine doesn't care what time it is, but daylight and daytime noise make it harder. Darken the room, use earplugs and play a steady masking sound, then do the routine as the last step before sleep."
+      },
+      {
+        "question": "What is the 10-second part of the military sleep method?",
+        "answer": "After relaxing your body, you clear your mind for about 10 seconds. You either hold a calm picture, such as lying in a canoe on a still lake or in a black velvet hammock in total darkness, or silently repeat \"don't think\"."
+      },
+      {
+        "question": "Is the military sleep method used by the British Army?",
+        "answer": "It was developed for US Navy trainee pilots during the Second World War. As far as I know, it isn't part of standard British Army training. Most soldiers simply learn to grab sleep whenever and wherever they can."
+      },
+      {
+        "question": "Is the military sleep method the same as the 4-7-8 breathing technique?",
+        "answer": "No. The 4-7-8 technique is a breathing count. The military method is a top-to-bottom muscle relaxation routine with slow breaths out, followed by a short mental picture. Some people combine them."
+      }
+    ]
+  },
+  {
     "slug": "how-long-does-caffeine-last",
     "title": "How Long Does Caffeine Last? A Caffeine Cut-Off Guide for Night Shifts",
     "description": "How long does caffeine last? Its half-life is about 4-6 hours but can reach 12. When to stop caffeine on a night shift so you can sleep when you get home.",
@@ -968,6 +1148,7 @@ export const ARTICLES: Article[] = [
           "**Darkness:** HSE recommends heavy curtains, blackout blinds or eye shades. See [blackout blinds vs blackout curtains](/resources/blackout-blinds-vs-curtains/) for stopping light leaks.",
           "**Noise:** even on a quiet street, cars and kids playing out can keep you wide awake. Earplugs take the edge off the peaks (see [sleeping with earplugs](/resources/earplugs-for-sleeping/)), and a steady masking sound fills the gaps. Deep sounds such as [brown noise](/resources/brown-noise-for-sleep/) or [fan noise](/resources/fan-noise-for-sleeping/) are good at covering traffic, mowers and drilling.",
           "**Temperature:** keep the room cool, keep the blinds shut from the moment you get in, and use light bedding.",
+          "**Switching off:** once the room is sorted, a simple routine helps your head follow your body. See [the military sleep method](/resources/military-sleep-method/) and whether it works after nights.",
           "**Your phone:** put it on Do Not Disturb with exceptions for family emergencies.",
           "**Your hours:** protect the full sleep. Six hours a day across a block of nights adds up fast; see [is 6 hours of sleep enough?](/resources/is-6-hours-of-sleep-enough/)"
         ]
@@ -2259,7 +2440,7 @@ export const ARTICLES: Article[] = [
         "type": "ol",
         "items": [
           "**Wind down on the way home.** If you're a passenger or on public transport, sunglasses keep bright morning light off your eyes.",
-          "**Go to bed within an hour of getting home.** Don't start the washing, the emails or the TV.",
+          "**Go to bed within an hour of getting home.** Don't start the washing, the emails or the TV. A simple switch-off routine such as the [military sleep method](/resources/military-sleep-method/) helps once you're in bed.",
           "**Make it dark.** HSE suggests heavy curtains, blackout blinds or eye shades.",
           "**Make it quiet.** Earplugs for the peaks, a steady masking sound for the gaps, and a word with the neighbours about your work pattern.",
           "**Keep it cool.** Aim for around 16-18C.",
