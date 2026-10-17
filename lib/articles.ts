@@ -45,6 +45,246 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "how-long-does-caffeine-last",
+    "title": "How Long Does Caffeine Last? A Caffeine Cut-Off Guide for Night Shifts",
+    "description": "How long does caffeine last? Its half-life is about 4-6 hours but can reach 12. When to stop caffeine on a night shift so you can sleep when you get home.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-17",
+    "readMinutes": 8,
+    "quickAnswer": "Caffeine's half-life is about 4 to 6 hours for most adults, but it can range from 2 to 12 hours. In one sleep study, caffeine taken 6 hours before bed still cut sleep by more than an hour. On nights, have your last caffeine at least 6 hours before your daytime bedtime: around 3am for a 9am bed.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "It's 3 o'clock in the morning on your night shift and you hit that wall. No amount of caffeine or Red Bull will help you, but you drink it anyway. Then you pay for it later, lying in bed at 10am, wired, while the rest of the street gets on with its day."
+      },
+      {
+        "type": "p",
+        "text": "I've done that more times than I can count. Forty years of shifts, from stag in The King's Regiment to nights at Strangeways, Walton and Guys Marsh, the Jacobs Biscuits lines and Budweiser UK."
+      },
+      {
+        "type": "p",
+        "text": "My go-to drink has always been coffee, even the Army coffee that tasted like crap. Since Costa and Starbucks made coffee quality better, my go-to has always been a Starbucks before work. During the night shift at Budweiser, some caffeine and the odd Pepsi Max was always a help to get me through the night shift wall around 3am."
+      },
+      {
+        "type": "h2",
+        "text": "How long does caffeine last in your body?"
+      },
+      {
+        "type": "p",
+        "text": "Caffeine kicks in fast and leaves slowly. The [Sleep Foundation's guide to how long caffeine takes to wear off](https://sleepfoundation.org/nutrition/how-long-does-it-take-caffeine-to-wear-off) says you start to feel it within 15 to 60 minutes. Half of it is usually cleared in 4 to 6 hours, but for any one person that half-life can be anywhere from 2 to 12 hours."
+      },
+      {
+        "type": "p",
+        "text": "\"Half-life\" is the key idea. It is the time your body takes to clear half the caffeine you drank. The other half is still working on you. So if you have a strong coffee at 4am and your half-life is 5 hours, about half of it is still in your system at 9am, just as you are drawing the blinds."
+      },
+      {
+        "type": "p",
+        "text": "The same page lists things that change how fast you clear it, including pregnancy, the contraceptive pill, alcohol and smoking. That wide 2-to-12-hour range is why two people on the same shift can drink the same brew and sleep completely differently afterwards."
+      },
+      {
+        "type": "h2",
+        "text": "What happens if you have caffeine 6 hours before bed?"
+      },
+      {
+        "type": "p",
+        "text": "You lose sleep, and you probably won't notice. In a 2013 study reported by the [American Academy of Sleep Medicine](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/), 12 healthy sleepers took 400 mg of caffeine either 6 hours, 3 hours or right before bed. Even at 6 hours, their measured sleep time dropped by more than an hour."
+      },
+      {
+        "type": "p",
+        "text": "The part that stuck with me is this: the people in the study were unaware of it. They thought they had slept fine. That's the night worker's trap. You think the 4am energy drink has worn off because you feel tired at 9am, but it is still chipping away at the sleep you need for the next shift."
+      },
+      {
+        "type": "p",
+        "text": "Two things are worth knowing about that study. The dose was big: 400 mg is roughly a full day's worth for most adults. And it was night-time sleep in normal sleepers, not daytime sleep after a shift. Daytime sleep is already lighter and easier to break, so if anything I would treat 6 hours as the minimum, not a safe zone."
+      },
+      {
+        "type": "h2",
+        "text": "What time should I stop caffeine on a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Work backwards from the time you will actually be in bed, not the time you clock off. Take your bedtime, subtract 6 hours, and that is your last brew. If you are sensitive to caffeine, or you know you sleep badly after a late coffee, go further: the Sleep Foundation notes that experts typically recommend stopping at least 8 hours before bed."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Bed after your shift",
+          "Last caffeine (6-hour rule)",
+          "Last caffeine (8-hour rule, if you're sensitive)"
+        ],
+        "rows": [
+          [
+            "7am",
+            "1am",
+            "11pm"
+          ],
+          [
+            "8am",
+            "2am",
+            "Midnight"
+          ],
+          [
+            "9am",
+            "3am",
+            "1am"
+          ],
+          [
+            "10am",
+            "4am",
+            "2am"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Here's how that plays out for a typical 10pm to 6am night with a 40-minute drive home:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Have your main caffeine at the start of the shift, between 10pm and midnight, when it does the most good.",
+          "Allow one smaller top-up before your cut-off if you need it (2am for an 8am bed).",
+          "After the cut-off, switch to water, squash or decaf. Keep the lights bright and get up and move when the 3am to 5am dip hits instead of reaching for another can.",
+          "If you are struggling to stay awake for the drive home, don't solve it with caffeine at 5am. Stop somewhere safe and nap, or get a lift. A short planned nap during the shift is covered in [how to stay awake on a night shift](/resources/how-to-stay-awake-on-night-shift/)."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The free [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/) does this sum for you. Put in your finish time and commute and it gives you a caffeine cut-off, a light plan and a wind-down time."
+      },
+      {
+        "type": "p",
+        "text": "**Clocks going back this month:** UK clocks go back one hour at 2am on Sunday 25 October 2026. If you are on nights that weekend, your shift runs an hour longer by the clock. Keep your cut-off tied to your planned bedtime, not the hour you've been at work, or that extra hour will tempt you into a 4am coffee you'll regret at 10am."
+      },
+      {
+        "type": "h2",
+        "text": "How much caffeine is too much?"
+      },
+      {
+        "type": "p",
+        "text": "The European Food Safety Authority's [scientific opinion on caffeine (summary slides)](https://www.efsa.europa.eu/sites/default/files/event/documentset/150305-p02.pdf) gives three numbers worth knowing for healthy adults (pregnancy has separate advice):"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Up to **400 mg a day** from all sources does not raise safety concerns.",
+          "Single doses up to **200 mg** do not raise safety concerns.",
+          "Just **100 mg close to bedtime** may make it take longer to fall asleep and shorten sleep in some adults."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That last point is the one for night workers. 100 mg is not a lot. According to the UK government's [consultation on high-caffeine energy drinks](https://www.gov.uk/government/consultations/banning-the-sale-of-high-caffeine-energy-drinks-to-children/banning-the-sale-of-high-caffeine-energy-drinks-to-children), a 250 ml energy drink typically has about 80 mg of caffeine, and a 500 ml can averages 160 mg, with some reaching 200 mg. Any drink with more than 150 mg per litre has to carry a high-caffeine warning on the label, so check the can."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Drink",
+          "Typical caffeine",
+          "Source"
+        ],
+        "rows": [
+          [
+            "Energy drink, 250 ml",
+            "About 80 mg",
+            "GOV.UK"
+          ],
+          [
+            "Energy drink, 500 ml",
+            "About 160 mg (up to 200 mg)",
+            "GOV.UK"
+          ],
+          [
+            "EFSA single-dose limit",
+            "200 mg",
+            "EFSA"
+          ],
+          [
+            "EFSA daily limit",
+            "400 mg",
+            "EFSA"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "One big can at 4am is close to the single-dose limit on its own, and well over the 100 mg that can affect sleep, right before you try to go to bed."
+      },
+      {
+        "type": "h2",
+        "text": "Do energy drinks help with the 3am wall?"
+      },
+      {
+        "type": "p",
+        "text": "A bit, briefly, and at a price. The 3am wall is your body clock telling you it should be asleep. Caffeine can blunt that feeling, but it doesn't remove the need for sleep, and a can drunk at 3am is still half in your system at 8am or 9am."
+      },
+      {
+        "type": "p",
+        "text": "It's a pattern I know well: the can at 3am, the second wind, then lying awake at 10am with a racing head, sleeping badly, and starting the next night already behind. What works better for me personally is front-loading caffeine at the start of the shift, then using light, movement, cold water and some overnight oats with fresh strawberries and blackberries around 3am. If you do want something at the wall, the overnight oats or a light meal with protein before your cut-off beats a big breakfast after the shift."
+      },
+      {
+        "type": "p",
+        "text": "Food plays a big part too: a heavy meal at 3am makes the slump worse; light snacks help. There's more on that in [what to eat on a night shift](/resources/what-to-eat-on-night-shift/)."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Caffeine lasts much longer than the buzz. With a half-life of 4 to 6 hours, and up to 12 for some people, the can you drink at 3am is still in the room with you at 9am. Set your cut-off 6 hours before bed (8 if you're sensitive), front-load caffeine at the start of the shift, and use light, movement and a planned nap for the 3am wall."
+      },
+      {
+        "type": "p",
+        "text": "Then give your body the best chance once you're home: dark room, cool room, steady sound. A deep, steady sound such as [brown noise](/resources/brown-noise-for-sleep/) or [rain](/resources/rain-sounds-for-sleeping/) helps cover the school run, the bin lorry and the neighbour's drill. For the full routine, see [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/) and the [night shift survival guide](/resources/night-shift-survival-guide/)."
+      },
+      {
+        "type": "p",
+        "text": "[Try Sleyp free](/session/) in your browser: 13 sounds, a custom timer and a wake-up chime, all free. Keep the page open while you sleep so the timer and chime can run. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[American Academy of Sleep Medicine: Late afternoon and early evening caffeine can disrupt sleep at night (Drake et al., 2013)](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/)",
+          "[Sleep Foundation: How long does it take for caffeine to wear off?](https://sleepfoundation.org/nutrition/how-long-does-it-take-caffeine-to-wear-off)",
+          "[EFSA: Scientific opinion on the safety of caffeine (summary slides, 2015)](https://www.efsa.europa.eu/sites/default/files/event/documentset/150305-p02.pdf)",
+          "[GOV.UK: Banning the sale of high-caffeine energy drinks to children (consultation)](https://www.gov.uk/government/consultations/banning-the-sale-of-high-caffeine-energy-drinks-to-children/banning-the-sale-of-high-caffeine-energy-drinks-to-children)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long does caffeine stay in your system?",
+        "answer": "Half of it is usually cleared in 4 to 6 hours, but the half-life can range from 2 to 12 hours depending on the person. That means a good share of a 3am coffee can still be in your system when you go to bed at 9am."
+      },
+      {
+        "question": "What time should I stop caffeine on a night shift?",
+        "answer": "At least 6 hours before your planned bedtime, and 8 hours if you're sensitive to it. For a 9am bed, that means your last caffeine by 3am, or 1am to be safer."
+      },
+      {
+        "question": "How much caffeine is in an energy drink?",
+        "answer": "According to GOV.UK, a 250 ml energy drink typically has about 80 mg and a 500 ml can averages 160 mg, with some up to 200 mg. Drinks over 150 mg per litre must carry a high-caffeine warning."
+      },
+      {
+        "question": "Can I sleep straight after caffeine if I'm exhausted?",
+        "answer": "You may fall asleep, but the sleep is likely to be shorter and lighter. In the 2013 study, people lost more than an hour of sleep from caffeine taken 6 hours earlier and didn't realise it."
+      },
+      {
+        "question": "Is decaf OK after my cut-off?",
+        "answer": "Decaf has far less caffeine than regular coffee, so it's a reasonable swap for the warm-drink habit in the second half of a shift. Water and squash are the safest choices before a daytime sleep."
+      },
+      {
+        "question": "Do the clocks going back affect my caffeine cut-off?",
+        "answer": "Only if you let them. When the clocks go back on Sunday 25 October 2026, a night shift that weekend runs an hour longer by the clock. Keep your cut-off fixed to your planned bedtime, not to how long you've been on shift."
+      }
+    ]
+  },
+  {
     "slug": "what-to-eat-on-night-shift",
     "title": "What to Eat on a Night Shift: Meals, Snacks and Timing",
     "description": "What should you eat on a night shift? Meal timing, the best snacks for the 3am dip, what to avoid, and a meal-prep plan for a block of nights.",
@@ -175,7 +415,7 @@ export const ARTICLES: Article[] = [
           "**The vending machine.** Crisps, chocolate and fizzy drinks at 3am feel like a reward, then leave you flatter than before. Budweiser had a canteen with vending machines, which were always a last resort for me, but sometimes a Twirl or a Snickers was a way to get you through the night. I'm not a fan of fizzy drinks, but Pepsi Max was my go-to drink on odd occasions.",
           "**The free biscuits.** I worked in the chocolate room at Jacobs Biscuits around 1985 and you were allowed to eat as many Club biscuits as you liked, as long as you never took them outside the room. The chocolate was cold as it came out of a chiller onto the conveyor, so for me the temptation on shift was too much to resist.",
           "**A big takeaway on your break.** One heavy meal at midnight is the quickest way to feel drowsy by 2am.",
-          "**Energy drinks after about 2am.** Caffeine late in the shift can still be working when you get into bed. A dietitian at [BHR Hospitals NHS Trust](https://www.bhrhospitals.nhs.uk/news/a-dietitians-healthy-eating-top-tips-for-shift-workers-2627/) suggests your last caffeine at least four hours before bedtime. Our upcoming guide, How Long Does Caffeine Last?, covers cut-off times in detail.",
+          "**Energy drinks after about 2am.** Caffeine late in the shift can still be working when you get into bed. A dietitian at [BHR Hospitals NHS Trust](https://www.bhrhospitals.nhs.uk/news/a-dietitians-healthy-eating-top-tips-for-shift-workers-2627/) suggests your last caffeine at least four hours before bedtime. Our guide, [How Long Does Caffeine Last?](/resources/how-long-does-caffeine-last/), covers cut-off times in detail.",
           "**Alcohol to wind down.** Drinking after a night shift is your \"me time\", like an evening is for normal workers. But I'm going to pay for it later, back on shift at 2am. The HSE says alcohol is linked to earlier waking, disrupted sleep and poorer sleep quality. For me, this is so true, so avoid alcohol if you can after a night shift."
         ]
       },
@@ -386,7 +626,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "That means the 3am Red Bull is exactly the wrong drink for most of us. We'll go deeper on half-lives and cut-off times in How Long Does Caffeine Last?, coming later in this series. You can also set your own cut-off with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/)."
+        "text": "That means the 3am Red Bull is exactly the wrong drink for most of us. We go deeper on half-lives and cut-off times in [How Long Does Caffeine Last?](/resources/how-long-does-caffeine-last/). You can also set your own cut-off with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/)."
       },
       {
         "type": "h2",
@@ -637,7 +877,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "There's a full guide to this in [How to Stay Awake on a Night Shift](/resources/how-to-stay-awake-on-night-shift/), and the detail on caffeine timing is coming soon in How Long Does Caffeine Last?"
+        "text": "There's a full guide to this in [How to Stay Awake on a Night Shift](/resources/how-to-stay-awake-on-night-shift/), and the detail on caffeine timing is in [How Long Does Caffeine Last?](/resources/how-long-does-caffeine-last/)."
       },
       {
         "type": "h2",
@@ -1262,7 +1502,7 @@ export const ARTICLES: Article[] = [
           "**Black out the room first.** HSE suggests heavy curtains, blackout blinds or eye shades. Do it before your shift so you're not fiddling with it at 8am.",
           "**Cover the noise peaks from the first minute.** HSE suggests earplugs, white noise or background music to mask outside noise. A steady sound running before you drop off covers the first door slam. Many day sleepers prefer the deeper rumble of [brown noise for sleep](/resources/brown-noise-for-sleep/).",
           "**Keep the bedroom cool.** Heat breaks up daytime sleep, so shut out the sun early and keep air moving. Our guide to the [ideal bedroom temperature for sleep](/resources/ideal-bedroom-temperature-for-sleep/) covers how.",
-          "**Set a caffeine cut-off.** Stop caffeine a few hours before your planned bedtime, as HSE advises. We'll give hard timings in How Long Does Caffeine Last?",
+          "**Set a caffeine cut-off.** Stop caffeine a few hours before your planned bedtime, as HSE advises. Hard timings are in [How Long Does Caffeine Last?](/resources/how-long-does-caffeine-last/).",
           "**Tell people your sleep times.** HSE advises talking to close neighbours about your work pattern and asking them to avoid noisy jobs during your sleep time. Same goes for the household.",
           "**Keep the same sleep window.** The Sleep Foundation's advice to get more deep sleep is to improve your overall sleep, starting with a consistent schedule."
         ]
@@ -2240,7 +2480,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "I know how that sounds. It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and then you pay for it later when you're lying in bed wired at 10am. Front-load your caffeine at the start of the shift instead. Our upcoming guide to how long caffeine lasts has a full cut-off table."
+        "text": "I know how that sounds. It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and then you pay for it later when you're lying in bed wired at 10am. Front-load your caffeine at the start of the shift instead. Our guide to [how long caffeine lasts](/resources/how-long-does-caffeine-last/) has a full cut-off table."
       },
       {
         "type": "p",
@@ -4349,7 +4589,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "They can help, but they work best alongside the things that got you wired in the first place." },
       { type: "p",
-        text: "That 3am Red Bull is still in your system when your head hits the pillow. The HSE advises avoiding caffeine, energy drinks and other stimulants a few hours before bedtime. On nights, that means your last caffeine should come well before the end of the shift, not on the drive home. I'll cover the timing in detail in an upcoming guide, how long does caffeine last." },
+        text: "That 3am Red Bull is still in your system when your head hits the pillow. The HSE advises avoiding caffeine, energy drinks and other stimulants a few hours before bedtime. On nights, that means your last caffeine should come well before the end of the shift, not on the drive home. I cover the timing in detail in [how long does caffeine last](/resources/how-long-does-caffeine-last/)." },
       { type: "p",
         text: "Once you're home, rain can do the rest of the work:" },
       { type: "ul",
