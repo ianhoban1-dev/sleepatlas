@@ -45,6 +45,244 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "microsleep-driving-after-night-shift",
+    "title": "Microsleep and the Drive Home After a Night Shift",
+    "description": "What is a microsleep, and why is the drive home after a night shift so risky? UK road-safety data, warning signs, and what actually keeps shift workers safe.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-10-18",
+    "readMinutes": 8,
+    "quickAnswer": "A microsleep is a lapse of a few seconds when your brain briefly falls asleep, often with your eyes open. The drive home after nights is when they strike most: RoSPA says shift workers are about twice as likely to fall asleep at the wheel. If you feel drowsy, stop somewhere safe and nap for 15-20 minutes.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I worked nights for the best part of 40 years: on stag with The King's Regiment, on the line at Jacobs Biscuits, on the wings at Strangeways, Walton and Guys Marsh, and at Budweiser UK. For a lot of night workers, the most dangerous part of the night isn't the shift at all. It's the drive home."
+      },
+      {
+        "type": "p",
+        "text": "You know the routine. It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull helps, but you drink it anyway. By 7am you've pushed through, the handover is done and all you want is your bed. So you get in the car. That's exactly when your body is least fit to drive."
+      },
+      {
+        "type": "p",
+        "text": "My drive home from Strangeways prison was about 35 minutes and from Budweiser it was around 40 minutes. Both trips were too long after a night shift, and I normally needed a power nap of 15-20 minutes to get home safely. I can't recommend it enough: if you feel tired, pull over and take a short nap."
+      },
+      {
+        "type": "h2",
+        "text": "What is a microsleep?"
+      },
+      {
+        "type": "p",
+        "text": "A microsleep is a very short episode of sleep while you are otherwise awake. The [Sleep Foundation's guide to microsleep](https://www.sleepfoundation.org/how-sleep-works/microsleep) says researchers generally define it as sleep lasting 15 seconds or less. It can happen with your eyes open, and people often don't recognise that they nodded off."
+      },
+      {
+        "type": "p",
+        "text": "That last part is what makes it so dangerous behind the wheel. At 60mph you cover roughly 27 metres every second. A five-second microsleep means well over 100 metres of road with nobody in control, and you may come round with no memory of it."
+      },
+      {
+        "type": "h2",
+        "text": "Why is the drive home after a night shift so dangerous?"
+      },
+      {
+        "type": "p",
+        "text": "The drive home lands right in your body clock's low point, after hours of being awake. The UK numbers are stark:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Up to 20% of road accidents.** The [RoSPA driver fatigue factsheet](https://www.rospa.com/rospaweb/docs/advice-services/road-safety/drivers/driver-fatigue-factsheet.pdf) says fatigue may contribute to up to 20% of road accidents, and up to a quarter of fatal and serious ones.",
+          "**The early hours are the peak.** RoSPA names 2am-6am as a high-risk period, along with 2pm-4pm. [THINK!](https://think.gov.uk/law/fatigue), the government road safety campaign, also says peak times are the early hours and after lunch.",
+          "**Shift workers are at higher risk.** RoSPA quotes a US National Sleep Foundation study that found shift workers were twice as likely to fall asleep at the wheel as non-shift workers.",
+          "**These crashes are worse.** THINK! says sleep-related crashes are more likely than others to result in a death or serious injury. A sleeping driver doesn't brake or swerve.",
+          "**The regulator agrees.** [HSE's page on fatigue](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm) says fatigue has been implicated in 20% of accidents on major roads, and more than 3.5 million people in the UK work shifts."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Healthcare staff see it too. [NHS Employers](https://www.nhsemployers.org/articles/sleep-fatigue-and-workplace) reports a survey of anaesthetists in which more than half said they had experienced a near miss driving home after a night shift. These are people who understand fatigue better than most, and it still catches them."
+      },
+      {
+        "type": "p",
+        "text": "**I've driven home when I've been so tired that I've actually fallen asleep at the wheel, at the traffic lights. The car behind me beeped and woke me up, but this has also happened to work mates, so it's more common than you might think.**"
+      },
+      {
+        "type": "h2",
+        "text": "What are the warning signs of a microsleep at the wheel?"
+      },
+      {
+        "type": "p",
+        "text": "THINK! makes an important point: drivers don't fall asleep without warning. Your body tells you first. Watch for:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Yawning again and again.",
+          "Heavy eyelids, or blinking more than usual.",
+          "Not remembering the last mile or two.",
+          "Drifting towards the white lines or the kerb.",
+          "Missing a turn or a road sign.",
+          "Your head nodding, or jerking back up.",
+          "Fidgeting, rubbing your eyes or winding the window down to stay awake."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you notice any one of these, treat it as the last warning. The next thing could be a microsleep."
+      },
+      {
+        "type": "h2",
+        "text": "What actually works on the drive home?"
+      },
+      {
+        "type": "p",
+        "text": "Here is what helps and what doesn't, based on UK road-safety guidance:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Tactic",
+          "Does it work?",
+          "What the guidance says"
+        ],
+        "rows": [
+          [
+            "Short nap before you drive",
+            "Yes",
+            "NHS Employers: 15-20 minutes. RoSPA: up to 15 minutes."
+          ],
+          [
+            "Caffeine, then a nap",
+            "Yes, short term",
+            "RoSPA: at least 150mg of caffeine plus a short nap. NHS Employers: caffeine takes 15-20 minutes to kick in, so you wake with both benefits."
+          ],
+          [
+            "Taxi, lift or public transport",
+            "Yes",
+            "The safest option if you're struggling."
+          ],
+          [
+            "Window down, radio up",
+            "No, not for long",
+            "THINK!: drivers who fell asleep had tried this. It doesn't work for long."
+          ],
+          [
+            "Pushing on because you're nearly home",
+            "No",
+            "Rule 91: if you feel sleepy, stop somewhere safe."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Put together, a safer plan for the end of a night shift looks like this:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Know your route and your rest stops.** Pick one or two safe places to pull in, such as a lay-by or services, not the hard shoulder.",
+          "**Rest before you set off if you need to.** A 15-20 minute nap in a quiet staff room or the car park is far safer than a microsleep on the dual carriageway.",
+          "**Try the coffee nap.** Drink a coffee, then nap straight away for 15-20 minutes. The caffeine starts working as you wake up.",
+          "**Get a lift on the worst mornings.** After the last of a long block, or a shift that went wrong, take a taxi or public transport. **For me, car sharing was a godsend, but I know this isn't always possible, especially if you live further away from your place of work.**",
+          "**Stop at the first warning sign.** Don't bargain with yourself about the last few miles.",
+          "**Remember caffeine only buys time.** It doesn't replace sleep, so plan to be in bed soon after you get home."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The [night shift survival guide](/resources/night-shift-survival-guide/) covers the whole night, and [how to stay awake on a night shift](/resources/how-to-stay-awake-on-night-shift/) covers planned naps on shift. Our guide to [how long caffeine lasts](/resources/how-long-does-caffeine-last/) explains why the 3am energy drink can still keep you awake at 10am. To plan your commute and bedtime around a shift, use the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/)."
+      },
+      {
+        "type": "h2",
+        "text": "Why don't the window down and radio up work?"
+      },
+      {
+        "type": "p",
+        "text": "They make you feel more alert for a few minutes, but they don't touch the sleep pressure that's building up. THINK! says drivers who fell asleep had tried opening a window or turning up the radio, and it doesn't work for long. Every night worker has done it. The danger is that it gives you just enough confidence to keep going."
+      },
+      {
+        "type": "h2",
+        "text": "What does Highway Code Rule 91 say?"
+      },
+      {
+        "type": "p",
+        "text": "[Rule 91 of The Highway Code](https://www.gov.uk/rules-drivers-motorcyclists-89-to-102) starts: driving when you are tired greatly increases your risk of collision. It advises you to:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "avoid starting a journey if you are tired, and get plenty of sleep first",
+          "avoid long journeys between midnight and the early morning, when alertness is at its worst",
+          "take a break of at least 15 minutes after every two hours of driving",
+          "if you feel sleepy, stop somewhere safe, but never on the hard shoulder of a motorway"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For most night workers the drive home sits right in that midnight-to-morning window, which is why it deserves a plan, not just a strong coffee."
+      },
+      {
+        "type": "h2",
+        "text": "Clocks go back on Sunday 25 October: plan for an extra hour"
+      },
+      {
+        "type": "p",
+        "text": "UK clocks go back one hour at 2am on Sunday 25 October 2026. If you're on nights that weekend, your shift may run an hour longer by the clock, so you'll be awake for longer before the drive home. Plan your nap or lift before you start that shift, not at the end of it. **Watching the clock go from 2am to 1am is the worst feeling, especially if you are already tired from your night shifts.**"
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "The drive home after nights is one of the riskiest parts of a shift, and the warning signs come before the microsleep. Plan for it: know where you can stop, nap before you set off if you need to, and take a lift on the worst mornings. Then protect the sleep that comes next. Once you're home, a dark room and a steady sound like [brown noise](/resources/brown-noise-for-sleep/) help you drop off as the street wakes up. Our full guide to [how to sleep during the day](/resources/how-to-sleep-during-the-day/) covers the rest, and Why Am I Always Tired? A Shift Worker's Checklist is coming soon. If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "type": "p",
+        "text": "[Try Sleyp free](/session/): 13 sounds, a custom timer and a wake-up chime, all free in your browser. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[RoSPA: Driver fatigue factsheet (PDF)](https://www.rospa.com/rospaweb/docs/advice-services/road-safety/drivers/driver-fatigue-factsheet.pdf)",
+          "[THINK! (Department for Transport): Fatigue](https://think.gov.uk/law/fatigue)",
+          "[GOV.UK: The Highway Code, rules for drivers and motorcyclists (89 to 102)](https://www.gov.uk/rules-drivers-motorcyclists-89-to-102)",
+          "[HSE: Human factors, fatigue](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm)",
+          "[NHS Employers: Sleep, fatigue and the workplace](https://www.nhsemployers.org/articles/sleep-fatigue-and-workplace)",
+          "[Sleep Foundation: Microsleep](https://www.sleepfoundation.org/how-sleep-works/microsleep)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does a microsleep feel like?",
+        "answer": "Often it feels like nothing at all. You might notice your head jerk up, realise you've drifted in your lane, or find you can't remember the last stretch of road. Because people often don't realise they nodded off, the warning signs before it matter more."
+      },
+      {
+        "question": "How long does a microsleep last?",
+        "answer": "Researchers generally define a microsleep as sleep lasting 15 seconds or less, according to the Sleep Foundation. Even a few seconds is enough to cover a long stretch of road at speed with nobody in control."
+      },
+      {
+        "question": "Is it safe to drive after a 12-hour night shift?",
+        "answer": "It carries real risk, because you'll be driving at your body clock's low point after many hours awake. Follow Rule 91: don't set off tired, and stop somewhere safe if you feel sleepy. A 15-20 minute nap before you leave, or a lift home, is the safer choice."
+      },
+      {
+        "question": "Does coffee stop microsleeps?",
+        "answer": "Only for a while. RoSPA suggests at least 150mg of caffeine with a short nap, but caffeine works best paired with rest. It isn't a substitute for sleep, and it can make it harder to sleep once you're home."
+      },
+      {
+        "question": "Does opening the window or turning up the radio help?",
+        "answer": "Not for long. THINK! says drivers who fell asleep had tried both. If you're reaching for the window switch to stay awake, that's your cue to pull over."
+      },
+      {
+        "question": "What should I do if I nearly fall asleep while driving?",
+        "answer": "Pull in somewhere safe as soon as you can, such as a lay-by or services, never the hard shoulder. Have a caffeinated drink if you like, then nap for 15-20 minutes before you carry on."
+      }
+    ]
+  },
+  {
     "slug": "military-sleep-method",
     "title": "The Military Sleep Method: Does It Work After a Night Shift?",
     "description": "The military sleep method explained by an ex-King's Regiment soldier: where it comes from, whether the 96% claim holds up, and how to use it after nights.",
@@ -760,7 +998,7 @@ export const ARTICLES: Article[] = [
         "items": [
           "**Before your first night:** a nap in the late afternoon or early evening before you leave is the easiest win, because you can do it in your own bed.",
           "**During the shift:** if your workplace allows rest breaks, aim for a nap before the wall rather than in the middle of it, roughly midway through the night.",
-          "**Before driving home:** if you feel drowsy at the end of the shift, a short nap before you get in the car is far safer than pushing on. More on that in our upcoming post, Microsleep and the Drive Home After a Night Shift."
+          "**Before driving home:** if you feel drowsy at the end of the shift, a short nap before you get in the car is far safer than pushing on. More on that in [Microsleep and the Drive Home After a Night Shift](/resources/microsleep-driving-after-night-shift/)."
         ]
       },
       {
@@ -1124,7 +1362,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Microsleep and the Drive Home After a Night Shift, later in this series, covers the warning signs in detail."
+        "text": "[Microsleep and the Drive Home After a Night Shift](/resources/microsleep-driving-after-night-shift/) covers the warning signs in detail."
       },
       {
         "type": "h2",
