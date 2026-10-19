@@ -45,6 +45,309 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "shift-patterns-explained",
+    "title": "Shift Patterns Explained: 4 On 4 Off, Continental, Rotating and 12-Hour Shifts",
+    "description": "UK shift patterns explained: 4 on 4 off, continental, rotating and 12-hour shifts, how each affects sleep, and what HSE good practice says about rotas.",
+    "category": "Managing Split/Rotating Rotas",
+    "categorySlug": "rotating-rotas",
+    "datePublished": "2026-10-19",
+    "readMinutes": 10,
+    "quickAnswer": "The most common UK shift patterns are 4 on 4 off (four 12-hour shifts, then four days off), continental (a fast-rotating pattern of short runs of days and nights) and weekly rotating earlies, lates and nights. HSE good practice favours forward rotation, shifts of no more than 12 hours and short runs of nights.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I've worked shifts for 40 years: on stag in The King's Regiment, on the line at Jacobs Biscuits, on the wings at Strangeways, Walton and Guys Marsh, and on production at Budweiser UK. Every one of those jobs had a different rota, and every rota hit my sleep in a different way."
+      },
+      {
+        "type": "p",
+        "text": "The Army was mainly day work, apart from stag duty at night, or night patrols on a tour such as Northern Ireland. The Prison Service was a real mix: earlies, lates, main shift (days) and nights. Jacobs was earlies and lates, with no nights. Budweiser was the toughest, on 4 on 4 off 12-hour shifts, working 2 days followed by 2 nights."
+      },
+      {
+        "type": "p",
+        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on 4 on 4 off, continental rotas and switching back to days coming up over the next week."
+      },
+      {
+        "type": "h2",
+        "text": "What is a shift pattern?"
+      },
+      {
+        "type": "p",
+        "text": "A shift pattern (or rota) is the repeating cycle of shifts and rest days your employer uses to cover the hours it needs. It sets three things that matter for your sleep: **when** you work (days, lates or nights), **how long** each shift is (usually 8 or 12 hours), and **how often it changes** (fixed, slow rotation or fast rotation)."
+      },
+      {
+        "type": "p",
+        "text": "Most 24/7 workplaces split staff into crews. With four crews covering all 168 hours of the week, each crew averages 42 hours a week, whichever pattern they use. That's why so many 12-hour rotas land on 42 hours: the maths is the same, only the order of the shifts changes."
+      },
+      {
+        "type": "p",
+        "text": "Shift work is not a niche way of working. [HSE says](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm) more than 3.5 million people are employed as shift workers in the UK, and it states plainly that \"there is no single optimal shift system that suits everyone\". The right rota is the one that fits the work, the people and their lives outside work."
+      },
+      {
+        "type": "h2",
+        "text": "What are the most common UK shift patterns?"
+      },
+      {
+        "type": "p",
+        "text": "Here is how the main patterns compare. Hours assume no overtime; your own rota may vary."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Pattern",
+          "How it runs",
+          "Shift length",
+          "Average hours a week",
+          "Nights in a row",
+          "Main sleep challenge"
+        ],
+        "rows": [
+          [
+            "4 on 4 off",
+            "Four shifts, then four days off. Often 4 days, 4 off, 4 nights, 4 off",
+            "12 hours",
+            "42 (48 hours every 8 days)",
+            "Up to 4",
+            "A long block of 12-hour nights, then the flip back"
+          ],
+          [
+            "Continental (12-hour, 2-2-3)",
+            "2 on, 2 off, 3 on, then the reverse, over a 14-day cycle",
+            "12 hours",
+            "42 (4 crews)",
+            "2-3",
+            "Frequent switches between days and nights"
+          ],
+          [
+            "Continental (8-hour)",
+            "Short runs such as 2 earlies, 2 lates, 3 nights, then rest",
+            "8 hours",
+            "About 42 (4 crews)",
+            "2-3",
+            "Quick turnarounds and constant change"
+          ],
+          [
+            "Weekly rotating (earlies, lates, nights)",
+            "A full week on each shift, then rotate",
+            "8 hours",
+            "About 40 (weekday cover)",
+            "5",
+            "A whole week of day sleep, then a hard switch"
+          ],
+          [
+            "Earlies and lates (two-shift)",
+            "Alternating weeks of mornings and afternoons/evenings",
+            "8 hours",
+            "About 37-40",
+            "None",
+            "Very early starts and late finishes"
+          ],
+          [
+            "Permanent nights",
+            "Nights only, fixed",
+            "8-12 hours",
+            "Varies",
+            "Every working day",
+            "Day sleep every week, and losing it on days off"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "You'll hear other names too: Panama, DuPont, 2-2-3 and 6 on 4 off are all variations on the same idea of crews rotating through fixed blocks. Police forces, the NHS, prisons and factories each tend to run their own versions, so always check the actual rota rather than the name on it."
+      },
+      {
+        "type": "h2",
+        "text": "What does HSE good practice say about shift patterns?"
+      },
+      {
+        "type": "p",
+        "text": "The HSE's guidance on [managing shift work (HSG256)](https://www.hse.gov.uk/PUBNS/priced/hsg256.pdf) sets out good practice for designing rotas. It is guidance for employers, not law, but it is the clearest benchmark we have in the UK. The key points:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Limit shifts to a maximum of 12 hours, including overtime.**",
+          "**Limit night shifts, and demanding, monotonous, dangerous or safety-critical work, to 8 hours** where possible.",
+          "**For long shifts, night shifts and early starts, consider a limit of 2-3 consecutive shifts.** HSE specifically suggests limiting 12-hour night shifts to 2-3 nights in a row.",
+          "**Rotate forwards where possible:** earlies to lates to nights, rather than backwards.",
+          "**Avoid early starts before 7am** unless the business really needs them.",
+          "**Allow at least 2 nights' full sleep when switching between day and night shifts.**",
+          "**Give a choice between permanent and rotating shifts** where you can.",
+          "**Leave at least 11 hours between shifts,** the minimum rest under the Working Time Regulations."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The HSE's [fatigue guidance](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm) explains why this matters. Accidents and injuries are more common on night shifts, after a succession of shifts and when shifts are long. It also notes that a night worker's day sleep is usually \"lighter, shorter and more easily disturbed\"."
+      },
+      {
+        "type": "p",
+        "text": "Here is the point most rota articles miss. A 4 on 4 off block of four 12-hour nights is longer than the 2-3 consecutive long nights HSE suggests considering. That doesn't make it unlawful, and plenty of people work it well. It does mean your sleep plan during that block matters more than on almost any other rota."
+      },
+      {
+        "type": "h2",
+        "text": "Is my shift pattern legal?"
+      },
+      {
+        "type": "p",
+        "text": "For night workers, [GOV.UK sets out the rules](https://www.gov.uk/night-working-hours). You're a night worker if you regularly work at least 3 hours in the night period, which is 11pm to 6am unless you and your employer agree a different one. Night workers must not work more than an average of 8 hours in 24, usually averaged over 17 weeks, and they cannot opt out of that limit."
+      },
+      {
+        "type": "p",
+        "text": "A 4 on 4 off rota of 12-hour shifts works 48 hours every 8 days, which averages 6 hours in every 24. So 12-hour nights can sit inside the average. The exception is work involving special hazards or heavy mental or physical strain: those night workers cannot work more than 8 hours in any 24-hour period."
+      },
+      {
+        "type": "p",
+        "text": "If you think your rota breaks the rules, speak to your manager, union rep or HR first. ACAS also offers free advice."
+      },
+      {
+        "type": "h2",
+        "text": "How does each shift pattern affect your sleep?"
+      },
+      {
+        "type": "p",
+        "text": "Every rota has a weak spot. Knowing where yours is lets you plan for it rather than be ambushed by it."
+      },
+      {
+        "type": "p",
+        "text": "**4 on 4 off.** The four days off are the big draw. The cost is the block itself: four 12-hour shifts back to back leave little time for anything but commute, eat and sleep. On the nights block, sleep debt builds over the four shifts, and the flip back to days on your first rest day can feel brutal. I know how it feels to get up early after your last night shift to try to get the most out of your day off, then find yourself fatigued with that dreaded jet-lag feeling."
+      },
+      {
+        "type": "p",
+        "text": "**Continental.** Runs of nights are short, which fits HSE good practice. The trade-off is that your body clock never gets settled. You're forever switching between day sleep and night sleep, often with only a day or two in between."
+      },
+      {
+        "type": "p",
+        "text": "**Weekly rotating earlies, lates and nights.** A full week on nights gives your body clock time to shift a little, but five nights in a row is a long run, and the switch back is hard. If the rota rotates backwards (nights, then lates, then earlies), it is fighting your body clock rather than working with it."
+      },
+      {
+        "type": "p",
+        "text": "**Earlies and lates.** No nights, so it looks easy on paper. Lates and earlies sound great, but the early start and late finish take a toll on your sleep pattern and sleep quality. A 5am alarm after a week of getting in at midnight is a jolt every time. Jacobs had an early shift that started at 7am, as did the Prison Service. I used to double my shifts up to do one long day (an early and a late), because once I was awake and up, I might as well do it all in one day and then get an extra day off."
+      },
+      {
+        "type": "p",
+        "text": "**Permanent nights.** Your body clock can adapt more than on a rotating rota, but only if you stick with day sleep. Most people don't on their days off, because family and friends live in the daytime. Getting in bed when everyone else is leaving the house for school and work is great, until the neighbour starts drilling."
+      },
+      {
+        "type": "h2",
+        "text": "What is the best shift pattern for sleep?"
+      },
+      {
+        "type": "p",
+        "text": "There isn't one best pattern for everyone, and the HSE says as much. But the guidance points to some features that are easier on sleep:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Forward rotation** (earlies, then lates, then nights)",
+          "**Short runs of nights** (2-3 when shifts are 12 hours)",
+          "**Shifts no longer than 12 hours,** including overtime",
+          "**No starts before 7am** where it can be avoided",
+          "**Proper recovery** after nights: at least 2 nights' full sleep before switching back",
+          "**A regular, predictable rota** you can plan your home life around"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Your own body clock matters too. Some people are naturally early risers and cope well with earlies; others come alive in the evening and handle lates and nights better. That's what our [Chronotype & Rota Matcher](/tools/chronotype-rota-matcher/) is for: it compares your natural tendencies with the pattern you actually work."
+      },
+      {
+        "type": "h2",
+        "text": "How do you adapt to a rotating shift pattern?"
+      },
+      {
+        "type": "p",
+        "text": "Most of us don't get to choose our rota. Here is how to make the one you have work harder for your sleep."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Map your whole cycle.** Write out four to eight weeks of the rota and mark the hard points: the first night, the last night, quick turnarounds and early starts.",
+          "**Bank sleep before the hard runs.** A nap in the afternoon before your first night shift takes the edge off the first 3am.",
+          "**Protect day sleep during night runs.** Dark room, cool room, earplugs and a steady masking sound. Our guide to [sleeping during the day after a night shift](/resources/how-to-sleep-during-the-day/) covers the full setup.",
+          "**Time your caffeine.** It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull helps, but you drink it anyway, then pay for it when you try to sleep. Keep caffeine to the first half of the shift.",
+          "**Plan the flip back.** After your last night, take a short sleep rather than a whole day in bed, get outside in daylight, then go to bed at a normal time. Our [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/) works out the timings for your shift.",
+          "**Keep your days off steady.** Try to keep your rest-day wake time within a couple of hours of your working-day routine where you can.",
+          "**Track your sleep debt.** Note the hours you actually sleep across each block. Seeing the numbers makes it easier to plan, and to raise a rota problem with your employer."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In the army, you'd finish your stag in the middle of the night, lie there unable to get back to sleep, and the next day still had to be worked. Nobody asked what pattern suited you. Civvy street gives you a bit more say, so use it: ask about forward rotation, shift swaps and the length of your night runs."
+      },
+      {
+        "type": "p",
+        "text": "In the Prison Service, \"doubling up\" an early and a late shift got you an extra day off, so I would really recommend doing this if your managers allow it. First thing each morning on the landings, staff would have their diaries out, swapping shifts and getting days off sorted before inmates were let out of their cells."
+      },
+      {
+        "type": "h2",
+        "text": "Clocks go back on Sunday 25 October: what it means on nights"
+      },
+      {
+        "type": "p",
+        "text": "UK clocks go back one hour at 2am on Sunday 25 October 2026. If you're on nights that weekend, 2am happens twice, so a shift that crosses it runs an hour longer by the clock. Check your rota and pay arrangements with your employer, plan an extra snack and drink, and be extra careful on the [drive home](/resources/microsleep-driving-after-night-shift/). The upside for day sleepers is a lighter morning commute home for a few weeks, but darker evenings arrive fast."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Your shift pattern decides when you sleep, how long you get and how often your body clock has to reset. Know your pattern's weak spot, compare it with HSE good practice, and plan your sleep around the hard points: the long night runs, the quick turnarounds and the flip back to days."
+      },
+      {
+        "type": "p",
+        "text": "Start by checking how your rota fits your natural body clock with the [Chronotype & Rota Matcher](/tools/chronotype-rota-matcher/). Then deal with the daytime noise. Even on a quiet street, cars and kids playing out can keep you wide awake. A steady sound such as [brown noise](/resources/brown-noise-for-sleep/) masks the peaks."
+      },
+      {
+        "type": "p",
+        "text": "[Try Sleyp free](/session/): 13 sounds, a custom timer and saved mixes, all free in your browser (keep the page open while it plays). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Coming next in this series: 4 On 4 Off Shift Pattern: How It Works and How to Sleep on It, and Continental Shift Pattern Explained."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[HSE: Managing shift work, HSG256 (PDF)](https://www.hse.gov.uk/PUBNS/priced/hsg256.pdf): good practice guidelines for shift-work schedule design (Tables 3, 5, 7 and 11)",
+          "[HSE: Human factors, Fatigue](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm): 3.5 million UK shift workers; when accidents are more common; day sleep quality",
+          "[GOV.UK: Night working hours](https://www.gov.uk/night-working-hours): night worker definition, the 8-hour average and the hazardous-work limit"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the healthiest shift pattern?",
+        "answer": "No single pattern suits everyone, according to the HSE. Patterns that are easier on sleep tend to rotate forwards, keep night runs short (2-3 nights for 12-hour shifts), avoid starts before 7am and give at least two nights' full sleep before switching from nights to days."
+      },
+      {
+        "question": "What is a forward-rotating rota?",
+        "answer": "A forward-rotating rota moves from earlies to lates to nights, so each new shift starts later than the last. It works with your body clock, which finds it easier to stay up later than to go to bed earlier. HSE good practice recommends forward rotation where possible."
+      },
+      {
+        "question": "How many hours is a 4 on 4 off shift pattern per week?",
+        "answer": "With 12-hour shifts, 4 on 4 off works 48 hours in every 8 days, which averages 42 hours a week, before overtime. Over a year that is roughly 182 working shifts."
+      },
+      {
+        "question": "How many night shifts in a row is safe?",
+        "answer": "There is no single legal maximum, but HSE good practice suggests considering a limit of 2-3 consecutive 12-hour night shifts. Longer runs mean more sleep debt, so plan your day sleep carefully if your rota includes four or more nights in a row."
+      },
+      {
+        "question": "Are 12-hour shifts legal in the UK?",
+        "answer": "Yes, in most jobs. Night workers must average no more than 8 hours in 24, usually over 17 weeks, and 12-hour rotas with plenty of rest days can sit within that. Night workers in hazardous or high-strain roles cannot work more than 8 hours in any 24-hour period."
+      },
+      {
+        "question": "What is a continental shift pattern?",
+        "answer": "A continental shift pattern is a fast-rotating rota for 24/7 cover, usually across four crews. Common versions run 2 days, 2 nights and rest days, or a 2-2-3 cycle of 12-hour shifts. Nights come in short runs, but you switch between days and nights often."
+      }
+    ]
+  },
+  {
     "slug": "microsleep-driving-after-night-shift",
     "title": "Microsleep and the Drive Home After a Night Shift",
     "description": "What is a microsleep, and why is the drive home after a night shift so risky? UK road-safety data, warning signs, and what actually keeps shift workers safe.",
@@ -1476,7 +1779,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "That 2 to 3 nights point surprises a lot of people. Plenty of rotas, including many 4 on 4 off patterns, put four 12-hour nights back to back. That isn't automatically unlawful, but it's longer than HSE's good practice, so planning your sleep through the block matters even more. Lates and earlies sound great too, but the early starts and late finishes take their own toll on your sleep pattern and sleep quality. Shift Patterns Explained, later in this series, compares the common UK rotas side by side."
+        "text": "That 2 to 3 nights point surprises a lot of people. Plenty of rotas, including many 4 on 4 off patterns, put four 12-hour nights back to back. That isn't automatically unlawful, but it's longer than HSE's good practice, so planning your sleep through the block matters even more. Lates and earlies sound great too, but the early starts and late finishes take their own toll on your sleep pattern and sleep quality. [Shift Patterns Explained](/resources/shift-patterns-explained/) compares the common UK rotas side by side."
       },
       {
         "type": "h2",
