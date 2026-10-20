@@ -45,6 +45,308 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "4-on-4-off-shift-pattern",
+    "title": "4 On 4 Off Shift Pattern: How It Works and How to Sleep on It",
+    "description": "How does a 4 on 4 off shift pattern work? Hours per week, pros and cons, what HSE says about long shift blocks, and a sleep plan for your nights and days off.",
+    "category": "4-on, 4-off Survival Strategies",
+    "categorySlug": "4-on-4-off-survival",
+    "datePublished": "2026-10-20",
+    "readMinutes": 9,
+    "quickAnswer": "A 4 on 4 off shift pattern is four 12-hour shifts followed by four days off, which averages 42 hours a week. You get long breaks, but HSE guidance suggests limiting 12-hour night shifts to two or three in a row, so four nights back to back needs a proper sleep plan for the block and the switch back.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I've worked shifts for 40 years, from The King's Regiment (1986-1989) to Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, and Budweiser UK. Long blocks with long breaks are the rotas people ask me about most. Budweiser had the 4 on 4 off, 12-hour shift pattern, which was 2 day shifts followed by 2 night shifts. This guide covers how the pattern works, the real hours, what UK guidance says, and how to sleep on it. For a wider look at other rotas, see [shift patterns explained](/resources/shift-patterns-explained/)."
+      },
+      {
+        "type": "h2",
+        "text": "How does a 4 on 4 off shift pattern work?"
+      },
+      {
+        "type": "p",
+        "text": "You work four shifts in a row, usually 12 hours each, then have four days off. The cycle repeats every eight days, so four crews can cover a site 24 hours a day, 7 days a week."
+      },
+      {
+        "type": "p",
+        "text": "Because the cycle is eight days long and a week is seven, your days off move one day later each week. That means your weekends change constantly. Over any eight-week stretch you get both Saturday and Sunday off in three weeks, work both in three weeks, and work one of the two in the other two."
+      },
+      {
+        "type": "p",
+        "text": "The most common versions are:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Version",
+          "How it runs",
+          "Cycle length",
+          "Nights in a row"
+        ],
+        "rows": [
+          [
+            "4 days, 4 off",
+            "Four 12-hour day shifts, four rest days, repeat",
+            "8 days",
+            "None"
+          ],
+          [
+            "4 nights, 4 off",
+            "Four 12-hour night shifts, four rest days, repeat",
+            "8 days",
+            "4"
+          ],
+          [
+            "4 days, 4 off, 4 nights, 4 off",
+            "Alternates a day block and a night block",
+            "16 days",
+            "4"
+          ],
+          [
+            "2 days, 2 nights, 4 off",
+            "Two days, two nights, then four rest days",
+            "8 days",
+            "2"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The 2 days, 2 nights, 4 off version is still four on and four off, but it splits the block. It sits close to the continental pattern, which I'll cover in Continental Shift Pattern Explained. This was my Budweiser shift pattern and, for me personally, the hardest shift pattern to get used to."
+      },
+      {
+        "type": "h2",
+        "text": "How many hours a week is 4 on 4 off?"
+      },
+      {
+        "type": "p",
+        "text": "Four 12-hour shifts is 48 hours every eight days. Spread across a week, that works out at an average of 42 hours."
+      },
+      {
+        "type": "p",
+        "text": "In practice no week is average. Depending on where the cycle falls, a calendar week has either three shifts (36 hours) or four shifts (48 hours). Over a year it comes to roughly 182 shifts and about 2,190 hours, with around 182 days off. Paid and unpaid breaks, holidays and overtime will change your own figures, so check your contract."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Measure",
+          "4 on 4 off (12-hour shifts)"
+        ],
+        "rows": [
+          [
+            "Hours per 8-day cycle",
+            "48"
+          ],
+          [
+            "Average hours per week",
+            "42"
+          ],
+          [
+            "Hours in a single week",
+            "36 or 48"
+          ],
+          [
+            "Shifts per year",
+            "About 182"
+          ],
+          [
+            "Days off per year",
+            "About 182"
+          ],
+          [
+            "Full weekends off",
+            "3 in every 8 weeks"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you work nights, GOV.UK says you count as a night worker if you regularly work at least 3 hours in the night period. [Night workers must not work more than an average of 8 hours in a 24-hour period](https://www.gov.uk/night-working-hours), usually averaged over 17 weeks, and you can't opt out of that limit. If you're unsure whether your rota fits, ask your employer or HR to show you how they calculate it."
+      },
+      {
+        "type": "h2",
+        "text": "Is 4 on 4 off a good shift pattern? Days vs nights"
+      },
+      {
+        "type": "p",
+        "text": "It depends on whether your four are days or nights. Four 12-hour days are tiring but your body clock stays roughly where it should be. Four 12-hour nights are a different story."
+      },
+      {
+        "type": "p",
+        "text": "**What people like about it:**"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Four full days off every eight days, so more time at home than a five-day week",
+          "Fewer commutes: four journeys in, not five",
+          "Days off fall midweek, which is handy for appointments and quieter shops"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**What wears you down:**"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "12 hours is a long time to stay sharp, especially on the third and fourth nights",
+          "Weekends and family plans move every week",
+          "Day one off is often lost to recovery sleep, so four days off can feel like three",
+          "The switch from nights back to days hits you every single cycle"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That last one is the killer. I know how it feels to get up early after your last night shift to make the most of your day off, then find yourself fatigued with that dreaded jet-lag feeling by mid-afternoon."
+      },
+      {
+        "type": "h2",
+        "text": "What does HSE say about four 12-hour nights in a row?"
+      },
+      {
+        "type": "p",
+        "text": "This is the point most guides skip. HSE's guidance for employers, [HSG256 Managing shift work](https://www.hse.gov.uk/PUBNS/priced/hsg256.pdf), says to \"limit 12-hour night shifts to 2-3 consecutive nights\". Its [good practice guidelines](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm) also say to \"restrict long shifts, night shifts and early morning shifts to 2-3 consecutive shifts\"."
+      },
+      {
+        "type": "p",
+        "text": "A 4 nights, 4 off rota goes one night past that. It isn't against the law, and plenty of workplaces run it, but it does mean the fourth night is the one to watch."
+      },
+      {
+        "type": "p",
+        "text": "The same guidance says:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Shifts should not be planned to be longer than 12 hours, including overtime.",
+          "The minimum time between shifts under the Working Time Regulations is 11 hours.",
+          "When switching from day to night shifts or back, workers should get at least 2 nights' full sleep.",
+          "Forward-rotating schedules (days, then lates, then nights) may help reduce sleep loss and fatigue."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Point 3 is where 4 on 4 off earns its keep. Four rest days gives you room for two proper nights' sleep before you're back in. The trick is not wasting them."
+      },
+      {
+        "type": "h2",
+        "text": "How do you sleep on a 4 on 4 off rota?"
+      },
+      {
+        "type": "p",
+        "text": "Here's the plan I'd give anyone starting a 4 nights, 4 off block. Treat it as a starting point and adjust it to your commute and home life."
+      },
+      {
+        "type": "h3",
+        "text": "Before night one"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Have a normal night's sleep the night before, and don't set an early alarm.",
+          "Take a nap in the afternoon before your first night if you can. Even an hour helps.",
+          "Eat a proper meal before you leave, so you're not relying on the vending machine at 3am."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "During the block (nights one to four)"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Go to bed soon after you get home. HSE's [tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) suggest going to bed soon after you arrive back from work, and say most adults need 7-8 hours.",
+          "Make the bedroom dark with heavy curtains, blackout blinds or an eye mask.",
+          "Block the noise. Getting into bed when everyone else is leaving for school and work is great, until the neighbours decide to mow their lawns. Earplugs plus a steady masking sound is the combination I trust. See [sleeping with earplugs](/resources/earplugs-for-sleeping/) and [brown noise for sleep](/resources/brown-noise-for-sleep/).",
+          "Stop caffeine well before the end of the shift. There's a worked cut-off in [how long does caffeine last](/resources/how-long-does-caffeine-last/).",
+          "Tell your family and close neighbours your sleep times, as HSE suggests.",
+          "Be extra careful on the drive home after nights three and four. If you feel sleepy, stop and nap where it's safe. More on that in [microsleep and the drive home](/resources/microsleep-driving-after-night-shift/)."
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "The flip back (rest days one and two)"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "After your last night, have a short sleep rather than a full day in bed. HSE's advice is: \"if coming off night shifts, have a short sleep and go to bed earlier that night.\" At Budweiser, I always tried to go to sleep after my last night shift at around 8am and get up at 12 noon. My best advice is to then keep active and go out somewhere. Don't just sit watching TV or doom scrolling, otherwise you will soon be back asleep and will regret it later.",
+          "Get outside in daylight in the afternoon.",
+          "Keep caffeine to the morning and early afternoon.",
+          "Go to bed at a normal time that evening, a little earlier than usual if you need it.",
+          "Count rest day two as your second full night's sleep. By rest day three you should feel close to normal."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The after-shift drink is tempting. It's your \"me time\", the same as an evening is for a 9-to-5 worker. But if you have it after night one, you'll pay for it at 2am on night two. I very rarely had a drink after a night shift, but sometimes, especially after a really bad shift, the reward factor can play head games. The reality is you will pay for it later."
+      },
+      {
+        "type": "p",
+        "text": "For the full day-sleep setup, see [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/). A more detailed hour-by-hour version of the flip back is coming in How to Fix Your Sleep Schedule After a Block of Nights."
+      },
+      {
+        "type": "p",
+        "text": "**A note on the clocks.** UK clocks go back at 2am on Sunday 25 October 2026. If you're on nights that weekend, a 7pm to 7am shift lasts 13 hours, not 12, unless your employer adjusts it. Plan your food and caffeine for the extra hour, and take extra care on the drive home."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "4 on 4 off gives you more time at home than almost any other full-time rota, but four 12-hour nights in a row is one more than HSE suggests. Plan the block, protect your day sleep, and use your first two rest days to reset properly rather than burning them."
+      },
+      {
+        "type": "p",
+        "text": "If you want help with the switch from your last night to your first day off, try the [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/). And when it's time to sleep through the mowers and the school run, [try Sleyp free](/session/): 13 sleep sounds in your browser, with a free custom timer and wake-up chime (keep the page open for them to run). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[HSE: HSG256 Managing shift work, health and safety guidance (PDF)](https://www.hse.gov.uk/PUBNS/priced/hsg256.pdf): 12-hour night shifts limited to 2-3 consecutive nights; shifts no longer than 12 hours; 11 hours between shifts; 2 nights' full sleep when switching; forward rotation.",
+          "[HSE: Good practice guidelines for shift work](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm): restrict long shifts and night shifts to 2-3 consecutive shifts.",
+          "[GOV.UK: Night working hours](https://www.gov.uk/night-working-hours): night worker definition; average of 8 hours in 24, usually over 17 weeks; no opt-out.",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm): 7-8 hours' sleep; blackout and eye shades; telling family and neighbours; short sleep after the last night."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many hours a week is 4 on 4 off?",
+        "answer": "With 12-hour shifts, 4 on 4 off is 48 hours every eight days, which averages 42 hours a week. Any single calendar week will be either 36 or 48 hours, depending on where the cycle falls."
+      },
+      {
+        "question": "Is 4 on 4 off a good shift pattern?",
+        "answer": "Many people like the four days off and fewer commutes. The downsides are long 12-hour shifts, weekends that move every week, and, on nights, a block one longer than HSE's suggested 2-3 consecutive 12-hour nights."
+      },
+      {
+        "question": "How do you sleep on a 4 on 4 off rota?",
+        "answer": "Nap before the first night, go to bed soon after getting home during the block, keep the bedroom dark and quiet, and stop caffeine well before the end of the shift. After the last night, take a short sleep, get daylight and go to bed at a normal time."
+      },
+      {
+        "question": "Is 4 on 4 off legal in the UK?",
+        "answer": "Yes, it can be. Shifts shouldn't be planned over 12 hours, you're entitled to 11 hours' rest between shifts, and night workers must not average more than 8 hours in 24, usually over 17 weeks. Ask your employer how they calculate it for your rota."
+      },
+      {
+        "question": "How many weekends off do you get on 4 on 4 off?",
+        "answer": "Because the cycle is eight days long, your days off move one day later each week. Over eight weeks you get three full weekends off, work three full weekends, and work one day of the other two."
+      },
+      {
+        "question": "What should I do on my first day off after four nights?",
+        "answer": "Have a short sleep after your last shift, not a full day in bed. Then get outside in daylight, keep caffeine to the morning and go to bed at a normal time that night. HSE suggests allowing at least two nights' full sleep when you switch."
+      }
+    ]
+  },
+  {
     "slug": "shift-patterns-explained",
     "title": "Shift Patterns Explained: 4 On 4 Off, Continental, Rotating and 12-Hour Shifts",
     "description": "UK shift patterns explained: 4 on 4 off, continental, rotating and 12-hour shifts, how each affects sleep, and what HSE good practice says about rotas.",
@@ -64,7 +366,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on 4 on 4 off, continental rotas and switching back to days coming up over the next week."
+        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on [4 on 4 off](/resources/4-on-4-off-shift-pattern/), continental rotas and switching back to days coming up over the next week."
       },
       {
         "type": "h2",
@@ -305,7 +607,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Coming next in this series: 4 On 4 Off Shift Pattern: How It Works and How to Sleep on It, and Continental Shift Pattern Explained."
+        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), with Continental Shift Pattern Explained coming soon."
       },
       {
         "type": "h3",
