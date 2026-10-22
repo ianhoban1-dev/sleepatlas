@@ -45,6 +45,353 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "continental-shift-pattern",
+    "title": "Continental Shift Pattern Explained (With a Sleep Survival Plan)",
+    "description": "What is a continental shift pattern? How the 2-2-3 rota works for 24/7 crews, how it compares with 4 on 4 off, and how to protect sleep through the switches.",
+    "category": "Managing Split/Rotating Rotas",
+    "categorySlug": "rotating-rotas",
+    "datePublished": "2026-10-22",
+    "readMinutes": 10,
+    "quickAnswer": "A continental shift pattern is a fast-rotating rota that gives 24/7 cover with four crews. The most common UK version is 12-hour shifts on a 2-2-3 cycle: two on, two off, three on, then the mirror image. Nights come in short runs of two or three, which matches HSE good practice, but the regular switches between days and nights test your body clock.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "If you've just been told your site is moving to continentals, or you're weighing up a job that runs them, this is the plain-English version. I'll cover how the rota works, the versions you'll come across, what it does to your sleep, and the plan I'd follow to get through the switches."
+      },
+      {
+        "type": "p",
+        "text": "At Budweiser, some professionals, such as engineers, worked continental shifts when they were on big contracts. Luckily, I've never had to do them myself. My own rota there was 4 on 4 off, with 2 days followed by 2 nights, which is a close cousin of the continental."
+      },
+      {
+        "type": "h2",
+        "text": "What is a continental shift pattern?"
+      },
+      {
+        "type": "p",
+        "text": "\"Continental\" is the name UK workplaces give to a rota that rotates quickly between shifts, so nobody is stuck on one shift for long. It is built for places that never close: manufacturing lines, breweries, warehouses, utilities, control rooms and the emergency services."
+      },
+      {
+        "type": "p",
+        "text": "The key features are:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Four crews.** At any time one crew is on days, one is on nights and two are off.",
+          "**Short runs.** You rarely work more than two or three of the same shift in a row.",
+          "**Regular weekends off.** The 2-2-3 cycle gives every crew a long weekend off every other week.",
+          "**About 42 hours a week on average.** A week has 168 hours, and four crews share them, so each crew averages 42 hours over the full cycle."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The official guidance doesn't use the word \"continental\", but it describes the idea. HSE's [good practice guidelines for shift work](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm) say to \"either rotate shifts every 2-3 days or every 3-4 weeks\", and HSE's longer guide, [HSG256 Managing shift work](https://www.hse.gov.uk/pubns/priced/hsg256.pdf), says \"fast rotation of shifts minimises disruption of the internal body clock\". It also says weekly or fortnightly rotating schedules \"are not recommended\". That is the case for continentals in a sentence."
+      },
+      {
+        "type": "h2",
+        "text": "How does the 12-hour 2-2-3 continental rota work?"
+      },
+      {
+        "type": "p",
+        "text": "The 2-2-3 version runs on a 14-day cycle: work two, rest two, work three, then rest two, work two, rest three ([RosterElf's guide to shift patterns](https://www.rosterelf.com/uk/guides/shift-patterns) describes the same 14-day cycle). Two crews cover days and two cover nights, then they swap. Here is one fortnight (D = 12-hour day, N = 12-hour night, - = rest day):"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Crew",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ],
+        "rows": [
+          [
+            "A, week 1",
+            "D",
+            "D",
+            "-",
+            "-",
+            "D",
+            "D",
+            "D"
+          ],
+          [
+            "A, week 2",
+            "-",
+            "-",
+            "D",
+            "D",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "B, week 1",
+            "-",
+            "-",
+            "D",
+            "D",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "B, week 2",
+            "D",
+            "D",
+            "-",
+            "-",
+            "D",
+            "D",
+            "D"
+          ],
+          [
+            "C, week 1",
+            "N",
+            "N",
+            "-",
+            "-",
+            "N",
+            "N",
+            "N"
+          ],
+          [
+            "C, week 2",
+            "-",
+            "-",
+            "N",
+            "N",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "D, week 1",
+            "-",
+            "-",
+            "N",
+            "N",
+            "-",
+            "-",
+            "-"
+          ],
+          [
+            "D, week 2",
+            "N",
+            "N",
+            "-",
+            "-",
+            "N",
+            "N",
+            "N"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "After the fortnight, crews A and C swap (A goes to nights, C to days), and so do B and D. Each crew works 7 shifts in 14 days, which is 84 hours, or 42 hours a week. Sites change the details, such as when the day-to-night swap happens, so always check your own rota sheet."
+      },
+      {
+        "type": "h2",
+        "text": "What are the other versions of the continental pattern?"
+      },
+      {
+        "type": "p",
+        "text": "You'll hear \"continental\" used for a few rotas. These are the main ones:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Version",
+          "Shift length",
+          "How it runs",
+          "Most nights in a row"
+        ],
+        "rows": [
+          [
+            "2-2-3 (above)",
+            "12 hours",
+            "2 on, 2 off, 3 on over a 14-day cycle; days and nights swap between crews",
+            "3"
+          ],
+          [
+            "2 days, 2 nights, 4 off",
+            "12 hours",
+            "Two days, straight onto two nights, then four rest days; an 8-day cycle",
+            "2"
+          ],
+          [
+            "8-hour continental",
+            "8 hours",
+            "Short runs of earlies, lates and nights (often 2-2-3) with rest days between, usually over a 28-day cycle",
+            "3"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The 8-hour version is the older style and means more shifts per week but shorter ones. The 2 days, 2 nights, 4 off pattern is close to the [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/), but splits the block between days and nights."
+      },
+      {
+        "type": "p",
+        "text": "For how these compare with 4 on 4 off, weekly rotating earlies and lates, and other rotas, see [shift patterns explained](/resources/shift-patterns-explained/)."
+      },
+      {
+        "type": "h2",
+        "text": "Is a continental shift pattern good or bad for sleep?"
+      },
+      {
+        "type": "p",
+        "text": "It's both. The short runs of nights are its biggest strength. HSE's guidelines say to \"restrict long shifts, night shifts and early morning shifts to 2-3 consecutive shifts\", and a continental rota does exactly that. Two or three nights is far easier to recover from than four or seven."
+      },
+      {
+        "type": "p",
+        "text": "The weakness is the switching. Your body clock never settles on nights or days for long. HSG256 is honest about this: rotating shifts reduce the number of nights each person works, but workers \"may struggle to adapt to the constantly changing pattern\". HSE also advises allowing \"2 nights full sleep when switching from day to night shifts and vice versa\". Some continental rotas give you that. The 2 days, 2 nights, 4 off version doesn't, because you go straight from your second day shift to your first night."
+      },
+      {
+        "type": "table",
+        "head": [
+          "",
+          "Continental (2-2-3)",
+          "4 on 4 off"
+        ],
+        "rows": [
+          [
+            "Average hours per week",
+            "42",
+            "42"
+          ],
+          [
+            "Most 12-hour nights in a row",
+            "3",
+            "4"
+          ],
+          [
+            "Fits HSE's 2-3 consecutive nights",
+            "Yes",
+            "No, one over"
+          ],
+          [
+            "Day-night switches",
+            "Frequent",
+            "Fewer, if crews stay on days or nights"
+          ],
+          [
+            "Long weekends off",
+            "Every other week",
+            "Moves round the calendar"
+          ],
+          [
+            "Hardest part for sleep",
+            "Flipping between days and nights",
+            "The fourth night and the flip back"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "I know how lates and earlies sound great on paper, but the early start and the late finish take a toll on your sleep pattern and your sleep quality. Continentals are the same. On paper you're never on nights for long. In practice, you're always either getting ready for a switch or getting over one."
+      },
+      {
+        "type": "h2",
+        "text": "How do you handle the day-night switches on a continental rota?"
+      },
+      {
+        "type": "p",
+        "text": "This is the plan I'd follow. None of it needs special kit."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Before your first night, sleep in the afternoon.** On a 2 days, 2 nights rota, get to bed as soon as you can after your last day shift, then lie in or take a 90-minute afternoon sleep before the first night. On a 2-2-3 rota you usually have rest days first, so stay up later on the last one and sleep in.",
+          "**Keep caffeine early in the shift.** It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and then you pay for it when you're wired at bedtime. Set a cut-off about six hours before you plan to sleep. Our guide on [how long caffeine lasts](/resources/how-long-does-caffeine-last/) has the timings.",
+          "**Get home safely.** The drive after a 12-hour night is the riskiest part of the rota. If you feel your eyes going, pull over somewhere safe. Read more on [microsleeps and the drive home](/resources/microsleep-driving-after-night-shift/).",
+          "**Make your bedroom dark, cool and steady.** Blackout blinds or a mask, a cool room, and earplugs plus a masking sound. Getting into bed when everyone else is leaving for school and work is great, until next door starts drilling. Steady [brown noise](/resources/brown-noise-for-sleep/) covers a lot of that. The full setup is in [how to sleep during the day](/resources/how-to-sleep-during-the-day/).",
+          "**After your last night, take a short sleep, not a full day in bed.** Three or four hours, then get outside in daylight and go to bed at a normal time. I know how it feels to get up early after your last night shift to make the most of your day off, then find yourself hit by that dreaded jet-lag feeling. A short sleep takes the edge off it. Our next guide, How to Fix Your Sleep Schedule After a Block of Nights, covers this in detail.",
+          "**Write the rota on the family calendar.** On a continental, your free days move all the time. If everyone at home knows which days you're sleeping, you get fewer knocks on the bedroom door."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "**A note on the clocks.** The clocks go back at 2am on Sunday 25 October 2026. If you're on nights that weekend, your shift could run an extra hour. Check with your employer how they handle it, and plan an extra break if you can."
+      },
+      {
+        "type": "p",
+        "text": "For many night shift workers, watching the clock go back from 2am to 1am is not a nice sight or feeling. Imagine working a day shift and the boss suddenly asks you to stay for an extra hour. It's not a nice feeling for sure. All your workmates finish and head off to the pub or home, and you're stuck at work for an extra hour."
+      },
+      {
+        "type": "p",
+        "text": "At Budweiser, we had two staff taking over from two staff. One would come in at the normal start time of 7pm and do the handover, and the other would come in an hour later at 8pm. The handover guy would then leave at 6am, and the late guy would stay to do the handover at 7am. This way both staff only did a 12-hour shift, not the 13-hour shift that comes with the clocks going back."
+      },
+      {
+        "type": "h2",
+        "text": "Is a continental shift pattern legal in the UK?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, as long as it stays within the Working Time Regulations. [Acas](https://www.acas.org.uk/working-time-rules/night-workers) explains that a night worker usually works at least 3 hours between 11pm and 6am, and must not average more than 8 hours in 24, usually worked out over rolling 17-week periods. Workers can't opt out of this limit. Where the work involves special hazards or heavy physical or mental strain, the 8-hour limit applies to every 24 hours, with no averaging. HSG256 adds that the minimum rest between shifts is 11 hours. If you're not sure your rota fits, ask your employer or union rep."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "A continental shift pattern is one of the better rotas for limiting nights in a row, and that's what HSE good practice points to. The price is constant switching, so the people who do well on continentals plan every switch: an afternoon sleep before the first night, an early caffeine cut-off, a safe drive home, a dark, quiet bedroom, and a short sleep after the last night."
+      },
+      {
+        "type": "p",
+        "text": "If you want to see how your natural body clock fits your rota, try the [Chronotype & Rota Matcher](/tools/chronotype-rota-matcher/). And when you get into bed with the world waking up outside, [try Sleyp free](/session/): 13 free sounds in your browser, including brown noise, rain and fan hum, with a free timer and saved mixes. Keep the page open for the timer to run. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[HSE: Good practice guidelines for shift work](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm): rotate every 2-3 days or every 3-4 weeks; restrict long shifts and night shifts to 2-3 consecutive shifts.",
+          "[HSE HSG256: Managing shift work (PDF)](https://www.hse.gov.uk/pubns/priced/hsg256.pdf): fast rotation minimises body clock disruption; weekly or fortnightly rotation not recommended; 2 nights' full sleep when switching; 11 hours between shifts.",
+          "[Acas: Working time rules for night workers](https://www.acas.org.uk/working-time-rules/night-workers): night worker definition; average of 8 hours in 24 over 17 weeks; no opt-out; no averaging for hazardous work.",
+          "[RosterElf: Shift patterns explained](https://www.rosterelf.com/uk/guides/shift-patterns): the 14-day 2-2-3 cycle."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a continental shift pattern?",
+        "answer": "It's a fast-rotating rota that uses four crews to cover a site 24 hours a day, 7 days a week. The best-known version is 12-hour shifts on a 2-2-3 cycle over 14 days, with short runs of days and nights and a long weekend off every other week."
+      },
+      {
+        "question": "How many hours is a continental shift?",
+        "answer": "Most continental rotas use 12-hour shifts, though older versions use 8-hour earlies, lates and nights. Either way, four crews sharing 168 hours a week means each person averages about 42 hours a week over the full cycle, before overtime."
+      },
+      {
+        "question": "Is continental better than 4 on 4 off?",
+        "answer": "For sleep, a continental rota keeps runs of nights to two or three, which is in line with HSE good practice, while 4 on 4 off can mean four 12-hour nights in a row. The trade-off is that continentals switch between days and nights more often. Which suits you depends on how well you cope with switching."
+      },
+      {
+        "question": "How many nights in a row do you work on a continental rota?",
+        "answer": "Usually two or three. On the 2-2-3 version the longest run is three shifts, and on the 2 days, 2 nights, 4 off version it's two nights."
+      },
+      {
+        "question": "How do you sleep when switching from days to nights?",
+        "answer": "Sleep in, or take a 90-minute afternoon sleep, before your first night. Keep caffeine to the first half of the shift, go to bed as soon as you get home, and make the bedroom dark, cool and quiet with earplugs and a steady masking sound."
+      },
+      {
+        "question": "Does the clock change affect a continental night shift?",
+        "answer": "When UK clocks go back in October, a night shift that runs through 2am can last an hour longer. In 2026 that's the night of Saturday 24 into Sunday 25 October. Check how your employer handles the extra hour."
+      }
+    ]
+  },
+  {
     "slug": "4-on-4-off-shift-pattern",
     "title": "4 On 4 Off Shift Pattern: How It Works and How to Sleep on It",
     "description": "How does a 4 on 4 off shift pattern work? Hours per week, pros and cons, what HSE says about long shift blocks, and a sleep plan for your nights and days off.",
@@ -111,7 +458,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "The 2 days, 2 nights, 4 off version is still four on and four off, but it splits the block. It sits close to the continental pattern, which I'll cover in Continental Shift Pattern Explained. This was my Budweiser shift pattern and, for me personally, the hardest shift pattern to get used to."
+        "text": "The 2 days, 2 nights, 4 off version is still four on and four off, but it splits the block. It sits close to the continental pattern, which I cover in [Continental Shift Pattern Explained](/resources/continental-shift-pattern/). This was my Budweiser shift pattern and, for me personally, the hardest shift pattern to get used to."
       },
       {
         "type": "h2",
@@ -303,7 +650,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
       },
       {
         "type": "h3",
@@ -366,7 +713,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on [4 on 4 off](/resources/4-on-4-off-shift-pattern/), continental rotas and switching back to days coming up over the next week."
+        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on [4 on 4 off](/resources/4-on-4-off-shift-pattern/) and [continental rotas](/resources/continental-shift-pattern/), with switching back to days coming up next."
       },
       {
         "type": "h2",
@@ -412,7 +759,7 @@ export const ARTICLES: Article[] = [
             "A long block of 12-hour nights, then the flip back"
           ],
           [
-            "Continental (12-hour, 2-2-3)",
+            "[Continental (12-hour, 2-2-3)](/resources/continental-shift-pattern/)",
             "2 on, 2 off, 3 on, then the reverse, over a 14-day cycle",
             "12 hours",
             "42 (4 crews)",
@@ -607,7 +954,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), with Continental Shift Pattern Explained coming soon."
+        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/) and [Continental Shift Pattern Explained](/resources/continental-shift-pattern/)."
       },
       {
         "type": "h3",
