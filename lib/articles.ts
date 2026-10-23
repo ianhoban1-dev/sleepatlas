@@ -45,6 +45,213 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "how-to-fix-sleep-schedule-after-nights",
+    "title": "How to Fix Your Sleep Schedule After a Block of Nights",
+    "description": "How to fix your sleep schedule after a block of nights: an hour-by-hour flip-back plan using light, food and caffeine, so your days off don't feel like jet lag.",
+    "category": "Managing Split/Rotating Rotas",
+    "categorySlug": "rotating-rotas",
+    "datePublished": "2026-10-23",
+    "readMinutes": 8,
+    "quickAnswer": "To fix your sleep schedule after a block of nights, take a short sleep of three to four hours after your last shift rather than a full day in bed, get outside in daylight that afternoon, stay up until a normal bedtime and keep caffeine early. Expect a day or two of feeling jet-lagged while your body clock catches up.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I know how it feels to get up early after your last night shift to try to get the most out of your day off, only to find yourself hit by that dreaded jet-lag feeling by mid-afternoon. You're not on holiday, you haven't crossed any time zones, but your body thinks you have. After 40 years of shifts, from The King's Regiment to the prison wings at Strangeways, Walton and Guys Marsh, and the production lines at Jacobs Biscuits and Budweiser UK, the flip back to days is the part of the rota I've always found hardest to get right."
+      },
+      {
+        "type": "p",
+        "text": "Normally after the last night shift, it feels like it's your first day off, so you want to enjoy the day. But here's the thing: if you don't get it right, the day off becomes a day wasted, literally. For me, a short sleep between 8am and 12pm works best. And don't just sit down in the house; get out, get some fresh air and keep active. Sitting on the sofa watching a box set is best left for another day."
+      },
+      {
+        "type": "p",
+        "text": "Here's a simple hour-by-hour plan, why you feel rough, and what this weekend's clock change means."
+      },
+      {
+        "type": "h2",
+        "text": "How do you switch back to days after a block of nights?"
+      },
+      {
+        "type": "p",
+        "text": "The quickest way back is to split the difference: sleep enough to stay safe and functional, but not so much that you're wide awake at midnight. HSE's own advice to shift workers is that \"if coming off night shifts, have a short sleep and go to bed earlier that night\" ([HSE, Managing shift work, HSG256](https://www.hse.gov.uk/PUBNS/priced/hsg256.pdf))."
+      },
+      {
+        "type": "p",
+        "text": "Here's how that looks if your last night shift finishes at 7am. Slide the times to fit your own finish."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Time",
+          "What to do",
+          "Why it helps"
+        ],
+        "rows": [
+          [
+            "7am",
+            "Finish, then get home safely. If you feel drowsy, don't drive: stop somewhere safe for a short nap or get a lift.",
+            "Tiredness and driving don't mix. More in [microsleep and the drive home](/resources/microsleep-driving-after-night-shift/)."
+          ],
+          [
+            "8am",
+            "Short sleep in a dark, quiet room. Set an alarm for three to four hours.",
+            "Takes the edge off without using up your sleep pressure for tonight."
+          ],
+          [
+            "12pm",
+            "Up, shower, curtains open, eat a proper lunch.",
+            "Light and a regular meal tell your body clock it's daytime."
+          ],
+          [
+            "1pm to 5pm",
+            "Get outside in daylight: a walk, the garden, the school pick-up. Last caffeine with lunch, if at all.",
+            "Daylight is one of the clearest signals your body clock gets."
+          ],
+          [
+            "6pm",
+            "Normal evening meal with the family.",
+            "Eating at normal times helps your body follow the day."
+          ],
+          [
+            "9:30pm to 10:30pm",
+            "Bed a bit earlier than usual, dark room, phone away.",
+            "HSE: go to bed earlier that night."
+          ],
+          [
+            "Next day",
+            "Up at your normal time, daylight early, normal meals.",
+            "One normal day anchors the next."
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why do you feel jet-lagged after nights?"
+      },
+      {
+        "type": "p",
+        "text": "You feel jet-lagged because, in a sense, you are. Your body clock has been pushed towards nights, and now you're asking it to swing straight back. HSE's shift work guidance says the adjustment of the body clock to \"an abrupt change in the sleep/wake cycle may take days or weeks\", and that it \"will never fully adjust, even for workers on permanent night shifts\" ([HSG256](https://www.hse.gov.uk/PUBNS/priced/hsg256.pdf))."
+      },
+      {
+        "type": "p",
+        "text": "That's why you can feel hungry at odd times, flat in the afternoon and wide awake at 1am. It's not a lack of willpower; your body clock is still on the wrong time zone."
+      },
+      {
+        "type": "p",
+        "text": "You're far from alone. TUC analysis of ONS figures found more than 3 million people (3,138,000) worked nights in 2018, one in nine UK employees ([TUC, 2018](https://www.tuc.org.uk/node/366134)). Most of them go through this flip every rota."
+      },
+      {
+        "type": "h2",
+        "text": "How long does it take to switch from nights to days?"
+      },
+      {
+        "type": "p",
+        "text": "For most people the worst of it lasts a day or two, but it depends on how many nights you've just worked. HSE guidance says workers switching between day and night shifts need \"a minimum of 2 nights of full sleep to enable them to adjust to the new schedule\" ([HSG256](https://www.hse.gov.uk/PUBNS/priced/hsg256.pdf))."
+      },
+      {
+        "type": "p",
+        "text": "The length of the block matters too. HSE suggests limiting 12-hour night shifts to two or three in a row. A longer run of nights pushes your body clock further, so there's further to come back. If you work four 12-hour nights on a [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/), treat your first rest day as recovery, not a full day out. A [continental shift pattern](/resources/continental-shift-pattern/) gives shorter runs of nights, but you make the switch more often. Our guide to [shift patterns explained](/resources/shift-patterns-explained/) compares the main UK rotas side by side."
+      },
+      {
+        "type": "h2",
+        "text": "How do light, food and caffeine reset your body clock?"
+      },
+      {
+        "type": "p",
+        "text": "You can't force your body clock to change overnight, but you can give it clear signals."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Light.** HSE notes that bright light at dawn after a night shift \"may make you less inclined to sleep\". Use that both ways: keep the light low on the way home and in the bedroom for your short sleep, then get as much daylight as you can in the afternoon.",
+          "**Food.** Eat lunch and an evening meal at normal family times, even if you're not very hungry. Skip the big fry-up at 8am before bed; a light snack will do.",
+          "**Caffeine.** Keep it early. A coffee when you get up from your short sleep is fine. A can of energy drink at 4pm will cost you the night. See [how long caffeine lasts](/resources/how-long-does-caffeine-last/) for the cut-off maths."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "I know the after-shift drink is often your \"me time\", the way an evening is for people on normal hours. On flip day it works against you: you nod off, then pay for it at 2am, wide awake."
+      },
+      {
+        "type": "h2",
+        "text": "What about the clocks going back on Sunday 25 October?"
+      },
+      {
+        "type": "p",
+        "text": "The clocks go back at 2am on Sunday 25 October 2026, when 2am becomes 1am and the UK returns to Greenwich Mean Time ([GOV.UK](https://www.gov.uk/when-do-the-clocks-change)). If you're on nights on Saturday into Sunday, the clock runs from 1am to 2am twice, so your shift is likely to feel an hour longer. Check with your employer how they handle that extra hour."
+      },
+      {
+        "type": "p",
+        "text": "For the flip back, the clock change can help a little. Mornings get lighter earlier, so if your rest days start this week it's easier to get daylight early in the day. The trade-off is darker evenings, so make the most of the afternoon light while it lasts."
+      },
+      {
+        "type": "h2",
+        "text": "Can a steady sound help with the short sleep after your last night?"
+      },
+      {
+        "type": "p",
+        "text": "Getting into bed when everyone else is leaving for school and work is great, until next door starts drilling. A steady masking sound such as [brown noise for sleep](/resources/brown-noise-for-sleep/) covers sudden noises so your three to four hours count. Add earplugs and a blackout blind."
+      },
+      {
+        "type": "p",
+        "text": "If you keep feeling tired for weeks despite getting good sleep, speak to your GP."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Fixing your sleep schedule after nights comes down to a short sleep, afternoon daylight, normal mealtimes, early caffeine and a slightly earlier night. Give it two nights of full sleep and most of the jet-lag feeling lifts. To plan the switch around your own rota, use the [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/). Next in this series: Can You Catch Up on Sleep?"
+      },
+      {
+        "type": "p",
+        "text": "For that short sleep after your last night, [try Sleyp free](/session/). The browser player has 13 free sounds, including brown noise, plus a free custom timer and wake-up chime, so you can set it for three to four hours and wake gently. Keep the page open for the timer to run. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[HSE: Managing shift work, Health and safety guidance (HSG256)](https://www.hse.gov.uk/PUBNS/priced/hsg256.pdf): short sleep and an earlier night after coming off nights; body clock adjustment takes days or weeks; minimum 2 nights of full sleep when switching; limit 12-hour nights to 2-3 in a row.",
+          "[TUC: Number of people working night shifts up by more than 150,000 in 5 years (27 October 2018)](https://www.tuc.org.uk/node/366134): 3,138,000 people worked nights in 2018.",
+          "[GOV.UK: When do the clocks change?](https://www.gov.uk/when-do-the-clocks-change): clocks go back at 2am on Sunday 25 October 2026."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long does it take to switch from nights to days?",
+        "answer": "Most people feel close to normal within a day or two. HSE guidance says workers need a minimum of two nights of full sleep to adjust when switching between nights and days."
+      },
+      {
+        "question": "Should I sleep after my last night shift?",
+        "answer": "Yes, but keep it short. HSE advises having a short sleep after coming off nights and going to bed earlier that night. Three to four hours with an alarm takes the edge off without wrecking your night's sleep."
+      },
+      {
+        "question": "How do I reset my body clock in one day?",
+        "answer": "You can't fully reset it in one day, but you can get most of the way. Keep the first sleep short, get outside in daylight in the afternoon, eat at normal times, keep caffeine early and go to bed a little earlier than usual."
+      },
+      {
+        "question": "Is it bad to stay awake all day after a night shift?",
+        "answer": "Staying up all day after a night shift is risky, especially if you need to drive. Being awake that long builds a lot of sleep debt. A short sleep is safer and still leaves you tired enough to sleep at night."
+      },
+      {
+        "question": "What if I can't sleep on my first night back to normal?",
+        "answer": "It's common to feel wide awake on the first night. Keep the room dark and cool, put the phone away and stay off caffeine after lunch. Get up at your normal time the next day anyway; the second night is usually easier."
+      },
+      {
+        "question": "Do the clocks going back make the flip easier?",
+        "answer": "A little. When the clocks go back on 25 October, mornings get lighter earlier, so it's easier to get daylight soon after you wake. Evenings get darker, so plan your outdoor time for the afternoon."
+      }
+    ]
+  },
+  {
     "slug": "continental-shift-pattern",
     "title": "Continental Shift Pattern Explained (With a Sleep Survival Plan)",
     "description": "What is a continental shift pattern? How the 2-2-3 rota works for 24/7 crews, how it compares with 4 on 4 off, and how to protect sleep through the switches.",
@@ -310,7 +517,7 @@ export const ARTICLES: Article[] = [
           "**Keep caffeine early in the shift.** It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and then you pay for it when you're wired at bedtime. Set a cut-off about six hours before you plan to sleep. Our guide on [how long caffeine lasts](/resources/how-long-does-caffeine-last/) has the timings.",
           "**Get home safely.** The drive after a 12-hour night is the riskiest part of the rota. If you feel your eyes going, pull over somewhere safe. Read more on [microsleeps and the drive home](/resources/microsleep-driving-after-night-shift/).",
           "**Make your bedroom dark, cool and steady.** Blackout blinds or a mask, a cool room, and earplugs plus a masking sound. Getting into bed when everyone else is leaving for school and work is great, until next door starts drilling. Steady [brown noise](/resources/brown-noise-for-sleep/) covers a lot of that. The full setup is in [how to sleep during the day](/resources/how-to-sleep-during-the-day/).",
-          "**After your last night, take a short sleep, not a full day in bed.** Three or four hours, then get outside in daylight and go to bed at a normal time. I know how it feels to get up early after your last night shift to make the most of your day off, then find yourself hit by that dreaded jet-lag feeling. A short sleep takes the edge off it. Our next guide, How to Fix Your Sleep Schedule After a Block of Nights, covers this in detail.",
+          "**After your last night, take a short sleep, not a full day in bed.** Three or four hours, then get outside in daylight and go to bed at a normal time. I know how it feels to get up early after your last night shift to make the most of your day off, then find yourself hit by that dreaded jet-lag feeling. A short sleep takes the edge off it. Our guide on [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/) covers this in detail.",
           "**Write the rota on the family calendar.** On a continental, your free days move all the time. If everyone at home knows which days you're sleeping, you get fewer knocks on the bedroom door."
         ]
       },
@@ -348,7 +555,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
       },
       {
         "type": "h3",
@@ -630,7 +837,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For the full day-sleep setup, see [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/). A more detailed hour-by-hour version of the flip back is coming in How to Fix Your Sleep Schedule After a Block of Nights."
+        "text": "For the full day-sleep setup, see [how to sleep during the day after a night shift](/resources/how-to-sleep-during-the-day/). For a more detailed hour-by-hour version of the flip back, see [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/)."
       },
       {
         "type": "p",
@@ -650,7 +857,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
       },
       {
         "type": "h3",
@@ -713,7 +920,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on [4 on 4 off](/resources/4-on-4-off-shift-pattern/) and [continental rotas](/resources/continental-shift-pattern/), with switching back to days coming up next."
+        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on [4 on 4 off](/resources/4-on-4-off-shift-pattern/) and [continental rotas](/resources/continental-shift-pattern/), and [switching back to days after a block of nights](/resources/how-to-fix-sleep-schedule-after-nights/)."
       },
       {
         "type": "h2",
@@ -954,7 +1161,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/) and [Continental Shift Pattern Explained](/resources/continental-shift-pattern/)."
+        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), [Continental Shift Pattern Explained](/resources/continental-shift-pattern/) and [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/)."
       },
       {
         "type": "h3",
@@ -2454,7 +2661,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "The [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/) builds this into an hour-by-hour plan from the time your last shift ends. How to Fix Your Sleep Schedule After a Block of Nights, later in this series, covers the flip back in more depth."
+        "text": "The [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/) builds this into an hour-by-hour plan from the time your last shift ends. [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/) covers the flip back in more depth."
       },
       {
         "type": "p",
