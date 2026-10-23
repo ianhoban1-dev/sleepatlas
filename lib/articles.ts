@@ -45,6 +45,248 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "can-you-catch-up-on-sleep",
+    "title": "Can You Catch Up on Sleep? What Science Says About Sleep Debt",
+    "description": "Can you catch up on lost sleep with a lie-in? What a 2019 study found about weekend recovery sleep, and a better way to pay off sleep debt on days off.",
+    "category": "Managing Split/Rotating Rotas",
+    "categorySlug": "rotating-rotas",
+    "datePublished": "2026-10-23",
+    "readMinutes": 8,
+    "quickAnswer": "You can recover some lost sleep, but only partly. One long lie-in on your days off does not cancel a week of short sleep. In a 2019 University of Colorado Boulder study, people who slept in at the weekend after 5-hour nights still showed the same effects once short sleep returned. Regular sleep, short naps and a steady wake time work better.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "You finish a block of four nights, crash out on your first rest day and sleep for twelve hours. You wake up expecting to feel human again, and instead you feel like you have been hit by a bus."
+      },
+      {
+        "type": "p",
+        "text": "Believe me, I've done this after a week of nights at Strangeways prison around 1997, and I paid for it that night. During the week of nights I had not slept well at all, so by the end of the week I was exhausted with sleep debt. After the last night, I fell asleep for literally the whole day, around 12 hours straight."
+      },
+      {
+        "type": "p",
+        "text": "But here's the problem: it's now night-time and you want to get your body clock back into sleeping at night. But you can't, because you've just had 12 hours. So you're wide awake at night-time, and the vicious circle begins."
+      },
+      {
+        "type": "p",
+        "text": "I worked shifts for 40 years: The King's Regiment from 1986 to 1989, Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, and Budweiser UK. For most of that time I believed a big sleep on my days off would square things up. The research says it is not that simple, and once you know why, you can plan your rest days a lot better."
+      },
+      {
+        "type": "h2",
+        "text": "What is sleep debt?"
+      },
+      {
+        "type": "p",
+        "text": "Sleep debt is the gap between the sleep your body needs and the sleep you actually get, added up over several days. The HSE says [most adults need 7-8 hours of sleep a day](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm). On a block of nights, daytime sleep is often shorter and broken, so the debt builds fast."
+      },
+      {
+        "type": "p",
+        "text": "Here is how it adds up for someone who needs 7.5 hours and is sleeping in the day between four night shifts (an example, not a measurement):"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Day sleep after",
+          "Sleep needed",
+          "Sleep got",
+          "Debt that day",
+          "Running total"
+        ],
+        "rows": [
+          [
+            "Night 1",
+            "7.5 h",
+            "6 h",
+            "1.5 h",
+            "1.5 h"
+          ],
+          [
+            "Night 2",
+            "7.5 h",
+            "5.5 h",
+            "2 h",
+            "3.5 h"
+          ],
+          [
+            "Night 3",
+            "7.5 h",
+            "5 h",
+            "2.5 h",
+            "6 h"
+          ],
+          [
+            "Night 4",
+            "7.5 h",
+            "5.5 h",
+            "2 h",
+            "8 h"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Eight hours is a whole night's sleep missing by the end of the block. The tricky part is that you rarely feel it in full. In a well-known study, [Van Dongen and colleagues (2003)](https://academic.oup.com/sleep/article-abstract/26/2/117/2709164) restricted 48 healthy adults to 4, 6 or 8 hours in bed for 14 days. The 4-hour and 6-hour groups built up performance deficits equal to up to two nights of total sleep loss, yet their own sleepiness ratings rose only a little after the first few days. If you want the detail on that, read [is 6 hours of sleep enough?](/resources/is-6-hours-of-sleep-enough/)"
+      },
+      {
+        "type": "h2",
+        "text": "Can you catch up on sleep at the weekend?"
+      },
+      {
+        "type": "p",
+        "text": "Not fully. A 2019 study in Current Biology, led by Chris Depner at the [University of Colorado Boulder](https://www.colorado.edu/today/2019/02/28/catching-sleep-weekend-doesnt-work), tested exactly this. 36 healthy adults aged 18 to 39 spent two weeks in a sleep lab, split into three groups:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Group",
+          "Sleep schedule",
+          "What happened"
+        ],
+        "rows": [
+          [
+            "Control",
+            "9 hours a night for 9 nights",
+            "Baseline"
+          ],
+          [
+            "Short sleep",
+            "5 hours a night for 9 nights",
+            "More night-time snacking, weight gain; whole-body insulin sensitivity fell 13%"
+          ],
+          [
+            "Weekend recovery",
+            "5 hours or less for 5 days, a weekend of unlimited sleep, then 2 more short nights",
+            "Only 66 minutes extra sleep on average; insulin sensitivity worsened by 9 to 27%"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The weekend group did snack less at night over the weekend, but that benefit disappeared as soon as the short workweek started again. Their body clocks also shifted later on Sunday night, which made it harder to fall asleep before an early Monday start."
+      },
+      {
+        "type": "p",
+        "text": "That last finding should ring a bell with any shift worker. Your rest days are your weekend, and your body clock is already being pulled about by the flip from nights to days. A huge lie-in on top of that can leave you wide awake at midnight and wrecked the next morning."
+      },
+      {
+        "type": "h2",
+        "text": "What does partial recovery look like?"
+      },
+      {
+        "type": "p",
+        "text": "Recovery sleep is not useless. Extra sleep still adds hours back, and the Colorado group did sleep longer when they were allowed to. The lesson is that one long sleep does not reset everything, and how you feel is a poor guide to how recovered you are."
+      },
+      {
+        "type": "p",
+        "text": "In practice, partial recovery looks like this:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "You feel better after a long sleep, but your concentration and reactions may still lag behind.",
+          "The benefit fades quickly if you go straight back to short sleep.",
+          "A long lie-in can push your body clock later, so the next night's sleep is harder to get."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "That is why the jet-lag feeling after your last night shift is so familiar. You get up early to make the most of your day off, then hit a wall in the afternoon, then can't drop off at bedtime. For a full flip-back plan, see [how to fix your sleep schedule after a block of nights](/resources/how-to-fix-sleep-schedule-after-nights/)."
+      },
+      {
+        "type": "h2",
+        "text": "What is a better plan for your days off?"
+      },
+      {
+        "type": "p",
+        "text": "Spread the recovery out instead of trying to clear the debt in one go. These steps fit the HSE's advice for shift workers and what the research shows about weekend catch-up sleep:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**After your last night, take a short sleep, not a full day in bed.** The HSE's advice is to \"have a short sleep and go to bed earlier that night\" when coming off nights.",
+          "**Go to bed a little earlier rather than lying in until noon.** Adding sleep at the start of the night is less likely to push your body clock later than a midday lie-in.",
+          "**Keep your wake time steady across your rest days.** Aim for roughly the same time each morning so your body clock settles.",
+          "**Use short naps to top up.** A short nap adds to your total sleep without wrecking your night. If you can't sleep, the HSE says rest is still beneficial.",
+          "**Cut the debt during the block, not just after it.** A dark, cool, quiet bedroom means longer daytime sleeps, so less debt to clear. [Blackout blinds](/resources/blackout-blinds-vs-curtains/), [earplugs](/resources/earplugs-for-sleeping/) and a steady masking sound such as [brown noise](/resources/brown-noise-for-sleep/) all help.",
+          "**Watch the after-shift drink and the late caffeine.** A drink after nights can feel like your \"me time\", the way an evening is for everyone else, but you pay for it later in shorter, lighter sleep."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you work long blocks such as the [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/), plan your first two rest days around this before you finish the last shift. For me, the first two days are recovery days, and what you do with them decides whether they are easy or hard. Normally, if I finish my last night shift at 7am on a Monday morning, I won't start feeling normal until around 5pm on the Tuesday evening."
+      },
+      {
+        "type": "h2",
+        "text": "How do you track your sleep debt?"
+      },
+      {
+        "type": "p",
+        "text": "The simplest way is a running log: write down the hours you needed and the hours you actually slept after each shift, and keep a total across the block. Patterns show up quickly, such as the third night always being the worst sleep, or your debt never clearing before the next block starts."
+      },
+      {
+        "type": "p",
+        "text": "The [Sleyp Sleep Debt & Fatigue Logger](/tools/sleep-debt-fatigue-logger/) does the sums for you across your shift block. In the logger, add your nightly sleep requirement, then log how much sleep you actually got each day. By the end of the last shift, you will know how much sleep debt you have, and the tool will suggest practical steps to deal with it. For a wider look at the causes of constant tiredness on shifts, the next guide in this series, Why Am I Always Tired? A Shift Worker's Checklist, covers the full checklist."
+      },
+      {
+        "type": "p",
+        "text": "For more on how your rota shapes your sleep, see [shift patterns explained](/resources/shift-patterns-explained/) and the complete guide to [sleeping during the day](/resources/how-to-sleep-during-the-day/)."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "You can claw back some lost sleep, but not all of it in one go, and not with one giant lie-in. Cut the debt during your block by protecting your daytime sleep, then spread the recovery over your rest days with short naps, earlier nights and a steady wake time."
+      },
+      {
+        "type": "p",
+        "text": "A steady masking sound makes those daytime sleeps longer when the neighbours start drilling as everyone leaves for school and work. [Try Sleyp free](/session/): 13 sounds in your browser, with a free timer, wake-up chime and saved mixes. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/)"
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[University of Colorado Boulder (2019): Catching up on sleep on the weekend doesn't work](https://www.colorado.edu/today/2019/02/28/catching-sleep-weekend-doesnt-work) (Depner et al., Current Biology)",
+          "[Van Dongen et al. (2003): The cumulative cost of additional wakefulness, SLEEP](https://academic.oup.com/sleep/article-abstract/26/2/117/2709164)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long does it take to recover from sleep debt?",
+        "answer": "There is no fixed number, but research shows one weekend of extra sleep is not enough to undo a week of short nights. Spread recovery over several nights with a steady wake time. If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "question": "Is sleeping 12 hours on a day off bad?",
+        "answer": "An occasional long sleep after a block of nights is common. The risk is that a very long lie-in pushes your body clock later, so you struggle to sleep that night. A shorter sleep and an earlier bedtime usually work better."
+      },
+      {
+        "question": "Do naps pay off sleep debt?",
+        "answer": "Naps add to your total sleep, so they help top up a deficit. They do not replace a proper main sleep, but a short nap on a rest day or before a night shift can take the edge off."
+      },
+      {
+        "question": "Can you bank sleep before a block of nights?",
+        "answer": "You can start the block in a better state. The HSE advises a short sleep before your first night shift so you are not running on a full day awake when you clock on."
+      },
+      {
+        "question": "Why do I feel fine when I am short on sleep?",
+        "answer": "In the Van Dongen study, people on 6 hours a night rated themselves only slightly sleepier as the days went on, while their performance kept getting worse. Feeling fine is not proof you have caught up."
+      },
+      {
+        "question": "Is a lie-in better than going to bed earlier?",
+        "answer": "For most shift workers, an earlier bedtime is the better option. In the 2019 Colorado study, weekend lie-ins shifted body clocks later, making it harder to fall asleep before an early start."
+      }
+    ]
+  },
+  {
     "slug": "how-to-fix-sleep-schedule-after-nights",
     "title": "How to Fix Your Sleep Schedule After a Block of Nights",
     "description": "How to fix your sleep schedule after a block of nights: an hour-by-hour flip-back plan using light, food and caffeine, so your days off don't feel like jet lag.",
@@ -201,7 +443,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Fixing your sleep schedule after nights comes down to a short sleep, afternoon daylight, normal mealtimes, early caffeine and a slightly earlier night. Give it two nights of full sleep and most of the jet-lag feeling lifts. To plan the switch around your own rota, use the [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/). Next in this series: Can You Catch Up on Sleep?"
+        "text": "Fixing your sleep schedule after nights comes down to a short sleep, afternoon daylight, normal mealtimes, early caffeine and a slightly earlier night. Give it two nights of full sleep and most of the jet-lag feeling lifts. To plan the switch around your own rota, use the [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/). Next in this series: [Can You Catch Up on Sleep?](/resources/can-you-catch-up-on-sleep/)"
       },
       {
         "type": "p",
@@ -209,7 +451,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/)"
       },
       {
         "type": "h3",
@@ -555,7 +797,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/)"
       },
       {
         "type": "h3",
@@ -857,7 +1099,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/)"
       },
       {
         "type": "h3",
@@ -1161,7 +1403,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), [Continental Shift Pattern Explained](/resources/continental-shift-pattern/) and [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/)."
+        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), [Continental Shift Pattern Explained](/resources/continental-shift-pattern/), [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/) and [Can You Catch Up on Sleep? What Science Says About Sleep Debt](/resources/can-you-catch-up-on-sleep/)."
       },
       {
         "type": "h3",
@@ -2930,7 +3172,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "question": "Can you catch up on lost sleep on your days off?",
-        "answer": "You can recover some, but a single long lie-in won't wipe out a week of short sleep. We go into this in our upcoming guide Can You Catch Up on Sleep? For now, spread recovery over your rest days."
+        "answer": "You can recover some, but a single long lie-in won't wipe out a week of short sleep. We go into this in our guide Can You Catch Up on Sleep? For now, spread recovery over your rest days."
       }
     ]
   },
