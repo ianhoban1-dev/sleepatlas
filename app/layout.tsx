@@ -51,6 +51,17 @@ export default function RootLayout({
     <html lang="en-GB">
       <head>
         <JsonLd data={organizationSchema()} />
+        {/* Microsoft Clarity — session recordings and heatmaps */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `(function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "z2ww4932ac");`,
+          }}
+        />
       </head>
       <body>
         <a
