@@ -45,6 +45,202 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "why-am-i-always-tired",
+    "title": "Why Am I Always Tired? A Shift Worker's Checklist",
+    "description": "Always tired on shifts? An 8-point checklist on daytime sleep, body clock, caffeine, noise and light from a 40-year shift veteran, plus when to see your GP.",
+    "category": "Managing Split/Rotating Rotas",
+    "categorySlug": "rotating-rotas",
+    "datePublished": "2026-10-24",
+    "readMinutes": 8,
+    "quickAnswer": "If you work shifts and feel tired all the time, the cause is usually a mix of short daytime sleep, a body clock that never settles, caffeine and alcohol at the wrong times, and a bedroom that is too bright or noisy. Work through the 8-point checklist below. If tiredness lasts for weeks despite good sleep, see your GP.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I have worked shifts for 40 years: The King's Regiment from 1986 to 1989, then Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, and Budweiser UK. For a lot of those years I ran on empty and thought that was just the price of the job. It isn't, or at least not all of it. Most of the tiredness I carried came from a handful of habits I could change."
+      },
+      {
+        "type": "p",
+        "text": "In my experience of working almost every shift pattern possible, I always felt most tired on [4 on 4 off](/resources/4-on-4-off-shift-pattern/), which included two day shifts followed by two night shifts. My body just never settled into its circadian pattern, and by the end of the last night shift, I was always tired."
+      },
+      {
+        "type": "p",
+        "text": "This checklist is the one I wish someone had handed me. It is not a diagnosis. It is a practical way to find which part of your shift life is draining you, starting with the most common culprits."
+      },
+      {
+        "type": "h2",
+        "text": "Why am I always tired when I work shifts?"
+      },
+      {
+        "type": "p",
+        "text": "Shift work asks your body to sleep when it expects to be awake and to work when it expects to sleep. That alone makes daytime sleep shorter and lighter for most people. Add a rota that changes every few days, an energy drink at 3am, a drink to unwind after the shift and a bedroom full of daylight and traffic, and the tiredness stacks up."
+      },
+      {
+        "type": "p",
+        "text": "The good news is that each of those is something you can check. You will rarely fix everything, but fixing two or three usually makes a clear difference."
+      },
+      {
+        "type": "h2",
+        "text": "The 8-point shift fatigue checklist"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Are you getting 7-8 hours in every 24?** The [HSE says](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) most adults need 7-8 hours of sleep a day. Add up your real sleep, including naps, across a whole block, not just your best day. If you are regularly on 5 or 6 hours, start here. My guide [Is 6 Hours of Sleep Enough?](/resources/is-6-hours-of-sleep-enough/) goes deeper.",
+          "**Is your body clock being pulled back and forth?** Rotating rotas and flipping back to days on your rest days keep your body clock unsettled. I know how it feels to get up early after your last night shift to make the most of your day off, then hit that dreaded jet-lag feeling by the afternoon. UK clocks go back this weekend, on Sunday 25 October, so anyone on nights that night works an extra hour and the next day's body clock feels it too. See [how to fix your sleep schedule after a block of nights](/resources/how-to-fix-sleep-schedule-after-nights/).",
+          "**When is your last caffeine?** It's 3 o'clock in the morning and you hit that wall. No amount of coffee or Red Bull really helps, but you drink it anyway, then pay for it when you get home and lie there wired. The HSE advises using caffeine only occasionally and not relying on it to keep you awake. My [caffeine cut-off guide](/resources/how-long-does-caffeine-last/) shows when to stop for your bedtime.",
+          "**Is the after-shift drink your \"me time\"?** For a day worker, the evening is their time. After nights, a drink in the morning can feel like the same thing. I've been there, and I paid for it later at 2am on the next shift. The HSE advises avoiding alcohol because it lowers the quality of sleep.",
+          "**Is your bedroom dark enough?** Daylight leaking round a curtain is enough to keep sleep light. The HSE suggests heavy curtains, blackout blinds or eye shades. My comparison of [blackout blinds and blackout curtains](/resources/blackout-blinds-vs-curtains/) covers the cheap fixes.",
+          "**Is noise breaking your sleep?** Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. The HSE suggests telling close neighbours your sleep times, and using earplugs, white noise or background music to mask outside noise. Start with [earplugs for sleeping](/resources/earplugs-for-sleeping/) and a steady sound such as [brown noise](/resources/brown-noise-for-sleep/).",
+          "**What, and when, are you eating?** The HSE says regular light meals or snacks are less likely to cause drowsiness than a single heavy meal. A big plate at 3am is a fast way to feel worse at 4am.",
+          "**Are you moving at the right time?** The HSE suggests moderate exercise before a shift to help alertness, and avoiding vigorous exercise just before sleep because it raises your body temperature."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Which checklist point should you start with?"
+      },
+      {
+        "type": "p",
+        "text": "Use your main complaint to pick a starting point."
+      },
+      {
+        "type": "table",
+        "head": [
+          "If this sounds like you",
+          "Start with"
+        ],
+        "rows": [
+          [
+            "You wake after 4 or 5 hours and can't get back off",
+            "Points 5 and 6 (light and noise)"
+          ],
+          [
+            "You lie awake for an hour after getting into bed",
+            "Point 3 (caffeine) and point 4 (alcohol)"
+          ],
+          [
+            "You feel worst on your first rest day",
+            "Point 2 (body clock)"
+          ],
+          [
+            "You feel fine for a day or two, then worse every shift",
+            "Point 1 (total hours)"
+          ],
+          [
+            "You crash an hour after your break",
+            "Point 7 (food)"
+          ],
+          [
+            "You feel sluggish at the start of the shift",
+            "Point 8 (movement)"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How does short sleep build up without you noticing?"
+      },
+      {
+        "type": "p",
+        "text": "Short sleep adds up, and you are a poor judge of how much it is costing you. In a 2003 study published in the journal SLEEP, [Van Dongen and colleagues](https://academic.oup.com/sleep/article/26/2/117/2709164) put 48 healthy adults aged 21 to 38 on 4, 6 or 8 hours in bed a night for 14 days. Restricting sleep to 6 hours or less produced thinking and reaction deficits equivalent to up to 2 nights without any sleep at all."
+      },
+      {
+        "type": "p",
+        "text": "The part every shift worker should remember: the participants were largely unaware of how impaired they had become. Their sleepiness ratings rose at first, then levelled off, while their performance kept getting worse."
+      },
+      {
+        "type": "p",
+        "text": "That matches what I've seen on every rota I've worked. By the third or fourth night, people say they feel \"fine\" because they have got used to the feeling. A lie-in on your days off helps, but it doesn't wipe the slate clean, which I cover in [Can You Catch Up on Sleep?](/resources/can-you-catch-up-on-sleep/)"
+      },
+      {
+        "type": "h2",
+        "text": "Why is shift fatigue a safety issue, not just a feeling?"
+      },
+      {
+        "type": "p",
+        "text": "The [HSE describes fatigue](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm) as a decline in mental or physical performance that results from prolonged exertion, and links it to excessive working time and poorly designed shift patterns. More than 3.5 million people work shifts in the UK."
+      },
+      {
+        "type": "p",
+        "text": "The HSE says fatigue is said to cost the UK £115-240 million a year in work accidents alone, and that it has been implicated in 20% of accidents on major roads. That last figure is the one that matters most after a night shift, because the drive home is when many of us are at our lowest."
+      },
+      {
+        "type": "p",
+        "text": "The HSE's advice for shift workers is plain: if you feel sleepy while driving, stop and take a short nap if it is safe to do so, and consider public transport or a taxi instead of driving. My guide to [microsleep and the drive home](/resources/microsleep-driving-after-night-shift/) explains the warning signs."
+      },
+      {
+        "type": "p",
+        "text": "I always needed to pull over for a nap of around 15 minutes on the Rainford bypass when driving home after night shifts at Budweiser. Without that recharge, I would never have made it home safely. If you feel tired, pull over and take a nap. It's simply not worth the risk of driving tired, for the sake of 15 minutes' rest."
+      },
+      {
+        "type": "h2",
+        "text": "When should you speak to your GP?"
+      },
+      {
+        "type": "p",
+        "text": "This checklist covers lifestyle and rota habits. It can't rule anything else out. If tiredness lasts for weeks despite good sleep, see your GP. Do the same if you still feel exhausted after several rest days of proper sleep, or if the tiredness is getting worse rather than better."
+      },
+      {
+        "type": "p",
+        "text": "It helps to take a simple record with you: your shift pattern, roughly when and how long you slept each day, and your caffeine and alcohol. If your employer has an occupational health service, it may also be able to look at your rota with you."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Always feeling tired on shifts is common, but it isn't something you just have to live with. Work through the checklist, fix the two or three points that apply to you, and give it a full block before you judge the result. Check how your rota is affecting you with the [Sleep Atlas Score](/scores/) and log your real hours in the [Sleep Debt & Fatigue Logger](/tools/sleep-debt-fatigue-logger/)."
+      },
+      {
+        "type": "p",
+        "text": "Then protect the sleep you do get. Sleyp is a free sleep-sounds player built for day sleepers: 13 sounds, a custom timer and a wake-up chime, all free in your browser. Keep the page open while you sleep so the timer and chime can run. [Try Sleyp free](/session/). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [how to sleep during the day](/resources/how-to-sleep-during-the-day/)"
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Van Dongen et al. (2003), The cumulative cost of additional wakefulness, SLEEP 26(2)](https://academic.oup.com/sleep/article/26/2/117/2709164)",
+          "[Health and Safety Executive: Human factors, fatigue](https://www.hse.gov.uk/humanfactors/topics/fatigue.htm)",
+          "[Health and Safety Executive: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why am I always tired even after sleeping?",
+        "answer": "For shift workers, the most common reasons are sleep that is lighter or shorter than you think, broken by daylight or noise, or sleep at a time your body clock resists. Caffeine late in the shift and alcohol after it also lower sleep quality. If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "question": "Is it normal to be tired all the time on shifts?",
+        "answer": "Feeling tired on shifts is common, especially on nights and rotating rotas, but feeling tired all the time is a signal to check your sleep hours, light, noise, caffeine and alcohol. Small changes to those usually help. Constant tiredness that doesn't improve deserves a chat with your GP."
+      },
+      {
+        "question": "What is shift fatigue?",
+        "answer": "Shift fatigue is the drop in alertness and performance that builds up when your sleep and work times keep fighting your body clock. The HSE describes fatigue as a decline in mental or physical performance from prolonged exertion, linked to long hours and poorly designed shift patterns."
+      },
+      {
+        "question": "Why do I wake up tired after a day sleep?",
+        "answer": "Daytime sleep is often shorter and lighter, and it is easily broken by light, traffic, deliveries and neighbours. Waking in the middle of a sleep cycle can also leave you groggy. A darker room, earplugs, a steady masking sound and a regular sleep window all help."
+      },
+      {
+        "question": "Can I catch up on sleep on my days off?",
+        "answer": "Partly. Extra sleep on rest days helps you recover, but it doesn't fully cancel a block of short sleep. Aim for 7-8 hours in every 24 during the block itself, and use short naps to top up where you can."
+      },
+      {
+        "question": "How long does it take to stop feeling tired after nights?",
+        "answer": "Most people feel jet-lagged for a day or two after switching from nights back to days. Getting daylight early, keeping caffeine to the morning and going to bed at a normal time on your first rest day usually shortens it."
+      }
+    ]
+  },
+  {
     "slug": "can-you-catch-up-on-sleep",
     "title": "Can You Catch Up on Sleep? What Science Says About Sleep Debt",
     "description": "Can you catch up on lost sleep with a lie-in? What a 2019 study found about weekend recovery sleep, and a better way to pay off sleep debt on days off.",
@@ -224,7 +420,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "The [Sleyp Sleep Debt & Fatigue Logger](/tools/sleep-debt-fatigue-logger/) does the sums for you across your shift block. In the logger, add your nightly sleep requirement, then log how much sleep you actually got each day. By the end of the last shift, you will know how much sleep debt you have, and the tool will suggest practical steps to deal with it. For a wider look at the causes of constant tiredness on shifts, the next guide in this series, Why Am I Always Tired? A Shift Worker's Checklist, covers the full checklist."
+        "text": "The [Sleyp Sleep Debt & Fatigue Logger](/tools/sleep-debt-fatigue-logger/) does the sums for you across your shift block. In the logger, add your nightly sleep requirement, then log how much sleep you actually got each day. By the end of the last shift, you will know how much sleep debt you have, and the tool will suggest practical steps to deal with it. For a wider look at the causes of constant tiredness on shifts, the next guide in this series, [Why Am I Always Tired? A Shift Worker's Checklist](/resources/why-am-i-always-tired/), covers the full checklist."
       },
       {
         "type": "p",
@@ -244,7 +440,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [why am I always tired?](/resources/why-am-i-always-tired/)"
       },
       {
         "type": "h3",
@@ -451,7 +647,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/)"
       },
       {
         "type": "h3",
@@ -797,7 +993,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/)"
       },
       {
         "type": "h3",
@@ -1099,7 +1295,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/)"
       },
       {
         "type": "h3",
@@ -1403,7 +1599,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), [Continental Shift Pattern Explained](/resources/continental-shift-pattern/), [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/) and [Can You Catch Up on Sleep? What Science Says About Sleep Debt](/resources/can-you-catch-up-on-sleep/)."
+        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), [Continental Shift Pattern Explained](/resources/continental-shift-pattern/), [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/), [Can You Catch Up on Sleep? What Science Says About Sleep Debt](/resources/can-you-catch-up-on-sleep/) and [Why Am I Always Tired? A Shift Worker's Checklist](/resources/why-am-i-always-tired/)."
       },
       {
         "type": "h3",
@@ -1634,7 +1830,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "The drive home after nights is one of the riskiest parts of a shift, and the warning signs come before the microsleep. Plan for it: know where you can stop, nap before you set off if you need to, and take a lift on the worst mornings. Then protect the sleep that comes next. Once you're home, a dark room and a steady sound like [brown noise](/resources/brown-noise-for-sleep/) help you drop off as the street wakes up. Our full guide to [how to sleep during the day](/resources/how-to-sleep-during-the-day/) covers the rest, and Why Am I Always Tired? A Shift Worker's Checklist is coming soon. If tiredness lasts for weeks despite good sleep, see your GP."
+        "text": "The drive home after nights is one of the riskiest parts of a shift, and the warning signs come before the microsleep. Plan for it: know where you can stop, nap before you set off if you need to, and take a lift on the worst mornings. Then protect the sleep that comes next. Once you're home, a dark room and a steady sound like [brown noise](/resources/brown-noise-for-sleep/) help you drop off as the street wakes up. Our full guide to [how to sleep during the day](/resources/how-to-sleep-during-the-day/) covers the rest, and [Why Am I Always Tired? A Shift Worker's Checklist](/resources/why-am-i-always-tired/) covers the wider causes of shift fatigue. If tiredness lasts for weeks despite good sleep, see your GP."
       },
       {
         "type": "p",
