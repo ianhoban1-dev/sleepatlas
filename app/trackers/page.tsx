@@ -5,6 +5,7 @@ import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import FaqList from "@/components/FaqList";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/trackers/" },
   title: "Shift Journal & Sleep Debt Trackers",
   description:
     "Log every shift and every sleep in one place. The Sleyp shift journal tracks sleep hours, quality and disturbances across your rota so patterns become visible before fatigue becomes a problem.",

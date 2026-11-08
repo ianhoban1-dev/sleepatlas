@@ -6,6 +6,7 @@ import { breadcrumbSchema, faqSchema } from "@/lib/schema";
 import FaqList from "@/components/FaqList";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/scores/" },
   title: "The Sleyp Score: How It Works",
   description:
     "The Sleyp Score is the proprietary scoring framework for non-standard schedules: one overall number built from Rota Adaptation, Noise Impact, Circadian Recovery and Accumulated Sleep Debt.",

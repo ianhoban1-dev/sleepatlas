@@ -6,6 +6,7 @@ import { getTool } from "@/lib/tools";
 const tool = getTool("sleep-debt-fatigue-logger")!;
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/tools/sleep-debt-fatigue-logger/" },
   title: tool.name,
   description: tool.description,
 };

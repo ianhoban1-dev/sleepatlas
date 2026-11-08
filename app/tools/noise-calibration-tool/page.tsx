@@ -6,6 +6,7 @@ import { getTool } from "@/lib/tools";
 const tool = getTool("noise-calibration-tool")!;
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/tools/noise-calibration-tool/" },
   title: tool.name,
   description: tool.description,
 };

@@ -14,6 +14,7 @@ import { faqSchema } from "@/lib/schema";
 import { FOUNDER } from "@/lib/site";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/" },
   title: "Sleyp | Your Sleep Environment: Personalised Sleep Sounds",
   description:
     "Sleyp is a sleep sound app for people whose sleep is hard-won. Try free sounds in your browser today, with the iOS app coming soon, plus shift-work tools built on forty years of experience.",

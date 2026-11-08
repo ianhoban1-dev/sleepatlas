@@ -26,6 +26,7 @@ import {
 import FaqList from "@/components/FaqList";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/session/" },
   title: "Try sounds in your browser",
   description:
     "Mix 13 free sleep sounds in your browser, set a sleep timer that fades out and save the mixes you like. Nothing to download. The Sleyp iOS app is coming soon with 22 free library sounds.",

@@ -15,6 +15,7 @@ import { breadcrumbSchema } from "@/lib/schema";
 import { TOOLS } from "@/lib/tools";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/tools/" },
   title: "Shift Work Sleep Tools & Rota Calculators",
   description:
     "Free calculators built for shift workers: night shift recovery countdowns, rota flip-flop planning, sleep debt logging, noise calibration and chronotype matching.",

@@ -94,7 +94,7 @@ export function articleSchema(opts: {
     "@type": "Article",
     headline: opts.headline,
     description: opts.description,
-    url: `${SITE.url}/resources/${opts.slug}`,
+    url: `${SITE.url}/resources/${opts.slug}/`,
     datePublished: opts.datePublished,
     dateModified: opts.dateModified ?? opts.datePublished,
     articleSection: opts.category,
@@ -103,7 +103,7 @@ export function articleSchema(opts: {
     publisher: { "@id": ORG_ID },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `${SITE.url}/resources/${opts.slug}`,
+      "@id": `${SITE.url}/resources/${opts.slug}/`,
     },
   };
 }

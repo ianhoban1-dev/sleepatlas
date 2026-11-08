@@ -4,6 +4,7 @@ import AccountPanel from "@/components/AccountPanel";
 import { breadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/account/" },
   title: "Your Account",
   description:
     "Create a free Sleyp account or log in. Accounts are stored in this browser.",

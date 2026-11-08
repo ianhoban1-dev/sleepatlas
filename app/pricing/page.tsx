@@ -8,6 +8,7 @@ import FaqList from "@/components/FaqList";
 import AppCta from "@/components/AppCta";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/pricing/" },
   title: "The Sleyp app: Free and Plus",
   description:
     "The Sleyp iOS app is coming soon with 22 free library sounds and saved mixes without an account. Sleyp Plus adds AI mix generation and Discovery. The browser version, calculators and resources are free.",

@@ -6,6 +6,7 @@ import { getTool } from "@/lib/tools";
 const tool = getTool("night-shift-recovery-calculator")!;
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/tools/night-shift-recovery-calculator/" },
   title: tool.name,
   description: tool.description,
 };

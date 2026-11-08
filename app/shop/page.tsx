@@ -5,6 +5,7 @@ import Reveal from "@/components/Reveal";
 import { breadcrumbSchema, productSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/shop/" },
   title: "Shift Worker Sleep Gear: Curated Marketplace",
   description:
     "Blackout blinds, moulded earplugs, contoured sleep masks and noise machines, daytime-sleep gear curated for shift workers by someone who spent 40 years needing it to work.",

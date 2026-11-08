@@ -6,6 +6,7 @@ import { getTool } from "@/lib/tools";
 const tool = getTool("chronotype-rota-matcher")!;
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/tools/chronotype-rota-matcher/" },
   title: tool.name,
   description: tool.description,
 };
