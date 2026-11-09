@@ -30,6 +30,7 @@ export function generateMetadata({
       description: article.description,
       type: "article",
       publishedTime: article.datePublished,
+      ...(article.dateModified ? { modifiedTime: article.dateModified } : {}),
     },
   };
 }
@@ -107,6 +108,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
             description: article.description,
             slug: article.slug,
             datePublished: article.datePublished,
+            dateModified: article.dateModified,
             category: article.category,
           }),
           faqSchema(article.faqs),
@@ -132,6 +134,7 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
           <p className="mt-4 text-sm text-ink-faint">
             By {FOUNDER.displayName} · {article.readMinutes} min read ·
             Published {article.datePublished}
+            {article.dateModified ? ` · Updated ${article.dateModified}` : ""}
           </p>
         </div>
       </div>

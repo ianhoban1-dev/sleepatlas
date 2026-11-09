@@ -28,7 +28,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...ARTICLES.map((a) => ({
       url: `${SITE.url}/resources/${a.slug}/`,
-      lastModified: a.datePublished,
+      lastModified: a.dateModified ?? a.datePublished,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     })),

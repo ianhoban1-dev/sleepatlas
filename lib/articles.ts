@@ -27,6 +27,8 @@ export interface Article {
   category: string;
   categorySlug: string;
   datePublished: string;
+  /** YYYY-MM-DD of the last substantive refresh. Shown as "Updated" and output in Article JSON-LD. */
+  dateModified?: string;
   readMinutes: number;
   /** One-sentence direct answer, inverted pyramid, AEO-first. */
   quickAnswer: string;
@@ -3173,13 +3175,14 @@ export const ARTICLES: Article[] = [
   },
   {
     "slug": "is-6-hours-of-sleep-enough",
-    "title": "Is 6 Hours of Sleep Enough? What It Means for Shift Workers",
-    "description": "Is 6 hours of sleep enough? Two weeks of 6-hour nights impaired people as much as up to two nights without sleep. What it means for shift workers.",
+    "title": "Is 6 Hours of Sleep Enough? What 2 Weeks of It Does",
+    "description": "Is 6 hours of sleep enough? Not night after night. What two weeks of 6-hour sleeps did in a key study, plus 4, 5, 6.5, 7 and 8 hours compared.",
     "category": "Daytime Sleep Optimisation",
     "categorySlug": "daytime-sleep-optimisation",
     "datePublished": "2026-10-12",
-    "readMinutes": 7,
-    "quickAnswer": "For most adults, 6 hours of sleep isn't enough once it becomes your normal. In a well-known 2003 study, people limited to 6 hours in bed for 14 days ended up as impaired as people kept awake for up to two nights, and they barely noticed. HSE says most adults need 7-8 hours a day.",
+    "dateModified": "2026-11-09",
+    "readMinutes": 10,
+    "quickAnswer": "No, not night after night, for most adults. HSE says most adults need 7-8 hours of sleep a day. In a well-known 2003 study, two weeks of 6 hours in bed left people as impaired as up to two nights without sleep, and they barely noticed.",
     "blocks": [
       {
         "type": "p",
@@ -3196,6 +3199,18 @@ export const ARTICLES: Article[] = [
       {
         "type": "p",
         "text": "The problem with 6 hours is not the first night. It's the build-up. Every short sleep adds to your sleep debt, and your performance keeps sliding while your sense of how tired you are levels off. That gap is where the risk sits, at work and on the drive home."
+      },
+      {
+        "type": "h2",
+        "text": "Is 6.5 hours of sleep enough?"
+      },
+      {
+        "type": "p",
+        "text": "Six and a half hours is better than six, but it's still below the 7-8 hours HSE says most adults need. Over a week it leaves you about 3.5 hours short of 7 hours a night. For one night, after a late finish or a noisy afternoon, 6.5 hours is fine. As your normal, it still builds sleep debt, just more slowly."
+      },
+      {
+        "type": "p",
+        "text": "No major study has tested 6.5 hours on its own. The 2003 study below tested 4, 6 and 8 hours in bed, so treat 6.5 as somewhere between \"short\" and \"enough\". If you're regularly landing on 6 hours 50-something, you're only minutes off 7: 6 hours 52 minutes is 8 minutes short, about an hour a week. A slightly earlier bedtime or a short nap closes that gap."
       },
       {
         "type": "h2",
@@ -3258,6 +3273,26 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "h2",
+        "text": "Can you function on 6 hours of sleep?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, in the sense that you'll get up, get to work and get through the shift. No, in the sense of working at your best. In the [Van Dongen study](https://ntrs.nasa.gov/citations/20040087752), people's sleepiness ratings jumped at first and then rose only a little on later days, while their performance kept falling. The ratings didn't even clearly separate the 6-hour group from the 4-hour group. How tired you feel is a poor guide to how sharp you are."
+      },
+      {
+        "type": "p",
+        "text": "It's 3 o'clock in the morning on your night shift and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway and pay for it later when you're wired at bedtime. On a run of 6-hour sleeps, you hit it with less in the tank. If 6 hours is what you've got:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Do the jobs that need care early in the shift**, before the 3am wall.",
+          "**Take a short nap if it's safe.** [HSE advises](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) that you \"stop if you feel sleepy and take a short nap if it is safe to do so\".",
+          "**Plan the drive home.** If you're drowsy, don't push on. Read about [microsleep and the drive home after a night shift](/resources/microsleep-driving-after-night-shift/)."
+        ]
+      },
+      {
+        "type": "h2",
         "text": "What if you're a shift worker and 6 hours is all you get?"
       },
       {
@@ -3274,7 +3309,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "If short sleep is unavoidable for a few days, the goal is damage control: protect the sleep you do get, top it up where you can, and pay it back on your rest days rather than letting it stack for weeks."
+        "text": "If short sleep is unavoidable for a few days, the goal is damage control: protect the sleep you do get, top it up where you can, and pay it back on your rest days rather than letting it stack for weeks. How much you can win back is covered in [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/)"
       },
       {
         "type": "h2",
@@ -3303,15 +3338,62 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "h2",
-        "text": "Is 7 hours enough? Is 5 hours enough?"
+        "text": "Hours of sleep: what to expect"
       },
       {
         "type": "p",
-        "text": "**7 hours** sits at the bottom of HSE's 7-8 hour range, so for most adults it is a reasonable target. If you wake up after 7 hours and still feel drained, you may simply need more, or the sleep you're getting is being broken up by noise and light."
+        "text": "Here's how each amount stacks up against the 7-8 hours [HSE](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) says most adults need. The \"short\" figures assume the same sleep every day for a week."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Sleep a night",
+          "Short of 7 hours over a week",
+          "What to expect",
+          "Read more"
+        ],
+        "rows": [
+          [
+            "4 hours",
+            "21 hours",
+            "Well below the line. The 4-hour group in the 2003 study built up deficits day after day, and the study found the losses were dose-dependent: less sleep, bigger deficits. A one-off after your last night shift, never a pattern.",
+            "Is 4 Hours of Sleep Enough?"
+          ],
+          [
+            "5 hours",
+            "14 hours",
+            "Inside the \"6 hours or less\" zone where deficits built up. Treat it as an emergency, not a plan.",
+            "Is 5 Hours of Sleep Enough?"
+          ],
+          [
+            "6 hours",
+            "7 hours",
+            "Gets you through a day. Two weeks of it produced deficits equal to up to two nights without sleep.",
+            "You're reading it"
+          ],
+          [
+            "6.5 hours",
+            "3.5 hours",
+            "Better than 6, still below HSE's range. Not tested on its own in the 2003 study.",
+            "See above"
+          ],
+          [
+            "7 hours",
+            "None",
+            "The bottom of HSE's 7-8 hour range. A reasonable target for most adults, if the sleep isn't broken by noise and light.",
+            "Is 7 Hours of Sleep Enough?"
+          ],
+          [
+            "8 hours",
+            "None",
+            "The top of HSE's range and the comparison group in the 2003 study. The study linked lapses to time awake beyond about 15.8 hours a day, which works out at roughly 8 hours of sleep in 24.",
+            "[How much deep sleep you need](/resources/how-much-deep-sleep-do-you-need/)"
+          ]
+        ]
       },
       {
         "type": "p",
-        "text": "**5 hours** is below the 6-hour line. The Van Dongen findings covered \"6 hours or less\", and the 4-hour group in that study did worse again. Treat 5 hours as an emergency, not a plan."
+        "text": "Want to see where your own week lands? Log your real hours, naps included, in the [Sleep Debt & Fatigue Logger](/tools/sleep-debt-fatigue-logger/)."
       },
       {
         "type": "p",
@@ -3351,12 +3433,16 @@ export const ARTICLES: Article[] = [
         "answer": "Not as a regular pattern. One 6-hour sleep is manageable, but in a two-week study, 6 hours a night produced deficits equal to up to two nights without sleep. Aim for 7-8 hours, using a nap or a second sleep to make up the gap."
       },
       {
-        "question": "Is 7 hours of sleep enough?",
-        "answer": "For most adults, yes. HSE says most adults need 7-8 hours a day, so 7 hours is at the lower end of normal. If you feel rough after 7, check your bedroom for light and noise before assuming you need more."
+        "question": "Is 6 hours of sleep bad for one night?",
+        "answer": "No. One 6-hour night won't do you much harm, and most shift workers have plenty of them. The problem is a run of them. In a two-week study, 6 hours a night built up deficits equal to up to two nights without sleep. Get a full sleep as soon as your rota allows."
       },
       {
-        "question": "Is 5 hours of sleep enough?",
-        "answer": "No. Five hours is below the level at which the 2003 study found deficits building day after day. If a shift pattern forces 5 hours, top up with a nap and get a full sleep as soon as the rota allows."
+        "question": "Is 6 and a half hours of sleep enough?",
+        "answer": "It's better than 6, but still below the 7-8 hours HSE says most adults need. Over a week, 6.5 hours a night leaves you about 3.5 hours short of 7. Fine for a night or two; as a habit, add a nap or an earlier bedtime."
+      },
+      {
+        "question": "Is it better to sleep 5 or 6 hours?",
+        "answer": "Six. In the 2003 study, the losses were dose-dependent, so less sleep meant bigger deficits. Over a week, 5 hours a night leaves you 14 hours short of 7 a night, double the 7 hours you'd be short on 6. If you only have time for 5, protect it from light and noise and top up with a nap."
       },
       {
         "question": "Can a nap make up for short sleep?",
@@ -3368,7 +3454,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "question": "Can you catch up on lost sleep on your days off?",
-        "answer": "You can recover some, but a single long lie-in won't wipe out a week of short sleep. We go into this in our guide Can You Catch Up on Sleep? For now, spread recovery over your rest days."
+        "answer": "You can recover some, but a single long lie-in won't wipe out a week of short sleep. We go into this in Can You Catch Up on Sleep? For now, spread recovery over your rest days."
       }
     ]
   },
