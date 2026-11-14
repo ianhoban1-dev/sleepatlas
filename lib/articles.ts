@@ -47,6 +47,179 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "hear-alarm-with-earplugs-or-noise-cancelling",
+    "title": "Will You Hear Your Alarm With Earplugs or Noise-Cancelling Headphones In?",
+    "description": "Can you hear an alarm with earplugs or noise-cancelling headphones in? What gets through, and five ways night workers make sure they wake up on time.",
+    "category": "Noise & Disturbance Defence",
+    "categorySlug": "noise-disturbance-defence",
+    "datePublished": "2026-11-14",
+    "readMinutes": 8,
+    "quickAnswer": "Most people still hear a loud phone alarm through foam or silicone earplugs, but it's quieter and easier to sleep through. Noise-cancelling headphones mostly cut steady low sounds, so a high-pitched alarm usually gets through. For a night shift, don't rely on one alarm: use a vibrating alarm or an alarm in your sleep buds, plus a backup.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "There's a particular kind of fear that only shift workers know. You get in from a night shift, the neighbours decide 10am is the perfect time to mow their lawns, so the earplugs go in. Then, just as you drift off, the thought arrives: what if I don't hear the alarm and I'm late for tonight's shift?"
+      },
+      {
+        "type": "p",
+        "text": "I've worked shifts for 40 years, from The King's Regiment to HM Prison Service at Strangeways, Walton and Guys Marsh, Jacobs Biscuits and Budweiser UK. Blocking the day out is half the battle. Making sure you still wake up is the other half. I always set another alarm on vibration, just to be sure. The old Army soldier in me can't ever oversleep and be late!"
+      },
+      {
+        "type": "p",
+        "text": "Here's what actually gets through earplugs and noise-cancelling headphones, and how to set up an alarm you can trust before a night shift."
+      },
+      {
+        "type": "h2",
+        "text": "Can you hear an alarm with earplugs in?"
+      },
+      {
+        "type": "p",
+        "text": "Usually, yes. Earplugs turn sound down; they don't switch it off. Loop, for example, rates its Loop Dream sleep earplugs at 27 dB SNR and says in its own FAQ that [most users can still hear important sounds such as alarms, doorbells or a baby monitor](https://us.loopearplugs.com/products/dream), while noting that volume and your own hearing make a difference."
+      },
+      {
+        "type": "p",
+        "text": "The catch is that a quieter alarm is easier to sleep through, especially when you're carrying sleep debt from a block of nights. A phone alarm on the bedside table that wakes you instantly with open ears might only register as a faint chirp with plugs in and your head buried in the pillow. More on choosing plugs in our guide to [sleeping with earplugs](/resources/earplugs-for-sleeping/) and the [Loop earplugs review](/resources/loop-earplugs-for-sleeping-review/)."
+      },
+      {
+        "type": "h2",
+        "text": "Earplugs vs noise-cancelling vs sleep buds: what happens to your alarm?"
+      },
+      {
+        "type": "table",
+        "head": [
+          "What's in your ears",
+          "What happens to a phone alarm",
+          "Main risk",
+          "Best backup"
+        ],
+        "rows": [
+          [
+            "Foam or silicone earplugs",
+            "Turned down, but most people still hear a loud alarm",
+            "Sleeping through a quiet or distant alarm",
+            "Vibrating alarm under the pillow or on your wrist"
+          ],
+          [
+            "Noise-cancelling headphones or buds (no sound playing)",
+            "Steady low hum is cut; a sudden high-pitched alarm usually gets through",
+            "Over-ear headphones are bulky to sleep in and can come off",
+            "Second alarm across the room"
+          ],
+          [
+            "Sleep buds playing masking sound",
+            "Alarm competes with the sound in your ear",
+            "Alarm masked if it plays only on a phone speaker",
+            "An alarm that plays through the buds, or a vibrating alarm"
+          ],
+          [
+            "No plugs, masking sound from a speaker",
+            "Alarm heard over the sound if it's louder",
+            "Masking volume set too high",
+            "Keep masking at a comfortable level, alarm louder"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why do high-pitched alarms cut through noise-cancelling?"
+      },
+      {
+        "type": "p",
+        "text": "Active noise cancelling works by playing a counter-wave against the sound coming in. As [Sonos explains](https://www.sonos.com/en/blog/how-does-noise-canceling-work), ANC excels at low-frequency, steady sounds such as the drone of an engine, because they stay constant and give the headphones time to respond. Sudden, high-frequency sounds like a car horn or a crying baby are much harder for it to block."
+      },
+      {
+        "type": "p",
+        "text": "A phone alarm is exactly that kind of sound: sudden and high-pitched. So ANC on its own rarely stops you hearing it. It's the traffic rumble and the bin lorry's engine that ANC turns down best, which is why I'd pair it with a masking sound for the drilling and the shouting that it can't touch. Our [noise cancelling for sleep](/resources/noise-cancelling-for-sleep/) guide goes deeper on that."
+      },
+      {
+        "type": "h2",
+        "text": "Five ways to make sure you wake up for a night shift"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Use a vibrating alarm.** A smartwatch or fitness band that buzzes on your wrist, or a vibrating pad under the pillow, doesn't care how much noise you've blocked out.",
+          "**Play the alarm through your sleep buds.** Some sleep buds and phones can send the alarm into your ear. Check your model's settings and test it before you rely on it; don't assume it works this way.",
+          "**Set a second alarm across the room.** It's an old trick that still works: if you have to get up to turn it off, you're up.",
+          "**Give yourself a buffer.** Set the main alarm 15 to 20 minutes before you need to move, so one missed alarm doesn't make you late.",
+          "**Add a gentle wake-up chime as a first nudge.** The [free Sleyp player](/session/) in your browser has a wake-up chime that fades you out of your masking sound. The page has to stay open for it to play, and it won't run on a locked screen, so treat it as a soft first call with your phone alarm as the one you trust."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you're on a run of nights and the lawnmowers and drilling are a daily battle, our [noisy neighbours guide](/resources/noisy-neighbours-daytime-sleep/) covers the next steps."
+      },
+      {
+        "type": "h2",
+        "text": "How to test your setup safely on a day off"
+      },
+      {
+        "type": "p",
+        "text": "Don't find out your setup fails on the afternoon before a night shift. On a day off, have a short afternoon nap with your plugs or buds in exactly as you would before a shift, and set the alarm you plan to use. If you wake to it, good. If it took a second alarm, change something."
+      },
+      {
+        "type": "p",
+        "text": "Test the smoke alarm too. [GOV.UK fire safety advice](https://www.gov.uk/government/publications/make-your-home-safe-from-fire/fire-safety-in-the-home-accessible-version) is to fit at least one smoke alarm on every level of your home and test them at least monthly. Next time you press the test button, put your earplugs in first, go to your bedroom and ask someone to press it, so you know how it sounds from your pillow. Tell the household you sleep in the day with plugs in."
+      },
+      {
+        "type": "p",
+        "text": "If it's too faint, GOV.UK notes you can have linked alarms installed, so when one detects a fire they all go off together, including one near your bedroom. Strobe light and vibrating pad alarms also exist for people who are deaf or hard of hearing; [Essex County Fire and Rescue](https://www.essex-fire.gov.uk/sensory-smoke-alarms-0) describes a pad that vibrates under the pillow, linked wirelessly to a ceiling smoke alarm. Ask your local fire and rescue service what they offer, as schemes vary by area. I've not linked mine up yet. I keep forgetting, but I'm going to take it seriously and sort it out this week."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "You can block out the day and still wake up on time. Earplugs and noise-cancelling turn the world down, but a loud, high-pitched alarm usually still gets through. The safe set-up for a night shift is layered: plugs or buds to cut the noise, a vibrating or in-ear alarm you've tested, and a backup across the room. Check your smoke alarm with your plugs in, too. [WHO recommends bedrooms under 30 dB(A) at night](https://www.who.int/europe/news-room/fact-sheets/item/noise) for good sleep and names shift workers as a group at increased risk from noise, so defending your daytime sleep is worth the effort."
+      },
+      {
+        "type": "p",
+        "text": "For the noise that's left, a steady masking sound helps. [Try Sleyp free](/session/): 13 free sounds such as [brown noise](/resources/brown-noise-for-sleep/), a custom timer and a gentle wake-up chime, all in your browser (keep the page open for the timer and chime). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Loop Earplugs: Loop Dream product page and FAQ](https://us.loopearplugs.com/products/dream) (27 dB SNR; most users can still hear important sounds such as alarms). Checked 11 Nov 2026.",
+          "[Sonos: How does noise cancelling work?](https://www.sonos.com/en/blog/how-does-noise-canceling-work) (ANC best on steady low-frequency sounds; sudden high-frequency sounds harder to block). Checked 11 Nov 2026.",
+          "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise) (under 30 dB(A) in bedrooms at night; shift workers at increased risk). Checked 11 Nov 2026.",
+          "[GOV.UK: Fire safety in the home](https://www.gov.uk/government/publications/make-your-home-safe-from-fire/fire-safety-in-the-home-accessible-version) (an alarm on every level, test at least monthly, linked alarms, strobe and vibrating pad alarms). Checked 11 Nov 2026.",
+          "[Essex County Fire and Rescue: Sensory smoke alarms](https://www.essex-fire.gov.uk/sensory-smoke-alarms-0) (vibrating pad under the pillow linked to a ceiling alarm). Checked 11 Nov 2026."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can you hear your alarm with Loop earplugs in?",
+        "answer": "Most people can. Loop says most users of its Loop Dream earplugs (rated 27 dB SNR) can still hear important sounds such as alarms, though volume and your own hearing make a difference. Test it on a day off before you rely on it for a night shift."
+      },
+      {
+        "question": "Do noise-cancelling headphones block alarms?",
+        "answer": "Not usually. Active noise cancelling is best at steady, low sounds like engine hum. Sudden, high-pitched sounds such as a phone alarm are much harder for it to cancel, so most alarms still get through. Masking sound playing in the headphones is more likely to drown an alarm out."
+      },
+      {
+        "question": "What's the best alarm for someone who sleeps with earplugs?",
+        "answer": "A vibrating alarm, on your wrist or under the pillow, because it doesn't depend on sound at all. Back it up with a loud phone alarm and, if you're a deep sleeper, a second alarm across the room."
+      },
+      {
+        "question": "Is it safe to sleep with earplugs in case of a fire alarm?",
+        "answer": "Test it. With your plugs in, ask someone to press the smoke alarm test button while you lie in bed. GOV.UK advises an alarm on every level, tested monthly, and linked alarms so they all sound together. If you can't hear it clearly, ask your local fire and rescue service about other options."
+      },
+      {
+        "question": "Can sleep buds play an alarm?",
+        "answer": "Some can, either through a built-in alarm or by playing your phone's alarm in your ear. It depends on the model and your phone settings, so check the maker's instructions and test it on a day off."
+      },
+      {
+        "question": "Can I use the Sleyp wake-up chime as my only alarm?",
+        "answer": "No, use it as a gentle first nudge. The chime is free in the Sleyp browser player, but the page must stay open for it to play and it won't run on a locked screen. Keep your phone or vibrating alarm as the one you rely on."
+      }
+    ]
+  },
+  {
     "slug": "is-5-hours-of-sleep-enough",
     "title": "Is 5 Hours of Sleep Enough? What It Does to You on Shifts",
     "description": "Is 5 hours of sleep enough? What one short night does versus a week of them, 5 vs 6 hours, and how night workers can make short daytime sleep go further.",
@@ -5298,6 +5471,10 @@ export const ARTICLES: Article[] = [
         "text": "In-ear ANC earbuds are better, but standard models stick out of the ear. Lying on one for seven hours is uncomfortable, and the battery may not last a full day sleep with ANC on."
       },
       {
+        "type": "p",
+        "text": "Worried you'll sleep through your alarm with ANC on? See [will you hear your alarm with earplugs or noise-cancelling headphones in?](/resources/hear-alarm-with-earplugs-or-noise-cancelling/)"
+      },
+      {
         "type": "h2",
         "text": "Are sleep buds worth it for side sleepers?"
       },
@@ -6187,7 +6364,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Usually, yes, if it's loud and close. A phone alarm on the bedside table at full volume will get through most earplugs. But don't find out on the afternoon before your first night shift. Test it on a day off."
+        "text": "Usually, yes, if it's loud and close. A phone alarm on the bedside table at full volume will get through most earplugs. But don't find out on the afternoon before your first night shift. Test it on a day off. My guide to [hearing your alarm with earplugs or noise-cancelling headphones in](/resources/hear-alarm-with-earplugs-or-noise-cancelling/) covers what gets through and how to set up an alarm you can trust."
       },
       {
         "type": "p",
