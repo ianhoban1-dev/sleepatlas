@@ -47,6 +47,197 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "is-5-hours-of-sleep-enough",
+    "title": "Is 5 Hours of Sleep Enough? What It Does to You on Shifts",
+    "description": "Is 5 hours of sleep enough? What one short night does versus a week of them, 5 vs 6 hours, and how night workers can make short daytime sleep go further.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-11-14",
+    "readMinutes": 7,
+    "quickAnswer": "Five hours isn't enough for most adults, even if you feel you cope. HSE says most adults need 7-8 hours. In a controlled study, a working week of 5-hour nights changed how the body handled sugar, and a weekend lie-in didn't undo it. One short night is survivable; a run of them builds sleep debt.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "If you've already read my guide to whether [6 hours of sleep is enough](/resources/is-6-hours-of-sleep-enough/), this is the harder version of the same question. Five hours is where a lot of night workers end up, not by choice, but because the day keeps getting in the way."
+      },
+      {
+        "type": "h2",
+        "text": "Is 5 hours of sleep enough?"
+      },
+      {
+        "type": "p",
+        "text": "No, not as a regular thing. The Health and Safety Executive says [most adults need 7-8 hours of sleep a day](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm). Five hours leaves you two to three hours short every time. Do that across a block of shifts and the shortfall adds up fast."
+      },
+      {
+        "type": "p",
+        "text": "The tricky part is that five hours often feels fine. You get up, you function, you get through the shift. That feeling is exactly what the research says you can't trust."
+      },
+      {
+        "type": "h2",
+        "text": "What does one 5-hour night do, compared with a week of them?"
+      },
+      {
+        "type": "p",
+        "text": "One short sleep happens to every shift worker. You'll feel slower, you'll lean harder on caffeine and you'll want your bed early. Get a proper sleep the next day and you'll mostly bounce back."
+      },
+      {
+        "type": "p",
+        "text": "A run of them is different. Here is what two well-known studies found:"
+      },
+      {
+        "type": "table",
+        "head": [
+          "",
+          "One 5-hour night",
+          "A run of short nights"
+        ],
+        "rows": [
+          [
+            "How you feel",
+            "Tired, a bit slow",
+            "Often \"used to it\", only slightly sleepier"
+          ],
+          [
+            "How you actually perform",
+            "Dips, then recovers after a good sleep",
+            "Keeps falling night after night"
+          ],
+          [
+            "What a lie-in does",
+            "Mostly sorts it",
+            "Doesn't undo it"
+          ],
+          [
+            "Evidence",
+            "Everyday experience",
+            "Van Dongen 2003; Depner 2019"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In the [Van Dongen study](https://ntrs.nasa.gov/citations/20040087752), people kept to 6 hours or less in bed for 14 days built up performance deficits equivalent to up to 2 nights of no sleep at all. Their own sleepiness ratings barely rose after the first few days. They didn't notice how far they had slipped."
+      },
+      {
+        "type": "p",
+        "text": "In the [Depner study](https://sciencedaily.com/releases/2019/02/190228113534.htm), young adults slept 5 hours a night through the working week. Both short-sleep groups snacked more after dinner and gained weight. One group got a weekend of unlimited sleep, but only managed about an hour more than usual. When the short nights started again, their insulin sensitivity (how well the body handles sugar) fell by 9 to 27 percent."
+      },
+      {
+        "type": "h2",
+        "text": "Is it better to sleep 5 or 6 hours?"
+      },
+      {
+        "type": "p",
+        "text": "Six is better than five, but neither is enough night after night. In the Van Dongen study the damage was dose-dependent: the less time people had in bed, the worse their performance got. So every extra hour you protect counts, even if you can't reach seven."
+      },
+      {
+        "type": "p",
+        "text": "If the choice is five hours in one go or five hours plus a short top-up later, take the top-up. More on that below."
+      },
+      {
+        "type": "h2",
+        "text": "Why do night workers end up on 5 hours?"
+      },
+      {
+        "type": "p",
+        "text": "Because daytime sleep gets squeezed from both ends. You get home buzzing from the shift, so you don't drop off straight away. Then the world wakes up around you."
+      },
+      {
+        "type": "p",
+        "text": "I know the routine well. You get into bed at 9am as everyone else leaves for school and work, and it feels great, right up until next door decides to renovate and the drilling starts. You lie there, then doze, then give up. You're up at 2pm with five hours on the clock, telling yourself it'll do. After nights at Budweiser I knew this feeling all too well: once the doorbell or the lawnmower next door has woken you, it's so difficult to get back to sleep."
+      },
+      {
+        "type": "p",
+        "text": "Even on a quiet street, cars and kids playing out after school can finish your sleep for you. Add the school run, deliveries and the lawnmowers, and five hours becomes the default rather than the exception."
+      },
+      {
+        "type": "h2",
+        "text": "How do you make a 5-hour sleep go further?"
+      },
+      {
+        "type": "p",
+        "text": "You can't turn five hours into eight, but you can stop losing any more of it. These steps follow [HSE's own tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm):"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Make it properly dark.** HSE suggests heavy curtains, blackout blinds or eye shades.",
+          "**Cut and mask the noise.** HSE suggests earplugs, white noise or background music to mask outside noise. Steady sound covers the sudden bangs that wake you.",
+          "**Tell the neighbours.** HSE suggests discussing your work pattern with close neighbours and asking them to avoid noisy jobs during your sleep time. My guide to [noisy neighbours when you sleep in the day](/resources/noisy-neighbours-daytime-sleep/) has a script for that chat.",
+          "**Watch the caffeine.** HSE says use caffeine occasionally, not to keep you going. A late can on shift is still in you at bedtime: see [how long caffeine lasts](/resources/how-long-does-caffeine-last/) to set your cut-off.",
+          "**Go to bed soon after you get home.** Every hour you stay up eats into the window before the street gets noisy.",
+          "**Keep the room cool.** A cooler room is easier to stay asleep in on a warm afternoon."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Deep sleep comes mostly early in your sleep, so protecting the first few hours matters most. My piece on [how much deep sleep you need](/resources/how-much-deep-sleep-do-you-need/) explains why, and my guide to [how to sleep during the day](/resources/how-to-sleep-during-the-day/) covers the full set-up."
+      },
+      {
+        "type": "h2",
+        "text": "How do you top up a short sleep: anchor sleep and naps"
+      },
+      {
+        "type": "p",
+        "text": "If five hours is all the morning gives you, plan a second, shorter sleep rather than hoping the first one stretches. Many shift workers use an \"anchor\" sleep: a core block at the same time each day, plus a top-up nap before the next shift. Normally, around 4pm I'd have a nap on the settee, but no more than an hour at most."
+      },
+      {
+        "type": "p",
+        "text": "A nap won't fully replace lost sleep, but it takes the edge off before the drive in and the 3am low point (my [night shift survival guide](/resources/night-shift-survival-guide/) covers getting through it). If you feel sleepy driving, [HSE's advice](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) is to stop and take a short nap if it is safe to do so. My guide to [microsleeps on the drive home](/resources/microsleep-driving-after-night-shift/) covers the risks."
+      },
+      {
+        "type": "p",
+        "text": "On your days off, don't count on one huge lie-in. The Depner study shows why, and my post on [whether you can catch up on sleep](/resources/can-you-catch-up-on-sleep/) explains a better way to recover. Logging your real hours in the [Sleep Debt & Fatigue Logger](/tools/sleep-debt-fatigue-logger/) shows how fast a run of five-hour sleeps adds up."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Five hours gets you through a day, not through a block of shifts. Treat it as an emergency ration, protect every hour you can with darkness and steady sound, and top up with a nap rather than hoping a lie-in will fix it. If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "type": "p",
+        "text": "When the drilling starts at 10am, you need sound that covers it. [Try Sleyp free](/session/): 13 sounds in your browser, with a free timer and saved mixes (keep the page open while it plays). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Van Dongen et al. (2003), SLEEP: The cumulative cost of additional wakefulness](https://academic.oup.com/sleep/article/26/2/117/2709164) (abstract checked via the [NASA Technical Reports Server record](https://ntrs.nasa.gov/citations/20040087752) on 10 Nov 2026)",
+          "[Depner et al. (2019), Current Biology, via ScienceDaily: weekend recovery sleep and 5-hour nights](https://sciencedaily.com/releases/2019/02/190228113534.htm)",
+          "[Health and Safety Executive: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is 5 hours of sleep enough for one night?",
+        "answer": "You'll get through one night on 5 hours, but you'll be slower and less sharp than you feel. Keep the next day simple, avoid long drives if you're drowsy, and get a full sleep as soon as you can."
+      },
+      {
+        "question": "Is it better to sleep 5 or 6 hours?",
+        "answer": "Six hours is better than five. Research shows performance gets worse the less time people spend in bed, so every hour counts. Neither is enough night after night: most adults need 7-8 hours."
+      },
+      {
+        "question": "Can I work a night shift on 5 hours' sleep?",
+        "answer": "Most shift workers have done it, but it isn't a safe habit. Take a short nap before the shift if you can, keep caffeine early in the night, and don't drive home if you feel drowsy."
+      },
+      {
+        "question": "How do I recover from a week of 5-hour nights?",
+        "answer": "Get back to regular 7-8 hour sleeps rather than one long lie-in. In one study, a weekend of extra sleep didn't undo the effects of a week of 5-hour nights once short sleep started again."
+      },
+      {
+        "question": "Is 5 hours of sleep enough if it's deep sleep?",
+        "answer": "No. Deep sleep is only part of a normal sleep, and you also need the lighter and dreaming stages that come later. Cutting sleep short mostly loses those later stages, so five hours is still short."
+      }
+    ]
+  },
+  {
     "slug": "why-am-i-always-tired",
     "title": "Why Am I Always Tired? A Shift Worker's Checklist",
     "description": "Always tired on shifts? An 8-point checklist on daytime sleep, body clock, caffeine, noise and light from a 40-year shift veteran, plus when to see your GP.",
@@ -3363,7 +3554,7 @@ export const ARTICLES: Article[] = [
             "5 hours",
             "14 hours",
             "Inside the \"6 hours or less\" zone where deficits built up. Treat it as an emergency, not a plan.",
-            "Is 5 Hours of Sleep Enough?"
+            "[Is 5 Hours of Sleep Enough?](/resources/is-5-hours-of-sleep-enough/)"
           ],
           [
             "6 hours",
