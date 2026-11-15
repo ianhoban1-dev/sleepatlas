@@ -6232,7 +6232,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "question": "Can you hear an alarm with Loop earplugs in?",
-        "answer": "Most people can still hear a loud alarm close to the bed, but it will sound quieter. From my personal experience, I could still hear my alarm enough to wake me, but if you're a deep sleeper, try them out on a day off before relying on them for a work day. Put your phone near your pillow or use a vibrating alarm. I've covered this in more detail in [Will You Hear Your Alarm With Earplugs or Noise-Cancelling Headphones In?](/resources/hear-alarm-with-earplugs-or-noise-cancelling/)"
+        "answer": "Most people can still hear a loud alarm close to the bed, but it will sound quieter. From my personal experience, I could still hear my alarm enough to wake me, but if you're a deep sleeper, try them out on a day off before relying on them for a work day. Put your phone near your pillow or use a vibrating alarm. I've covered this in more detail in my guide, Will You Hear Your Alarm With Earplugs or Noise-Cancelling Headphones In?"
       },
       {
         "question": "Is it OK to wear earplugs every day?",
