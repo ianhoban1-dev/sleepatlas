@@ -5873,17 +5873,18 @@ export const ARTICLES: Article[] = [
   },
   {
     "slug": "loop-earplugs-for-sleeping-review",
-    "title": "Loop Earplugs for Sleeping: An Honest Review From a Day Sleeper",
-    "description": "Are Loop earplugs good for sleeping? A Loop Dream review from a night-shift veteran: noise reduction, side-sleeper comfort and how it compares with foam.",
+    "title": "Loop Earplugs Review: Loop Dream Tested by a Day Sleeper",
+    "description": "My Loop earplugs review: do Loop earplugs work for sleep? I compare Loop Dream, Quiet 2 and Engage 2 for side sleepers and day sleepers, and Loop vs foam.",
     "category": "Noise & Disturbance Defence",
     "categorySlug": "noise-disturbance-defence",
     "datePublished": "2026-10-03",
-    "readMinutes": 7,
-    "quickAnswer": "Yes, Loop earplugs are good for sleeping, as long as you buy the right model. Loop Dream is the sleep one: rated 27 dB SNR, the highest in Loop's range, with foam-silicone tips in four sizes and a low-profile shape for side sleepers. It handles traffic and voices well. For drilling or lawnmowers, add a masking sound.",
+    "dateModified": "2026-11-15",
+    "readMinutes": 9,
+    "quickAnswer": "This Loop earplugs review comes from 40 years of shift work: yes, Loop earplugs work for sleep if you buy Loop Dream. It is rated 27 dB SNR, the highest in Loop's range, and is built for side sleepers. It handles traffic and voices well. For drilling or lawnmowers, add a masking sound.",
     "blocks": [
       {
         "type": "p",
-        "text": "Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. I've spent 40 years on shifts, from The King's Regiment to HM Prison Service at Strangeways, Walton and Guys Marsh, Jacobs Biscuits and Budweiser UK. Earplugs have been in my bedside drawer for most of it. This is my honest take on Loop Dream for daytime sleep. I've worn them after a set of nights whilst working at Budweiser and then on my following days off, just to see how they performed during the day and night."
+        "text": "This is my Loop earplugs review, written for people who have to sleep while the rest of the street is awake. Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. I've spent 40 years on shifts, from The King's Regiment to HM Prison Service at Strangeways, Walton and Guys Marsh, Jacobs Biscuits and Budweiser UK. Earplugs have been in my bedside drawer for most of it. I've worn Loop Dream after a set of nights whilst working at Budweiser and then on my following days off, just to see how they performed during the day and night."
       },
       {
         "type": "h2",
@@ -5896,13 +5897,17 @@ export const ARTICLES: Article[] = [
       {
         "type": "table",
         "head": [
-          "At a glance",
-          "Loop Dream: what I think"
+          "Verdict",
+          "Loop Dream"
         ],
         "rows": [
           [
-            "Best for",
-            "Side sleepers; people who can't get on with foam"
+            "Suits",
+            "Side sleepers; people who can't get on with foam; day sleepers facing steady noise (traffic, voices, the school run)"
+          ],
+          [
+            "Doesn't suit",
+            "Anyone who needs maximum blocking (foam is rated higher); light-noise nappers on a budget (Quiet 2 is less than half the price)"
           ],
           [
             "Noise rating",
@@ -5914,13 +5919,45 @@ export const ARTICLES: Article[] = [
           ],
           [
             "Price",
-            "£44.95 on Loop's UK site (checked 3 Oct 2026)"
+            "£44.95 on Loop's UK site (checked 15 Nov 2026)"
+          ],
+          [
+            "Risk",
+            "100-day returns and a 2-year warranty"
           ]
         ]
       },
       {
+        "type": "p",
+        "text": "When I checked on 15 November 2026, every Loop Dream colour showed as sold out on Loop's UK site. If it's still unavailable, Loop Quiet 2 is the closest option for sleep."
+      },
+      {
         "type": "h2",
-        "text": "Loop Dream vs Loop Quiet vs Loop Engage: which one is for sleep?"
+        "text": "Do Loop earplugs work for sleep?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, for steady noise, as long as you pick Loop Dream and get the fit right. Loop's own [Dream product page](https://www.loopearplugs.com/products/dream?country=GB) says the 27 dB rating is measured in a lab with a perfect fit, and that real-world results depend on choosing the right tip size and putting them in properly."
+      },
+      {
+        "type": "p",
+        "text": "In my experience, Dream worked well against light traffic, voices, the bin lorry and doors slamming. The neighbour's drill and a lawnmower still got through a bit. Getting in bed when everyone else is leaving for school and work is great, until next door decides to start drilling. No earplug stops that completely, which is why I pair mine with a masking sound."
+      },
+      {
+        "type": "p",
+        "text": "Three things decide whether Loop earplugs work for you:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**The model.** Only Dream is designed for sleep. Engage 2 is made for conversations and lets too much through.",
+          "**The fit.** Try every tip size in the box, including the Double Tips. A poor seal costs more blocking than any difference between models.",
+          "**The noise.** Steady, low noise is easy to turn down. Sudden, sharp noise needs a second layer, such as brown noise."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Loop Dream vs Loop Quiet vs Loop Engage for sleep"
       },
       {
         "type": "p",
@@ -5931,29 +5968,49 @@ export const ARTICLES: Article[] = [
         "head": [
           "Model",
           "Noise reduction (SNR)",
+          "Tips in the box",
+          "Side-sleeper design",
           "Made for",
-          "UK price"
+          "UK price (15 Nov 2026)"
         ],
         "rows": [
           [
-            "[Loop Dream](https://www.loopearplugs.com/products/dream)",
+            "[Loop Dream](https://www.loopearplugs.com/products/dream?country=GB)",
             "27 dB",
-            "Sleep, side sleepers",
+            "4 sets of ear tips plus 4 sets of Double Tips, XS to L",
+            "Yes: low profile, low pressure",
+            "Sleep",
             "£44.95"
           ],
           [
-            "[Loop Quiet 2](https://www.loopearplugs.com/products/quiet)",
+            "[Loop Quiet 2](https://www.loopearplugs.com/products/quiet?country=GB)",
             "24 dB",
-            "Focus, travel, light sleep",
+            "4 sets, XS to L",
+            "No side-sleeper claim",
+            "Everyday noise, focus, travel",
             "£19.95"
+          ],
+          [
+            "[Loop Switch 2](https://www.loopearplugs.com/products/switch?country=GB)",
+            "20, 23 or 26 dB (three modes)",
+            "4 sets, XS to L",
+            "No side-sleeper claim",
+            "Switching between social, loud and quiet settings",
+            "£54.95"
           ],
           [
             "[Loop Engage 2](https://www.loopearplugs.com/products/engage)",
             "16 dB",
+            "4 sets of silicone tips, XS to L",
+            "No",
             "Conversations, social settings",
-            "See Loop's site"
+            "See Loop's UK site"
           ]
         ]
+      },
+      {
+        "type": "p",
+        "text": "Switch 2 can go up to 26 dB in its Quiet mode, but Loop doesn't sell it for sleep, and it costs £10 more than Dream."
       },
       {
         "type": "p",
@@ -6142,10 +6199,10 @@ export const ARTICLES: Article[] = [
       {
         "type": "ul",
         "items": [
-          "[Loop Earplugs: Loop Dream product page](https://www.loopearplugs.com/products/dream) (27 dB SNR, tip sizes, box contents, 100-day returns, 2-year warranty)",
-          "[Loop Earplugs: Earplugs for sleeping, UK](https://www.loopearplugs.com/pages/earplugs-for-sleeping?country=GB) (UK prices: Dream £44.95, Quiet 2 £19.95)",
-          "[Loop Earplugs: Loop Quiet 2](https://www.loopearplugs.com/products/quiet) (24 dB SNR)",
-          "[Loop Earplugs: Loop Engage 2](https://www.loopearplugs.com/products/engage) (16 dB SNR, made for conversations)",
+          "[Loop Earplugs: Loop Dream, UK](https://www.loopearplugs.com/products/dream?country=GB) (27 dB SNR, lab-measured with a perfect fit; tips and Double Tips XS-L; built for side sleepers; £44.95; 100-day returns; 2-year warranty; replace tips when needed; checked 15 Nov 2026)",
+          "[Loop Earplugs: Loop Quiet 2, UK](https://www.loopearplugs.com/products/quiet?country=GB) (24 dB SNR; £19.95; Loop says Dream is the model designed for sleep; checked 15 Nov 2026)",
+          "[Loop Earplugs: Loop Switch 2, UK](https://www.loopearplugs.com/products/switch?country=GB) (20, 23 and 26 dB SNR modes; £54.95; checked 15 Nov 2026)",
+          "[Loop Earplugs: Loop Engage 2](https://www.loopearplugs.com/products/engage) (16 dB SNR, made for conversations; checked 13 Nov 2026)",
           "[WHO Europe: Noise fact sheet](https://www.who.int/europe/news-room/fact-sheets/item/noise) (under 30 dB(A) in bedrooms at night; shift workers at increased risk)",
           "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) (7-8 hours' sleep; earplugs, white noise; talking to neighbours)",
           "[Moldex Europe: Spark Plugs](https://www.moldex-europe.com/en/details/spark-plugs/) (35 dB SNR, disposable foam)"
@@ -6166,12 +6223,16 @@ export const ARTICLES: Article[] = [
         "answer": "They turn steady sounds such as traffic down a long way. I haven't tested them against snoring, but steady, low sound is what earplugs handle best. No earplug makes a room silent, and sudden, sharp noises like drilling, slamming doors or a barking dog can still get through. Pair them with a steady masking sound for those."
       },
       {
-        "question": "Are Loop earplugs better than foam earplugs?",
+        "question": "Loop vs foam earplugs: which is better for sleep?",
         "answer": "They are more comfortable for many people and reusable, but foam blocks more on paper. Moldex Spark Plugs, for example, are rated 35 dB SNR against 27 dB for Loop Dream. Choose the plug you can keep in for the whole sleep."
       },
       {
+        "question": "How long do Loop Dream earplugs last?",
+        "answer": "Loop doesn't give a set lifespan. Its product page says to replace the ear tips when needed to keep them comfortable and hygienic, and Dream comes with a 2-year warranty and 100-day returns. Washing the tips regularly helps them last."
+      },
+      {
         "question": "Can you hear an alarm with Loop earplugs in?",
-        "answer": "Most people can still hear a loud alarm close to the bed, but it will sound quieter. Test it before you rely on it before a night shift. Put your phone near your pillow or use a vibrating alarm. From my personal experience, I could still hear my alarm enough to wake me, but if you're a deep sleeper, try them out first before relying on them for a work day."
+        "answer": "Most people can still hear a loud alarm close to the bed, but it will sound quieter. From my personal experience, I could still hear my alarm enough to wake me, but if you're a deep sleeper, try them out on a day off before relying on them for a work day. Put your phone near your pillow or use a vibrating alarm. I've covered this in more detail in [Will You Hear Your Alarm With Earplugs or Noise-Cancelling Headphones In?](/resources/hear-alarm-with-earplugs-or-noise-cancelling/)"
       },
       {
         "question": "Is it OK to wear earplugs every day?",
