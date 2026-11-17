@@ -47,6 +47,260 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "how-long-do-energy-drinks-keep-you-awake",
+    "title": "How Long Does Red Bull Keep You Awake? Energy Drinks on Night Shifts",
+    "description": "How long does an energy drink keep you awake? Caffeine per can, why a 3am Red Bull is still working at 9am, and when night workers should have their last one.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-11-17",
+    "readMinutes": 9,
+    "quickAnswer": "A 250 ml can of Red Bull has 80 mg of caffeine. You feel it within 15-60 minutes, and about half is still in your body around 5 hours later. So a can at 3am can still be working when you try to sleep at 9am. On nights, have your last energy drink at least 6 hours before bed.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "It's 3 o'clock in the morning on your night shift and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway. Then you pay for it later, lying in bed at 10am, wired, while the rest of the street gets on with its day. I've done that more times than I can count over 40 years of shifts, from stag duty with The King's Regiment to nights at HM Prison Service and on the lines at Jacobs and Budweiser."
+      },
+      {
+        "type": "p",
+        "text": "During night shifts at Budweiser, my go-to drink was always a coffee. If I was really struggling around 3am, a cold bottle of Pepsi Max was my other go-to wake-me-up. I did go through a spell of trying Red Bull and Monster energy drinks, but they just left me feeling \"wired\"."
+      },
+      {
+        "type": "p",
+        "text": "This guide sets out how long an energy drink really keeps you awake, how much caffeine is in the cans you'll find in a UK vending machine, and when to stop so you can sleep when you get home. For the full science of caffeine timing, see our guide to [how long caffeine lasts](/resources/how-long-does-caffeine-last/)."
+      },
+      {
+        "type": "h2",
+        "text": "How long does an energy drink keep you awake?"
+      },
+      {
+        "type": "p",
+        "text": "The lift from an energy drink arrives fast and leaves slowly. The [Sleep Foundation](https://www.sleepfoundation.org/nutrition/how-long-does-it-take-caffeine-to-wear-off) says it takes 15 to 60 minutes to feel caffeine's effects, and that most people clear half of it in 4 to 6 hours. [EUFIC](https://www.eufic.org/en/whats-in-food/article/caffeine-and-health) puts the average half-life at about 5 hours."
+      },
+      {
+        "type": "p",
+        "text": "That half-life varies a lot from person to person: anywhere from 2 to 12 hours, according to the Sleep Foundation. Things like genetics, body weight, smoking, alcohol, pregnancy and some contraceptive pills all change how quickly you clear it."
+      },
+      {
+        "type": "p",
+        "text": "The key point for night workers is that \"feeling awake\" and \"caffeine in your body\" are not the same thing. The buzz may fade after a couple of hours, but the caffeine keeps working in the background. That's why you can feel shattered at the end of a shift and still lie there unable to drop off."
+      },
+      {
+        "type": "h2",
+        "text": "How much caffeine is in Red Bull, Monster and other drinks?"
+      },
+      {
+        "type": "p",
+        "text": "Can sizes matter more than brand. A big 500 ml can holds twice the caffeine of a standard 250 ml can, even at the same strength."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Drink",
+          "Size",
+          "Caffeine",
+          "Source"
+        ],
+        "rows": [
+          [
+            "Red Bull Energy Drink",
+            "250 ml can",
+            "80 mg",
+            "[Red Bull GB](https://www.redbull.com/gb-en/energydrink/questions/how-much-caffeine-is-in-a-can-of-red-bull-energy-drink)"
+          ],
+          [
+            "Monster Energy (original)",
+            "500 ml can",
+            "32 mg per 100 ml, so about 160 mg a can",
+            "[Tesco label](https://www.tesco.com/shop/en-GB/products/264556669)"
+          ],
+          [
+            "Supermarket own-brand energy drink",
+            "Usually 250 ml",
+            "Varies: check the mg per 100 ml on the can",
+            "Can label"
+          ],
+          [
+            "Mug of coffee",
+            "1 mug",
+            "About 100-140 mg (varies widely)",
+            "[Food Standards Agency](https://www.gov.uk/government/publications/food-supplements-containing-caffeine/food-supplements-containing-caffeine)"
+          ],
+          [
+            "Mug of tea",
+            "1 mug",
+            "About 75 mg",
+            "Food Standards Agency"
+          ],
+          [
+            "Can of soft drink",
+            "1 can",
+            "About 40 mg",
+            "Food Standards Agency"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Figures checked on 14 November 2026. The Monster per-can figure is worked out from the label's 32 mg per 100 ml."
+      },
+      {
+        "type": "p",
+        "text": "Red Bull's own page says its 80 mg is about the same as a cup of home-brewed coffee. The difference on a night shift is speed: a cold can goes down in two minutes, and it's easy to have a second one before the first has even kicked in."
+      },
+      {
+        "type": "h2",
+        "text": "The 3am can and the 9am bed: a worked example"
+      },
+      {
+        "type": "p",
+        "text": "Here's what's left in your body at a 9am bedtime, using an average 5-hour half-life. Treat it as an illustration, because your own half-life could be shorter or much longer."
+      },
+      {
+        "type": "table",
+        "head": [
+          "What you drank",
+          "When",
+          "Caffeine still in you at 9am"
+        ],
+        "rows": [
+          [
+            "One Red Bull (80 mg)",
+            "3am",
+            "About 35 mg"
+          ],
+          [
+            "One Red Bull (80 mg)",
+            "5am",
+            "About 46 mg"
+          ],
+          [
+            "Two Red Bulls (160 mg)",
+            "1am and 3am",
+            "About 61 mg"
+          ],
+          [
+            "One 500 ml Monster (160 mg)",
+            "3am",
+            "About 70 mg"
+          ],
+          [
+            "One 500 ml Monster (160 mg)",
+            "11pm",
+            "About 40 mg"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The [European Food Safety Authority](https://www.efsa.europa.eu/en/topics/topic/caffeine) says a single dose of 100 mg may affect how long and how well some adults sleep, particularly close to bedtime. Two cans across the early hours, or one big Monster at 3am, gets you well on the way there by the time your head hits the pillow."
+      },
+      {
+        "type": "p",
+        "text": "The research backs this up. In a [2013 study reported by the American Academy of Sleep Medicine](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/), 400 mg of caffeine taken 6 hours before bed cut total sleep by more than an hour. People's own sleep diaries didn't pick up the loss. In other words, you may not even realise the 3am can is costing you sleep."
+      },
+      {
+        "type": "p",
+        "text": "That's where the 6-hour rule comes from. For a 9am bedtime, your last can is at 3am at the latest, and earlier is better. The [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/) works out your own cut-off from your finish time and commute."
+      },
+      {
+        "type": "h2",
+        "text": "Is it bad to drink energy drinks on a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "One can early in the shift is a reasonable tool. The trouble starts with the timing and the stacking."
+      },
+      {
+        "type": "p",
+        "text": "EFSA says up to 400 mg a day, spread through the day, doesn't raise safety concerns for healthy adults (pregnant women excepted), and single doses up to 200 mg are fine for most. That's five standard Red Bulls a day, or two and a half big Monsters, from all sources combined. Count the coffee and tea at the start of the shift too."
+      },
+      {
+        "type": "p",
+        "text": "For shift workers, though, the bigger issue is sleep, not the daily limit. A habit of a can at midnight, another at 3am and a coffee for the drive home means you go to bed with a lot of caffeine still on board. You sleep less, wake up rough, and reach for more caffeine to get through the next night. The cycle builds sleep debt quietly."
+      },
+      {
+        "type": "p",
+        "text": "And as anyone who has worked nights knows, the wall at 3am isn't something caffeine fixes. It's your body clock at its lowest point. The can takes the edge off for a bit, then the bill arrives at bedtime."
+      },
+      {
+        "type": "h2",
+        "text": "Safer ways through the 3am wall"
+      },
+      {
+        "type": "p",
+        "text": "These are the things that work better than a second or third can (there's more in our guide on [how to stay awake on a night shift](/resources/how-to-stay-awake-on-night-shift/)):"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Front-load your caffeine.** Have your coffee or energy drink at the start of the shift, not at the low point. Set a hard cut-off 6 hours before your planned bedtime.",
+          "**Take a short nap if your workplace allows it.** A short nap on your break can take the edge off the 3am dip without keeping you awake at bedtime. Our guide How Long Should a Nap Be? goes into the detail.",
+          "**Keep the lights bright and move about.** A walk round, cold air on your face and bright light at work all help you through the low point.",
+          "**Eat light.** A heavy meal at 2am makes the wall worse. See our [night shift survival guide](/resources/night-shift-survival-guide/) for what to eat and when.",
+          "**Switch to water after your cut-off.** You'll still feel tired, but you'll sleep when you get home."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For me personally, having something to eat at around 4am was a massive help. Overnight oats with fruit on top and some honey was enough to wake me from the \"wall\" and get me through to bedtime."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "An energy drink keeps working long after the buzz wears off. With about half the caffeine still in you 5 hours later, the 3am can is often the reason you're staring at the ceiling at 10am. Have your caffeine early, stop at least 6 hours before bed, and let water carry you through the last stretch. If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "type": "p",
+        "text": "Set your caffeine cut-off with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/). Then, when you get home, make the room dark and steady the noise outside: [Try Sleyp free](/session/). The browser player has 13 free sounds, a free timer and a wake-up chime (keep the page open for them to run). The Sleyp iOS app is coming soon. For the rest of the routine, see [how to sleep during the day](/resources/how-to-sleep-during-the-day/)."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Red Bull GB: How much caffeine is in a can of Red Bull Energy Drink?](https://www.redbull.com/gb-en/energydrink/questions/how-much-caffeine-is-in-a-can-of-red-bull-energy-drink) (80 mg per 250 ml can). Checked 14 Nov 2026.",
+          "[Tesco: Monster Energy Drink 500ml](https://www.tesco.com/shop/en-GB/products/264556669) (label: 32 mg caffeine per 100 ml). Checked 14 Nov 2026.",
+          "[Food Standards Agency: Food supplements containing caffeine (GOV.UK)](https://www.gov.uk/government/publications/food-supplements-containing-caffeine/food-supplements-containing-caffeine) (caffeine in coffee, tea, soft drinks and energy drinks). Checked 14 Nov 2026.",
+          "[European Food Safety Authority: Caffeine](https://www.efsa.europa.eu/en/topics/topic/caffeine) (400 mg a day, single doses up to 200 mg, 100 mg near bedtime may affect sleep). Checked 14 Nov 2026.",
+          "[Sleep Foundation: How long does it take for caffeine to wear off?](https://www.sleepfoundation.org/nutrition/how-long-does-it-take-caffeine-to-wear-off) (effects in 15-60 minutes; half cleared in 4-6 hours; range 2-12 hours). Checked 14 Nov 2026.",
+          "[EUFIC: Caffeine and health](https://www.eufic.org/en/whats-in-food/article/caffeine-and-health) (average half-life about 5 hours). Checked 14 Nov 2026.",
+          "[American Academy of Sleep Medicine: Late afternoon and early evening caffeine can disrupt sleep at night](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/) (Drake et al., 2013). Checked 14 Nov 2026."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How long does one Red Bull keep you awake?",
+        "answer": "You'll usually feel a 250 ml Red Bull (80 mg of caffeine) within 15-60 minutes. The noticeable lift often fades after a few hours, but about half the caffeine is still in your body around 5 hours later, and for some people much longer. That's why a 3am can can still affect a 9am sleep."
+      },
+      {
+        "question": "How much caffeine is in a can of Monster?",
+        "answer": "Original Monster Energy is labelled at 32 mg of caffeine per 100 ml. A 500 ml can therefore holds about 160 mg, twice a standard Red Bull. Always check the label, as flavours and sizes vary."
+      },
+      {
+        "question": "Is it bad to drink energy drinks on a night shift?",
+        "answer": "One can early in the shift is unlikely to cause problems for most healthy adults. The risk is drinking them late or stacking them, which leaves caffeine in your system at bedtime and cuts into your daytime sleep. Keep them to the first half of the shift."
+      },
+      {
+        "question": "How many energy drinks a day is too much?",
+        "answer": "EFSA says up to 400 mg of caffeine a day from all sources is not a safety concern for healthy adults, excluding pregnant women, with single doses up to 200 mg. That's five 250 ml Red Bulls in total, including any coffee or tea. For sleep, less and earlier is better."
+      },
+      {
+        "question": "What time should I have my last energy drink on a night shift?",
+        "answer": "At least 6 hours before your planned bedtime. For a 9am bed, that means no later than 3am, and earlier if you're sensitive to caffeine. The Night Shift Recovery Calculator works it out from your finish time and commute."
+      },
+      {
+        "question": "Is Red Bull stronger than coffee?",
+        "answer": "Not really. A 250 ml Red Bull has 80 mg of caffeine, while the Food Standards Agency says a mug of coffee has about 100-140 mg. Big 500 ml energy drinks are a different story, at around double a standard can."
+      }
+    ]
+  },
+  {
     "slug": "hear-alarm-with-earplugs-or-noise-cancelling",
     "title": "Will You Hear Your Alarm With Earplugs or Noise-Cancelling Headphones In?",
     "description": "Can you hear an alarm with earplugs or noise-cancelling headphones in? What gets through, and five ways night workers make sure they wake up on time.",
@@ -2556,7 +2810,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "That last point is the one for night workers. 100 mg is not a lot. According to the UK government's [consultation on high-caffeine energy drinks](https://www.gov.uk/government/consultations/banning-the-sale-of-high-caffeine-energy-drinks-to-children/banning-the-sale-of-high-caffeine-energy-drinks-to-children), a 250 ml energy drink typically has about 80 mg of caffeine, and a 500 ml can averages 160 mg, with some reaching 200 mg. Any drink with more than 150 mg per litre has to carry a high-caffeine warning on the label, so check the can."
+        "text": "That last point is the one for night workers. 100 mg is not a lot. According to the UK government's [consultation on high-caffeine energy drinks](https://www.gov.uk/government/consultations/banning-the-sale-of-high-caffeine-energy-drinks-to-children/banning-the-sale-of-high-caffeine-energy-drinks-to-children), a 250 ml energy drink typically has about 80 mg of caffeine, and a 500 ml can averages 160 mg, with some reaching 200 mg. Any drink with more than 150 mg per litre has to carry a high-caffeine warning on the label, so check the can. For what that means on a night shift, see [how long does Red Bull keep you awake?](/resources/how-long-do-energy-drinks-keep-you-awake/)"
       },
       {
         "type": "table",
@@ -3007,7 +3261,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "That means the 3am Red Bull is exactly the wrong drink for most of us. We go deeper on half-lives and cut-off times in [How Long Does Caffeine Last?](/resources/how-long-does-caffeine-last/). You can also set your own cut-off with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/)."
+        "text": "That means the 3am Red Bull is exactly the wrong drink for most of us. We go deeper on half-lives and cut-off times in [How Long Does Caffeine Last?](/resources/how-long-does-caffeine-last/). You can also set your own cut-off with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/). If energy drinks are your go-to, read [how long does Red Bull keep you awake?](/resources/how-long-do-energy-drinks-keep-you-awake/)"
       },
       {
         "type": "h2",
