@@ -194,7 +194,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**[Try Sleyp free](/session/):** compare noise colours in your browser. White, pink and brown noise are all included, along with the rest of the 13 free sounds, the custom timer and the wake-up chime; keep the page open while you sleep. The Sleyp iOS app is coming soon."
+        "text": "[Try Sleyp free](/session/) and compare noise colours in your browser. White, pink and brown noise are all included, along with the rest of the 13 free sounds, the custom timer and the wake-up chime; keep the page open while you sleep. The Sleyp iOS app is coming soon."
       },
       {
         "type": "p",
