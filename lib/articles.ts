@@ -47,6 +47,217 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "how-long-should-a-nap-be",
+    "title": "How Long Should a Nap Be? Power Naps for Shift Workers",
+    "description": "How long should a nap be? Why 15-20 minutes beats an hour, the NASA nap study, the caffeine nap, and whether naps pay off sleep debt on shifts.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-11-20",
+    "readMinutes": 8,
+    "quickAnswer": "For a quick boost, nap for 15-20 minutes. That's the length NHS Employers recommends for night staff, and it's short enough that most people wake up sharper rather than groggy. Before your first night shift, a longer nap in the afternoon helps carry you through. Naps take the edge off sleep debt, but they don't replace a full sleep.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I've worked shifts for 40 years: The King's Regiment, Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, and Budweiser UK. In the army you learn to grab sleep wherever you can, because when you finish your stag in the middle of the night and can't get back to sleep, the next day still has to be worked. A good nap is one of the few tools that actually helps. A badly timed one can leave you feeling worse than before you lay down."
+      },
+      {
+        "type": "p",
+        "text": "This guide sits under our [night shift survival guide](/resources/night-shift-survival-guide/), which covers the whole block of nights from start to finish."
+      },
+      {
+        "type": "h2",
+        "text": "How long should a nap be?"
+      },
+      {
+        "type": "p",
+        "text": "Aim for 15-20 minutes, and keep it under 30 if you have to be sharp straight afterwards. The [Sleep Foundation's power nap guide](https://www.sleepfoundation.org/sleep-hygiene/power-nap) says naps of 10-30 minutes are refreshing, while longer naps make it more likely you'll wake up dazed and sluggish. That feeling has a name: sleep inertia."
+      },
+      {
+        "type": "p",
+        "text": "The one exception is a nap of about 90 minutes, which is roughly one full sleep cycle. Timed to end at the end of a cycle, it should only leave you briefly sluggish."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Nap length",
+          "What to expect",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "10-20 minutes",
+            "Refreshing, with little grogginess for most people",
+            "A break on shift, or before the drive home"
+          ],
+          [
+            "20-30 minutes",
+            "Still refreshing; the risk of waking groggy creeps up towards 30",
+            "A planned break nap (NASA's pilots slept about 26 minutes)"
+          ],
+          [
+            "30-60 minutes",
+            "More likely to wake dazed and slow (sleep inertia)",
+            "Best avoided when you're straight back on the job"
+          ],
+          [
+            "About 90 minutes",
+            "Roughly one full sleep cycle; only brief sluggishness if timed right",
+            "The afternoon before your first night shift"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "A practical tip: set your alarm for the nap plus five or ten minutes to drift off. NASA's pilots had a 40-minute window and slept for about 26 of it, so not all of the time you lie down is sleep."
+      },
+      {
+        "type": "h2",
+        "text": "What did the NASA nap study find?"
+      },
+      {
+        "type": "p",
+        "text": "It's the classic evidence for planned naps. In a 1995 NASA study led by M. R. Rosekind, pilots were given a 40-minute chance to nap during a flight while colleagues flew. [Those who napped for about 26 minutes showed up to a 54% increase in alertness and a 34% increase in job performance](https://www.sleepfoundation.org/sleep-hygiene/nasa-nap) compared with pilots who didn't nap."
+      },
+      {
+        "type": "p",
+        "text": "Pilots on long flights face the same problem as night workers: staying sharp while tiredness builds. [NHS Employers quotes the same figures](https://www.nhsemployers.org/articles/sleep-fatigue-and-workplace) for an in-shift power nap, which tells you the NHS takes it seriously for its own night staff."
+      },
+      {
+        "type": "h2",
+        "text": "What is a caffeine nap?"
+      },
+      {
+        "type": "p",
+        "text": "A caffeine nap means having your coffee just as you put your head down. NHS Employers explains that caffeine takes about 15 to 20 minutes to kick in, so you wake up to a double boost from the sleep and the caffeine together."
+      },
+      {
+        "type": "p",
+        "text": "The catch for night workers is timing. It's 3 o'clock in the morning, you hit that wall, and no amount of caffeine or Red Bull seems to help, but you drink it anyway. Then you pay for it later when you're wired at bedtime. A caffeine nap only works for you early in the shift. Keep it outside your caffeine cut-off, which is at least six hours before your planned bedtime. Our guide to [how long caffeine lasts](/resources/how-long-does-caffeine-last/) has the cut-off times, and [how long does Red Bull keep you awake?](/resources/how-long-do-energy-drinks-keep-you-awake/) covers energy drinks."
+      },
+      {
+        "type": "h2",
+        "text": "Should you nap before a night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, before your first night especially. HSE's [hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) advise having a short sleep before your first night shift. Without it, you've often been awake since morning before you even clock on, so by 3am you're running on empty."
+      },
+      {
+        "type": "p",
+        "text": "This is the place for the longer nap. If you can, lie down in the afternoon for about 90 minutes in a dark room, and finish with time to wake up properly before you drive in. A shower and something to eat help shake off any grogginess."
+      },
+      {
+        "type": "p",
+        "text": "My normal routine was a two-hour sleep in the afternoon, around 3-5pm, before my first night shift. Without that sleep, I really would struggle on the first night."
+      },
+      {
+        "type": "p",
+        "text": "On the nights after that, your main daytime sleep does most of the work. If it was cut short by a neighbour drilling or mowing, a short top-up nap in the late afternoon is better than going in with nothing."
+      },
+      {
+        "type": "h2",
+        "text": "Do naps help pay off sleep debt?"
+      },
+      {
+        "type": "p",
+        "text": "Naps help you feel and work better in the moment, but there's no evidence in the studies we've checked that they repay sleep debt in full. The research on short sleep is sobering. In one study, people who spent [6 hours or less in bed for 14 days in a row had performance deficits equal to up to 2 nights without sleep](https://ntrs.nasa.gov/citations/20040087752), and they were largely unaware of how impaired they were."
+      },
+      {
+        "type": "p",
+        "text": "Catching up is harder than it sounds too. In a 2019 study, people on 5-hour nights slept about an hour longer at the weekend, but [their insulin sensitivity still fell by 9 to 27% once short sleep resumed](https://www.sciencedaily.com/releases/2019/02/190228113534.htm). A lie-in didn't undo the damage."
+      },
+      {
+        "type": "p",
+        "text": "So treat a nap as a top-up, not a repayment plan. Protect your main daytime sleep first, then use naps to plug the gaps. If you're regularly getting 5 or 6 hours, read our guides [is 6 hours of sleep enough?](/resources/is-6-hours-of-sleep-enough/) and [is 5 hours of sleep enough?](/resources/is-5-hours-of-sleep-enough/), and [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) for a better plan on your days off. If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "type": "h2",
+        "text": "Can you nap on a break at work?"
+      },
+      {
+        "type": "p",
+        "text": "Where your employer allows it, a break-time nap is one of the best things you can do on a night shift. NHS Employers says the space should be quiet, dark and comfortable, away from the noise of the work area. A reclining chair or a camping mat can work. Set an alarm, or ask a colleague to wake you."
+      },
+      {
+        "type": "p",
+        "text": "Their best tip is not to worry about whether you actually fall asleep. Resting quietly for 15 to 20 minutes still helps."
+      },
+      {
+        "type": "p",
+        "text": "On nights at Budweiser, I would normally have a quick nap in the canteen area, if only for 15 minutes. Sometimes on a night shift you just have to grab whatever you can to get through. In the Prison Service, a power nap on a 30-minute break was always needed, even if it wasn't a deep sleep."
+      },
+      {
+        "type": "p",
+        "text": "Always check your workplace rules first. Our guide to [how to stay awake on a night shift](/resources/how-to-stay-awake-on-night-shift/) covers the rest of the shift: light, movement and food."
+      },
+      {
+        "type": "h2",
+        "text": "Can you nap in the car before driving home?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, and if you feel drowsy it's far safer than pushing on. HSE says to stop if you feel sleepy and take a short nap if it is safe to do so. NHS Employers notes a survey in which more than half of respondents had a near miss driving home after a night shift."
+      },
+      {
+        "type": "p",
+        "text": "Park somewhere safe and legal, turn the engine off and lock the doors. Nap for 15-20 minutes, then give yourself a few minutes to wake up fully before you set off. Opening the window and turning up the radio won't keep you safe for long. Our guide to [microsleep and the drive home](/resources/microsleep-driving-after-night-shift/) explains the warning signs."
+      },
+      {
+        "type": "p",
+        "text": "Driving home from Budweiser was a 40-minute trip, so stopping for a power nap was almost certain. The lorry stop area on the Rainford bypass was my go-to stop. After a 15-minute power nap, I knew I was almost home."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Keep most naps to 15-20 minutes, save the 90-minute nap for the afternoon before your first night, and never drive drowsy when a short nap would do. Naps are a top-up, not a cure for sleep debt, so protect your main daytime sleep too. Our guide to [sleeping during the day](/resources/how-to-sleep-during-the-day/) covers that."
+      },
+      {
+        "type": "p",
+        "text": "For your next break-time nap, set a 20-minute timer with the free wake-up chime in the Sleyp player: [Try Sleyp free](/session/). It all runs free in your browser; just keep the page open so the timer and chime can play. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[NHS Employers: Sleep, fatigue and the workplace](https://www.nhsemployers.org/articles/sleep-fatigue-and-workplace)",
+          "[Sleep Foundation: The NASA nap (summary of Rosekind et al., 1995, Journal of Sleep Research)](https://www.sleepfoundation.org/sleep-hygiene/nasa-nap)",
+          "[Sleep Foundation: Do power naps work?](https://www.sleepfoundation.org/sleep-hygiene/power-nap)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[Van Dongen et al. (2003), Sleep: The cumulative cost of additional wakefulness (NASA Technical Reports Server)](https://ntrs.nasa.gov/citations/20040087752)",
+          "[ScienceDaily: summary of Depner et al. (2019), Current Biology, on weekend recovery sleep](https://www.sciencedaily.com/releases/2019/02/190228113534.htm)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is a 20-minute nap better than an hour?",
+        "answer": "For a quick boost, usually yes. Naps of 10-30 minutes leave most people refreshed, while an hour is more likely to leave you groggy. If you have time for a longer nap, about 90 minutes (one full sleep cycle) tends to feel better than an hour."
+      },
+      {
+        "question": "Do naps help with sleep debt?",
+        "answer": "They help you feel and perform better for a few hours, but they don't fully repay sleep debt. Studies show short sleep builds up over days and a weekend lie-in doesn't undo it. Use naps as a top-up and protect your main sleep."
+      },
+      {
+        "question": "Should I nap before a night shift?",
+        "answer": "Yes, especially before your first night. HSE advises a short sleep before your first night shift. An afternoon nap of about 90 minutes, finishing in good time before you leave, is a good way to do it."
+      },
+      {
+        "question": "Why do I feel worse after a nap?",
+        "answer": "You probably napped too long. Naps over about 30 minutes make you more likely to wake feeling dazed and slow. This is called sleep inertia. Keep naps to 15-20 minutes, or go for a full 90 minutes."
+      },
+      {
+        "question": "Can I nap in the car before driving home?",
+        "answer": "Yes, if you park somewhere safe and legal. HSE advises stopping for a short nap if you feel sleepy. Nap for 15-20 minutes, then wake up fully before you drive."
+      }
+    ]
+  },
+  {
     "slug": "pink-noise-vs-white-noise",
     "title": "Pink Noise vs White Noise for Sleep: Which Should You Use?",
     "description": "Pink noise vs white noise: how they differ, which is easier to sleep with, what the deep-sleep studies really tested, and which masks daytime noise.",
@@ -429,7 +640,7 @@ export const ARTICLES: Article[] = [
         "type": "ol",
         "items": [
           "**Front-load your caffeine.** Have your coffee or energy drink at the start of the shift, not at the low point. Set a hard cut-off 6 hours before your planned bedtime.",
-          "**Take a short nap if your workplace allows it.** A short nap on your break can take the edge off the 3am dip without keeping you awake at bedtime. Our guide How Long Should a Nap Be? goes into the detail.",
+          "**Take a short nap if your workplace allows it.** A short nap on your break can take the edge off the 3am dip without keeping you awake at bedtime. Our guide [how long should a nap be?](/resources/how-long-should-a-nap-be/) goes into the detail.",
           "**Keep the lights bright and move about.** A walk round, cold air on your face and bright light at work all help you through the low point.",
           "**Eat light.** A heavy meal at 2am makes the wall worse. See our [night shift survival guide](/resources/night-shift-survival-guide/) for what to eat and when.",
           "**Switch to water after your cut-off.** You'll still feel tired, but you'll sleep when you get home."
@@ -3391,7 +3602,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "Keep it short. Naps much longer than 30 minutes make it more likely you'll wake up groggy and slow, which is the last thing you want when you're straight back on the job."
+        "text": "Keep it short. Naps much longer than 30 minutes make it more likely you'll wake up groggy and slow, which is the last thing you want when you're straight back on the job. Our guide [how long should a nap be?](/resources/how-long-should-a-nap-be/) breaks it down by nap length."
       },
       {
         "type": "p",
@@ -3699,7 +3910,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**Take your breaks properly.** By law, if your shift is longer than six hours you're entitled to [one uninterrupted 20-minute rest break](https://www.gov.uk/rest-breaks-work). Use it to get off your feet, eat something light and, where your employer allows it, have a short planned nap. HSE's good practice guidelines also say employers should encourage regular breaks and allow some choice over when they're taken."
+        "text": "**Take your breaks properly.** By law, if your shift is longer than six hours you're entitled to [one uninterrupted 20-minute rest break](https://www.gov.uk/rest-breaks-work). Use it to get off your feet, eat something light and, where your employer allows it, have a short planned nap. My guide [how long should a nap be?](/resources/how-long-should-a-nap-be/) covers the right length. HSE's good practice guidelines also say employers should encourage regular breaks and allow some choice over when they're taken."
       },
       {
         "type": "p",
