@@ -7338,7 +7338,7 @@ export const ARTICLES: Article[] = [
           "**Keep the volume low.** The Sleep Foundation suggests a level similar to a background conversation or light rustling, and notes that noise of 70 decibels or more, like city traffic, \"can become hazardous over time\". Turn it up only until the street stops standing out.",
           "**Use a speaker across the room, not earbuds.** It spreads the sound and spares your ears over a seven-hour sleep.",
           "**Run it for your whole sleep.** The school run, the bin lorry and the afternoon deliveries don't stop after a 30-minute timer.",
-          "**Pair it with [earplugs](/resources/earplugs-for-sleeping/) on bad days.** Earplugs cut the peaks and red noise fills the gaps around them.",
+          "**Pair it with earplugs on bad days.** [Earplugs](/resources/earplugs-for-sleeping/) cut the peaks and red noise fills the gaps around them.",
           "**Blend if it feels too heavy.** If a pure rumble makes your ears feel \"full\", layer a little pink noise or [green noise](/resources/green-noise/) on top, or swap to rain. Give any change three or four day sleeps before you judge it.",
         ] },
       { type: "h2",
@@ -7930,7 +7930,7 @@ export const ARTICLES: Article[] = [
           "**Find the lowest volume that works.** Sit in bed and turn it up until the background traffic stops standing out, then stop. Louder isn't better, and there's no need to drown out the world.",
           "**Use a speaker, not earbuds, if you can.** A small speaker across the room fills the space more evenly and is kinder to your ears over several hours. If you share a bed or need earplugs as well, a sleep headband or low-profile buds are the fall-back.",
           "**Run it for the whole sleep.** A 30-minute timer helps you drop off, but the builders don't stop at 30 minutes. For day sleep, keep it running until your alarm, or use a long timer that fades out gently.",
-          "**Layer it with [earplugs](/resources/earplugs-for-sleeping/) on the worst days.** Earplugs cut the peaks, and brown noise fills the gaps.",
+          "**Layer it with earplugs on the worst days.** [Earplugs](/resources/earplugs-for-sleeping/) cut the peaks, and brown noise fills the gaps.",
           "**Fix the room as well.** Noise is only one part of it. The [HSE's advice for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) includes blackout blinds or eye shades, a quiet room, and telling the neighbours when you sleep. My guide to the [best blackout strategies for daytime sleep](/resources/best-blackout-strategies-for-daytime-sleep/) covers the light side."
         ]
       },
@@ -7958,7 +7958,7 @@ export const ARTICLES: Article[] = [
         "type": "ul",
         "items": [
           "**Brown noise as the base.** It covers traffic and bass through the walls.",
-          "**A little rain or [fan hum](/resources/fan-noise-for-sleeping/) on top.** This adds some mid and high frequencies to catch voices and birdsong.",
+          "**A little rain or fan hum on top.** Rain or a [fan hum](/resources/fan-noise-for-sleeping/) adds some mid and high frequencies to catch voices and birdsong.",
           "**A long fade-out or none at all.** Keep the sound running through the noisiest part of the day."
         ]
       },
