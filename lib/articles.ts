@@ -47,6 +47,201 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "pink-noise-vs-white-noise",
+    "title": "Pink Noise vs White Noise for Sleep: Which Should You Use?",
+    "description": "Pink noise vs white noise: how they differ, which is easier to sleep with, what the deep-sleep studies really tested, and which masks daytime noise.",
+    "category": "Noise & Disturbance Defence",
+    "categorySlug": "noise-disturbance-defence",
+    "datePublished": "2026-11-20",
+    "readMinutes": 6,
+    "quickAnswer": "White noise has equal energy across all the frequencies you can hear and sounds like a hiss. Pink noise turns the high end down, so it sounds softer, more like steady rain or a waterfall. Most people find pink noise easier to sleep with; white noise covers high-pitched sounds slightly better. The deep-sleep studies used timed pink-noise bursts, not an all-night track.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I've slept through the day for most of 40 years: after army stag duty with The King's Regiment, production nights at Jacobs Biscuits and Budweiser UK, and night shifts in HM Prison Service at Strangeways, Walton and Guys Marsh. Even on a quiet street, cars and kids playing out can keep you wide awake when all you want to do is sleep. A steady sound helps cover that, and the two colours people ask me about most are pink and white. If you want the bigger picture on every noise colour, start with my guide to [brown noise for sleep](/resources/brown-noise-for-sleep/)."
+      },
+      {
+        "type": "h2",
+        "text": "Pink noise vs white noise: what's the difference?"
+      },
+      {
+        "type": "p",
+        "text": "Both contain every frequency a human can hear, roughly 20 to 20,000 hertz. The difference is the balance. White noise gives every frequency the same energy, so your ear picks up the bright, high end most. Pink noise turns the higher frequencies down, which is why [Cleveland Clinic](https://health.clevelandclinic.org/why-pink-noise-might-just-help-you-get-a-better-nights-sleep/) compares it to a waterfall and white noise to static."
+      },
+      {
+        "type": "table",
+        "head": [
+          "",
+          "White noise",
+          "Pink noise"
+        ],
+        "rows": [
+          [
+            "Sounds like",
+            "Radio static, a hissing TV, a hairdryer",
+            "Steady rain, a waterfall, wind through trees"
+          ],
+          [
+            "Frequency balance",
+            "Equal energy at every frequency",
+            "Higher frequencies turned down; fuller low end"
+          ],
+          [
+            "Feels",
+            "Bright and sharp",
+            "Softer and rounder"
+          ],
+          [
+            "Covers best",
+            "High-pitched sounds: birdsong, a squeaky gate, brake squeal",
+            "Voices, kids playing out and general household noise, with less hiss"
+          ],
+          [
+            "Sleep evidence",
+            "Very low-quality evidence for continuous noise as a sleep aid",
+            "Lab studies used precisely timed bursts, not a steady track"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If neither suits you, brown noise goes further than pink and pushes the energy into a deep rumble. I've compared those two in [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/)."
+      },
+      {
+        "type": "h2",
+        "text": "Is pink noise better than white noise for sleep?"
+      },
+      {
+        "type": "p",
+        "text": "For most people, pink noise is the easier one to live with for a 6-8 hour daytime sleep. White noise works, but its hiss can feel harsh after a while, especially at the volume you need to cover traffic."
+      },
+      {
+        "type": "p",
+        "text": "Be clear about what \"better\" means, though. Cleveland Clinic notes there haven't been studies comparing pink and white noise directly. So the honest answer is: pink is usually more comfortable, and the right one is whichever you can fall asleep to and stop noticing."
+      },
+      {
+        "type": "p",
+        "text": "My own habit: I always want some pink noise in my mix, and forest sounds are my favourite way to get it. I live where light traffic passes all day and all night, and that soft, leafy sound sits over the top of it without me ever hearing a hiss."
+      },
+      {
+        "type": "h2",
+        "text": "What did the pink noise sleep studies actually test?"
+      },
+      {
+        "type": "p",
+        "text": "This is where most articles go wrong. The headlines say \"pink noise boosts deep sleep\". The studies tested something very different from a pink-noise track playing all night."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Ngo and colleagues, 2013.** In a German lab study of 11 adults, the team played [50-millisecond bursts of pink noise timed to the brain's slow waves](https://www.inb.uni-luebeck.de/fileadmin/files/PUBPDFS/NgMaBoMo13.pdf) during deep sleep. Overnight word-pair retention was 22.2 words with the sound versus 13.0 without it. When the bursts were played out of time with the slow waves, there was no memory benefit.",
+          "**Northwestern University, 2017.** [Thirteen adults aged 60 and over](https://news.northwestern.edu/stories/2017/april/pink-noise-sound-enhance-deep-sleep-memory) had pink noise played in time with their slow-wave brain activity. Their memory gain was on average three times larger than after a night with no sound. The researchers said larger studies were needed."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Both studies read brain waves in real time and fired the sound at exactly the right moment. A speaker or app playing pink noise all night can't do that. So treat pink noise as a comfortable masking sound, not a deep-sleep booster. If deep sleep is your worry, see [how much deep sleep you need](/resources/how-much-deep-sleep-do-you-need/), and I go deeper into the research in [pink noise for sleep](/resources/pink-noise-for-sleep/)."
+      },
+      {
+        "type": "p",
+        "text": "On steady noise in general, a [2021 systematic review of 38 studies](https://www.em-consulte.com/article/1421191/article/noise-as-a-sleep-aid-a-systematic-review) rated the quality of evidence that continuous noise improves sleep as very low. That doesn't mean it doesn't help. It means nobody has proved it well yet."
+      },
+      {
+        "type": "h2",
+        "text": "Which masks daytime noise better: pink or white?"
+      },
+      {
+        "type": "p",
+        "text": "Masking works by giving your brain a steady sound so sudden noises stand out less. Which colour wins depends on what you're trying to cover:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Birdsong, a dog yapping, brake squeal:** white noise, or pink turned up a little. These sounds sit higher, where white noise has more energy.",
+          "**Voices, kids playing out, passing cars, the washing machine:** pink noise. It covers a broad spread without the sharp edge.",
+          "**Drilling, lorries, bass through the wall:** brown noise. Low, heavy sounds need a low, heavy mask. See Green Noise vs Brown Noise if you find brown too heavy."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Whatever you choose, keep it as quiet as you can while still covering the noise, and pair it with earplugs on the loudest days. My guide to [sleeping with earplugs](/resources/earplugs-for-sleeping/) covers how the two work together."
+      },
+      {
+        "type": "h2",
+        "text": "How do you choose between them after a night shift?"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Get into bed and play white noise for two minutes at a low volume.",
+          "Switch to pink noise at the same volume for two minutes.",
+          "Pick the one you stop noticing first. That's your answer.",
+          "Use it for a full block of day sleeps before you judge it. Your ears settle in after a few days.",
+          "If neither covers the street noise, try layering pink with a little brown, or pink with rain."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "I've built my own mixes in Sleyp, and I like brown noise in there too. It blends in really well with forest sounds and a waterfall, and it's great for masking the low rumble of traffic, footsteps and machinery."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "White noise is bright and even; pink noise is softer, with the high end turned down. For daytime sleep, most people settle on pink, keep white for high-pitched noise, and move to brown for heavy, low rumbles. Ignore the deep-sleep hype: those studies used timed bursts in a lab. Use pink or white as a masking tool, and pick the one you stop hearing."
+      },
+      {
+        "type": "p",
+        "text": "**[Try Sleyp free](/session/):** compare noise colours in your browser. White, pink and brown noise are all included, along with the rest of the 13 free sounds, the custom timer and the wake-up chime; keep the page open while you sleep. The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "**More in this series:** [pink noise for sleep](/resources/pink-noise-for-sleep/) · [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/)"
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Ngo et al. (2013), Neuron: Auditory closed-loop stimulation of the sleep slow oscillation enhances memory (University of Lübeck PDF)](https://www.inb.uni-luebeck.de/fileadmin/files/PUBPDFS/NgMaBoMo13.pdf)",
+          "[Northwestern University (2017): Pink noise timed to brain waves enhances deep sleep and memory in older adults](https://news.northwestern.edu/stories/2017/april/pink-noise-sound-enhance-deep-sleep-memory)",
+          "[Riedy et al. (2021), Sleep Medicine Reviews: Noise as a sleep aid, a systematic review](https://www.em-consulte.com/article/1421191/article/noise-as-a-sleep-aid-a-systematic-review)",
+          "[Cleveland Clinic: Why pink noise might help you get a better night's sleep](https://health.clevelandclinic.org/why-pink-noise-might-just-help-you-get-a-better-nights-sleep/)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is pink noise better than white noise for sleep?",
+        "answer": "Most people find pink noise more comfortable because the high-pitched hiss is turned down. There are no studies comparing the two directly, so pick the one you can fall asleep to and stop noticing."
+      },
+      {
+        "question": "Is it OK to sleep with pink noise all night?",
+        "answer": "For most people, yes, as long as it's at a modest volume. Cleveland Clinic describes pink noise as generally safe. Keep it only as loud as you need to cover outside noise, and use a timer if you'd rather it stopped once you're asleep."
+      },
+      {
+        "question": "Pink noise vs brown noise: what's the difference?",
+        "answer": "Brown noise pushes even more energy into the low frequencies than pink, so it sounds like a deep rumble or heavy rain. Pink sits between white and brown. Brown tends to suit low, heavy noise like traffic and drilling."
+      },
+      {
+        "question": "What does pink noise do to your brain?",
+        "answer": "In lab studies, short pink-noise bursts timed exactly to slow brain waves strengthened deep sleep and overnight memory. A steady pink-noise track hasn't been shown to do the same. For most people its real job is masking sudden sounds."
+      },
+      {
+        "question": "Can I mix pink and white noise?",
+        "answer": "Yes. A blend can cover both high-pitched sounds and a broader background. Start with mostly pink and add a little white if birdsong or other sharp sounds still get through."
+      },
+      {
+        "question": "How loud should pink noise be for sleeping?",
+        "answer": "As quiet as you can while still covering the noise outside. Start low, turn it up until passing cars blend in, then stop."
+      }
+    ]
+  },
+  {
     "slug": "how-long-do-energy-drinks-keep-you-awake",
     "title": "How Long Does Red Bull Keep You Awake? Energy Drinks on Night Shifts",
     "description": "How long does an energy drink keep you awake? Caffeine per can, why a 3am Red Bull is still working at 9am, and when night workers should have their last one.",
@@ -7153,7 +7348,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "[Try Sleyp free](/session/) and play the deep rumble (brown/red) sound in your browser. The timer and saved mixes are free there too, and the Sleyp iOS app is coming soon." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/) · [pink noise vs white noise](/resources/pink-noise-vs-white-noise/)" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -7271,7 +7466,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Try Sleyp free and play the colours back to back in your browser, then save the mix that works. Saved mixes are free there, and the Sleyp iOS app is also coming soon. Green noise will be coming soon to Sleyp, so don't forget to try it in your mix soon." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/) · [pink noise vs white noise](/resources/pink-noise-vs-white-noise/)" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -7404,7 +7599,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "Try Sleyp free and layer rain and brown noise into your own mix in your browser. The Sleyp iOS app is coming soon." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [pink noise for sleep](/resources/pink-noise-for-sleep/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/) · [pink noise vs white noise](/resources/pink-noise-vs-white-noise/)" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -7527,7 +7722,7 @@ export const ARTICLES: Article[] = [
       { type: "p",
         text: "[Try Sleyp free](/session/) and compare pink and brown noise side by side in your browser. The Sleyp iOS app is coming soon." },
       { type: "p",
-        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/)" },
+        text: "**More in this series:** [brown noise for sleep](/resources/brown-noise-for-sleep/) · [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/) · [rain sounds for sleeping](/resources/rain-sounds-for-sleeping/) · [green noise](/resources/green-noise/) · [red noise](/resources/red-noise/) · [fan noise for sleeping](/resources/fan-noise-for-sleeping/) · [pink noise vs white noise](/resources/pink-noise-vs-white-noise/)" },
       { type: "h3",
         text: "Sources" },
       { type: "ul",
@@ -7666,7 +7861,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For day sleepers, the useful takeaway is simple. **Brown noise is best for low, rumbling noise, white for high-pitched noise, and a blend often works best of all.** I've gone deeper on the two-way comparison in [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/)."
+        "text": "For day sleepers, the useful takeaway is simple. **Brown noise is best for low, rumbling noise, white for high-pitched noise, and a blend often works best of all.** I've gone deeper on the two-way comparison in [brown noise vs white noise for daytime disturbances](/resources/brown-noise-vs-white-noise-for-daytime-disturbances/), and on the softer option in [pink noise vs white noise](/resources/pink-noise-vs-white-noise/)."
       },
       {
         "type": "h2",
@@ -8023,7 +8218,7 @@ export const ARTICLES: Article[] = [
         items: [
           "Main road, buses, HGVs, engines idling: brown noise, no contest. Traffic energy is low-frequency and comes through walls; brown noise meets it in the same band at a comfortable volume.",
           "Birdsong at dawn, brake squeal, reversing beepers, alarms: white noise. Its high-frequency content covers shrill spikes that brown barely touches.",
-          "Voices, television through the wall, kids in the street: pink noise. Speech lives in the mid band, and pink's balanced tilt blurs conversation into the background without white's harsh hiss.",
+          "Voices, television through the wall, kids in the street: pink noise. Speech lives in the mid band, and pink's balanced tilt blurs conversation into the background without white's harsh hiss. More in [pink noise vs white noise](/resources/pink-noise-vs-white-noise/).",
           "Unpredictable bangs, bins, deliveries, door slams: a brown base with a rain layer over it. The rain adds natural variability that stops your brain re-alerting to the masking itself, and the brown floor swallows the thud.",
         ],
       },
