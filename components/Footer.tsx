@@ -14,6 +14,7 @@ const LEARN = [
   { href: "/resources/", label: "Resources" },
   { href: "/shop/", label: "Shop" },
   { href: "/account/", label: "Account" },
+  { href: "/contact/", label: "Contact support" },
 ];
 
 function Column({
@@ -89,7 +90,16 @@ export default function Footer() {
         <SleypWordmark className="mt-20 h-auto w-full text-[#2B3634]" />
 
         <div className="mt-8 flex flex-col gap-3 border-t border-cream/10 pt-6 text-xs text-deep-haze sm:flex-row sm:justify-between">
-          <p>© {new Date().getFullYear()} Sleyp. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Sleyp. All rights reserved. ·{" "}
+            <Link href="/contact/" className="underline-offset-4 hover:text-cream hover:underline">
+              Contact support
+            </Link>{" "}
+            ·{" "}
+            <Link href="/privacy/" className="underline-offset-4 hover:text-cream hover:underline">
+              Privacy policy
+            </Link>
+          </p>
           <p>Made in the UK, for the people who keep it running at night.</p>
         </div>
       </div>
