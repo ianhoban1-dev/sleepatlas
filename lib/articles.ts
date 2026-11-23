@@ -47,6 +47,231 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "police-shift-patterns",
+    "title": "Police Shift Patterns Explained (and How to Sleep on Them)",
+    "description": "Police shift patterns explained: common UK rota types, why they vary by force, and how officers can protect their sleep through earlies, lates and nights.",
+    "category": "Managing Split/Rotating Rotas",
+    "categorySlug": "rotating-rotas",
+    "datePublished": "2026-11-23",
+    "readMinutes": 8,
+    "quickAnswer": "Most UK police response teams work a rotating pattern of earlies, lates and nights, followed by rest days. A common example is two earlies, two lates, two nights and four rest days, known as the 2x2x2. Shifts usually run 8 to 10 hours, but every force sets its own rota, and the Police Federation advises no more than four nights in a block.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I want to be straight with you from the start: I was never a police officer. But I've worked rotas for 40 years, in The King's Regiment, at Jacobs Biscuits, in HM Prison Service at Strangeways, Walton and Guys Marsh, and at Budweiser UK. During my years as a prison officer at various prisons, most shifts were a mix of earlies, lates, main shifts and a week of night shifts within the rota."
+      },
+      {
+        "type": "p",
+        "text": "Lates and earlies sound great on paper, but the early start and the late finish take a toll on your sleep pattern and sleep quality. Police rotas are built on exactly that mix, with nights on top. This guide explains how they work and how to protect your sleep on them. For the bigger picture across all industries, see [shift patterns explained](/resources/shift-patterns-explained/)."
+      },
+      {
+        "type": "h2",
+        "text": "How do police shift patterns work?"
+      },
+      {
+        "type": "p",
+        "text": "Police response teams cover 24 hours a day, 7 days a week, so officers rotate through early, late and night shifts. The exact pattern depends on your force and your role."
+      },
+      {
+        "type": "p",
+        "text": "Three forces describe it in their own words:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Lincolnshire Police](https://www.lincs.police.uk/police-forces/lincolnshire-police/areas/careers/join-us/starting-your-new-job-with-us/starting-your-police-officer-role/pay-hours-and-leave/) says that on its Response pattern \"you will work two early shifts or two late shifts, then work two night shifts, then have four days off\". It gives earlies as usually 7am to 7pm, lates as 4pm to 12am or 5pm to 3am, and nights as 7pm to 7am. Shifts are confirmed 12 weeks ahead.",
+          "[Thames Valley Police](https://tvpcareers.co.uk/roles/police-officer/life-as-a-student-police-officer/) describes a typical response pattern as two earlies, two lates and two night shifts, then four rest days, and says this will regularly include weekends and bank holidays.",
+          "[Hertfordshire Constabulary](https://www.herts.police.uk/police-forces/hertfordshire-constabulary/areas/careers/police-officers/police-officers/frequently-asked-questions/) describes a rolling pattern of earlies, lates and nights, with each shift around nine to ten hours."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Roles away from response may follow a different pattern, so always check your own force's rota."
+      },
+      {
+        "type": "h2",
+        "text": "Common UK police rota types"
+      },
+      {
+        "type": "table",
+        "head": [
+          "Pattern",
+          "What it looks like",
+          "Who mentions it",
+          "Sleep watch-out"
+        ],
+        "rows": [
+          [
+            "2x2x2",
+            "2 earlies, 2 lates, 2 nights, then 4 rest days",
+            "Thames Valley Police; College of Policing; Police Federation (one of two patterns it says the Home Office recommends)",
+            "Rotates forward (early to late to night), which fits HSE good practice, but the switch to nights comes fast"
+          ],
+          [
+            "Earlies or lates, then nights",
+            "2 earlies or 2 lates, then 2 nights, then 4 days off",
+            "Lincolnshire Police (Response)",
+            "Some shifts on Lincolnshire's published times run up to 12 hours"
+          ],
+          [
+            "Rolling earlies, lates and nights",
+            "Shifts of around 9 to 10 hours",
+            "Hertfordshire Constabulary",
+            "Rest days fall in different places, so plan sleep week by week"
+          ],
+          [
+            "5-week VSA",
+            "A variable shift arrangement over five weeks",
+            "Police Federation (the other Home Office recommended pattern)",
+            "Ask your force how the nights fall in the cycle"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you work a different pattern, such as a [continental shift pattern](/resources/continental-shift-pattern/) or [4 on 4 off](/resources/4-on-4-off-shift-pattern/), those guides cover the sleep side in detail."
+      },
+      {
+        "type": "h2",
+        "text": "Why do police shift patterns vary between forces?"
+      },
+      {
+        "type": "p",
+        "text": "Each force writes its own rota within the Police Regulations. According to the [Cleveland Police Federation](https://polfed.org/cleveland/faqs/duty-time/), the Chief Officer publishes duty rosters after full consultation with the Federation, and each roster sets out duties for at least 3 months. The same page says the normal daily period of duty is 8 hours under Regulation 22, and that there should be an interval of at least 11 hours between the end of one duty and the beginning of the next."
+      },
+      {
+        "type": "p",
+        "text": "Forces can also agree a variable shift arrangement (VSA) with the Federation, which is how longer shifts and different patterns come about. The upshot: two officers in neighbouring forces can work very different rotas. And as the [Police Federation](https://polfed.org/support/fatigue/responsibilities/shift-rota-management) points out, frontline officers don't usually get to pick a pattern that suits them. You work the pattern your force follows."
+      },
+      {
+        "type": "h2",
+        "text": "What does good practice say about police rotas?"
+      },
+      {
+        "type": "p",
+        "text": "The Police Federation's fatigue guidance sets out what a sleep-friendly rota looks like:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Shifts ideally between 8 and 10 hours. It says 12-hour shifts are not recommended because of health and safety concerns.",
+          "Ideally no more than 6 shifts before rest days, and no more than 4 night shifts in a block.",
+          "Rest days in blocks of at least 2.",
+          "Day shifts starting as late as possible, for example 7am instead of 6am.",
+          "Predictable patterns over ones that change at short notice."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This lines up with the HSE's guidance for every industry. [HSE HSG256](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/390908/hsg256_managing_shift_work.pdf) recommends forward-rotating rotas, a maximum of 12 hours including overtime, and considering a limit of 2 to 3 consecutive shifts where shifts are longer than 8 hours or are nights. A 2x2x2 rotates forward and keeps nights to two in a row, which ticks both boxes."
+      },
+      {
+        "type": "h2",
+        "text": "How does a police rota hit your sleep?"
+      },
+      {
+        "type": "p",
+        "text": "The [College of Policing](https://production.copweb.aws.college.police.uk/article/shift-work-policing-and-road-safety) summarises research by a West Yorkshire Police chief inspector. In a workplace study, 23 officers and staff on the 2x2x2 pattern wore activity trackers for one full shift cycle. On night shifts, their sleep was reduced by two hours. In a separate survey of 523 officers and staff across the Yorkshire and Humber region, 86.5% recalled feeling sleepy while travelling to or from work. Those with a commute of more than an hour were over three times more likely to be involved in an incident. The page notes that those forces have since changed their shift patterns, but the lessons still apply."
+      },
+      {
+        "type": "p",
+        "text": "Three points in the rota do most of the damage:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**The first night.** You've just come off lates, your body clock wants to sleep at night, and you're asked to be sharp at 4am. It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and pay for it when you try to sleep.",
+          "**Daytime sleep between nights.** You get into bed as everyone else leaves for school and work. Even on a quiet street, cars and kids playing out can keep you awake.",
+          "**The first rest day.** I know how it feels to get up early after your last night shift to make the most of your day off, then hit that dreaded jet-lag feeling by the afternoon."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The drive home after nights deserves its own warning. Read our guide to [microsleep and the drive home after a night shift](/resources/microsleep-driving-after-night-shift/) before your next block."
+      },
+      {
+        "type": "h2",
+        "text": "Sleep plan for the switch from lates to nights"
+      },
+      {
+        "type": "p",
+        "text": "Use this as a starting point and adjust it to your force's shift times. After going from lates to night shifts, I always tried to get a two-hour sleep just before my first night shift."
+      },
+      {
+        "type": "ol",
+        "items": [
+          "**Sleep in after your last late.** Don't set an early alarm. A late morning start keeps you up longer that night.",
+          "**Nap before your first night.** A nap in the afternoon or early evening takes the edge off the first night. [NHS Employers](https://www.nhsemployers.org/articles/sleep-fatigue-and-workplace) recommends 15 to 20 minute naps in a quiet, dark space.",
+          "**Front-load your caffeine.** Have it early in the shift and stop at least 6 hours before your planned bedtime. In one study, caffeine taken 6 hours before bed still [cut sleep by more than an hour](https://jcsm.aasm.org/doi/abs/10.5664/jcsm.3170). Our guide to [how long caffeine lasts](/resources/how-long-does-caffeine-last/) has worked examples.",
+          "**Get home safely.** If you feel drowsy, stop somewhere safe and nap. Opening the window or turning up the radio only helps briefly.",
+          "**Go to bed soon after you get in.** Make the room dark, cool and quiet. The HSE suggests blackout blinds or heavy curtains and telling your neighbours your sleep times. Our guide to [sleeping during the day](/resources/how-to-sleep-during-the-day/) covers the full setup.",
+          "**Mask the noise you can't stop.** Getting into bed after a night shift and the neighbours decide to mow their lawns: steady sound such as brown noise or rain covers those sudden peaks.",
+          "**Flip back gently after the last night.** Take a short sleep, get out in daylight, and go to bed at a normal time. Our guide on [how to fix your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) and the [Rota Flip-Flop Calculator](/tools/rota-flip-flop-calculator/) plan it for you."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you also work long night shifts, our upcoming guide How to Survive 12-Hour Night Shifts goes hour by hour through a 12-hour night."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Police shift patterns vary by force, but most response rotas mix earlies, lates and nights, often as a 2x2x2 with four rest days. The pattern is set for you, so the part you control is your sleep around it: a nap before the first night, an early caffeine cut-off, a safe drive home and a dark, quiet bedroom. Use the [Chronotype & Rota Matcher](/tools/chronotype-rota-matcher/) to see how your rota fits your body clock."
+      },
+      {
+        "type": "p",
+        "text": "When you get in from nights, [Try Sleyp free](/session/). The browser player has 13 free sounds, a free custom timer and a wake-up chime (keep the page open for them to run). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[Police Federation: Shift rota management](https://polfed.org/support/fatigue/responsibilities/shift-rota-management)",
+          "[Lincolnshire Police: Pay, hours and leave](https://www.lincs.police.uk/police-forces/lincolnshire-police/areas/careers/join-us/starting-your-new-job-with-us/starting-your-police-officer-role/pay-hours-and-leave/)",
+          "[Thames Valley Police careers: Life as a student police officer](https://tvpcareers.co.uk/roles/police-officer/life-as-a-student-police-officer/)",
+          "[Hertfordshire Constabulary: Police officer FAQs](https://www.herts.police.uk/police-forces/hertfordshire-constabulary/areas/careers/police-officers/police-officers/frequently-asked-questions/)",
+          "[Cleveland Police Federation: Duty time](https://polfed.org/cleveland/faqs/duty-time/)",
+          "[College of Policing: Shift work in policing and road safety](https://production.copweb.aws.college.police.uk/article/shift-work-policing-and-road-safety)",
+          "[HSE HSG256: Managing shift work](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/390908/hsg256_managing_shift_work.pdf)",
+          "[NHS Employers: Sleep, fatigue and the workplace](https://www.nhsemployers.org/articles/sleep-fatigue-and-workplace)",
+          "[Drake et al. (2013), Journal of Clinical Sleep Medicine: caffeine 0, 3 or 6 hours before bed](https://jcsm.aasm.org/doi/abs/10.5664/jcsm.3170)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What shift pattern do UK police work?",
+        "answer": "There's no single national pattern. Many response teams work earlies, lates and nights followed by rest days. A common example is the 2x2x2: two earlies, two lates, two nights and four rest days. Your force publishes its own rota."
+      },
+      {
+        "question": "How many hours is a police shift?",
+        "answer": "Usually 8 to 10 hours. Under Regulation 22, the normal daily period of duty is 8 hours, but forces can agree longer shifts. Hertfordshire describes shifts of around nine to ten hours."
+      },
+      {
+        "question": "Do police work 12-hour shifts?",
+        "answer": "Some forces publish shift times that span 12 hours. The Police Federation says 12-hour shifts are not recommended because of health and safety concerns, and the HSE's guidance is a maximum of 12 hours including overtime."
+      },
+      {
+        "question": "How many night shifts in a row do police work?",
+        "answer": "On a 2x2x2 pattern, two. The Police Federation advises no more than four night shifts in a block, and HSE guidance suggests considering a limit of 2 to 3 nights in a row."
+      },
+      {
+        "question": "How do police officers cope with night shifts?",
+        "answer": "The basics are the same as any night work: nap before the first night, keep caffeine to the early part of the shift, drive home safely, and sleep in a dark, quiet room. If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "question": "Can police officers choose their shift pattern?",
+        "answer": "Usually not. The Police Federation notes that frontline officers don't usually get to select a shift or rotation. Rotas are set by the force after consultation with the Federation, so speak to your Federation rep about any concerns."
+      }
+    ]
+  },
+  {
     "slug": "how-long-should-a-nap-be",
     "title": "How Long Should a Nap Be? Power Naps for Shift Workers",
     "description": "How long should a nap be? Why 15-20 minutes beats an hour, the NASA nap study, the caffeine nap, and whether naps pay off sleep debt on shifts.",
@@ -1224,7 +1449,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [how to sleep during the day](/resources/how-to-sleep-during-the-day/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [how to sleep during the day](/resources/how-to-sleep-during-the-day/) · [police shift patterns](/resources/police-shift-patterns/)"
       },
       {
         "type": "h3",
@@ -1466,7 +1691,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [why am I always tired?](/resources/why-am-i-always-tired/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/)"
       },
       {
         "type": "h3",
@@ -1673,7 +1898,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/)"
       },
       {
         "type": "h3",
@@ -2019,7 +2244,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/)"
       },
       {
         "type": "h3",
@@ -2321,7 +2546,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/)"
       },
       {
         "type": "h3",
@@ -2384,7 +2609,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on [4 on 4 off](/resources/4-on-4-off-shift-pattern/) and [continental rotas](/resources/continental-shift-pattern/), and [switching back to days after a block of nights](/resources/how-to-fix-sleep-schedule-after-nights/)."
+        "text": "This guide explains what each pattern looks like, how many hours it works out at, what the HSE says good practice looks like, and how each one affects your sleep. It is the hub for our shift patterns series, so you'll find deeper guides on [4 on 4 off](/resources/4-on-4-off-shift-pattern/), [continental rotas](/resources/continental-shift-pattern/), [police shift patterns](/resources/police-shift-patterns/) and [switching back to days after a block of nights](/resources/how-to-fix-sleep-schedule-after-nights/)."
       },
       {
         "type": "h2",
@@ -2625,7 +2850,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), [Continental Shift Pattern Explained](/resources/continental-shift-pattern/), [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/), [Can You Catch Up on Sleep? What Science Says About Sleep Debt](/resources/can-you-catch-up-on-sleep/) and [Why Am I Always Tired? A Shift Worker's Checklist](/resources/why-am-i-always-tired/)."
+        "text": "For the full night shift picture, read our [night shift survival guide](/resources/night-shift-survival-guide/). Next in this series: [4 On 4 Off Shift Pattern: How It Works and How to Sleep on It](/resources/4-on-4-off-shift-pattern/), [Continental Shift Pattern Explained](/resources/continental-shift-pattern/), [How to Fix Your Sleep Schedule After a Block of Nights](/resources/how-to-fix-sleep-schedule-after-nights/), [Can You Catch Up on Sleep? What Science Says About Sleep Debt](/resources/can-you-catch-up-on-sleep/) [Why Am I Always Tired? A Shift Worker's Checklist](/resources/why-am-i-always-tired/) and [Police Shift Patterns Explained (and How to Sleep on Them)](/resources/police-shift-patterns/)."
       },
       {
         "type": "h3",
