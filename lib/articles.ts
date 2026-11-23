@@ -47,6 +47,263 @@ export const CATEGORIES = [
 
 export const ARTICLES: Article[] = [
   {
+    "slug": "12-hour-night-shifts",
+    "title": "How to Survive 12-Hour Night Shifts",
+    "description": "How to survive 12-hour night shifts: an hour-by-hour plan, napping, caffeine timing, food and daytime sleep, plus what HSE says about long nights in a row.",
+    "category": "Daytime Sleep Optimisation",
+    "categorySlug": "daytime-sleep-optimisation",
+    "datePublished": "2026-11-23",
+    "readMinutes": 9,
+    "quickAnswer": "To survive 12-hour night shifts, sleep before your first night, take a short nap on your break if you can, have your caffeine early and stop it about 6 hours before bed, eat light, and protect a 7-8 hour daytime sleep. HSE good practice is to limit night shifts to 8 hours and long or night shifts to 2-3 in a row, so 12-hour nights need extra care.",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "I've worked shifts for 40 years: The King's Regiment, Jacobs Biscuits, HM Prison Service at Strangeways, Walton and Guys Marsh, and Budweiser UK. At Strangeways, a set of nights lasted seven nights. At Budweiser it was 2 days, 2 nights and then 4 days off."
+      },
+      {
+        "type": "p",
+        "text": "This is the plan I wish someone had handed me before my first block of long nights. It sits under our full [night shift survival guide](/resources/night-shift-survival-guide/), which covers the basics in more depth."
+      },
+      {
+        "type": "h2",
+        "text": "What does a 12-hour night shift do to your body clock?"
+      },
+      {
+        "type": "p",
+        "text": "A 12-hour night asks you to be at your sharpest when your body clock expects you to be asleep. HSE's guidance on [managing shift work (HSG256)](https://assets.publishing.service.gov.uk/media/5a7ef36540f0b6230268c8de/hsg256_managing_shift_work.pdf) says concentration and productivity tend to decline \"during the night and early hours of the morning\", and that errors and accidents tend to rise as shifts get longer than eight hours."
+      },
+      {
+        "type": "p",
+        "text": "Then you sleep in the day, which HSE says is usually lighter, shorter and less restorative than night sleep. That's why a run of long nights feels harder on night three than night one."
+      },
+      {
+        "type": "p",
+        "text": "It's 3 o'clock in the morning and you hit that wall. No amount of caffeine or Red Bull will help, but you drink it anyway, and then you pay for it later when you're lying in bed at 10am, wired. Most of this plan is about getting past that wall without paying the price at bedtime."
+      },
+      {
+        "type": "h2",
+        "text": "How do you prepare for your first 12-hour night?"
+      },
+      {
+        "type": "p",
+        "text": "HSE's [hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm) are simple: \"have a short sleep before your first night shift\". In practice:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Have a normal night's sleep the night before, and a lie-in if you can get one.",
+          "Take an afternoon nap of an hour or two before you leave for work. See [How Long Should a Nap Be?](/resources/how-long-should-a-nap-be/) for timing.",
+          "Eat a proper meal before you go in, not at 2am.",
+          "Pack your food and drinks so you're not relying on a vending machine at 3am.",
+          "Work out your caffeine cut-off and bedtime now with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/)."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Hour by hour through a 12-hour night (7pm to 7am)"
+      },
+      {
+        "type": "p",
+        "text": "This plan assumes a 7pm start, a 7am finish and bed by about 8.30am. Shift the times if your rota is different."
+      },
+      {
+        "type": "table",
+        "head": [
+          "Time",
+          "What to do",
+          "Why"
+        ],
+        "rows": [
+          [
+            "7pm-10pm",
+            "Settle in. Have your first coffee or tea now if you want one.",
+            "Caffeine early does the most good and the least harm."
+          ],
+          [
+            "10pm-midnight",
+            "Keep lights bright, keep moving, sip water.",
+            "You're still fairly alert; use it for the harder tasks."
+          ],
+          [
+            "Midnight-2am",
+            "Light snack, not a heavy meal. Take a break if you can.",
+            "HSE says light regular meals are less likely to cause drowsiness than one heavy meal."
+          ],
+          [
+            "2am-2.30am",
+            "Last caffeine of the night.",
+            "It's about 6 hours before an 8.30am bed."
+          ],
+          [
+            "2.30am-5am",
+            "The wall. Short nap on your break if your workplace allows it; otherwise walk, talk, do something active.",
+            "Alertness is at its lowest in the early hours."
+          ],
+          [
+            "5am-7am",
+            "No more caffeine. Water and a small snack. Handover carefully.",
+            "You're tired, so double-check anything important."
+          ],
+          [
+            "7am-8.30am",
+            "Get home safely, wear sunglasses, go straight to bed.",
+            "Bright morning light tells your body it's daytime."
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "HSE also advises taking \"regular short breaks during the shift if possible\". On a 12-hour night those breaks matter more than on an 8-hour one. [NHS Employers](https://nhsemployers.org/articles/sleep-fatigue-and-workplace) notes that night shifts carry about a 25-30 per cent higher risk of injury than day shifts, and that 12-hour shifts carry a higher risk than 8-hour ones too."
+      },
+      {
+        "type": "p",
+        "text": "For more on beating the 3am dip, see [how to stay awake on a night shift](/resources/how-to-stay-awake-on-night-shift/). For the energy drink side of it, see [how long energy drinks keep you awake](/resources/how-long-do-energy-drinks-keep-you-awake/)."
+      },
+      {
+        "type": "h2",
+        "text": "When should you stop caffeine on a 12-hour night?"
+      },
+      {
+        "type": "p",
+        "text": "About 6 hours before you plan to sleep. In a study reported by the [American Academy of Sleep Medicine](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/), 400 mg of caffeine taken even six hours before bed cut measured sleep by more than an hour, and the participants didn't notice."
+      },
+      {
+        "type": "p",
+        "text": "For an 8.30am bedtime, that puts your last cup at around 2.30am. HSE's own advice is to avoid caffeine and energy drinks \"a few hours before bedtime\" and not to rely on it to keep you awake. Our guide to [how long caffeine lasts](/resources/how-long-does-caffeine-last/) has the detail."
+      },
+      {
+        "type": "h2",
+        "text": "What should you eat on a 12-hour night shift?"
+      },
+      {
+        "type": "p",
+        "text": "Eat your main meal before the shift, then graze on light snacks through the night. HSE advises avoiding \"fatty, spicy and/or heavy meals\" because they're harder to digest. Our guide on [what to eat on a night shift](/resources/what-to-eat-on-night-shift/) has meal and snack ideas for a full block."
+      },
+      {
+        "type": "p",
+        "text": "At Budweiser, I tried my best to eat healthily, and overnight oats with fresh fruit were always a go-to for me around 3-4am. They helped wake me up and gave me the fuel I needed to finish my shift."
+      },
+      {
+        "type": "h2",
+        "text": "How do you get home safely after a 12-hour night?"
+      },
+      {
+        "type": "p",
+        "text": "The drive home is the riskiest part of the shift. [HSG256](https://assets.publishing.service.gov.uk/media/5a7ef36540f0b6230268c8de/hsg256_managing_shift_work.pdf) says night workers are more likely to have accidents driving home, and [NHS Employers](https://nhsemployers.org/articles/sleep-fatigue-and-workplace) reports that in a survey by the Association of Anaesthetists, more than half of respondents had a near miss driving home after a night shift."
+      },
+      {
+        "type": "p",
+        "text": "HSE's advice is to consider public transport or a taxi, and to \"stop if you feel sleepy and take a short nap if it is safe to do so\". Opening the window and turning the radio up isn't a plan. Our guide to [microsleep and the drive home](/resources/microsleep-driving-after-night-shift/) covers the warning signs."
+      },
+      {
+        "type": "h2",
+        "text": "How should you sleep between 12-hour nights?"
+      },
+      {
+        "type": "p",
+        "text": "Go to bed as soon as you get home and aim for 7-8 hours. HSE says most adults need 7-8 hours of sleep a day. Between 12-hour nights, with a commute at both ends, that's tight, so every hour of sleep you get has to count."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "**Dark:** HSE suggests \"heavy curtains, blackout blinds or eye shades\".",
+          "**Quiet:** tell your neighbours your sleep times, and use earplugs or steady masking sound. Getting into bed after a night shift just as the neighbours decide to mow their lawns is part of the job, but you can blunt it. See [noisy neighbours when you sleep in the day](/resources/noisy-neighbours-daytime-sleep/).",
+          "**No nightcap:** the after-shift drink feels like your \"me time\", the way an evening is for everyone else. HSE warns alcohol is linked to earlier waking and poorer sleep, and you'll pay for it at 2am on the next night.",
+          "**Same window every day:** keep your bedtime and wake time steady through the block."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The full routine is in [how to sleep during the day](/resources/how-to-sleep-during-the-day/). We'll also be covering How to Get More Deep Sleep After a Night Shift soon."
+      },
+      {
+        "type": "h2",
+        "text": "How many 12-hour night shifts in a row is safe?"
+      },
+      {
+        "type": "p",
+        "text": "HSE's [good practice guidelines](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm) say to \"restrict long shifts, night shifts and early morning shifts to 2-3 consecutive shifts\" and to \"limit shifts to 12h including overtime, or to 8h if they are night shifts\". These are good practice, not a legal ban."
+      },
+      {
+        "type": "p",
+        "text": "That means a [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) with four 12-hour nights in a row is longer than HSE suggests. Many rotas still work that way, so if yours does, plan your sleep for the whole block, not night by night. Patterns vary a lot by job; see our guide to [police shift patterns](/resources/police-shift-patterns/) for one example."
+      },
+      {
+        "type": "h2",
+        "text": "Is it legal to work 12-hour nights in the UK?"
+      },
+      {
+        "type": "p",
+        "text": "Usually, yes, as long as your average stays within the limit. [GOV.UK](https://www.gov.uk/night-working-hours) says night workers \"must not work more than an average of 8 hours in a 24-hour period\", usually averaged over 17 weeks, and workers \"cannot opt out of the limit\". A night worker is someone who regularly works at least 3 hours between 11pm and 6am. Because rest days count in the average, a 12-hour night rota can still fall within it."
+      },
+      {
+        "type": "h2",
+        "text": "Getting back to days after your last night"
+      },
+      {
+        "type": "p",
+        "text": "I know how it feels to get up early after your last night shift to make the most of your day off, then find yourself fatigued with that dreaded jet-lag feeling. HSE's advice is to \"have a short sleep and go to bed earlier that night\". Our guide on [how to fix your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) gives the full plan."
+      },
+      {
+        "type": "h2",
+        "text": "The bottom line"
+      },
+      {
+        "type": "p",
+        "text": "Twelve-hour nights are longer than HSE's good practice suggests, so they only work with a plan: sleep before the first one, caffeine early, food light, a safe way home and a protected daytime sleep. Work out your timings with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/), then block out the lawnmowers and school run when you get home."
+      },
+      {
+        "type": "p",
+        "text": "[Try Sleyp free](/session/): 13 masking sounds in your browser, with a free custom timer and wake-up chime (keep the page open for them to run). The Sleyp iOS app is coming soon."
+      },
+      {
+        "type": "p",
+        "text": "If tiredness lasts for weeks despite good sleep, see your GP."
+      },
+      {
+        "type": "h3",
+        "text": "Sources"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "[HSE: Good practice guidelines for shift work](https://www.hse.gov.uk/humanfactors/topics/good-practice-guidelines.htm)",
+          "[HSE: Managing shift work (HSG256)](https://assets.publishing.service.gov.uk/media/5a7ef36540f0b6230268c8de/hsg256_managing_shift_work.pdf)",
+          "[HSE: Hints and tips for shift workers](https://www.hse.gov.uk/humanfactors/topics/shift-workers.htm)",
+          "[GOV.UK: Night working hours](https://www.gov.uk/night-working-hours)",
+          "[NHS Employers: Sleep, fatigue and the workplace](https://nhsemployers.org/articles/sleep-fatigue-and-workplace)",
+          "[American Academy of Sleep Medicine: Late afternoon and early evening caffeine can disrupt sleep at night (Drake et al., 2013)](https://aasm.org/late-afternoon-and-early-evening-caffeine-can-disrupt-sleep-at-night/)"
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do you survive a 12-hour night shift?",
+        "answer": "Sleep before your first night, have caffeine early and stop it about 6 hours before bed, eat light snacks instead of a heavy meal, take short breaks, and get home safely. Then go straight to bed in a dark, quiet room and aim for 7-8 hours."
+      },
+      {
+        "question": "How many 12-hour night shifts in a row is safe?",
+        "answer": "HSE good practice is to restrict long shifts and night shifts to 2-3 in a row, and to limit night shifts to 8 hours. It's guidance, not a legal limit. If your rota has four or more 12-hour nights in a row, plan your sleep for the whole block."
+      },
+      {
+        "question": "How much sleep do you need between 12-hour shifts?",
+        "answer": "HSE says most adults need 7-8 hours of sleep a day. Between 12-hour nights that's hard to fit in, so go to bed as soon as you get home, keep the room dark and quiet, and keep the same sleep window every day."
+      },
+      {
+        "question": "Is it legal to work 12-hour nights in the UK?",
+        "answer": "Usually, yes. GOV.UK says night workers must not average more than 8 hours in 24, usually worked out over 17 weeks, and they can't opt out of that limit. Rest days count in the average, so many 12-hour night rotas still fall within it."
+      },
+      {
+        "question": "When should I stop drinking caffeine on a 12-hour night shift?",
+        "answer": "Around 6 hours before you plan to sleep. For an 8.30am bedtime, that's about 2.30am. In one study, 400 mg of caffeine taken six hours before bed cut sleep by more than an hour."
+      },
+      {
+        "question": "Should I nap before a 12-hour night shift?",
+        "answer": "Yes, if you can. HSE advises a short sleep before your first night shift. An afternoon nap before you leave for work takes the edge off the early hours."
+      }
+    ]
+  },
+  {
     "slug": "police-shift-patterns",
     "title": "Police Shift Patterns Explained (and How to Sleep on Them)",
     "description": "Police shift patterns explained: common UK rota types, why they vary by force, and how officers can protect their sleep through earlies, lates and nights.",
@@ -211,7 +468,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "If you also work long night shifts, our upcoming guide How to Survive 12-Hour Night Shifts goes hour by hour through a 12-hour night."
+        "text": "If you also work long night shifts, our guide [How to Survive 12-Hour Night Shifts](/resources/12-hour-night-shifts/) goes hour by hour through a 12-hour night."
       },
       {
         "type": "h2",
@@ -1449,7 +1706,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [how to sleep during the day](/resources/how-to-sleep-during-the-day/) · [police shift patterns](/resources/police-shift-patterns/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [how to sleep during the day](/resources/how-to-sleep-during-the-day/) · [police shift patterns](/resources/police-shift-patterns/) · [12-hour night shifts](/resources/12-hour-night-shifts/)"
       },
       {
         "type": "h3",
@@ -1691,7 +1948,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/) · [12-hour night shifts](/resources/12-hour-night-shifts/)"
       },
       {
         "type": "h3",
@@ -1898,7 +2155,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [continental shift pattern](/resources/continental-shift-pattern/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/) · [12-hour night shifts](/resources/12-hour-night-shifts/)"
       },
       {
         "type": "h3",
@@ -2244,7 +2501,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [4 on 4 off shift pattern](/resources/4-on-4-off-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/) · [12-hour night shifts](/resources/12-hour-night-shifts/)"
       },
       {
         "type": "h3",
@@ -2546,7 +2803,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/)"
+        "text": "**More in this series:** [shift patterns explained](/resources/shift-patterns-explained/) · [continental shift pattern](/resources/continental-shift-pattern/) · [fixing your sleep schedule after nights](/resources/how-to-fix-sleep-schedule-after-nights/) · [night shift survival guide](/resources/night-shift-survival-guide/) · [can you catch up on sleep?](/resources/can-you-catch-up-on-sleep/) · [why am I always tired?](/resources/why-am-i-always-tired/) · [police shift patterns](/resources/police-shift-patterns/) · [12-hour night shifts](/resources/12-hour-night-shifts/)"
       },
       {
         "type": "h3",
@@ -4089,7 +4346,7 @@ export const ARTICLES: Article[] = [
       },
       {
         "type": "p",
-        "text": "You can work out your own timings with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/), which builds the caffeine cut-off and wind-down around your commute."
+        "text": "You can work out your own timings with the [Night Shift Recovery Calculator](/tools/night-shift-recovery-calculator/), which builds the caffeine cut-off and wind-down around your commute. Working 12-hour nights? [How to Survive 12-Hour Night Shifts](/resources/12-hour-night-shifts/) takes this plan hour by hour."
       },
       {
         "type": "h2",
